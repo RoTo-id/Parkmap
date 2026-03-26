@@ -40,12 +40,15 @@ a:hover{text-decoration:underline}
 
 /* Map */
 #map{position:fixed;top:56px;left:0;right:0;bottom:0}
-.leaflet-tile-pane{filter:brightness(0.65)}
 .leaflet-control-zoom{border:1px solid var(--border) !important}
 .leaflet-control-zoom a{background:var(--panel) !important;color:var(--text) !important;border-color:var(--border) !important}
 .leaflet-control-zoom a:hover{background:var(--bg) !important}
 .leaflet-control-attribution{background:rgba(12,14,20,.8) !important;color:var(--muted) !important;font-size:10px !important}
 .leaflet-control-attribution a{color:var(--text2) !important}
+/* Layer control styling */
+.leaflet-control-layers{background:var(--panel) !important;border:1px solid var(--border) !important;border-radius:8px !important;color:var(--text) !important}
+.leaflet-control-layers-toggle{width:32px !important;height:32px !important}
+.leaflet-control-layers label{color:var(--text) !important}
 
 /* Legend */
 .legend{position:fixed;bottom:24px;left:16px;background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px;z-index:1000;min-width:180px;max-width:220px}
@@ -55,6 +58,10 @@ a:hover{text-decoration:underline}
 .legend-dot{width:10px;height:10px;border-radius:50%;flex-shrink:0}
 .legend-name{flex:1;color:var(--text)}
 .legend-count{font-family:'Space Mono',monospace;font-size:11px;color:var(--muted)}
+.legend-section{margin-top:12px;padding-top:10px;border-top:1px solid var(--border)}
+.legend-section-title{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px;font-weight:600}
+.quality-stat{display:flex;justify-content:space-between;font-size:12px;padding:2px 0;color:var(--text2)}
+.quality-stat span:last-child{font-family:'Space Mono',monospace;color:var(--text)}
 
 /* Detail panel */
 .detail-panel{position:fixed;bottom:0;right:16px;width:360px;max-height:calc(100vh - 80px);background:var(--panel);border:1px solid var(--border);border-bottom:none;border-radius:12px 12px 0 0;z-index:1000;transform:translateY(100%);opacity:0;transition:transform .3s ease,opacity .3s ease;overflow-y:auto}
@@ -72,9 +79,11 @@ a:hover{text-decoration:underline}
 .detail-tags{display:flex;flex-wrap:wrap;gap:4px;justify-content:flex-end}
 .detail-tag{background:var(--bg);border:1px solid var(--border);border-radius:4px;padding:2px 6px;font-size:11px;color:var(--text2)}
 .detail-flags{margin-top:8px;padding:8px 0}
-.detail-flag{display:inline-block;background:rgba(239,68,68,.15);color:#f87171;font-size:11px;padding:2px 6px;border-radius:4px;margin:2px}
+.detail-flag{display:inline-block;font-size:11px;padding:2px 8px;border-radius:4px;margin:2px}
 .confidence-bar{width:60px;height:6px;background:var(--bg);border-radius:3px;overflow:hidden;display:inline-block;vertical-align:middle;margin-left:6px}
 .confidence-fill{height:100%;border-radius:3px;transition:width .3s}
+.zone-flags{display:flex;flex-wrap:wrap;gap:4px;margin-top:10px;padding-top:10px;border-top:1px solid var(--border)}
+.flag-tag{display:inline-block;font-size:11px;padding:2px 8px;border-radius:4px}
 
 /* Loading / Error */
 .overlay{position:fixed;top:56px;left:0;right:0;bottom:0;background:rgba(12,14,20,.9);display:flex;align-items:center;justify-content:center;z-index:2000;flex-direction:column;gap:12px}
@@ -141,10 +150,24 @@ a:hover{text-decoration:underline}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <script>
 const map = L.map('map', {zoomControl: true}).setView([65.583, 22.148], 13);
-L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-  attribution: '&copy; <a href="https://carto.com/">CARTO</a> | &copy; <a href="https://osm.org/">OSM</a>',
+
+// Base layers — light (default) and dark
+const baseLight = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>',
+  subdomains: 'abcd',
   maxZoom: 19
-}).addTo(map);
+});
+const baseDark = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>',
+  subdomains: 'abcd',
+  maxZoom: 19
+});
+
+// Default: light map
+baseLight.addTo(map);
+
+// Layer control
+L.control.layers({"Ljus": baseLight, "Mork": baseDark}, null, {position: 'topright'}).addTo(map);
 
 let geoData = null;
 let opsData = null;
@@ -187,15 +210,19 @@ function render() {
   });
 
   geoLayer = L.geoJSON({type: 'FeatureCollection', features}, {
-    style: f => {
-      const op = f.properties.operator;
-      const color = opsData[op]?.color || '#888';
-      return {color, fillColor: color, fillOpacity: 0.25, weight: 2, opacity: 0.8};
-    },
+    style: styleForZone,
     pointToLayer: (f, latlng) => {
       const op = f.properties.operator;
-      const color = opsData[op]?.color || '#888';
-      return L.circleMarker(latlng, {radius: 7, color, fillColor: color, fillOpacity: 0.4, weight: 2});
+      const color = opsData[op]?.color || '#6b7280';
+      const conf = f.properties.confidence || 0.5;
+      return L.circleMarker(latlng, {
+        radius: 7,
+        color: color,
+        fillColor: color,
+        fillOpacity: conf > 0.7 ? 0.4 : 0.2,
+        weight: 2,
+        dashArray: conf < 0.7 ? '5, 8' : null
+      });
     },
     onEachFeature: (f, layer) => {
       layer.on('click', () => showDetail(f.properties));
@@ -208,6 +235,37 @@ function render() {
   renderLegend();
 }
 
+function styleForZone(feature) {
+  const props = feature.properties;
+  const opKey = props.operator;
+  const color = opsData[opKey]?.color || '#6b7280';
+  const conf = props.confidence || 0.5;
+  const flags = props.flags || [];
+
+  const style = {
+    fillColor: color,
+    fillOpacity: 0.25,
+    color: color,
+    weight: 2,
+    opacity: 0.7,
+    dashArray: null,
+  };
+
+  // Dashed outline for low confidence
+  if (conf < 0.7) {
+    style.dashArray = '5, 8';
+    style.fillOpacity = 0.12;
+  }
+
+  // Thin dashed for needs_review
+  if (flags.includes('needs_review')) {
+    style.dashArray = '3, 6';
+    style.weight = 1;
+  }
+
+  return style;
+}
+
 function updateStats(features) {
   document.getElementById('stat-zones').textContent = features.length;
   const ops = new Set(features.map(f => f.properties.operator));
@@ -218,9 +276,14 @@ function updateStats(features) {
 
 function renderLegend() {
   const counts = {};
+  let highConf = 0;
+  let reviewCount = 0;
+
   geoData.features.forEach(f => {
     const op = f.properties.operator;
     counts[op] = (counts[op] || 0) + 1;
+    if ((f.properties.confidence || 0) > 0.7) highConf++;
+    if (f.properties.flags && f.properties.flags.includes('needs_review')) reviewCount++;
   });
 
   const legend = document.getElementById('legend');
@@ -252,6 +315,21 @@ function renderLegend() {
     clear.onclick = () => { activeFilters.clear(); render(); };
     legend.appendChild(clear);
   }
+
+  // Data quality section
+  legend.innerHTML += `
+    <div class="legend-section">
+      <div class="legend-section-title">DATAKVALITET</div>
+      <div class="quality-stat">
+        <span>Hog konfidens (&gt;70%)</span>
+        <span>${highConf}</span>
+      </div>
+      <div class="quality-stat">
+        <span>Behover granskning</span>
+        <span>${reviewCount}</span>
+      </div>
+    </div>
+  `;
 }
 
 function showDetail(p) {
@@ -285,19 +363,39 @@ function showDetail(p) {
     add('Betalning', `<div class="detail-tags">${tags}</div>`);
   }
 
-  // Confidence
+  // Confidence bar
   if (p.confidence != null) {
     const pct = Math.round(p.confidence * 100);
-    const color = pct >= 80 ? 'var(--green)' : pct >= 60 ? 'var(--accent)' : '#f87171';
-    add('Konfidens', `${pct}% <div class="confidence-bar"><div class="confidence-fill" style="width:${pct}%;background:${color}"></div></div>`);
+    const barColor = pct > 70 ? '#34d399' : pct > 40 ? '#fbbf24' : '#f87171';
+    add('Konfidens', `${pct}% <div class="confidence-bar"><div class="confidence-fill" style="width:${pct}%;background:${barColor}"></div></div>`);
   }
 
   add('Verifierad', p.last_verified);
 
-  // Flags
+  // Flags with color coding
   let flagsHtml = '';
-  if (p.flags?.length) {
-    flagsHtml = '<div class="detail-flags">' + p.flags.map(f => `<span class="detail-flag">${f}</span>`).join('') + '</div>';
+  const flags = p.flags || [];
+  if (flags.length > 0) {
+    flagsHtml = '<div class="zone-flags">';
+    const flagColors = {
+      'needs_review': '#fbbf24',
+      'in_water_area': '#f87171',
+      'price_changed': '#a855f7',
+      'new_zone': '#34d399',
+      'low_confidence': '#f97316',
+      'outside_city_bounds': '#f87171',
+      'too_small': '#f97316',
+      'too_large': '#f97316',
+      'missing_coordinates': '#ef4444',
+      'owner_changed': '#a855f7',
+      'zone_removed': '#ef4444',
+      'scrape_error': '#ef4444',
+    };
+    flags.forEach(flag => {
+      const color = flagColors[flag] || '#6b7280';
+      flagsHtml += `<span class="flag-tag" style="background:${color}20; color:${color}; border:1px solid ${color}40">${flag.replace(/_/g, ' ')}</span>`;
+    });
+    flagsHtml += '</div>';
   }
 
   document.getElementById('detail-body').innerHTML = rows.join('') + flagsHtml;
