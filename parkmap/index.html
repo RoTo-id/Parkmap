@@ -19,21 +19,25 @@ a{color:var(--accent);text-decoration:none}
 a:hover{text-decoration:underline}
 
 /* Header */
-.header{position:fixed;top:0;left:0;right:0;height:56px;background:var(--panel);border-bottom:1px solid var(--border);display:flex;align-items:center;padding:0 16px;z-index:1000;gap:16px}
+.header{position:fixed;top:0;left:0;right:0;height:56px;background:var(--panel);border-bottom:1px solid var(--border);display:flex;align-items:center;padding:0 16px;z-index:1000;gap:12px}
 .logo{display:flex;align-items:center;gap:10px;flex-shrink:0}
 .logo-icon{width:32px;height:32px;border-radius:8px;background:linear-gradient(135deg,#4a9eff,#6366f1);display:flex;align-items:center;justify-content:center;font-family:'Space Mono',monospace;font-weight:700;font-size:16px;color:#fff}
 .logo-text{font-weight:700;font-size:15px;letter-spacing:.5px}
 .logo-text span{color:var(--text2);font-weight:400;font-size:12px;margin-left:6px}
 .pilot-badge{background:#6366f1;color:#fff;font-size:10px;font-weight:700;padding:2px 6px;border-radius:4px;letter-spacing:.5px;flex-shrink:0}
 
-.search-box{flex:1;max-width:320px;position:relative}
+.search-box{flex:1;max-width:280px;position:relative}
 .search-box input{width:100%;background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:8px 12px;color:var(--text);font-family:inherit;font-size:13px;outline:none}
 .search-box input:focus{border-color:var(--accent)}
 .search-box input::placeholder{color:var(--muted)}
 
-.stats{display:flex;gap:16px;margin-left:auto;flex-shrink:0}
+.osm-toggle{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--text2);cursor:pointer;flex-shrink:0;white-space:nowrap;user-select:none}
+.osm-toggle input{accent-color:var(--accent);width:14px;height:14px;cursor:pointer}
+.osm-toggle span{line-height:1}
+
+.stats{display:flex;gap:14px;margin-left:auto;flex-shrink:0}
 .stat{text-align:center}
-.stat-val{font-family:'Space Mono',monospace;font-size:16px;font-weight:700;color:var(--accent)}
+.stat-val{font-family:'Space Mono',monospace;font-size:14px;font-weight:700;color:var(--accent)}
 .stat-label{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px}
 
 .back-link{font-size:12px;color:var(--text2);flex-shrink:0;white-space:nowrap}
@@ -45,13 +49,12 @@ a:hover{text-decoration:underline}
 .leaflet-control-zoom a:hover{background:var(--bg) !important}
 .leaflet-control-attribution{background:rgba(12,14,20,.8) !important;color:var(--muted) !important;font-size:10px !important}
 .leaflet-control-attribution a{color:var(--text2) !important}
-/* Layer control styling */
 .leaflet-control-layers{background:var(--panel) !important;border:1px solid var(--border) !important;border-radius:8px !important;color:var(--text) !important}
 .leaflet-control-layers-toggle{width:32px !important;height:32px !important}
 .leaflet-control-layers label{color:var(--text) !important}
 
 /* Legend */
-.legend{position:fixed;bottom:24px;left:16px;background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px;z-index:1000;min-width:180px;max-width:220px}
+.legend{position:fixed;bottom:24px;left:16px;background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px;z-index:1000;min-width:180px;max-width:220px;max-height:calc(100vh - 100px);overflow-y:auto}
 .legend-title{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px;font-weight:600}
 .legend-item{display:flex;align-items:center;gap:8px;padding:4px 0;cursor:pointer;font-size:13px;transition:opacity .2s}
 .legend-item.dimmed{opacity:.3}
@@ -84,6 +87,8 @@ a:hover{text-decoration:underline}
 .confidence-fill{height:100%;border-radius:3px;transition:width .3s}
 .zone-flags{display:flex;flex-wrap:wrap;gap:4px;margin-top:10px;padding-top:10px;border-top:1px solid var(--border)}
 .flag-tag{display:inline-block;font-size:11px;padding:2px 8px;border-radius:4px}
+.unknown-notice{background:rgba(107,114,128,.1);border:1px solid rgba(107,114,128,.3);border-radius:8px;padding:10px 12px;margin-top:10px;font-size:12px;color:var(--text2);line-height:1.5}
+.unknown-notice a{color:var(--accent)}
 
 /* Loading / Error */
 .overlay{position:fixed;top:56px;left:0;right:0;bottom:0;background:rgba(12,14,20,.9);display:flex;align-items:center;justify-content:center;z-index:2000;flex-direction:column;gap:12px}
@@ -96,7 +101,8 @@ a:hover{text-decoration:underline}
 /* Mobile */
 @media(max-width:768px){
   .stats{display:none}
-  .search-box{max-width:200px}
+  .search-box{max-width:160px}
+  .osm-toggle span{display:none}
   .legend{bottom:12px;left:8px;right:8px;max-width:none}
   .detail-panel{left:0;right:0;width:auto;max-height:50vh}
   .back-link{display:none}
@@ -114,9 +120,13 @@ a:hover{text-decoration:underline}
   <div class="search-box">
     <input type="text" id="search" placeholder="Sok zon, gata, operator...">
   </div>
+  <label class="osm-toggle">
+    <input type="checkbox" id="showUnknown" />
+    <span>Visa alla parkeringar</span>
+  </label>
   <div class="stats">
-    <div class="stat"><div class="stat-val" id="stat-zones">-</div><div class="stat-label">Zoner</div></div>
-    <div class="stat"><div class="stat-val" id="stat-ops">-</div><div class="stat-label">Operatorer</div></div>
+    <div class="stat"><div class="stat-val" id="stat-zones">-</div><div class="stat-label">Kartlagda</div></div>
+    <div class="stat"><div class="stat-val" id="stat-total">-</div><div class="stat-label">Totalt</div></div>
     <div class="stat"><div class="stat-val" id="stat-spots">-</div><div class="stat-label">Platser</div></div>
   </div>
   <a href="/" class="back-link">&larr; maxineplatform.com</a>
@@ -151,22 +161,15 @@ a:hover{text-decoration:underline}
 <script>
 const map = L.map('map', {zoomControl: true}).setView([65.583, 22.148], 13);
 
-// Base layers — light (default) and dark
 const baseLight = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>',
-  subdomains: 'abcd',
-  maxZoom: 19
+  subdomains: 'abcd', maxZoom: 19
 });
 const baseDark = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>',
-  subdomains: 'abcd',
-  maxZoom: 19
+  subdomains: 'abcd', maxZoom: 19
 });
-
-// Default: light map
 baseLight.addTo(map);
-
-// Layer control
 L.control.layers({"Ljus": baseLight, "Mork": baseDark}, null, {position: 'topright'}).addTo(map);
 
 let geoData = null;
@@ -174,6 +177,7 @@ let opsData = null;
 let geoLayer = null;
 let activeFilters = new Set();
 let searchTerm = '';
+let showUnknown = false;
 
 async function loadData() {
   document.getElementById('loading').style.display = 'flex';
@@ -200,6 +204,8 @@ function render() {
 
   const features = geoData.features.filter(f => {
     const p = f.properties;
+    // Hide unknown operators unless toggle is on
+    if (p.operator === 'unknown' && !showUnknown) return false;
     if (activeFilters.size > 0 && !activeFilters.has(p.operator)) return false;
     if (searchTerm) {
       const s = searchTerm.toLowerCase();
@@ -215,13 +221,14 @@ function render() {
       const op = f.properties.operator;
       const color = opsData[op]?.color || '#6b7280';
       const conf = f.properties.confidence || 0.5;
+      const isUnknown = op === 'unknown';
       return L.circleMarker(latlng, {
-        radius: 7,
+        radius: isUnknown ? 5 : 7,
         color: color,
         fillColor: color,
-        fillOpacity: conf > 0.7 ? 0.4 : 0.2,
-        weight: 2,
-        dashArray: conf < 0.7 ? '5, 8' : null
+        fillOpacity: isUnknown ? 0.15 : (conf > 0.7 ? 0.4 : 0.2),
+        weight: isUnknown ? 1 : 2,
+        dashArray: isUnknown ? '4, 6' : (conf < 0.7 ? '5, 8' : null)
       });
     },
     onEachFeature: (f, layer) => {
@@ -241,35 +248,38 @@ function styleForZone(feature) {
   const color = opsData[opKey]?.color || '#6b7280';
   const conf = props.confidence || 0.5;
   const flags = props.flags || [];
+  const isUnknown = opKey === 'unknown';
 
   const style = {
     fillColor: color,
-    fillOpacity: 0.25,
+    fillOpacity: isUnknown ? 0.10 : 0.25,
     color: color,
-    weight: 2,
-    opacity: 0.7,
-    dashArray: null,
+    weight: isUnknown ? 1 : 2,
+    opacity: isUnknown ? 0.4 : 0.7,
+    dashArray: isUnknown ? '4, 6' : null,
   };
 
-  // Dashed outline for low confidence
-  if (conf < 0.7) {
-    style.dashArray = '5, 8';
-    style.fillOpacity = 0.12;
-  }
-
-  // Thin dashed for needs_review
-  if (flags.includes('needs_review')) {
-    style.dashArray = '3, 6';
-    style.weight = 1;
+  if (!isUnknown) {
+    if (conf < 0.7) {
+      style.dashArray = '5, 8';
+      style.fillOpacity = 0.12;
+    }
+    if (flags.includes('needs_review')) {
+      style.dashArray = '3, 6';
+      style.weight = 1;
+    }
   }
 
   return style;
 }
 
 function updateStats(features) {
-  document.getElementById('stat-zones').textContent = features.length;
-  const ops = new Set(features.map(f => f.properties.operator));
-  document.getElementById('stat-ops').textContent = ops.size;
+  const known = geoData.features.filter(f => f.properties.operator !== 'unknown');
+  const total = geoData.features.length;
+  const visible = features.length;
+
+  document.getElementById('stat-zones').textContent = known.length;
+  document.getElementById('stat-total').textContent = total;
   const spots = features.reduce((a, f) => a + (f.properties.spots || 0), 0);
   document.getElementById('stat-spots').textContent = spots || '-';
 }
@@ -289,7 +299,9 @@ function renderLegend() {
   const legend = document.getElementById('legend');
   legend.innerHTML = '<div class="legend-title">Operatorer</div>';
 
+  // Known operators first (not "unknown")
   for (const [key, info] of Object.entries(opsData)) {
+    if (key === 'unknown') continue;
     const count = counts[key] || 0;
     if (count === 0) continue;
     const dimmed = activeFilters.size > 0 && !activeFilters.has(key);
@@ -297,11 +309,24 @@ function renderLegend() {
     item.className = 'legend-item' + (dimmed ? ' dimmed' : '');
     item.innerHTML = `<div class="legend-dot" style="background:${info.color}"></div><div class="legend-name">${info.name}</div><div class="legend-count">${count}</div>`;
     item.onclick = () => {
-      if (activeFilters.has(key)) {
-        activeFilters.delete(key);
-      } else {
-        activeFilters.add(key);
-      }
+      if (activeFilters.has(key)) activeFilters.delete(key);
+      else activeFilters.add(key);
+      render();
+    };
+    legend.appendChild(item);
+  }
+
+  // Unknown operator entry (only if toggle is on or has count)
+  const unknownCount = counts['unknown'] || 0;
+  if (unknownCount > 0) {
+    const unknownInfo = opsData['unknown'] || {color: '#6b7280', name: 'Okand operator'};
+    const dimmed = !showUnknown;
+    const item = document.createElement('div');
+    item.className = 'legend-item' + (dimmed ? ' dimmed' : '');
+    item.innerHTML = `<div class="legend-dot" style="background:${unknownInfo.color}"></div><div class="legend-name">${unknownInfo.name}</div><div class="legend-count">${unknownCount}</div>`;
+    item.onclick = () => {
+      showUnknown = !showUnknown;
+      document.getElementById('showUnknown').checked = showUnknown;
       render();
     };
     legend.appendChild(item);
@@ -328,6 +353,10 @@ function renderLegend() {
         <span>Behover granskning</span>
         <span>${reviewCount}</span>
       </div>
+      <div class="quality-stat">
+        <span>OSM-polygoner</span>
+        <span>${geoData.features.filter(f => f.properties.osm_id || (f.properties.flags||[]).includes('osm_imported')).length}</span>
+      </div>
     </div>
   `;
 }
@@ -337,6 +366,7 @@ function showDetail(p) {
   const op = opsData[p.operator];
   const opName = op?.name || p.operator;
   const opColor = op?.color || '#888';
+  const isUnknown = p.operator === 'unknown';
 
   document.getElementById('detail-title').textContent = p.name || 'Zon';
   document.getElementById('detail-operator').innerHTML =
@@ -354,7 +384,25 @@ function showDetail(p) {
   add('Kontakt', p.contact);
 
   if (p.source_url) {
-    add('Kalla', `<a href="${p.source_url}" target="_blank" rel="noopener">${new URL(p.source_url).hostname}</a>`);
+    try {
+      add('Kalla', `<a href="${p.source_url}" target="_blank" rel="noopener">${new URL(p.source_url).hostname}</a>`);
+    } catch(e) {
+      add('Kalla', `<a href="${p.source_url}" target="_blank" rel="noopener">Lank</a>`);
+    }
+  }
+
+  // OSM metadata
+  if (p.osm_id) {
+    add('OSM ID', `<a href="https://www.openstreetmap.org/way/${p.osm_id}" target="_blank" rel="noopener">${p.osm_id}</a>`);
+  }
+  if (p.osm_operator) {
+    add('OSM operator', p.osm_operator);
+  }
+  if (p.osm_fee) {
+    add('Avgift (OSM)', p.osm_fee);
+  }
+  if (p.osm_surface) {
+    add('Yta', p.osm_surface);
   }
 
   // Payment apps
@@ -390,6 +438,10 @@ function showDetail(p) {
       'owner_changed': '#a855f7',
       'zone_removed': '#ef4444',
       'scrape_error': '#ef4444',
+      'unknown_operator': '#6b7280',
+      'osm_imported': '#4a9eff',
+      'osm_upgraded': '#34d399',
+      'no_osm_match': '#fbbf24',
     };
     flags.forEach(flag => {
       const color = flagColors[flag] || '#6b7280';
@@ -398,7 +450,16 @@ function showDetail(p) {
     flagsHtml += '</div>';
   }
 
-  document.getElementById('detail-body').innerHTML = rows.join('') + flagsHtml;
+  // Unknown operator notice
+  let noticeHtml = '';
+  if (isUnknown) {
+    noticeHtml = `<div class="unknown-notice">
+      <strong>Okand operator</strong> &mdash; Denna parkering hittades via OpenStreetMap men vi vet inte vem som driver den.
+      Vet du? <a href="mailto:parkmap@maxineplatform.com?subject=Operator for ${encodeURIComponent(p.name || p.id)}&body=Parkering: ${encodeURIComponent(p.name || p.id)}%0AOperator: ">Tipsa oss!</a>
+    </div>`;
+  }
+
+  document.getElementById('detail-body').innerHTML = rows.join('') + flagsHtml + noticeHtml;
   panel.classList.add('open');
 }
 
@@ -416,7 +477,11 @@ document.getElementById('search').addEventListener('input', e => {
   render();
 });
 
-// Close detail on map click
+document.getElementById('showUnknown').addEventListener('change', e => {
+  showUnknown = e.target.checked;
+  render();
+});
+
 map.on('click', () => document.getElementById('detail').classList.remove('open'));
 
 loadData();
