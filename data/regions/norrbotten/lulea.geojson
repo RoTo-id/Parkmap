@@ -1,0 +1,3494 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "version": "2.0.0",
+    "generated": "2026-03-26T20:55:38.124631+00:00",
+    "source": "ParkMap Sverige — Maxine Platform Agent Pipeline",
+    "region": "Norrbotten",
+    "city": "lulea",
+    "scrape_type": "deep",
+    "agent_run_id": "lulea-deep-20260326T205242",
+    "zone_count": 93
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-k-001",
+        "name": "Storgatan (centrala)",
+        "operator": "kommun",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "street",
+        "zone_code": "Zon A — 18 kr",
+        "spots": 80,
+        "price_per_hour": 18,
+        "currency": "SEK",
+        "hours": "Mån–Fre 08–18, Lör 09–15",
+        "restrictions": "Max 2 timmar",
+        "contact": "0920-45 30 00",
+        "source_url": "https://www.lulea.se/boende--gator/gator-och-trafik/parkering.html",
+        "confidence": 0.9,
+        "flags": [],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.144,
+              65.5845
+            ],
+            [
+              22.153,
+              65.5845
+            ],
+            [
+              22.153,
+              65.5855
+            ],
+            [
+              22.144,
+              65.5855
+            ],
+            [
+              22.144,
+              65.5845
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-k-002",
+        "name": "Kungsgatan / Smedjegatan",
+        "operator": "kommun",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "street",
+        "zone_code": "Zon A — 18 kr",
+        "spots": 60,
+        "price_per_hour": 18,
+        "currency": "SEK",
+        "hours": "Mån–Fre 08–18, Lör 09–15",
+        "restrictions": "Max 2 timmar vid Floras Kulle",
+        "contact": "0920-45 30 00",
+        "source_url": "https://www.lulea.se/boende--gator/gator-och-trafik/parkering.html",
+        "confidence": 0.9,
+        "flags": [],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.146,
+              65.583
+            ],
+            [
+              22.152,
+              65.583
+            ],
+            [
+              22.152,
+              65.5842
+            ],
+            [
+              22.146,
+              65.5842
+            ],
+            [
+              22.146,
+              65.583
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-k-003",
+        "name": "Hermelinsgatan / Floras Kulle",
+        "operator": "kommun",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "street",
+        "zone_code": "Zon A — 18 kr",
+        "spots": 45,
+        "price_per_hour": 18,
+        "currency": "SEK",
+        "hours": "Mån–Fre 08–18, Lör 09–15",
+        "restrictions": "Max 2 timmar",
+        "contact": "0920-45 30 00",
+        "source_url": "https://www.lulea.se/boende--gator/gator-och-trafik/parkering.html",
+        "confidence": 0.9,
+        "flags": [],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.15,
+              65.5855
+            ],
+            [
+              22.1545,
+              65.5855
+            ],
+            [
+              22.1545,
+              65.5865
+            ],
+            [
+              22.15,
+              65.5865
+            ],
+            [
+              22.15,
+              65.5855
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-k-004",
+        "name": "Norra Hamn / Trekanten",
+        "operator": "kommun",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "lot",
+        "zone_code": "Zon B — 12 kr",
+        "spots": 200,
+        "price_per_hour": 12,
+        "currency": "SEK",
+        "hours": "Mån–Fre 08–18, Lör 09–15",
+        "restrictions": "Ofta fullbelagd vid evenemang",
+        "contact": "0920-45 30 00",
+        "source_url": "https://www.lulea.se/boende--gator/gator-och-trafik/parkering.html",
+        "confidence": 0.9,
+        "flags": [],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.134,
+              65.587
+            ],
+            [
+              22.14,
+              65.587
+            ],
+            [
+              22.14,
+              65.589
+            ],
+            [
+              22.134,
+              65.589
+            ],
+            [
+              22.134,
+              65.587
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-k-005",
+        "name": "Södra centrum (yttre)",
+        "operator": "kommun",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "street",
+        "zone_code": "Zon C — 10 kr",
+        "spots": 150,
+        "price_per_hour": 10,
+        "currency": "SEK",
+        "hours": "Mån–Fre 08–18, Lör 09–15",
+        "restrictions": null,
+        "contact": "0920-45 30 00",
+        "source_url": "https://www.lulea.se/boende--gator/gator-och-trafik/parkering.html",
+        "confidence": 0.7,
+        "flags": [],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.142,
+              65.58
+            ],
+            [
+              22.152,
+              65.58
+            ],
+            [
+              22.152,
+              65.582
+            ],
+            [
+              22.142,
+              65.582
+            ],
+            [
+              22.142,
+              65.58
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-k-006",
+        "name": "Luleå Energi Arena (kvällar/helger)",
+        "operator": "kommun",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "lot",
+        "zone_code": "Zon B — 12 kr",
+        "spots": 320,
+        "price_per_hour": 12,
+        "currency": "SEK",
+        "hours": "Mån–Fre 08–18, Lör 09–15",
+        "restrictions": "Överfull vid matcher. Kv. Staren & Kungsfågeln.",
+        "contact": "0920-45 30 00",
+        "source_url": "https://www.lulea.se/boende--gator/gator-och-trafik/parkering.html",
+        "confidence": 0.9,
+        "flags": [],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.136,
+              65.5835
+            ],
+            [
+              22.142,
+              65.5835
+            ],
+            [
+              22.142,
+              65.5855
+            ],
+            [
+              22.136,
+              65.5855
+            ],
+            [
+              22.136,
+              65.5835
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-001",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1118",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr, 30h/d: 670 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/tunastigen-1-61-2-52-73-77-87-91/",
+        "confidence": 0.6,
+        "flags": [
+          "needs_review",
+          "low_confidence",
+          "new_zone",
+          "price_changed"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-002",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1118",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr, 30h/d: 670 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/tunastigen-1-61-2-52-73-77-87-91/",
+        "confidence": 0.6,
+        "flags": [
+          "needs_review",
+          "low_confidence",
+          "new_zone",
+          "price_changed"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-004",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1090",
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/skomakargatan-22-24/",
+        "confidence": 0.6,
+        "flags": [
+          "low_confidence",
+          "new_zone",
+          "price_changed"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-005",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1090",
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/skomakargatan-22-24/",
+        "confidence": 0.6,
+        "flags": [
+          "low_confidence",
+          "new_zone",
+          "price_changed"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-007",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1370",
+        "spots": null,
+        "price_per_hour": 12,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 12 SEK",
+        "restrictions": "1h/d: 12 kr, 24h/d: 170 kr, 7h/d: 530 kr, 30h/d: 1860 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/p-hus-skidakaren/",
+        "confidence": 0.6,
+        "flags": [
+          "needs_review",
+          "low_confidence",
+          "new_zone",
+          "price_changed"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-008",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1370",
+        "spots": null,
+        "price_per_hour": 12,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 12 SEK",
+        "restrictions": "1h/d: 12 kr, 24h/d: 170 kr, 7h/d: 530 kr, 30h/d: 1860 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/p-hus-skidakaren/",
+        "confidence": 0.6,
+        "flags": [
+          "needs_review",
+          "low_confidence",
+          "new_zone",
+          "price_changed"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-010",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1118",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr, 30h/d: 670 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/karhusgrand-1-9/",
+        "confidence": 0.6,
+        "flags": [
+          "needs_review",
+          "low_confidence",
+          "new_zone"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-011",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1118",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr, 30h/d: 670 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/karhusgrand-1-9/",
+        "confidence": 0.6,
+        "flags": [
+          "needs_review",
+          "low_confidence",
+          "new_zone"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-013",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1246",
+        "spots": null,
+        "price_per_hour": 7,
+        "currency": "SEK",
+        "hours": "Every day 00-24 1 h - 7 SEK",
+        "restrictions": "1h/d: 7 kr, 24h/d: 40 kr, 30h/d: 700 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/lulebo-vast/",
+        "confidence": 0.6,
+        "flags": [
+          "needs_review",
+          "low_confidence",
+          "new_zone",
+          "price_changed"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-014",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1246",
+        "spots": null,
+        "price_per_hour": 7,
+        "currency": "SEK",
+        "hours": "Every day 00-24 1 h - 7 SEK",
+        "restrictions": "1h/d: 7 kr, 24h/d: 40 kr, 30h/d: 700 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/lulebo-vast/",
+        "confidence": 0.6,
+        "flags": [
+          "needs_review",
+          "low_confidence",
+          "new_zone",
+          "price_changed"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-016",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1245",
+        "spots": null,
+        "price_per_hour": 6,
+        "currency": "SEK",
+        "hours": "Every day 00-24: Free parking",
+        "restrictions": "1h/d: 6 kr, 24h/d: 35 kr, 30h/d: 650 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/kronan/",
+        "confidence": 0.9,
+        "flags": [
+          "needs_review",
+          "price_changed"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.118,
+              65.573
+            ],
+            [
+              22.126,
+              65.573
+            ],
+            [
+              22.126,
+              65.5755
+            ],
+            [
+              22.118,
+              65.5755
+            ],
+            [
+              22.118,
+              65.573
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-017",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1119",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr, 30h/d: 670 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/kronan/",
+        "confidence": 0.9,
+        "flags": [
+          "price_changed"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.118,
+              65.573
+            ],
+            [
+              22.126,
+              65.573
+            ],
+            [
+              22.126,
+              65.5755
+            ],
+            [
+              22.118,
+              65.5755
+            ],
+            [
+              22.118,
+              65.573
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-018",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1245",
+        "spots": null,
+        "price_per_hour": 6,
+        "currency": "SEK",
+        "hours": "Every day 00-24: Free parking",
+        "restrictions": "1h/d: 6 kr, 24h/d: 35 kr, 30h/d: 650 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/kronan/",
+        "confidence": 0.9,
+        "flags": [
+          "new_zone"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.118,
+              65.573
+            ],
+            [
+              22.126,
+              65.573
+            ],
+            [
+              22.126,
+              65.5755
+            ],
+            [
+              22.118,
+              65.5755
+            ],
+            [
+              22.118,
+              65.573
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-019",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1119",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr, 30h/d: 670 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/kronan/",
+        "confidence": 0.9,
+        "flags": [
+          "price_changed"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.118,
+              65.573
+            ],
+            [
+              22.126,
+              65.573
+            ],
+            [
+              22.126,
+              65.5755
+            ],
+            [
+              22.118,
+              65.5755
+            ],
+            [
+              22.118,
+              65.573
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-021",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1236",
+        "spots": null,
+        "price_per_hour": 6,
+        "currency": "SEK",
+        "hours": "Every day 00-24: Free parking",
+        "restrictions": "1h/d: 6 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/munkebergsgatan-36-922/",
+        "confidence": 0.6,
+        "flags": [
+          "low_confidence",
+          "new_zone"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-022",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1236",
+        "spots": null,
+        "price_per_hour": 6,
+        "currency": "SEK",
+        "hours": "Every day 00-24: Free parking",
+        "restrictions": "1h/d: 6 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/munkebergsgatan-36-922/",
+        "confidence": 0.6,
+        "flags": [
+          "needs_review",
+          "low_confidence",
+          "new_zone",
+          "price_changed"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-024",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1246",
+        "spots": null,
+        "price_per_hour": 7,
+        "currency": "SEK",
+        "hours": "Every day 00-24 1 h - 7 SEK",
+        "restrictions": "1h/d: 7 kr, 24h/d: 40 kr, 30h/d: 700 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/lulebo-centrum/",
+        "confidence": 0.6,
+        "flags": [
+          "low_confidence",
+          "new_zone"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-025",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1246",
+        "spots": null,
+        "price_per_hour": 7,
+        "currency": "SEK",
+        "hours": "Every day 00-24 1 h - 7 SEK",
+        "restrictions": "1h/d: 7 kr, 24h/d: 40 kr, 30h/d: 700 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/lulebo-centrum/",
+        "confidence": 0.6,
+        "flags": [
+          "needs_review",
+          "low_confidence",
+          "new_zone",
+          "price_changed"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-027",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1132",
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/landstingshuset--stadsvikens-halsocentral/",
+        "confidence": 0.6,
+        "flags": [
+          "low_confidence",
+          "new_zone"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-028",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1132",
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/landstingshuset--stadsvikens-halsocentral/",
+        "confidence": 0.6,
+        "flags": [
+          "low_confidence",
+          "new_zone",
+          "price_changed"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-030",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1134",
+        "spots": null,
+        "price_per_hour": 6,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 6 SEK",
+        "restrictions": "1h/d: 6 kr, 24h/d: 35 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/krongardsringen-6-32/",
+        "confidence": 0.6,
+        "flags": [
+          "low_confidence",
+          "new_zone"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-031",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1134",
+        "spots": null,
+        "price_per_hour": 6,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 6 SEK",
+        "restrictions": "1h/d: 6 kr, 24h/d: 35 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/krongardsringen-6-32/",
+        "confidence": 0.6,
+        "flags": [
+          "needs_review",
+          "low_confidence",
+          "new_zone",
+          "price_changed"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-033",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1196",
+        "spots": null,
+        "price_per_hour": 12,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 12 SEK",
+        "restrictions": "1h/d: 12 kr, 24h/d: 55 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/lulea-science-park/",
+        "confidence": 0.6,
+        "flags": [
+          "low_confidence",
+          "new_zone"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-034",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1196",
+        "spots": null,
+        "price_per_hour": 12,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 12 SEK",
+        "restrictions": "1h/d: 12 kr, 24h/d: 55 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/lulea-science-park/",
+        "confidence": 0.6,
+        "flags": [
+          "needs_review",
+          "low_confidence",
+          "new_zone"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-036",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1203",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr, 30h/d: 665 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/laboratorievagen-21-33/",
+        "confidence": 0.9,
+        "flags": [
+          "new_zone"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.152,
+              65.566
+            ],
+            [
+              22.159,
+              65.566
+            ],
+            [
+              22.159,
+              65.568
+            ],
+            [
+              22.152,
+              65.568
+            ],
+            [
+              22.152,
+              65.566
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-037",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1203",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr, 30h/d: 665 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/laboratorievagen-21-33/",
+        "confidence": 0.9,
+        "flags": [
+          "needs_review",
+          "price_changed"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.152,
+              65.566
+            ],
+            [
+              22.159,
+              65.566
+            ],
+            [
+              22.159,
+              65.568
+            ],
+            [
+              22.152,
+              65.568
+            ],
+            [
+              22.152,
+              65.566
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-039",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1246",
+        "spots": null,
+        "price_per_hour": 7,
+        "currency": "SEK",
+        "hours": "Every day 00-24 1 h - 7 SEK",
+        "restrictions": "1h/d: 7 kr, 24h/d: 40 kr, 30h/d: 700 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/mjolkuddsvagen-77/",
+        "confidence": 0.6,
+        "flags": [
+          "low_confidence",
+          "new_zone"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-040",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1246",
+        "spots": null,
+        "price_per_hour": 7,
+        "currency": "SEK",
+        "hours": "Every day 00-24 1 h - 7 SEK",
+        "restrictions": "1h/d: 7 kr, 24h/d: 40 kr, 30h/d: 700 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/mjolkuddsvagen-77/",
+        "confidence": 0.6,
+        "flags": [
+          "needs_review",
+          "low_confidence",
+          "new_zone",
+          "price_changed"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-042",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1246",
+        "spots": null,
+        "price_per_hour": 7,
+        "currency": "SEK",
+        "hours": "Every day 00-24 1 h - 7 SEK",
+        "restrictions": "1h/d: 7 kr, 24h/d: 40 kr, 30h/d: 700 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/regnvagen-5-9/",
+        "confidence": 0.6,
+        "flags": [
+          "low_confidence",
+          "new_zone"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-043",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1246",
+        "spots": null,
+        "price_per_hour": 7,
+        "currency": "SEK",
+        "hours": "Every day 00-24 1 h - 7 SEK",
+        "restrictions": "1h/d: 7 kr, 24h/d: 40 kr, 30h/d: 700 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/regnvagen-5-9/",
+        "confidence": 0.6,
+        "flags": [
+          "needs_review",
+          "low_confidence",
+          "new_zone",
+          "price_changed"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-045",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1043",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 45 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/brogatan-3-11-4-10--vastergatan-2-8-5/",
+        "confidence": 0.6,
+        "flags": [
+          "low_confidence",
+          "new_zone"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-046",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1043",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 45 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/brogatan-3-11-4-10--vastergatan-2-8-5/",
+        "confidence": 0.6,
+        "flags": [
+          "needs_review",
+          "low_confidence",
+          "new_zone",
+          "price_changed"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-048",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1004",
+        "spots": null,
+        "price_per_hour": 19,
+        "currency": "SEK",
+        "hours": "Weekdays 07-16: 1 h - 19 SEK",
+        "restrictions": "1h/d: 19 kr, 1h/d: 9 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/sodra-kungsgatan-3-5--smabatsgatan-1/",
+        "confidence": 0.6,
+        "flags": [
+          "low_confidence",
+          "new_zone"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-049",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1004",
+        "spots": null,
+        "price_per_hour": 19,
+        "currency": "SEK",
+        "hours": "Weekdays 07-16: 1 h - 19 SEK",
+        "restrictions": "1h/d: 19 kr, 1h/d: 9 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/sodra-kungsgatan-3-5--smabatsgatan-1/",
+        "confidence": 0.6,
+        "flags": [
+          "needs_review",
+          "low_confidence",
+          "new_zone",
+          "price_changed"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-051",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1127",
+        "spots": null,
+        "price_per_hour": 9,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 9 SEK",
+        "restrictions": "1h/d: 9 kr, 12h/d: 55 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/storstigen-20-28/",
+        "confidence": 0.6,
+        "flags": [
+          "low_confidence",
+          "new_zone"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-052",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1127",
+        "spots": null,
+        "price_per_hour": 9,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 9 SEK",
+        "restrictions": "1h/d: 9 kr, 12h/d: 55 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/storstigen-20-28/",
+        "confidence": 0.6,
+        "flags": [
+          "needs_review",
+          "low_confidence",
+          "new_zone",
+          "price_changed"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-054",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1053",
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": "Every day 00-24: For every started 20 min - 7 SEK",
+        "restrictions": "24h/d: 110 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/timmermansgatan-26-30skeppsbrogatan-25-p-hus/",
+        "confidence": 0.6,
+        "flags": [
+          "low_confidence",
+          "new_zone"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-055",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1053",
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": "Every day 00-24: For every started 20 min - 7 SEK",
+        "restrictions": "24h/d: 110 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/timmermansgatan-26-30skeppsbrogatan-25-p-hus/",
+        "confidence": 0.6,
+        "flags": [
+          "needs_review",
+          "low_confidence",
+          "new_zone",
+          "price_changed"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-057",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1160",
+        "spots": null,
+        "price_per_hour": 12,
+        "currency": "SEK",
+        "hours": "Every day 09-19: 1 h - 12 SEK",
+        "restrictions": "1h/d: 12 kr, 1h/d: 6 kr, 24h/d: 60 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/sandviksg.--varvsg.--timmermansg.--kungsg",
+        "confidence": 0.6,
+        "flags": [
+          "low_confidence",
+          "new_zone"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-058",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1160",
+        "spots": null,
+        "price_per_hour": 12,
+        "currency": "SEK",
+        "hours": "Every day 09-19: 1 h - 12 SEK",
+        "restrictions": "1h/d: 12 kr, 1h/d: 6 kr, 24h/d: 60 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/sandviksg.--varvsg.--timmermansg.--kungsg",
+        "confidence": 0.6,
+        "flags": [
+          "needs_review",
+          "low_confidence",
+          "new_zone",
+          "price_changed"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-060",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1162",
+        "spots": null,
+        "price_per_hour": 10,
+        "currency": "SEK",
+        "hours": "Alla dagar 00-24: 1 h - 10 kr",
+        "restrictions": "1h/d: 10 kr, 12h/d: 20 kr, 7h/d: 240 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/midgardsvagen-19/",
+        "confidence": 0.6,
+        "flags": [
+          "low_confidence",
+          "new_zone"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-061",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1162",
+        "spots": null,
+        "price_per_hour": 10,
+        "currency": "SEK",
+        "hours": "Alla dagar 00-24: 1 h - 10 kr",
+        "restrictions": "1h/d: 10 kr, 12h/d: 20 kr, 7h/d: 240 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/midgardsvagen-19/",
+        "confidence": 0.6,
+        "flags": [
+          "needs_review",
+          "low_confidence",
+          "new_zone",
+          "price_changed"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-063",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1203",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr, 30h/d: 665 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/klintvagen-85-95/",
+        "confidence": 0.6,
+        "flags": [
+          "low_confidence",
+          "new_zone"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-064",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1203",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr, 30h/d: 665 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/klintvagen-85-95/",
+        "confidence": 0.6,
+        "flags": [
+          "needs_review",
+          "low_confidence",
+          "new_zone",
+          "price_changed"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-066",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1016",
+        "spots": null,
+        "price_per_hour": 5,
+        "currency": "SEK",
+        "hours": "Mon-Fri 08-20, Saturday 08-16: For every started 20 min - 7 SEK",
+        "restrictions": "1h/d: 5 kr, 1h/d: 11 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/p-huset-tjadern/",
+        "confidence": 0.6,
+        "flags": [
+          "low_confidence",
+          "new_zone"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-067",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1016",
+        "spots": null,
+        "price_per_hour": 5,
+        "currency": "SEK",
+        "hours": "Mon-Fri 08-20, Saturday 08-16: For every started 20 min - 7 SEK",
+        "restrictions": "1h/d: 5 kr, 1h/d: 11 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/p-huset-tjadern/",
+        "confidence": 0.6,
+        "flags": [
+          "new_zone",
+          "low_confidence"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-069",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1173",
+        "spots": null,
+        "price_per_hour": 7,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 7 SEK",
+        "restrictions": "1h/d: 7 kr, 24h/d: 45 kr, 30h/d: 635 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/fastighets-ab-aurorus/",
+        "confidence": 0.6,
+        "flags": [
+          "low_confidence",
+          "new_zone"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-070",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1173",
+        "spots": null,
+        "price_per_hour": 7,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 7 SEK",
+        "restrictions": "1h/d: 7 kr, 24h/d: 45 kr, 30h/d: 635 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/fastighets-ab-aurorus/",
+        "confidence": 0.6,
+        "flags": [
+          "new_zone",
+          "low_confidence"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-072",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "garage",
+        "zone_code": "1130",
+        "spots": 170,
+        "price_per_hour": 5,
+        "currency": "SEK",
+        "hours": "Mon-Fri 08-20, Saturday 08-16: For every started 20 min - 7 SEK",
+        "restrictions": "1h/d: 5 kr, 1h/d: 11 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/p-hus-smedjan/",
+        "confidence": 0.9,
+        "flags": [
+          "new_zone"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.1485,
+              65.5838
+            ],
+            [
+              22.151,
+              65.5838
+            ],
+            [
+              22.151,
+              65.5848
+            ],
+            [
+              22.1485,
+              65.5848
+            ],
+            [
+              22.1485,
+              65.5838
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-073",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "garage",
+        "zone_code": "1130",
+        "spots": 170,
+        "price_per_hour": 5,
+        "currency": "SEK",
+        "hours": "Mon-Fri 08-20, Saturday 08-16: For every started 20 min - 7 SEK",
+        "restrictions": "1h/d: 5 kr, 1h/d: 11 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/p-hus-smedjan/",
+        "confidence": 0.9,
+        "flags": [
+          "needs_review",
+          "price_changed"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.1485,
+              65.5838
+            ],
+            [
+              22.151,
+              65.5838
+            ],
+            [
+              22.151,
+              65.5848
+            ],
+            [
+              22.1485,
+              65.5848
+            ],
+            [
+              22.1485,
+              65.5838
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-075",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1246",
+        "spots": null,
+        "price_per_hour": 7,
+        "currency": "SEK",
+        "hours": "Every day 00-24 1 h - 7 SEK",
+        "restrictions": "1h/d: 7 kr, 24h/d: 40 kr, 30h/d: 700 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/lulebo-ost/",
+        "confidence": 0.6,
+        "flags": [
+          "low_confidence",
+          "new_zone"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-076",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1246",
+        "spots": null,
+        "price_per_hour": 7,
+        "currency": "SEK",
+        "hours": "Every day 00-24 1 h - 7 SEK",
+        "restrictions": "1h/d: 7 kr, 24h/d: 40 kr, 30h/d: 700 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/lulebo-ost/",
+        "confidence": 0.6,
+        "flags": [
+          "needs_review",
+          "low_confidence",
+          "new_zone",
+          "price_changed"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-078",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1118",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr, 30h/d: 670 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/assistentvagen-8-370--docentvagen/",
+        "confidence": 0.6,
+        "flags": [
+          "needs_review",
+          "low_confidence",
+          "new_zone",
+          "price_changed"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-079",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1118",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr, 30h/d: 670 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/assistentvagen-8-370--docentvagen/",
+        "confidence": 0.6,
+        "flags": [
+          "new_zone",
+          "low_confidence"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-081",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1161",
+        "spots": null,
+        "price_per_hour": 9,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 9 SEK",
+        "restrictions": "1h/d: 9 kr, 24h/d: 50 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/nkv-algatan-6-8/",
+        "confidence": 0.6,
+        "flags": [
+          "new_zone",
+          "low_confidence"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-082",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1161",
+        "spots": null,
+        "price_per_hour": 9,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 9 SEK",
+        "restrictions": "1h/d: 9 kr, 24h/d: 50 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/nkv-algatan-6-8/",
+        "confidence": 0.6,
+        "flags": [
+          "new_zone",
+          "low_confidence"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-084",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1174",
+        "spots": null,
+        "price_per_hour": 7,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 7 SEK",
+        "restrictions": "1h/d: 7 kr, 24h/d: 45 kr, 30h/d: 635 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/vretvagen-1-15--edeforsgatan-2-16/",
+        "confidence": 0.6,
+        "flags": [
+          "needs_review",
+          "low_confidence",
+          "new_zone",
+          "price_changed"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-085",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1174",
+        "spots": null,
+        "price_per_hour": 7,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 7 SEK",
+        "restrictions": "1h/d: 7 kr, 24h/d: 45 kr, 30h/d: 635 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/vretvagen-1-15--edeforsgatan-2-16/",
+        "confidence": 0.6,
+        "flags": [
+          "needs_review",
+          "low_confidence",
+          "new_zone",
+          "price_changed"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-087",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1174",
+        "spots": null,
+        "price_per_hour": 7,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 7 SEK",
+        "restrictions": "1h/d: 7 kr, 24h/d: 45 kr, 30h/d: 635 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/vinkelgrand-1-7--krongardsringen-2/",
+        "confidence": 0.6,
+        "flags": [
+          "new_zone",
+          "low_confidence"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-088",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1174",
+        "spots": null,
+        "price_per_hour": 7,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 7 SEK",
+        "restrictions": "1h/d: 7 kr, 24h/d: 45 kr, 30h/d: 635 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/vinkelgrand-1-7--krongardsringen-2/",
+        "confidence": 0.6,
+        "flags": [
+          "new_zone",
+          "low_confidence"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-090",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1172",
+        "spots": null,
+        "price_per_hour": 7,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 7 SEK",
+        "restrictions": "1h/d: 7 kr, 24h/d: 45 kr, 30h/d: 635 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/porsogarden-2-42/",
+        "confidence": 0.6,
+        "flags": [
+          "needs_review",
+          "low_confidence",
+          "new_zone",
+          "price_changed"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-091",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1172",
+        "spots": null,
+        "price_per_hour": 7,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 7 SEK",
+        "restrictions": "1h/d: 7 kr, 24h/d: 45 kr, 30h/d: 635 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/porsogarden-2-42/",
+        "confidence": 0.6,
+        "flags": [
+          "needs_review",
+          "low_confidence",
+          "new_zone",
+          "price_changed"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-093",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1254",
+        "spots": null,
+        "price_per_hour": 10,
+        "currency": "SEK",
+        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
+        "restrictions": "1h/d: 10 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
+        "confidence": 0.6,
+        "flags": [
+          "needs_review",
+          "low_confidence",
+          "new_zone",
+          "price_changed"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-094",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1254",
+        "spots": null,
+        "price_per_hour": 10,
+        "currency": "SEK",
+        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
+        "restrictions": "1h/d: 10 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
+        "confidence": 0.6,
+        "flags": [
+          "needs_review",
+          "low_confidence",
+          "new_zone",
+          "price_changed"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-096",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1118",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr, 30h/d: 670 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/lingonstigen-33-36-147-233/",
+        "confidence": 0.6,
+        "flags": [
+          "needs_review",
+          "low_confidence",
+          "new_zone",
+          "price_changed"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-097",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1118",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr, 30h/d: 670 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/lingonstigen-33-36-147-233/",
+        "confidence": 0.6,
+        "flags": [
+          "needs_review",
+          "low_confidence",
+          "new_zone",
+          "price_changed"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-099",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1077",
+        "spots": null,
+        "price_per_hour": 9,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 9 SEK",
+        "restrictions": "1h/d: 9 kr, 24h/d: 45 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/kompanivagen-20-21-23/",
+        "confidence": 0.6,
+        "flags": [
+          "needs_review",
+          "low_confidence",
+          "new_zone",
+          "price_changed"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-100",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1078",
+        "spots": null,
+        "price_per_hour": 12,
+        "currency": "SEK",
+        "hours": "Alla dagar 00-24: 1 h - 12 kr",
+        "restrictions": "1h/d: 12 kr, 24h/d: 75 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/kompanivagen-20-21-23/",
+        "confidence": 0.6,
+        "flags": [
+          "needs_review",
+          "low_confidence",
+          "new_zone",
+          "price_changed"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-101",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1077",
+        "spots": null,
+        "price_per_hour": 9,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 9 SEK",
+        "restrictions": "1h/d: 9 kr, 24h/d: 45 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/kompanivagen-20-21-23/",
+        "confidence": 0.6,
+        "flags": [
+          "low_confidence",
+          "new_zone"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-102",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1078",
+        "spots": null,
+        "price_per_hour": 12,
+        "currency": "SEK",
+        "hours": "Alla dagar 00-24: 1 h - 12 kr",
+        "restrictions": "1h/d: 12 kr, 24h/d: 75 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/kompanivagen-20-21-23/",
+        "confidence": 0.6,
+        "flags": [
+          "needs_review",
+          "low_confidence",
+          "new_zone",
+          "price_changed"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-104",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1123",
+        "spots": null,
+        "price_per_hour": 7,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 7 SEK",
+        "restrictions": "1h/d: 7 kr, 24h/d: 45 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/mjolkuddsvagen-25-65/",
+        "confidence": 0.6,
+        "flags": [
+          "needs_review",
+          "low_confidence",
+          "new_zone",
+          "price_changed"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-105",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1123",
+        "spots": null,
+        "price_per_hour": 7,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 7 SEK",
+        "restrictions": "1h/d: 7 kr, 24h/d: 45 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/mjolkuddsvagen-25-65/",
+        "confidence": 0.6,
+        "flags": [
+          "needs_review",
+          "low_confidence",
+          "new_zone",
+          "price_changed"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-107",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1203",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr, 30h/d: 665 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/vanortsvagen-2-1382/",
+        "confidence": 0.9,
+        "flags": [
+          "needs_review",
+          "price_changed"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.115,
+              65.592
+            ],
+            [
+              22.123,
+              65.592
+            ],
+            [
+              22.123,
+              65.594
+            ],
+            [
+              22.115,
+              65.594
+            ],
+            [
+              22.115,
+              65.592
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-108",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1203",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr, 30h/d: 665 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/vanortsvagen-2-1382/",
+        "confidence": 0.9,
+        "flags": [
+          "needs_review",
+          "price_changed"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.115,
+              65.592
+            ],
+            [
+              22.123,
+              65.592
+            ],
+            [
+              22.123,
+              65.594
+            ],
+            [
+              22.115,
+              65.594
+            ],
+            [
+              22.115,
+              65.592
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-110",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1118",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr, 30h/d: 670 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/radiomasten-3-9-4-12-16-19-21/",
+        "confidence": 0.6,
+        "flags": [
+          "needs_review",
+          "low_confidence",
+          "new_zone",
+          "price_changed"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-111",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1118",
+        "spots": null,
+        "price_per_hour": 8,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr, 30h/d: 670 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/radiomasten-3-9-4-12-16-19-21/",
+        "confidence": 0.6,
+        "flags": [
+          "needs_review",
+          "low_confidence",
+          "new_zone",
+          "price_changed"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-113",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1108",
+        "spots": null,
+        "price_per_hour": 10,
+        "currency": "SEK",
+        "hours": "Alla dagar 00-24: Tillstånd erfordras 1 h - 10 kr",
+        "restrictions": "1h/d: 10 kr, 12h/d: 20 kr, 7h/d: 240 kr, 30h/d: 495 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/magasinsgatan-18-24--skeppsbrogatan-37-43/",
+        "confidence": 0.6,
+        "flags": [
+          "needs_review",
+          "low_confidence",
+          "new_zone",
+          "price_changed"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-114",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1108",
+        "spots": null,
+        "price_per_hour": 10,
+        "currency": "SEK",
+        "hours": "Alla dagar 00-24: Tillstånd erfordras 1 h - 10 kr",
+        "restrictions": "1h/d: 10 kr, 12h/d: 20 kr, 7h/d: 240 kr, 30h/d: 495 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/magasinsgatan-18-24--skeppsbrogatan-37-43/",
+        "confidence": 0.6,
+        "flags": [
+          "needs_review",
+          "low_confidence",
+          "new_zone",
+          "price_changed"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-116",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1174",
+        "spots": null,
+        "price_per_hour": 7,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 7 SEK",
+        "restrictions": "1h/d: 7 kr, 24h/d: 45 kr, 30h/d: 635 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/rodkallens-vag-11-15/",
+        "confidence": 0.6,
+        "flags": [
+          "needs_review",
+          "low_confidence",
+          "new_zone",
+          "price_changed"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-ap-117",
+        "name": null,
+        "operator": "aimopark",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1174",
+        "spots": null,
+        "price_per_hour": 7,
+        "currency": "SEK",
+        "hours": "Every day 00-24: 1 h - 7 SEK",
+        "restrictions": "1h/d: 7 kr, 24h/d: 45 kr, 30h/d: 635 kr",
+        "contact": "010-498 54 00",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/rodkallens-vag-11-15/",
+        "confidence": 0.6,
+        "flags": [
+          "needs_review",
+          "low_confidence",
+          "new_zone",
+          "price_changed"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148,
+          65.583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-lb-001",
+        "name": "Lulebo — Porsön",
+        "operator": "lulebo",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "Lulebo besök",
+        "spots": null,
+        "price_per_hour": 7.0,
+        "currency": "SEK",
+        "hours": "Dygnet runt, alla dagar",
+        "restrictions": "40.0 kr/dygn. Stadsdelscentrum: 2h gratis med P-skiva",
+        "contact": "0920-23 67 00",
+        "source_url": "https://www.lulebo.se/artikel/besoksparkeringar",
+        "confidence": 0.9,
+        "flags": [],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.162,
+              65.596
+            ],
+            [
+              22.172,
+              65.596
+            ],
+            [
+              22.172,
+              65.599
+            ],
+            [
+              22.162,
+              65.599
+            ],
+            [
+              22.162,
+              65.596
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-lb-002",
+        "name": "Lulebo — Hertsön",
+        "operator": "lulebo",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "Lulebo besök",
+        "spots": null,
+        "price_per_hour": 7.0,
+        "currency": "SEK",
+        "hours": "Dygnet runt, alla dagar",
+        "restrictions": "40.0 kr/dygn. Stadsdelscentrum: 2h gratis med P-skiva",
+        "contact": "0920-23 67 00",
+        "source_url": "https://www.lulebo.se/artikel/besoksparkeringar",
+        "confidence": 0.9,
+        "flags": [],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.2,
+              65.578
+            ],
+            [
+              22.21,
+              65.578
+            ],
+            [
+              22.21,
+              65.581
+            ],
+            [
+              22.2,
+              65.581
+            ],
+            [
+              22.2,
+              65.578
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-lb-003",
+        "name": "Lulebo — Björkskatan",
+        "operator": "lulebo",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "Lulebo besök",
+        "spots": null,
+        "price_per_hour": 7.0,
+        "currency": "SEK",
+        "hours": "Dygnet runt, alla dagar",
+        "restrictions": "40.0 kr/dygn. Stadsdelscentrum: 2h gratis med P-skiva",
+        "contact": "0920-23 67 00",
+        "source_url": "https://www.lulebo.se/artikel/besoksparkeringar",
+        "confidence": 0.9,
+        "flags": [],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.18,
+              65.568
+            ],
+            [
+              22.189,
+              65.568
+            ],
+            [
+              22.189,
+              65.571
+            ],
+            [
+              22.18,
+              65.571
+            ],
+            [
+              22.18,
+              65.568
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-lb-004",
+        "name": "Lulebo — Bergnäset",
+        "operator": "lulebo",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "Lulebo besök",
+        "spots": null,
+        "price_per_hour": 7.0,
+        "currency": "SEK",
+        "hours": "Dygnet runt, alla dagar",
+        "restrictions": "40.0 kr/dygn. Stadsdelscentrum: 2h gratis med P-skiva",
+        "contact": "0920-23 67 00",
+        "source_url": "https://www.lulebo.se/artikel/besoksparkeringar",
+        "confidence": 0.9,
+        "flags": [],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.125,
+              65.572
+            ],
+            [
+              22.134,
+              65.572
+            ],
+            [
+              22.134,
+              65.5745
+            ],
+            [
+              22.125,
+              65.5745
+            ],
+            [
+              22.125,
+              65.572
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-apcoa-001",
+        "name": "Luleå Centralstation",
+        "operator": "apcoa",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "APCOA Luleå",
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": "Korttid + kontraktsuthyrning",
+        "restrictions": "Biljettköp i automat. Nära järnväg och bussar.",
+        "contact": "apcoa.se",
+        "source_url": "https://www.apcoa.se/parkering-i/luleaa/luleaa-centralstation/",
+        "confidence": 0.85,
+        "flags": [],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.157,
+              65.5835
+            ],
+            [
+              22.162,
+              65.5835
+            ],
+            [
+              22.162,
+              65.585
+            ],
+            [
+              22.157,
+              65.585
+            ],
+            [
+              22.157,
+              65.5835
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-sw-001",
+        "name": "Luleå Airport Parkering",
+        "operator": "swedavia",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "lot",
+        "zone_code": "Swedavia",
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": "Dygnet runt",
+        "restrictions": "Boka online via swedavia.se. Dynamisk prissättning.",
+        "contact": "parkering@swedavia.se",
+        "source_url": "https://www.swedavia.com/lulea/parking/",
+        "confidence": 0.9,
+        "flags": [],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.118,
+              65.544
+            ],
+            [
+              22.131,
+              65.544
+            ],
+            [
+              22.131,
+              65.548
+            ],
+            [
+              22.118,
+              65.548
+            ],
+            [
+              22.118,
+              65.544
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luleå-gal-001",
+        "name": "Galären (Luleå)",
+        "operator": "galaren",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "garage",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": "galaren.se",
+        "source_url": "https://galaren.se/parkering/",
+        "confidence": 0.5,
+        "flags": [
+          "needs_review",
+          "low_confidence"
+        ],
+        "last_verified": "2026-03-26"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.146,
+              65.582
+            ],
+            [
+              22.15,
+              65.582
+            ],
+            [
+              22.15,
+              65.584
+            ],
+            [
+              22.146,
+              65.584
+            ],
+            [
+              22.146,
+              65.582
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

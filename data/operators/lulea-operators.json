@@ -1,0 +1,48 @@
+{
+  "kommun": {
+    "name": "Luleå kommun",
+    "color": "#3b82f6",
+    "type": "municipality",
+    "web": "https://www.lulea.se/boende--gator/gator-och-trafik/parkering.html",
+    "contact": "0920-45 30 00",
+    "payment_apps": ["e-park", "EasyPark", "Parkster", "Mobill"]
+  },
+  "aimopark": {
+    "name": "Aimo Park",
+    "color": "#f97316",
+    "type": "private",
+    "web": "https://www.aimopark.se/en/cities/lulea/",
+    "contact": "010-498 54 00",
+    "payment_apps": ["Aimo"]
+  },
+  "lulebo": {
+    "name": "Lulebo",
+    "color": "#a855f7",
+    "type": "municipal_company",
+    "web": "https://www.lulebo.se/artikel/besoksparkeringar",
+    "contact": "0920-23 67 00",
+    "payment_apps": ["Aimo", "e-park", "EasyPark", "Parkster"]
+  },
+  "apcoa": {
+    "name": "APCOA",
+    "color": "#ef4444",
+    "type": "private",
+    "web": "https://www.apcoa.se/parkering-i/luleaa/luleaa-centralstation/",
+    "payment_apps": ["APCOA Flow"]
+  },
+  "swedavia": {
+    "name": "Swedavia",
+    "color": "#06b6d4",
+    "type": "state_company",
+    "web": "https://www.swedavia.com/lulea/parking/",
+    "contact": "010-109 68 00",
+    "payment_apps": ["Swedavia online"]
+  },
+  "galaren": {
+    "name": "Galären",
+    "color": "#eab308",
+    "type": "private",
+    "web": "https://galaren.se/parkering/",
+    "payment_apps": ["Aimo"]
+  }
+}

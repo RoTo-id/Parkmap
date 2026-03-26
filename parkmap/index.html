@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ParkMap Sverige - Lulea</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#0c0e14;--panel:#14161e;--border:#252838;
+  --text:#e4e6ee;--text2:#9196ab;--muted:#565b72;
+  --accent:#4a9eff;--green:#34d399;
+}
+body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);overflow:hidden;height:100vh}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* Header */
+.header{position:fixed;top:0;left:0;right:0;height:56px;background:var(--panel);border-bottom:1px solid var(--border);display:flex;align-items:center;padding:0 16px;z-index:1000;gap:16px}
+.logo{display:flex;align-items:center;gap:10px;flex-shrink:0}
+.logo-icon{width:32px;height:32px;border-radius:8px;background:linear-gradient(135deg,#4a9eff,#6366f1);display:flex;align-items:center;justify-content:center;font-family:'Space Mono',monospace;font-weight:700;font-size:16px;color:#fff}
+.logo-text{font-weight:700;font-size:15px;letter-spacing:.5px}
+.logo-text span{color:var(--text2);font-weight:400;font-size:12px;margin-left:6px}
+.pilot-badge{background:#6366f1;color:#fff;font-size:10px;font-weight:700;padding:2px 6px;border-radius:4px;letter-spacing:.5px;flex-shrink:0}
+
+.search-box{flex:1;max-width:320px;position:relative}
+.search-box input{width:100%;background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:8px 12px;color:var(--text);font-family:inherit;font-size:13px;outline:none}
+.search-box input:focus{border-color:var(--accent)}
+.search-box input::placeholder{color:var(--muted)}
+
+.stats{display:flex;gap:16px;margin-left:auto;flex-shrink:0}
+.stat{text-align:center}
+.stat-val{font-family:'Space Mono',monospace;font-size:16px;font-weight:700;color:var(--accent)}
+.stat-label{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px}
+
+.back-link{font-size:12px;color:var(--text2);flex-shrink:0;white-space:nowrap}
+
+/* Map */
+#map{position:fixed;top:56px;left:0;right:0;bottom:0}
+.leaflet-tile-pane{filter:brightness(0.65)}
+.leaflet-control-zoom{border:1px solid var(--border) !important}
+.leaflet-control-zoom a{background:var(--panel) !important;color:var(--text) !important;border-color:var(--border) !important}
+.leaflet-control-zoom a:hover{background:var(--bg) !important}
+.leaflet-control-attribution{background:rgba(12,14,20,.8) !important;color:var(--muted) !important;font-size:10px !important}
+.leaflet-control-attribution a{color:var(--text2) !important}
+
+/* Legend */
+.legend{position:fixed;bottom:24px;left:16px;background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px;z-index:1000;min-width:180px;max-width:220px}
+.legend-title{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px;font-weight:600}
+.legend-item{display:flex;align-items:center;gap:8px;padding:4px 0;cursor:pointer;font-size:13px;transition:opacity .2s}
+.legend-item.dimmed{opacity:.3}
+.legend-dot{width:10px;height:10px;border-radius:50%;flex-shrink:0}
+.legend-name{flex:1;color:var(--text)}
+.legend-count{font-family:'Space Mono',monospace;font-size:11px;color:var(--muted)}
+
+/* Detail panel */
+.detail-panel{position:fixed;bottom:0;right:16px;width:360px;max-height:calc(100vh - 80px);background:var(--panel);border:1px solid var(--border);border-bottom:none;border-radius:12px 12px 0 0;z-index:1000;transform:translateY(100%);opacity:0;transition:transform .3s ease,opacity .3s ease;overflow-y:auto}
+.detail-panel.open{transform:translateY(0);opacity:1}
+.detail-header{padding:16px;border-bottom:1px solid var(--border);position:sticky;top:0;background:var(--panel);display:flex;justify-content:space-between;align-items:flex-start}
+.detail-title{font-size:16px;font-weight:700}
+.detail-operator{display:flex;align-items:center;gap:6px;font-size:13px;color:var(--text2);margin-top:4px}
+.detail-close{background:none;border:none;color:var(--muted);font-size:20px;cursor:pointer;padding:4px 8px;line-height:1}
+.detail-close:hover{color:var(--text)}
+.detail-body{padding:16px}
+.detail-row{display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px solid var(--border);font-size:13px}
+.detail-row:last-child{border-bottom:none}
+.detail-label{color:var(--muted)}
+.detail-value{color:var(--text);text-align:right;max-width:60%}
+.detail-tags{display:flex;flex-wrap:wrap;gap:4px;justify-content:flex-end}
+.detail-tag{background:var(--bg);border:1px solid var(--border);border-radius:4px;padding:2px 6px;font-size:11px;color:var(--text2)}
+.detail-flags{margin-top:8px;padding:8px 0}
+.detail-flag{display:inline-block;background:rgba(239,68,68,.15);color:#f87171;font-size:11px;padding:2px 6px;border-radius:4px;margin:2px}
+.confidence-bar{width:60px;height:6px;background:var(--bg);border-radius:3px;overflow:hidden;display:inline-block;vertical-align:middle;margin-left:6px}
+.confidence-fill{height:100%;border-radius:3px;transition:width .3s}
+
+/* Loading / Error */
+.overlay{position:fixed;top:56px;left:0;right:0;bottom:0;background:rgba(12,14,20,.9);display:flex;align-items:center;justify-content:center;z-index:2000;flex-direction:column;gap:12px}
+.overlay-text{font-size:15px;color:var(--text2)}
+.overlay-spinner{width:32px;height:32px;border:3px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:spin 1s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.retry-btn{background:var(--accent);color:#fff;border:none;padding:8px 20px;border-radius:8px;font-family:inherit;font-size:13px;cursor:pointer;margin-top:8px}
+.retry-btn:hover{opacity:.9}
+
+/* Mobile */
+@media(max-width:768px){
+  .stats{display:none}
+  .search-box{max-width:200px}
+  .legend{bottom:12px;left:8px;right:8px;max-width:none}
+  .detail-panel{left:0;right:0;width:auto;max-height:50vh}
+  .back-link{display:none}
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="logo">
+    <div class="logo-icon">P</div>
+    <div class="logo-text">ParkMap <span>SVERIGE</span></div>
+  </div>
+  <div class="pilot-badge">LULEA PILOT</div>
+  <div class="search-box">
+    <input type="text" id="search" placeholder="Sok zon, gata, operator...">
+  </div>
+  <div class="stats">
+    <div class="stat"><div class="stat-val" id="stat-zones">-</div><div class="stat-label">Zoner</div></div>
+    <div class="stat"><div class="stat-val" id="stat-ops">-</div><div class="stat-label">Operatorer</div></div>
+    <div class="stat"><div class="stat-val" id="stat-spots">-</div><div class="stat-label">Platser</div></div>
+  </div>
+  <a href="/" class="back-link">&larr; maxineplatform.com</a>
+</div>
+
+<div id="map"></div>
+
+<div class="legend" id="legend"></div>
+
+<div class="detail-panel" id="detail">
+  <div class="detail-header">
+    <div>
+      <div class="detail-title" id="detail-title"></div>
+      <div class="detail-operator" id="detail-operator"></div>
+    </div>
+    <button class="detail-close" id="detail-close">&times;</button>
+  </div>
+  <div class="detail-body" id="detail-body"></div>
+</div>
+
+<div class="overlay" id="loading">
+  <div class="overlay-spinner"></div>
+  <div class="overlay-text">Laddar parkeringsdata...</div>
+</div>
+
+<div class="overlay" id="error" style="display:none">
+  <div class="overlay-text" id="error-msg">Kunde inte ladda data</div>
+  <button class="retry-btn" onclick="loadData()">Forsok igen</button>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+const map = L.map('map', {zoomControl: true}).setView([65.583, 22.148], 13);
+L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+  attribution: '&copy; <a href="https://carto.com/">CARTO</a> | &copy; <a href="https://osm.org/">OSM</a>',
+  maxZoom: 19
+}).addTo(map);
+
+let geoData = null;
+let opsData = null;
+let geoLayer = null;
+let activeFilters = new Set();
+let searchTerm = '';
+
+async function loadData() {
+  document.getElementById('loading').style.display = 'flex';
+  document.getElementById('error').style.display = 'none';
+  try {
+    const [geoRes, opsRes] = await Promise.all([
+      fetch('../data/regions/norrbotten/lulea.geojson'),
+      fetch('../data/operators/lulea-operators.json')
+    ]);
+    if (!geoRes.ok || !opsRes.ok) throw new Error('HTTP ' + geoRes.status);
+    geoData = await geoRes.json();
+    opsData = await opsRes.json();
+    render();
+    document.getElementById('loading').style.display = 'none';
+  } catch (e) {
+    document.getElementById('loading').style.display = 'none';
+    document.getElementById('error-msg').textContent = 'Kunde inte ladda data: ' + e.message;
+    document.getElementById('error').style.display = 'flex';
+  }
+}
+
+function render() {
+  if (geoLayer) map.removeLayer(geoLayer);
+
+  const features = geoData.features.filter(f => {
+    const p = f.properties;
+    if (activeFilters.size > 0 && !activeFilters.has(p.operator)) return false;
+    if (searchTerm) {
+      const s = searchTerm.toLowerCase();
+      const haystack = [p.name, p.operator, p.zone_code, p.restrictions].filter(Boolean).join(' ').toLowerCase();
+      if (!haystack.includes(s)) return false;
+    }
+    return true;
+  });
+
+  geoLayer = L.geoJSON({type: 'FeatureCollection', features}, {
+    style: f => {
+      const op = f.properties.operator;
+      const color = opsData[op]?.color || '#888';
+      return {color, fillColor: color, fillOpacity: 0.25, weight: 2, opacity: 0.8};
+    },
+    pointToLayer: (f, latlng) => {
+      const op = f.properties.operator;
+      const color = opsData[op]?.color || '#888';
+      return L.circleMarker(latlng, {radius: 7, color, fillColor: color, fillOpacity: 0.4, weight: 2});
+    },
+    onEachFeature: (f, layer) => {
+      layer.on('click', () => showDetail(f.properties));
+      layer.on('mouseover', () => layer.setStyle({fillOpacity: 0.5, weight: 3, opacity: 1}));
+      layer.on('mouseout', () => geoLayer.resetStyle(layer));
+    }
+  }).addTo(map);
+
+  updateStats(features);
+  renderLegend();
+}
+
+function updateStats(features) {
+  document.getElementById('stat-zones').textContent = features.length;
+  const ops = new Set(features.map(f => f.properties.operator));
+  document.getElementById('stat-ops').textContent = ops.size;
+  const spots = features.reduce((a, f) => a + (f.properties.spots || 0), 0);
+  document.getElementById('stat-spots').textContent = spots || '-';
+}
+
+function renderLegend() {
+  const counts = {};
+  geoData.features.forEach(f => {
+    const op = f.properties.operator;
+    counts[op] = (counts[op] || 0) + 1;
+  });
+
+  const legend = document.getElementById('legend');
+  legend.innerHTML = '<div class="legend-title">Operatorer</div>';
+
+  for (const [key, info] of Object.entries(opsData)) {
+    const count = counts[key] || 0;
+    if (count === 0) continue;
+    const dimmed = activeFilters.size > 0 && !activeFilters.has(key);
+    const item = document.createElement('div');
+    item.className = 'legend-item' + (dimmed ? ' dimmed' : '');
+    item.innerHTML = `<div class="legend-dot" style="background:${info.color}"></div><div class="legend-name">${info.name}</div><div class="legend-count">${count}</div>`;
+    item.onclick = () => {
+      if (activeFilters.has(key)) {
+        activeFilters.delete(key);
+      } else {
+        activeFilters.add(key);
+      }
+      render();
+    };
+    legend.appendChild(item);
+  }
+
+  // Clear filter option
+  if (activeFilters.size > 0) {
+    const clear = document.createElement('div');
+    clear.className = 'legend-item';
+    clear.innerHTML = '<div class="legend-dot" style="background:var(--muted)"></div><div class="legend-name" style="color:var(--accent)">Visa alla</div>';
+    clear.onclick = () => { activeFilters.clear(); render(); };
+    legend.appendChild(clear);
+  }
+}
+
+function showDetail(p) {
+  const panel = document.getElementById('detail');
+  const op = opsData[p.operator];
+  const opName = op?.name || p.operator;
+  const opColor = op?.color || '#888';
+
+  document.getElementById('detail-title').textContent = p.name || 'Zon';
+  document.getElementById('detail-operator').innerHTML =
+    `<div class="legend-dot" style="background:${opColor}"></div> ${opName}`;
+
+  const rows = [];
+  const add = (label, value) => { if (value != null && value !== '') rows.push(`<div class="detail-row"><div class="detail-label">${label}</div><div class="detail-value">${value}</div></div>`); };
+
+  add('Typ', typeLabel(p.type));
+  add('Platser', p.spots);
+  add('Pris/timme', p.price_per_hour != null ? p.price_per_hour + ' ' + (p.currency || 'SEK') : null);
+  add('Zonkod', p.zone_code);
+  add('Oppettider', p.hours);
+  add('Restriktioner', p.restrictions);
+  add('Kontakt', p.contact);
+
+  if (p.source_url) {
+    add('Kalla', `<a href="${p.source_url}" target="_blank" rel="noopener">${new URL(p.source_url).hostname}</a>`);
+  }
+
+  // Payment apps
+  if (op?.payment_apps?.length) {
+    const tags = op.payment_apps.map(a => `<span class="detail-tag">${a}</span>`).join('');
+    add('Betalning', `<div class="detail-tags">${tags}</div>`);
+  }
+
+  // Confidence
+  if (p.confidence != null) {
+    const pct = Math.round(p.confidence * 100);
+    const color = pct >= 80 ? 'var(--green)' : pct >= 60 ? 'var(--accent)' : '#f87171';
+    add('Konfidens', `${pct}% <div class="confidence-bar"><div class="confidence-fill" style="width:${pct}%;background:${color}"></div></div>`);
+  }
+
+  add('Verifierad', p.last_verified);
+
+  // Flags
+  let flagsHtml = '';
+  if (p.flags?.length) {
+    flagsHtml = '<div class="detail-flags">' + p.flags.map(f => `<span class="detail-flag">${f}</span>`).join('') + '</div>';
+  }
+
+  document.getElementById('detail-body').innerHTML = rows.join('') + flagsHtml;
+  panel.classList.add('open');
+}
+
+function typeLabel(t) {
+  const labels = {garage:'Garage',outdoor:'Utomhus',underground:'Underjordisk',street:'Gatuparkering',lot:'Parkeringsplats'};
+  return labels[t] || t;
+}
+
+document.getElementById('detail-close').onclick = () => {
+  document.getElementById('detail').classList.remove('open');
+};
+
+document.getElementById('search').addEventListener('input', e => {
+  searchTerm = e.target.value;
+  render();
+});
+
+// Close detail on map click
+map.on('click', () => document.getElementById('detail').classList.remove('open'));
+
+loadData();
+</script>
+</body>
+</html>
