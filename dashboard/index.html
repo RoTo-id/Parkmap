@@ -180,7 +180,7 @@ header select:hover, header button:hover { border-color: var(--accent-blue); }
 
 .stats-row {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 12px;
   margin-bottom: 16px;
 }
@@ -324,6 +324,22 @@ footer button:hover { border-color: var(--accent-blue); color: var(--text-primar
 ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
 
+/* Phone scan flags */
+.popup-flag.scan {
+  background: rgba(74,158,255,0.15); color: var(--accent-blue);
+}
+.scan-tooltip {
+  background: var(--bg-card) !important;
+  color: var(--text-primary) !important;
+  border: 1px solid var(--accent-blue) !important;
+  font-family: 'DM Sans', sans-serif !important;
+  font-size: 11px !important;
+  padding: 3px 8px !important;
+  border-radius: 4px !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4) !important;
+}
+.scan-tooltip::before { border-top-color: var(--accent-blue) !important; }
+
 /* Empty states */
 .empty { color: var(--text-muted); font-size: 12px; font-style: italic; padding: 8px; }
 </style>
@@ -372,6 +388,7 @@ footer button:hover { border-color: var(--accent-blue); color: var(--text-primar
       <div class="stat-card"><div class="value" id="statOps">--</div><div class="label">operators found</div></div>
       <div class="stat-card"><div class="value" id="statMapped">--</div><div class="label">mapped w/owner</div></div>
       <div class="stat-card"><div class="value" id="statConfidence">--</div><div class="label">avg confidence</div></div>
+      <div class="stat-card"><div class="value" id="statScanned">--</div><div class="label">phone scanned</div></div>
     </div>
 
     <div class="panel-section">
@@ -430,6 +447,7 @@ const OP_COLORS = {
   swedavia: '#f87171',
   galaren: '#fbbf24',
   easypark: '#06b6d4',
+  epark: '#10b981',
   parkster: '#ec4899',
   unknown: '#565b72',
 };
@@ -487,7 +505,18 @@ function loadMapData(geojson, preserveView = false) {
     pointToLayer: (feature, latlng) => {
       const props = feature.properties || {};
       const color = opColor(props.operator || 'unknown');
-      return L.circleMarker(latlng, { radius: 7, fillColor: color, fillOpacity: 0.6, color: color, weight: 1 });
+      const isPhoneScan = (props.flags || []).some(f => f.includes('phone_scan'));
+      const apps = props.payment_apps || [];
+      const r = isPhoneScan ? 9 : 7;
+      const w = isPhoneScan ? 2.5 : 1;
+      const marker = L.circleMarker(latlng, {
+        radius: r, fillColor: color, fillOpacity: isPhoneScan ? 0.8 : 0.6,
+        color: isPhoneScan ? '#e4e6ee' : color, weight: w,
+      });
+      if (isPhoneScan && apps.length) {
+        marker.bindTooltip(apps.join(' + '), { permanent: false, direction: 'top', className: 'scan-tooltip' });
+      }
+      return marker;
     },
     onEachFeature: (feature, layer) => {
       layer.on('click', () => showPopup(feature, layer));
@@ -508,20 +537,28 @@ function loadMapData(geojson, preserveView = false) {
 function showPopup(feature, layer) {
   const p = feature.properties || {};
   const flags = p.flags || [];
+  const apps = p.payment_apps || [];
   let html = `<div class="popup-title">${flags.length ? '&#9888; ' : ''}${p.name || p.id || 'Unknown'}</div>`;
   html += `<div class="popup-operator">${p.operator || 'Unknown operator'}</div>`;
   if (p.zone_code) html += `<div class="popup-row"><span class="lbl">Zone</span><span>${p.zone_code}</span></div>`;
   if (p.price_per_hour) html += `<div class="popup-row"><span class="lbl">Price</span><span>${p.price_per_hour} SEK/h</span></div>`;
   if (p.hours) html += `<div class="popup-row"><span class="lbl">Hours</span><span>${p.hours}</span></div>`;
   if (p.spots) html += `<div class="popup-row"><span class="lbl">Spots</span><span>${p.spots}</span></div>`;
+  if (apps.length) html += `<div class="popup-row"><span class="lbl">Pay via</span><span>${apps.join(', ')}</span></div>`;
+  if (p.parkster_name && p.parkster_name !== p.name) html += `<div class="popup-row"><span class="lbl">Parkster</span><span>${p.parkster_name}</span></div>`;
+  if (p.epark_name && p.epark_name !== p.name) html += `<div class="popup-row"><span class="lbl">e-park</span><span>${p.epark_name}</span></div>`;
+  if (p.parkster_address) html += `<div class="popup-row"><span class="lbl">Address</span><span>${p.parkster_address}</span></div>`;
   if (p.confidence != null) html += `<div class="popup-row"><span class="lbl">Confidence</span><span>${Math.round(p.confidence * 100)}%</span></div>`;
   if (p.source) html += `<div class="popup-row"><span class="lbl">Source</span><span>${p.source}</span></div>`;
   if (flags.length) {
     html += `<div class="popup-flags">`;
-    flags.forEach(f => html += `<span class="popup-flag">${f}</span>`);
+    flags.forEach(f => {
+      const cls = f.includes('phone_scan') ? 'popup-flag scan' : 'popup-flag';
+      html += `<span class="${cls}">${f}</span>`;
+    });
     html += `</div>`;
   }
-  layer.bindPopup(html, { maxWidth: 280 }).openPopup();
+  layer.bindPopup(html, { maxWidth: 300 }).openPopup();
 }
 
 function zoomToZone(lat, lng) {
@@ -601,19 +638,24 @@ async function selectCity(key, preserveView = false) {
   // Stats
   const features = data.geojson?.features || [];
   const ops = {};
-  let totalConf = 0, confCount = 0, mapped = 0;
+  let totalConf = 0, confCount = 0, mapped = 0, scanned = 0;
+  const appSet = new Set();
   features.forEach(f => {
     const p = f.properties || {};
     const op = p.operator || 'unknown';
     ops[op] = (ops[op] || 0) + 1;
     if (p.confidence != null) { totalConf += p.confidence; confCount++; }
     if (op !== 'unknown') mapped++;
+    const flags = p.flags || [];
+    if (flags.some(fl => fl.includes('phone_scan'))) scanned++;
+    (p.payment_apps || []).forEach(a => appSet.add(a));
   });
 
   document.getElementById('statZones').textContent = features.length;
   document.getElementById('statOps').textContent = Object.keys(ops).filter(k=>k!=='unknown').length;
   document.getElementById('statMapped').textContent = mapped;
   document.getElementById('statConfidence').textContent = confCount ? Math.round(totalConf/confCount*100)+'%' : '--';
+  document.getElementById('statScanned').textContent = scanned || '--';
 
   // Operators
   const opList = document.getElementById('operatorList');
@@ -752,31 +794,85 @@ async function loadPipeline() {
 }
 
 async function loadPhone() {
-  const data = await fetchJSON('/api/phone/status');
-  if (!data) return;
-  const scans = data.scans || [];
   const phoneList = document.getElementById('phoneList');
 
-  const cfg = await fetchJSON('/api/config');
-  const backend = cfg?.vision_backend || 'ollama';
-  document.getElementById('phoneMeta').textContent = `Vision: ${backend === 'gemini' ? 'Gemini Flash' : 'LLaVA (local)'}`;
+  // Try API first
+  const data = await fetchJSON('/api/phone/status');
+  if (data && data.scans && data.scans.length > 0) {
+    const scans = data.scans;
+    const cfg = await fetchJSON('/api/config');
+    const backend = cfg?.vision_backend || 'ollama';
+    document.getElementById('phoneMeta').textContent = `Vision: ${backend === 'gemini' ? 'Gemini Flash' : 'LLaVA (local)'}`;
+    phoneList.innerHTML = '';
+    scans.forEach(s => {
+      const div = document.createElement('div');
+      div.className = 'phone-row';
+      const dur = s.duration ? Math.round(s.duration) + 's' : '--';
+      const isOk = s.status === 'ok' || s.zones > 0;
+      div.innerHTML = `
+        <span class="app">${s.app||'?'}</span>
+        <span class="zones">${s.zones} zones</span>
+        <span class="dur">${dur}</span>
+        <span class="status ${isOk?'ok':'warn'}">${s.status||'?'}</span>
+      `;
+      phoneList.appendChild(div);
+    });
+    return;
+  }
 
-  if (scans.length === 0) { phoneList.innerHTML = '<div class="empty">No phone scans</div>'; return; }
+  // Fallback: derive phone scan info from geojson metadata + features
+  const cityData = selectedCity ? await fetchJSON(`/api/city/${selectedCity}`) : null;
+  const meta = cityData?.geojson?.metadata?.phone_scan_merge;
+  const features = cityData?.geojson?.features || [];
 
-  phoneList.innerHTML = '';
-  scans.forEach(s => {
-    const div = document.createElement('div');
-    div.className = 'phone-row';
-    const dur = s.duration ? Math.round(s.duration) + 's' : '--';
-    const isOk = s.status === 'ok' || s.zones > 0;
-    div.innerHTML = `
-      <span class="app">${s.app||'?'}</span>
-      <span class="zones">${s.zones} zones</span>
-      <span class="dur">${dur}</span>
-      <span class="status ${isOk?'ok':'warn'}">${s.status||'?'}</span>
+  if (meta) {
+    document.getElementById('phoneMeta').textContent = `Merged: ${meta.merge_date}`;
+    phoneList.innerHTML = '';
+
+    // Count zones per app from features
+    const appZones = {};
+    features.forEach(f => {
+      const flags = f.properties?.flags || [];
+      const apps = f.properties?.payment_apps || [];
+      flags.forEach(fl => {
+        if (fl === 'parkster' || fl === 'epark') appZones[fl] = (appZones[fl] || 0) + 1;
+      });
+      apps.forEach(a => { appZones[a] = (appZones[a] || 0) + 1; });
+    });
+
+    const scanApps = [
+      { app: 'Parkster', zones: meta.parkster_zones, status: 'ok' },
+      { app: 'e-park', zones: meta.epark_zones, status: 'ok' },
+    ];
+    scanApps.forEach(s => {
+      const div = document.createElement('div');
+      div.className = 'phone-row';
+      div.innerHTML = `
+        <span class="app">${s.app}</span>
+        <span class="zones">${s.zones} zones</span>
+        <span class="dur">ADB</span>
+        <span class="status ok">${s.status}</span>
+      `;
+      phoneList.appendChild(div);
+    });
+
+    // Summary row
+    const sumDiv = document.createElement('div');
+    sumDiv.className = 'phone-row';
+    sumDiv.style.borderTop = '1px solid var(--border)';
+    sumDiv.style.marginTop = '4px';
+    sumDiv.style.paddingTop = '6px';
+    sumDiv.innerHTML = `
+      <span class="app" style="color:var(--text-muted)">Total</span>
+      <span class="zones">${meta.new_zones_added} new</span>
+      <span class="dur">${meta.enriched_existing} upd</span>
+      <span class="status ok">merged</span>
     `;
-    phoneList.appendChild(div);
-  });
+    phoneList.appendChild(sumDiv);
+  } else {
+    document.getElementById('phoneMeta').textContent = '';
+    phoneList.innerHTML = '<div class="empty">No phone scans</div>';
+  }
 }
 
 async function loadDocumentation() {

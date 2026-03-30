@@ -2,18 +2,29 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-03-30T10:15:41.567915+00:00",
+    "generated": "2026-03-30T16:51:49.158765+00:00",
     "source": "ParkMap Sverige — Maxine Platform Agent Pipeline",
     "region": "Norrbotten",
     "city": "lulea",
     "scrape_type": "deep",
     "agent_run_id": "lulea-deep-20260326T215927",
-    "zone_count": 677,
+    "zone_count": 688,
     "osm_merge": {
       "osm_source": "output/osm_parking_lulea.geojson",
       "upgraded_geometries": 53,
       "new_osm_zones": 587,
       "no_osm_match": 37,
+      "merge_date": "2026-03-30"
+    },
+    "cleanup": {
+      "removed_water": 0,
+      "removed_rectangles": 4
+    },
+    "phone_scan_merge": {
+      "parkster_zones": 8,
+      "epark_zones": 9,
+      "enriched_existing": 2,
+      "new_zones_added": 15,
       "merge_date": "2026-03-30"
     }
   },
@@ -2166,59 +2177,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "luleå-ap-056",
-        "name": "Luleå P-hus #056",
-        "operator": "aimopark",
-        "municipality": "Luleå",
-        "region": "Norrbotten",
-        "type": "garage",
-        "zone_code": "1130",
-        "spots": 170,
-        "price_per_hour": 5,
-        "currency": "SEK",
-        "hours": "Mon-Fri 08-20, Saturday 08-16: For every started 20 min - 7 SEK",
-        "restrictions": "1h/d: 5 kr, 1h/d: 11 kr",
-        "contact": "010-498 54 00",
-        "source_url": "https://www.aimopark.se/en/cities/lulea/p-hus-smedjan/",
-        "confidence": 0.7999999999999999,
-        "flags": [
-          "new_zone",
-          "needs_review",
-          "no_osm_match"
-        ],
-        "last_verified": "2026-03-26"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              22.1485,
-              65.5838
-            ],
-            [
-              22.151,
-              65.5838
-            ],
-            [
-              22.151,
-              65.5848
-            ],
-            [
-              22.1485,
-              65.5848
-            ],
-            [
-              22.1485,
-              65.5838
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "luleå-ap-058",
         "name": "Luleå Parkering #058",
         "operator": "aimopark",
@@ -2441,59 +2399,6 @@
             [
               22.1547691,
               65.5828429
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "luleå-ap-062",
-        "name": "Luleå Parkering #062",
-        "operator": "aimopark",
-        "municipality": "Luleå",
-        "region": "Norrbotten",
-        "type": "outdoor",
-        "zone_code": "1119",
-        "spots": null,
-        "price_per_hour": 8,
-        "currency": "SEK",
-        "hours": null,
-        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr, 30h/d: 670 kr",
-        "contact": "010-498 54 00",
-        "source_url": "https://www.aimopark.se/en/cities/lulea/kronan/",
-        "confidence": 0.7999999999999999,
-        "flags": [
-          "new_zone",
-          "needs_review",
-          "no_osm_match"
-        ],
-        "last_verified": "2026-03-26"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              22.118,
-              65.573
-            ],
-            [
-              22.126,
-              65.573
-            ],
-            [
-              22.126,
-              65.5755
-            ],
-            [
-              22.118,
-              65.5755
-            ],
-            [
-              22.118,
-              65.573
             ]
           ]
         ]
@@ -3622,59 +3527,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "luleå-ap-089",
-        "name": "Luleå Parkering #089",
-        "operator": "aimopark",
-        "municipality": "Luleå",
-        "region": "Norrbotten",
-        "type": "outdoor",
-        "zone_code": "1203",
-        "spots": null,
-        "price_per_hour": 8,
-        "currency": "SEK",
-        "hours": "Every day 00-24: 1 h - 8 SEK",
-        "restrictions": "1h/d: 8 kr, 24h/d: 40 kr, 30h/d: 665 kr",
-        "contact": "010-498 54 00",
-        "source_url": "https://www.aimopark.se/en/cities/lulea/laboratorievagen-21-33/",
-        "confidence": 0.7999999999999999,
-        "flags": [
-          "price_changed",
-          "needs_review",
-          "no_osm_match"
-        ],
-        "last_verified": "2026-03-26"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              22.152,
-              65.566
-            ],
-            [
-              22.159,
-              65.566
-            ],
-            [
-              22.159,
-              65.568
-            ],
-            [
-              22.152,
-              65.568
-            ],
-            [
-              22.152,
-              65.566
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "luleå-ap-090",
         "name": "Luleå Parkering #090",
         "operator": "aimopark",
@@ -4161,9 +4013,14 @@
           "needs_review",
           "new_zone",
           "low_confidence",
-          "no_osm_match"
+          "no_osm_match",
+          "phone_scan_enriched"
         ],
-        "last_verified": "2026-03-26"
+        "last_verified": "2026-03-26",
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_name": "Lulebo"
       },
       "geometry": {
         "type": "Point",
@@ -4564,57 +4421,6 @@
             [
               22.2045819,
               65.5799612
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "luleå-lb-004",
-        "name": "Lulebo — Bergnäset",
-        "operator": "lulebo",
-        "municipality": "Luleå",
-        "region": "Norrbotten",
-        "type": "outdoor",
-        "zone_code": "Lulebo besök",
-        "spots": null,
-        "price_per_hour": 7.0,
-        "currency": "SEK",
-        "hours": "Dygnet runt, alla dagar",
-        "restrictions": "40.0 kr/dygn. Stadsdelscentrum: 2h gratis med P-skiva",
-        "contact": "0920-23 67 00",
-        "source_url": "https://www.lulebo.se/artikel/besoksparkeringar",
-        "confidence": 0.9,
-        "flags": [
-          "no_osm_match"
-        ],
-        "last_verified": "2026-03-26"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              22.125,
-              65.572
-            ],
-            [
-              22.134,
-              65.572
-            ],
-            [
-              22.134,
-              65.5745
-            ],
-            [
-              22.125,
-              65.5745
-            ],
-            [
-              22.125,
-              65.572
             ]
           ]
         ]
@@ -46686,6 +46492,565 @@
               65.8560248
             ]
           ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-ps-9202",
+        "name": "Blå zon",
+        "operator": "kommun",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "street",
+        "zone_code": "9202",
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.7,
+        "flags": [
+          "phone_scan",
+          "parkster"
+        ],
+        "last_verified": "2026-03-30",
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_name": "Blå zon",
+        "parkster_address": "Luleå Kommun Centrum, Gatumark, Luleå"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1465,
+          65.5842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-ps-9222",
+        "name": "Grön zon",
+        "operator": "kommun",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "street",
+        "zone_code": "9222",
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.7,
+        "flags": [
+          "phone_scan",
+          "parkster"
+        ],
+        "last_verified": "2026-03-30",
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_name": "Grön zon",
+        "parkster_address": "Luleå Kommun, Luleå"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1465,
+          65.5842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-ps-61537",
+        "name": "Sandviksgatan, Stationsgatan",
+        "operator": "kommun",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "61537",
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.7,
+        "flags": [
+          "phone_scan",
+          "parkster"
+        ],
+        "last_verified": "2026-03-30",
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_name": "Sandviksgatan, Stationsgatan",
+        "parkster_address": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1465,
+          65.5842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-ps-9204",
+        "name": "Kulturens Hus",
+        "operator": "kommun",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "garage",
+        "zone_code": "9204",
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.7,
+        "flags": [
+          "phone_scan",
+          "parkster"
+        ],
+        "last_verified": "2026-03-30",
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_name": "Kulturens Hus",
+        "parkster_address": "Luleå Kommun P-hus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1465,
+          65.5842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-ps-9205",
+        "name": "Karpens P-hus",
+        "operator": "kommun",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "garage",
+        "zone_code": "9205",
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.7,
+        "flags": [
+          "phone_scan",
+          "parkster"
+        ],
+        "last_verified": "2026-03-30",
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_name": "Karpens P-hus",
+        "parkster_address": "Luleå Kommun P-hus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1465,
+          65.5842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-ps-2110",
+        "name": "Gul zon",
+        "operator": "kommun",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "street",
+        "zone_code": "2110",
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.7,
+        "flags": [
+          "phone_scan",
+          "parkster",
+          "phone_scan_enriched"
+        ],
+        "last_verified": "2026-03-30",
+        "payment_apps": [
+          "parkster",
+          "epark"
+        ],
+        "parkster_name": "Gul zon",
+        "parkster_address": "Luleå Kommun Södra Kungsgatan/Småbåtsgatan/Bangårdsgatan",
+        "epark_name": "Södra Kungsgatan / Småbåtsgatan / Bangårdsgatan / Exercisvägen / Krondalsvägen",
+        "epark_operator": "Luleå Kommun"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1465,
+          65.5842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-ps-9201",
+        "name": "Röd zon",
+        "operator": "kommun",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "street",
+        "zone_code": "9201",
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.7,
+        "flags": [
+          "phone_scan",
+          "parkster"
+        ],
+        "last_verified": "2026-03-30",
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_name": "Röd zon",
+        "parkster_address": "Luleå Kommun Centrum, Gatumark, Luleå"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1465,
+          65.5842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-ep-2101",
+        "name": "Zon 1",
+        "operator": "kommun",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "street",
+        "zone_code": "2101",
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.7,
+        "flags": [
+          "phone_scan",
+          "epark"
+        ],
+        "last_verified": "2026-03-30",
+        "payment_apps": [
+          "epark"
+        ],
+        "epark_name": "Zon 1",
+        "epark_operator": "Luleå Kommun"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1465,
+          65.5842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-ep-2102",
+        "name": "Zon 2",
+        "operator": "kommun",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "street",
+        "zone_code": "2102",
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.7,
+        "flags": [
+          "phone_scan",
+          "epark"
+        ],
+        "last_verified": "2026-03-30",
+        "payment_apps": [
+          "epark"
+        ],
+        "epark_name": "Zon 2",
+        "epark_operator": "Luleå Kommun"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1465,
+          65.5842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-ep-2103",
+        "name": "Zon 3",
+        "operator": "kommun",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "street",
+        "zone_code": "2103",
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.7,
+        "flags": [
+          "phone_scan",
+          "epark"
+        ],
+        "last_verified": "2026-03-30",
+        "payment_apps": [
+          "epark"
+        ],
+        "epark_name": "Zon 3",
+        "epark_operator": "Luleå Kommun"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1465,
+          65.5842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-ep-2104",
+        "name": "Zon 4",
+        "operator": "kommun",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "street",
+        "zone_code": "2104",
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.7,
+        "flags": [
+          "phone_scan",
+          "epark"
+        ],
+        "last_verified": "2026-03-30",
+        "payment_apps": [
+          "epark"
+        ],
+        "epark_name": "Zon 4",
+        "epark_operator": "Luleå Kommun"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1465,
+          65.5842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-ep-2106",
+        "name": "Karpens P-Hus",
+        "operator": "kommun",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "garage",
+        "zone_code": "2106",
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.7,
+        "flags": [
+          "phone_scan",
+          "epark"
+        ],
+        "last_verified": "2026-03-30",
+        "payment_apps": [
+          "epark"
+        ],
+        "epark_name": "Karpens P-Hus",
+        "epark_operator": "Luleå Kommun"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1465,
+          65.5842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-ep-2107",
+        "name": "Kulturens Hus P-Hus",
+        "operator": "kommun",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "garage",
+        "zone_code": "2107",
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.7,
+        "flags": [
+          "phone_scan",
+          "epark"
+        ],
+        "last_verified": "2026-03-30",
+        "payment_apps": [
+          "epark"
+        ],
+        "epark_name": "Kulturens Hus P-Hus",
+        "epark_operator": "Luleå Kommun"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1465,
+          65.5842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-ep-2108",
+        "name": "Norrbottensteatern",
+        "operator": "kommun",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "street",
+        "zone_code": "2108",
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.7,
+        "flags": [
+          "phone_scan",
+          "epark"
+        ],
+        "last_verified": "2026-03-30",
+        "payment_apps": [
+          "epark"
+        ],
+        "epark_name": "Norrbottensteatern",
+        "epark_operator": "Luleå Kommun"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1465,
+          65.5842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-ep-2109",
+        "name": "Porsöhallen",
+        "operator": "kommun",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "street",
+        "zone_code": "2109",
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.7,
+        "flags": [
+          "phone_scan",
+          "epark"
+        ],
+        "last_verified": "2026-03-30",
+        "payment_apps": [
+          "epark"
+        ],
+        "epark_name": "Porsöhallen",
+        "epark_operator": "Luleå Kommun"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1465,
+          65.5842
         ]
       }
     }
