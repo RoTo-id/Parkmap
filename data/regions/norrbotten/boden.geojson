@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-03-31T05:05:31.800335+00:00",
+    "generated": "2026-03-31T09:46:14.712172+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Norrbotten",
     "city": "boden",
@@ -11,23 +11,27 @@
     "agent_run_id": "boden-osm-bootstrap",
     "zone_count": 149,
     "bootstrap": {
-      "osm_source": "output/osm_parking_boden.geojson",
+      "osm_source": "output\\osm_parking_boden.geojson",
       "zones_imported": 149,
       "bootstrap_date": "2026-03-31"
     },
     "operator_identification": {
       "before_unknown": 149,
-      "aimo_matched": 0,
+      "after_unknown": 88,
+      "total_identified": 61,
+      "per_operator": {
+        "aimopark": 39,
+        "kommun": 22
+      },
+      "aimo_matched": 39,
       "lulebo_matched": 0,
-      "kommun_matched": 0,
-      "after_unknown": 92,
-      "total_identified": 57,
+      "kommun_matched": 22,
       "run_date": "2026-03-31"
     },
     "osm_reclassification": {
       "private_property": 7,
       "free_parking": 7,
-      "kommun_street_side": 2,
+      "kommun_street_side": 1,
       "needs_identification": 0,
       "osm_operator_mapped": 0,
       "lulebo_district": 0,
@@ -36,11 +40,11 @@
       "note_matched": 0,
       "access_yes_free": 1,
       "fee_confirmed_unknown": 0,
-      "genuinely_unknown": 70,
-      "before": 92,
-      "after": 70,
+      "genuinely_unknown": 67,
+      "before": 88,
+      "after": 67,
       "total": 149,
-      "coverage_pct": 53.0,
+      "coverage_pct": 55.0,
       "run_date": "2026-03-31"
     }
   },
@@ -422,23 +426,22 @@
       "properties": {
         "id": "boden-osm-336669149",
         "name": "OSM-336669149",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1074",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": null,
+        "source_url": "https://www.aimopark.se/en/cities/boden/mandelvagen-17-21/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 336669149,
@@ -447,7 +450,12 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "mandelvagen-17-21",
+        "aimopark_distance_m": 89.5,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -746,22 +754,22 @@
       "properties": {
         "id": "boden-osm-440519367",
         "name": "OSM-440519367",
-        "operator": "kommun",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1189",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 9,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 9 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.55,
+        "source_url": "https://www.aimopark.se/en/cities/boden/kvarngatan-4--hellgrensgatan-5/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 440519367,
@@ -771,10 +779,10 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "kommun_district": "Centrum",
+        "aimopark_name": "kvarngatan-4--hellgrensgatan-5",
+        "aimopark_distance_m": 66.0,
         "payment_apps": [
-          "easypark",
-          "parkster"
+          "aimo"
         ]
       },
       "geometry": {
@@ -878,22 +886,22 @@
       "properties": {
         "id": "boden-osm-440519371",
         "name": "OSM-440519371",
-        "operator": "kommun",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1074",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.55,
+        "source_url": "https://www.aimopark.se/en/cities/boden/fargaregatan-8-10--drottninggatan-6/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 440519371,
@@ -903,10 +911,10 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "kommun_district": "Centrum",
+        "aimopark_name": "fargaregatan-8-10--drottninggatan-6",
+        "aimopark_distance_m": 146.0,
         "payment_apps": [
-          "easypark",
-          "parkster"
+          "aimo"
         ]
       },
       "geometry": {
@@ -958,22 +966,22 @@
       "properties": {
         "id": "boden-osm-440662756",
         "name": "OSM-440662756",
-        "operator": "kommun",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1074",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.55,
+        "source_url": "https://www.aimopark.se/en/cities/boden/kyrkgatan-28--brogatan-5-7/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 440662756,
@@ -983,10 +991,10 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "kommun_district": "Centrum",
+        "aimopark_name": "kyrkgatan-28--brogatan-5-7",
+        "aimopark_distance_m": 152.4,
         "payment_apps": [
-          "easypark",
-          "parkster"
+          "aimo"
         ]
       },
       "geometry": {
@@ -1182,22 +1190,22 @@
       "properties": {
         "id": "boden-osm-557132017",
         "name": "OSM-557132017",
-        "operator": "kommun",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1074",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.55,
+        "source_url": "https://www.aimopark.se/en/cities/boden/snorres-grand-56--mjolners-grand-5-7/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 557132017,
@@ -1207,10 +1215,10 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "kommun_district": "Centrum",
+        "aimopark_name": "snorres-grand-56--mjolners-grand-5-7",
+        "aimopark_distance_m": 152.6,
         "payment_apps": [
-          "easypark",
-          "parkster"
+          "aimo"
         ]
       },
       "geometry": {
@@ -3190,22 +3198,22 @@
       "properties": {
         "id": "boden-osm-1004595429",
         "name": "OSM-1004595429",
-        "operator": "kommun",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1074",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.55,
+        "source_url": "https://www.aimopark.se/en/cities/boden/jakobsgatan-17-39/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1004595429,
@@ -3215,10 +3223,10 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "kommun_district": "Centrum",
+        "aimopark_name": "jakobsgatan-17-39",
+        "aimopark_distance_m": 104.5,
         "payment_apps": [
-          "easypark",
-          "parkster"
+          "aimo"
         ]
       },
       "geometry": {
@@ -3254,22 +3262,22 @@
       "properties": {
         "id": "boden-osm-1004595443",
         "name": "OSM-1004595443",
-        "operator": "kommun",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1074",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.55,
+        "source_url": "https://www.aimopark.se/en/cities/boden/egils-grand-1-3--iduns-vag-6--lokes-vag/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1004595443,
@@ -3279,10 +3287,10 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "kommun_district": "Centrum",
+        "aimopark_name": "egils-grand-1-3--iduns-vag-6--lokes-vag",
+        "aimopark_distance_m": 179.1,
         "payment_apps": [
-          "easypark",
-          "parkster"
+          "aimo"
         ]
       },
       "geometry": {
@@ -3330,22 +3338,22 @@
       "properties": {
         "id": "boden-osm-1004597364",
         "name": "OSM-1004597364",
-        "operator": "kommun",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1074",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.55,
+        "source_url": "https://www.aimopark.se/en/cities/boden/snorres-grand-56--mjolners-grand-5-7/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1004597364,
@@ -3355,10 +3363,10 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "kommun_district": "Centrum",
+        "aimopark_name": "snorres-grand-56--mjolners-grand-5-7",
+        "aimopark_distance_m": 91.8,
         "payment_apps": [
-          "easypark",
-          "parkster"
+          "aimo"
         ]
       },
       "geometry": {
@@ -3610,22 +3618,22 @@
       "properties": {
         "id": "boden-osm-1076039763",
         "name": "OSM-1076039763",
-        "operator": "kommun",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1189",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 9,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 9 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.55,
+        "source_url": "https://www.aimopark.se/en/cities/boden/garnisonsgatan-15-a-b/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1076039763,
@@ -3635,10 +3643,10 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "kommun_district": "Centrum",
+        "aimopark_name": "garnisonsgatan-15-a-b",
+        "aimopark_distance_m": 194.5,
         "payment_apps": [
-          "easypark",
-          "parkster"
+          "aimo"
         ]
       },
       "geometry": {
@@ -3678,22 +3686,22 @@
       "properties": {
         "id": "boden-osm-1076039782",
         "name": "OSM-1076039782",
-        "operator": "kommun",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1189",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 9,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 9 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.55,
+        "source_url": "https://www.aimopark.se/en/cities/boden/garnisonsgatan-15-a-b/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1076039782,
@@ -3703,10 +3711,10 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "kommun_district": "Centrum",
+        "aimopark_name": "garnisonsgatan-15-a-b",
+        "aimopark_distance_m": 143.6,
         "payment_apps": [
-          "easypark",
-          "parkster"
+          "aimo"
         ]
       },
       "geometry": {
@@ -3742,22 +3750,22 @@
       "properties": {
         "id": "boden-osm-1076562415",
         "name": "OSM-1076562415",
-        "operator": "kommun",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1074",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.55,
+        "source_url": "https://www.aimopark.se/en/cities/boden/sturegatan-18-c-e/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1076562415,
@@ -3767,10 +3775,10 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "kommun_district": "Centrum",
+        "aimopark_name": "sturegatan-18-c-e",
+        "aimopark_distance_m": 36.6,
         "payment_apps": [
-          "easypark",
-          "parkster"
+          "aimo"
         ]
       },
       "geometry": {
@@ -3806,22 +3814,22 @@
       "properties": {
         "id": "boden-osm-1078147593",
         "name": "OSM-1078147593",
-        "operator": "kommun",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1074",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.55,
+        "source_url": "https://www.aimopark.se/en/cities/boden/kyrkgatan-28--brogatan-5-7/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1078147593,
@@ -3831,10 +3839,10 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "kommun_district": "Centrum",
+        "aimopark_name": "kyrkgatan-28--brogatan-5-7",
+        "aimopark_distance_m": 75.6,
         "payment_apps": [
-          "easypark",
-          "parkster"
+          "aimo"
         ]
       },
       "geometry": {
@@ -4018,22 +4026,22 @@
       "properties": {
         "id": "boden-osm-1078147653",
         "name": "OSM-1078147653",
-        "operator": "kommun",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1074",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.55,
+        "source_url": "https://www.aimopark.se/en/cities/boden/garnisonsgatan-53-57/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1078147653,
@@ -4043,10 +4051,10 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "kommun_district": "Centrum",
+        "aimopark_name": "garnisonsgatan-53-57",
+        "aimopark_distance_m": 134.6,
         "payment_apps": [
-          "easypark",
-          "parkster"
+          "aimo"
         ]
       },
       "geometry": {
@@ -4302,22 +4310,22 @@
       "properties": {
         "id": "boden-osm-1078742275",
         "name": "OSM-1078742275",
-        "operator": "kommun",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1003",
         "spots": null,
         "price_per_hour": null,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: For every started 20 min - 6 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.55,
+        "source_url": "https://www.aimopark.se/en/cities/boden/kyrkgatan-37-41--fargaregatan/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1078742275,
@@ -4327,10 +4335,10 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "kommun_district": "Centrum",
+        "aimopark_name": "kyrkgatan-37-41--fargaregatan",
+        "aimopark_distance_m": 129.9,
         "payment_apps": [
-          "easypark",
-          "parkster"
+          "aimo"
         ]
       },
       "geometry": {
@@ -4366,22 +4374,22 @@
       "properties": {
         "id": "boden-osm-1078786583",
         "name": "OSM-1078786583",
-        "operator": "kommun",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1074",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.55,
+        "source_url": "https://www.aimopark.se/en/cities/boden/brogatan-47--majorsgatan-3-7/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1078786583,
@@ -4391,10 +4399,10 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "kommun_district": "Centrum",
+        "aimopark_name": "brogatan-47--majorsgatan-3-7",
+        "aimopark_distance_m": 55.4,
         "payment_apps": [
-          "easypark",
-          "parkster"
+          "aimo"
         ]
       },
       "geometry": {
@@ -4550,22 +4558,22 @@
       "properties": {
         "id": "boden-osm-1078786629",
         "name": "OSM-1078786629",
-        "operator": "kommun",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1074",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.55,
+        "source_url": "https://www.aimopark.se/en/cities/boden/soldatgatan-16/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1078786629,
@@ -4575,10 +4583,10 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "kommun_district": "Centrum",
+        "aimopark_name": "soldatgatan-16",
+        "aimopark_distance_m": 187.6,
         "payment_apps": [
-          "easypark",
-          "parkster"
+          "aimo"
         ]
       },
       "geometry": {
@@ -4674,22 +4682,22 @@
       "properties": {
         "id": "boden-osm-1078786669",
         "name": "OSM-1078786669",
-        "operator": "kommun",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1074",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.55,
+        "source_url": "https://www.aimopark.se/en/cities/boden/soldatgatan-16/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1078786669,
@@ -4699,10 +4707,10 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "kommun_district": "Centrum",
+        "aimopark_name": "soldatgatan-16",
+        "aimopark_distance_m": 167.8,
         "payment_apps": [
-          "easypark",
-          "parkster"
+          "aimo"
         ]
       },
       "geometry": {
@@ -4742,22 +4750,22 @@
       "properties": {
         "id": "boden-osm-1082863937",
         "name": "OSM-1082863937",
-        "operator": "kommun",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1189",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 9,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 9 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.55,
+        "source_url": "https://www.aimopark.se/en/cities/boden/garnisonsgatan-15-a-b/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1082863937,
@@ -4767,10 +4775,10 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "kommun_district": "Centrum",
+        "aimopark_name": "garnisonsgatan-15-a-b",
+        "aimopark_distance_m": 43.7,
         "payment_apps": [
-          "easypark",
-          "parkster"
+          "aimo"
         ]
       },
       "geometry": {
@@ -4818,22 +4826,22 @@
       "properties": {
         "id": "boden-osm-1082863940",
         "name": "OSM-1082863940",
-        "operator": "kommun",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1189",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 9,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 9 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.55,
+        "source_url": "https://www.aimopark.se/en/cities/boden/garnisonsgatan-15-a-b/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1082863940,
@@ -4843,10 +4851,10 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "kommun_district": "Centrum",
+        "aimopark_name": "garnisonsgatan-15-a-b",
+        "aimopark_distance_m": 155.8,
         "payment_apps": [
-          "easypark",
-          "parkster"
+          "aimo"
         ]
       },
       "geometry": {
@@ -5074,22 +5082,22 @@
       "properties": {
         "id": "boden-osm-1082863958",
         "name": "OSM-1082863958",
-        "operator": "kommun",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1189",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 9,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 9 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.55,
+        "source_url": "https://www.aimopark.se/en/cities/boden/smedjegatan-6-gard/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1082863958,
@@ -5099,10 +5107,10 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "kommun_district": "Centrum",
+        "aimopark_name": "smedjegatan-6-gard",
+        "aimopark_distance_m": 107.1,
         "payment_apps": [
-          "easypark",
-          "parkster"
+          "aimo"
         ]
       },
       "geometry": {
@@ -5146,22 +5154,22 @@
       "properties": {
         "id": "boden-osm-1082863962",
         "name": "OSM-1082863962",
-        "operator": "kommun",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1189",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 9,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 9 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.55,
+        "source_url": "https://www.aimopark.se/en/cities/boden/smedjegatan-6-gard/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1082863962,
@@ -5171,10 +5179,10 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "kommun_district": "Centrum",
+        "aimopark_name": "smedjegatan-6-gard",
+        "aimopark_distance_m": 122.4,
         "payment_apps": [
-          "easypark",
-          "parkster"
+          "aimo"
         ]
       },
       "geometry": {
@@ -5210,22 +5218,22 @@
       "properties": {
         "id": "boden-osm-1082863969",
         "name": "OSM-1082863969",
-        "operator": "kommun",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1189",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 9,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 9 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.55,
+        "source_url": "https://www.aimopark.se/en/cities/boden/smedjegatan-6-gard/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1082863969,
@@ -5235,10 +5243,10 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "kommun_district": "Centrum",
+        "aimopark_name": "smedjegatan-6-gard",
+        "aimopark_distance_m": 160.0,
         "payment_apps": [
-          "easypark",
-          "parkster"
+          "aimo"
         ]
       },
       "geometry": {
@@ -5466,23 +5474,22 @@
       "properties": {
         "id": "boden-osm-1093936604",
         "name": "OSM-1093936604",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1074",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": null,
+        "source_url": "https://www.aimopark.se/en/cities/boden/mandelvagen-17-21/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1093936604,
@@ -5491,7 +5498,12 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "mandelvagen-17-21",
+        "aimopark_distance_m": 31.5,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -5526,22 +5538,22 @@
       "properties": {
         "id": "boden-osm-1094117311",
         "name": "OSM-1094117311",
-        "operator": "kommun",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1189",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 9,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 9 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.55,
+        "source_url": "https://www.aimopark.se/en/cities/boden/garnisonsgatan-15-a-b/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1094117311,
@@ -5551,10 +5563,10 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "kommun_district": "Centrum",
+        "aimopark_name": "garnisonsgatan-15-a-b",
+        "aimopark_distance_m": 69.2,
         "payment_apps": [
-          "easypark",
-          "parkster"
+          "aimo"
         ]
       },
       "geometry": {
@@ -5674,22 +5686,22 @@
       "properties": {
         "id": "boden-osm-1095138011",
         "name": "OSM-1095138011",
-        "operator": "kommun",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1074",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.55,
+        "source_url": "https://www.aimopark.se/en/cities/boden/brannagatan-1--herkulesgatan-2/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1095138011,
@@ -5699,10 +5711,10 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "kommun_district": "Centrum",
+        "aimopark_name": "brannagatan-1--herkulesgatan-2",
+        "aimopark_distance_m": 193.4,
         "payment_apps": [
-          "easypark",
-          "parkster"
+          "aimo"
         ]
       },
       "geometry": {
@@ -6106,23 +6118,22 @@
       "properties": {
         "id": "boden-osm-1108296686",
         "name": "OSM-1108296686",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1191",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 11,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h – 11 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": null,
+        "source_url": "https://www.aimopark.se/en/cities/boden/teknikvagen-3-15-14-20/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1108296686,
@@ -6131,7 +6142,12 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "teknikvagen-3-15-14-20",
+        "aimopark_distance_m": 150.7,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -6242,23 +6258,22 @@
       "properties": {
         "id": "boden-osm-1112800542",
         "name": "OSM-1112800542",
-        "operator": "kommun",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "street",
-        "zone_code": null,
+        "zone_code": "1191",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 11,
         "currency": "SEK",
-        "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
+        "hours": "Every day 00-24: 1 h – 11 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/boden/teknikvagen-3-15-14-20/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified",
-          "street_side_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1112800542,
@@ -6267,7 +6282,12 @@
         "osm_fee": null,
         "osm_parking": "street_side",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "teknikvagen-3-15-14-20",
+        "aimopark_distance_m": 75.6,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -7709,22 +7729,22 @@
       "properties": {
         "id": "boden-osm-1424658546",
         "name": "OSM-1424658546",
-        "operator": "kommun",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1189",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 9,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 9 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.55,
+        "source_url": "https://www.aimopark.se/en/cities/boden/garnisonsgatan-15-a-b/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1424658546,
@@ -7734,10 +7754,10 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "kommun_district": "Centrum",
+        "aimopark_name": "garnisonsgatan-15-a-b",
+        "aimopark_distance_m": 126.4,
         "payment_apps": [
-          "easypark",
-          "parkster"
+          "aimo"
         ]
       },
       "geometry": {
@@ -8706,22 +8726,22 @@
       "properties": {
         "id": "boden-osm-1437116883",
         "name": "OSM-1437116883",
-        "operator": "kommun",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1074",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.55,
+        "source_url": "https://www.aimopark.se/en/cities/boden/ringvagen-27/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1437116883,
@@ -8731,10 +8751,10 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "kommun_district": "Centrum",
+        "aimopark_name": "ringvagen-27",
+        "aimopark_distance_m": 50.9,
         "payment_apps": [
-          "easypark",
-          "parkster"
+          "aimo"
         ]
       },
       "geometry": {
@@ -8790,22 +8810,22 @@
       "properties": {
         "id": "boden-osm-1437116886",
         "name": "OSM-1437116886",
-        "operator": "kommun",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1074",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.55,
+        "source_url": "https://www.aimopark.se/en/cities/boden/fargaregatan-8-10--drottninggatan-6/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1437116886,
@@ -8815,10 +8835,10 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "kommun_district": "Centrum",
+        "aimopark_name": "fargaregatan-8-10--drottninggatan-6",
+        "aimopark_distance_m": 24.7,
         "payment_apps": [
-          "easypark",
-          "parkster"
+          "aimo"
         ]
       },
       "geometry": {
@@ -8858,22 +8878,22 @@
       "properties": {
         "id": "boden-osm-1437116893",
         "name": "OSM-1437116893",
-        "operator": "kommun",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1074",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.55,
+        "source_url": "https://www.aimopark.se/en/cities/boden/fargaregatan-8-10--drottninggatan-6/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1437116893,
@@ -8883,10 +8903,10 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "kommun_district": "Centrum",
+        "aimopark_name": "fargaregatan-8-10--drottninggatan-6",
+        "aimopark_distance_m": 52.6,
         "payment_apps": [
-          "easypark",
-          "parkster"
+          "aimo"
         ]
       },
       "geometry": {
@@ -8922,22 +8942,22 @@
       "properties": {
         "id": "boden-osm-1437116897",
         "name": "OSM-1437116897",
-        "operator": "kommun",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1074",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.55,
+        "source_url": "https://www.aimopark.se/en/cities/boden/fargaregatan-8-10--drottninggatan-6/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1437116897,
@@ -8947,10 +8967,10 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "kommun_district": "Centrum",
+        "aimopark_name": "fargaregatan-8-10--drottninggatan-6",
+        "aimopark_distance_m": 118.5,
         "payment_apps": [
-          "easypark",
-          "parkster"
+          "aimo"
         ]
       },
       "geometry": {
@@ -8990,22 +9010,22 @@
       "properties": {
         "id": "boden-osm-1437143591",
         "name": "OSM-1437143591",
-        "operator": "kommun",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1074",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.55,
+        "source_url": "https://www.aimopark.se/en/cities/boden/garnisonsgatan-53-57/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1437143591,
@@ -9015,10 +9035,10 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "kommun_district": "Centrum",
+        "aimopark_name": "garnisonsgatan-53-57",
+        "aimopark_distance_m": 165.8,
         "payment_apps": [
-          "easypark",
-          "parkster"
+          "aimo"
         ]
       },
       "geometry": {
@@ -9058,22 +9078,22 @@
       "properties": {
         "id": "boden-osm-1437143592",
         "name": "OSM-1437143592",
-        "operator": "kommun",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1074",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.55,
+        "source_url": "https://www.aimopark.se/en/cities/boden/garnisonsgatan-53-57/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1437143592,
@@ -9083,10 +9103,10 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "kommun_district": "Centrum",
+        "aimopark_name": "garnisonsgatan-53-57",
+        "aimopark_distance_m": 195.0,
         "payment_apps": [
-          "easypark",
-          "parkster"
+          "aimo"
         ]
       },
       "geometry": {
@@ -9410,22 +9430,22 @@
       "properties": {
         "id": "boden-osm-1441603298",
         "name": "OSM-1441603298",
-        "operator": "kommun",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1074",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.55,
+        "source_url": "https://www.aimopark.se/en/cities/boden/lundagardsgatan-6-12--parkgatan-1-3/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1441603298,
@@ -9435,10 +9455,10 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "kommun_district": "Centrum",
+        "aimopark_name": "lundagardsgatan-6-12--parkgatan-1-3",
+        "aimopark_distance_m": 186.2,
         "payment_apps": [
-          "easypark",
-          "parkster"
+          "aimo"
         ]
       },
       "geometry": {
@@ -9474,22 +9494,22 @@
       "properties": {
         "id": "boden-osm-1441603299",
         "name": "OSM-1441603299",
-        "operator": "kommun",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1074",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.55,
+        "source_url": "https://www.aimopark.se/en/cities/boden/lundagardsgatan-6-12--parkgatan-1-3/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1441603299,
@@ -9499,10 +9519,10 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "kommun_district": "Centrum",
+        "aimopark_name": "lundagardsgatan-6-12--parkgatan-1-3",
+        "aimopark_distance_m": 184.5,
         "payment_apps": [
-          "easypark",
-          "parkster"
+          "aimo"
         ]
       },
       "geometry": {
@@ -9972,22 +9992,22 @@
       "properties": {
         "id": "boden-osm-1441642056",
         "name": "OSM-1441642056",
-        "operator": "kommun",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1074",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.55,
+        "source_url": "https://www.aimopark.se/en/cities/boden/drottninggatan-29-31kyrkogardsgatan-4-6/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1441642056,
@@ -9997,10 +10017,10 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "kommun_district": "Centrum",
+        "aimopark_name": "drottninggatan-29-31kyrkogardsgatan-4-6",
+        "aimopark_distance_m": 126.8,
         "payment_apps": [
-          "easypark",
-          "parkster"
+          "aimo"
         ]
       },
       "geometry": {
@@ -10044,22 +10064,22 @@
       "properties": {
         "id": "boden-osm-1441642057",
         "name": "OSM-1441642057",
-        "operator": "kommun",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1074",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.55,
+        "source_url": "https://www.aimopark.se/en/cities/boden/drottninggatan-29-31kyrkogardsgatan-4-6/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1441642057,
@@ -10069,10 +10089,10 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "kommun_district": "Centrum",
+        "aimopark_name": "drottninggatan-29-31kyrkogardsgatan-4-6",
+        "aimopark_distance_m": 106.9,
         "payment_apps": [
-          "easypark",
-          "parkster"
+          "aimo"
         ]
       },
       "geometry": {
@@ -10108,22 +10128,22 @@
       "properties": {
         "id": "boden-osm-1441642058",
         "name": "OSM-1441642058",
-        "operator": "kommun",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1074",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.55,
+        "source_url": "https://www.aimopark.se/en/cities/boden/drottninggatan-29-31kyrkogardsgatan-4-6/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1441642058,
@@ -10133,10 +10153,10 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "kommun_district": "Centrum",
+        "aimopark_name": "drottninggatan-29-31kyrkogardsgatan-4-6",
+        "aimopark_distance_m": 85.7,
         "payment_apps": [
-          "easypark",
-          "parkster"
+          "aimo"
         ]
       },
       "geometry": {

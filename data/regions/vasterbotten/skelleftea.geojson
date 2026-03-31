@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-03-31T05:05:31.979494+00:00",
+    "generated": "2026-03-31T09:47:38.141357+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Västerbotten",
     "city": "skelleftea",
@@ -11,36 +11,41 @@
     "agent_run_id": "skelleftea-osm-bootstrap",
     "zone_count": 398,
     "bootstrap": {
-      "osm_source": "output/osm_parking_skelleftea.geojson",
+      "osm_source": "output\\osm_parking_skelleftea.geojson",
       "zones_imported": 398,
       "bootstrap_date": "2026-03-31"
     },
     "operator_identification": {
       "before_unknown": 398,
-      "aimo_matched": 0,
+      "after_unknown": 360,
+      "total_identified": 38,
+      "per_operator": {
+        "aimopark": 38,
+        "apcoa": 0,
+        "kommun": 0
+      },
+      "aimo_matched": 38,
       "lulebo_matched": 0,
       "kommun_matched": 0,
-      "after_unknown": 398,
-      "total_identified": 0,
       "run_date": "2026-03-31"
     },
     "osm_reclassification": {
-      "private_property": 44,
+      "private_property": 39,
       "free_parking": 27,
       "kommun_street_side": 13,
       "needs_identification": 0,
       "osm_operator_mapped": 0,
       "lulebo_district": 0,
-      "near_aimo": 0,
+      "near_aimo": 3,
       "rural_free": 124,
       "note_matched": 0,
-      "access_yes_free": 4,
-      "fee_confirmed_unknown": 6,
-      "genuinely_unknown": 180,
-      "before": 398,
-      "after": 186,
+      "access_yes_free": 3,
+      "fee_confirmed_unknown": 3,
+      "genuinely_unknown": 148,
+      "before": 360,
+      "after": 151,
       "total": 398,
-      "coverage_pct": 53.3,
+      "coverage_pct": 62.1,
       "run_date": "2026-03-31"
     }
   },
@@ -661,23 +666,22 @@
       "properties": {
         "id": "skelleftea-osm-68882041",
         "name": "OSM-68882041",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1199",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: Free parking",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": null,
+        "source_url": "https://www.aimopark.se/en/cities/skelleftea/servicegatan-1/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 68882041,
@@ -686,7 +690,12 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "servicegatan-1",
+        "aimopark_distance_m": 170.2,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -1335,23 +1344,22 @@
       "properties": {
         "id": "skelleftea-osm-88371506",
         "name": "OSM-88371506",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1167",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 20,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 20 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": null,
+        "source_url": "https://www.aimopark.se/en/cities/skelleftea/stationsgatan-24--sodra-jarnvagsgatan-42/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "fee_confirmed_unknown"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 88371506,
@@ -1360,7 +1368,12 @@
         "osm_fee": "yes",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "stationsgatan-24--sodra-jarnvagsgatan-42",
+        "aimopark_distance_m": 125.4,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -1523,7 +1536,7 @@
       "properties": {
         "id": "skelleftea-osm-91795667",
         "name": "OSM-91795667",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -1535,11 +1548,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.55,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "near_aimo_zone"
         ],
         "last_verified": null,
         "osm_id": 91795667,
@@ -1747,23 +1759,22 @@
       "properties": {
         "id": "skelleftea-osm-91795697",
         "name": "OSM-91795697",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1223",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": null,
+        "source_url": "https://www.aimopark.se/en/cities/skelleftea/norra-jarnvagsgatan-9-11/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 91795697,
@@ -1772,7 +1783,12 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "norra-jarnvagsgatan-9-11",
+        "aimopark_distance_m": 118.6,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -2295,23 +2311,22 @@
       "properties": {
         "id": "skelleftea-osm-107063318",
         "name": "OSM-107063318",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1242",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 7 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": null,
+        "source_url": "https://www.aimopark.se/en/cities/skelleftea/frogatan-1-2-262/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 107063318,
@@ -2320,7 +2335,12 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "frogatan-1-2-262",
+        "aimopark_distance_m": 82.7,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -2774,23 +2794,22 @@
       "properties": {
         "id": "skelleftea-osm-123542422",
         "name": "OSM-123542422",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1061",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 12,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 12 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": null,
+        "source_url": "https://www.aimopark.se/en/cities/skelleftea/annastigen-23-garage/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 123542422,
@@ -2799,7 +2818,12 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "annastigen-23-garage",
+        "aimopark_distance_m": 123.8,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -3242,23 +3266,22 @@
       "properties": {
         "id": "skelleftea-osm-123620508",
         "name": "OSM-123620508",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1223",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": null,
+        "source_url": "https://www.aimopark.se/en/cities/skelleftea/norra-jarnvagsgatan-9-11/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "fee_confirmed_unknown"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 123620508,
@@ -3267,7 +3290,12 @@
         "osm_fee": "yes",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "norra-jarnvagsgatan-9-11",
+        "aimopark_distance_m": 109.3,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -3310,23 +3338,22 @@
       "properties": {
         "id": "skelleftea-osm-123620511",
         "name": "OSM-123620511",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1147",
         "spots": null,
         "price_per_hour": null,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Alla dagar 00-24: For every started 10 min - 3 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": null,
+        "source_url": "https://www.aimopark.se/en/cities/skelleftea/sodra-jarnvagsgatan-36/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 123620511,
@@ -3335,7 +3362,12 @@
         "osm_fee": "yes",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "sodra-jarnvagsgatan-36",
+        "aimopark_distance_m": 90.7,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -3386,23 +3418,22 @@
       "properties": {
         "id": "skelleftea-osm-123625160",
         "name": "OSM-123625160",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1147",
         "spots": null,
         "price_per_hour": null,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Alla dagar 00-24: For every started 10 min - 3 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": null,
+        "source_url": "https://www.aimopark.se/en/cities/skelleftea/sodra-jarnvagsgatan-36/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 123625160,
@@ -3411,7 +3442,12 @@
         "osm_fee": "yes",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "sodra-jarnvagsgatan-36",
+        "aimopark_distance_m": 136.2,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -3774,23 +3810,22 @@
       "properties": {
         "id": "skelleftea-osm-195643954",
         "name": "OSM-195643954",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1167",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 20,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 20 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": null,
+        "source_url": "https://www.aimopark.se/en/cities/skelleftea/stationsgatan-24--sodra-jarnvagsgatan-42/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 195643954,
@@ -3799,7 +3834,12 @@
         "osm_fee": "yes",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "stationsgatan-24--sodra-jarnvagsgatan-42",
+        "aimopark_distance_m": 28.5,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -3874,23 +3914,22 @@
       "properties": {
         "id": "skelleftea-osm-201482816",
         "name": "OSM-201482816",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1233",
         "spots": null,
         "price_per_hour": null,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: For every started 15 min - 6 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": null,
+        "source_url": "https://www.aimopark.se/en/cities/skelleftea/torggatan-32/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 201482816,
@@ -3899,7 +3938,12 @@
         "osm_fee": "yes",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "torggatan-32",
+        "aimopark_distance_m": 25.7,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -4090,23 +4134,22 @@
       "properties": {
         "id": "skelleftea-osm-203936338",
         "name": "OSM-203936338",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1012",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 6,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: Free parking",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": null,
+        "source_url": "https://www.aimopark.se/en/cities/skelleftea/uppfinnarvagen-4-48/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 203936338,
@@ -4115,7 +4158,12 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "uppfinnarvagen-4-48",
+        "aimopark_distance_m": 17.2,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -4182,23 +4230,22 @@
       "properties": {
         "id": "skelleftea-osm-203936339",
         "name": "OSM-203936339",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1012",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 6,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: Free parking",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": null,
+        "source_url": "https://www.aimopark.se/en/cities/skelleftea/uppfinnarvagen-4-48/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 203936339,
@@ -4207,7 +4254,12 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "uppfinnarvagen-4-48",
+        "aimopark_distance_m": 76.8,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -4274,23 +4326,22 @@
       "properties": {
         "id": "skelleftea-osm-203936340",
         "name": "OSM-203936340",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1012",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 6,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: Free parking",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": null,
+        "source_url": "https://www.aimopark.se/en/cities/skelleftea/uppfinnarvagen-4-48/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 203936340,
@@ -4299,7 +4350,12 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "uppfinnarvagen-4-48",
+        "aimopark_distance_m": 129.9,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -4334,23 +4390,22 @@
       "properties": {
         "id": "skelleftea-osm-203936341",
         "name": "OSM-203936341",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1012",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 6,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: Free parking",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": null,
+        "source_url": "https://www.aimopark.se/en/cities/skelleftea/uppfinnarvagen-4-48/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 203936341,
@@ -4359,7 +4414,12 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "uppfinnarvagen-4-48",
+        "aimopark_distance_m": 134.0,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -4466,7 +4526,7 @@
       "properties": {
         "id": "skelleftea-osm-204020765",
         "name": "OSM-204020765",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -4478,11 +4538,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.55,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "near_aimo_zone"
         ],
         "last_verified": null,
         "osm_id": 204020765,
@@ -4554,23 +4613,22 @@
       "properties": {
         "id": "skelleftea-osm-204026985",
         "name": "OSM-204026985",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1170",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 11,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Weekdays 08-17: 1 h - 11 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": null,
+        "source_url": "https://www.aimopark.se/en/cities/skelleftea/bockholmsvagen-6-8--villagatan-33/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 204026985,
@@ -4579,7 +4637,12 @@
         "osm_fee": "yes",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "bockholmsvagen-6-8--villagatan-33",
+        "aimopark_distance_m": 154.6,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -4614,23 +4677,22 @@
       "properties": {
         "id": "skelleftea-osm-204026986",
         "name": "OSM-204026986",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1170",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 11,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Weekdays 08-17: 1 h - 11 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": null,
+        "source_url": "https://www.aimopark.se/en/cities/skelleftea/bockholmsvagen-6-8--villagatan-33/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 204026986,
@@ -4639,7 +4701,12 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "bockholmsvagen-6-8--villagatan-33",
+        "aimopark_distance_m": 130.1,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -4734,23 +4801,22 @@
       "properties": {
         "id": "skelleftea-osm-204026988",
         "name": "OSM-204026988",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1170",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 11,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Weekdays 08-17: 1 h - 11 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": null,
+        "source_url": "https://www.aimopark.se/en/cities/skelleftea/bockholmsvagen-6-8--villagatan-33/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 204026988,
@@ -4759,7 +4825,12 @@
         "osm_fee": "yes",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "bockholmsvagen-6-8--villagatan-33",
+        "aimopark_distance_m": 170.2,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -4794,23 +4865,22 @@
       "properties": {
         "id": "skelleftea-osm-204026989",
         "name": "OSM-204026989",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1170",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 11,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Weekdays 08-17: 1 h - 11 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": null,
+        "source_url": "https://www.aimopark.se/en/cities/skelleftea/bockholmsvagen-6-8--villagatan-33/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 204026989,
@@ -4819,7 +4889,12 @@
         "osm_fee": "yes",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "bockholmsvagen-6-8--villagatan-33",
+        "aimopark_distance_m": 146.6,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -5487,23 +5562,22 @@
       "properties": {
         "id": "skelleftea-osm-255961156",
         "name": "OSM-255961156",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1233",
         "spots": null,
         "price_per_hour": null,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: For every started 15 min - 6 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": null,
+        "source_url": "https://www.aimopark.se/en/cities/skelleftea/torggatan-32/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 255961156,
@@ -5512,7 +5586,12 @@
         "osm_fee": "yes",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "torggatan-32",
+        "aimopark_distance_m": 87.3,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -7771,23 +7850,22 @@
       "properties": {
         "id": "skelleftea-osm-297699446",
         "name": "OSM-297699446",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1170",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 11,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Weekdays 08-17: 1 h - 11 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": null,
+        "source_url": "https://www.aimopark.se/en/cities/skelleftea/storgatan-65/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 297699446,
@@ -7796,7 +7874,12 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "storgatan-65",
+        "aimopark_distance_m": 124.9,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -8011,22 +8094,22 @@
       "properties": {
         "id": "skelleftea-osm-297699452",
         "name": "OSM-297699452",
-        "operator": "private_property",
+        "operator": "aimopark",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1170",
         "spots": null,
-        "price_per_hour": 0,
+        "price_per_hour": 11,
         "currency": "SEK",
-        "hours": null,
-        "restrictions": "Kunder",
+        "hours": "Weekdays 08-17: 1 h - 11 SEK",
+        "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.8,
+        "source_url": "https://www.aimopark.se/en/cities/skelleftea/storgatan-65/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 297699452,
@@ -8035,7 +8118,12 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "storgatan-65",
+        "aimopark_distance_m": 175.8,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -11724,22 +11812,22 @@
       "properties": {
         "id": "skelleftea-osm-360723016",
         "name": "OSM-360723016",
-        "operator": "private_property",
+        "operator": "aimopark",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1242",
         "spots": null,
-        "price_per_hour": 0,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 7 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.85,
+        "source_url": "https://www.aimopark.se/en/cities/skelleftea/anderstorpsleden-1-5/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 360723016,
@@ -11748,7 +11836,12 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "anderstorpsleden-1-5",
+        "aimopark_distance_m": 149.6,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -11842,23 +11935,22 @@
       "properties": {
         "id": "skelleftea-osm-360723019",
         "name": "OSM-360723019",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1242",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 7 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": null,
+        "source_url": "https://www.aimopark.se/en/cities/skelleftea/anderstorpsleden-1-5/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 360723019,
@@ -11867,7 +11959,12 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "anderstorpsleden-1-5",
+        "aimopark_distance_m": 115.6,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -11961,22 +12058,22 @@
       "properties": {
         "id": "skelleftea-osm-360821510",
         "name": "OSM-360821510",
-        "operator": "private_property",
+        "operator": "aimopark",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1242",
         "spots": null,
-        "price_per_hour": 0,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": null,
-        "restrictions": "Kunder",
+        "hours": "Every day 00-24: 1 h - 7 SEK",
+        "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.8,
+        "source_url": "https://www.aimopark.se/en/cities/skelleftea/anderstorpsleden-1-5/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 360821510,
@@ -11985,7 +12082,12 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "anderstorpsleden-1-5",
+        "aimopark_distance_m": 54.2,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -12020,22 +12122,22 @@
       "properties": {
         "id": "skelleftea-osm-360821511",
         "name": "OSM-360821511",
-        "operator": "private_property",
+        "operator": "aimopark",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1242",
         "spots": null,
-        "price_per_hour": 0,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 7 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.85,
+        "source_url": "https://www.aimopark.se/en/cities/skelleftea/anderstorpsleden-1-5/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 360821511,
@@ -12044,7 +12146,12 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "anderstorpsleden-1-5",
+        "aimopark_distance_m": 142.7,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -12138,23 +12245,22 @@
       "properties": {
         "id": "skelleftea-osm-360821513",
         "name": "OSM-360821513",
-        "operator": "free_parking",
+        "operator": "aimopark",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1242",
         "spots": null,
-        "price_per_hour": 0,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 7 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.55,
+        "source_url": "https://www.aimopark.se/en/cities/skelleftea/anderstorpsleden-1-5/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified",
-          "access_yes_free"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 360821513,
@@ -12163,7 +12269,12 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "anderstorpsleden-1-5",
+        "aimopark_distance_m": 122.0,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -13620,23 +13731,22 @@
       "properties": {
         "id": "skelleftea-osm-369838174",
         "name": "OSM-369838174",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1167",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 20,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 20 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": null,
+        "source_url": "https://www.aimopark.se/en/cities/skelleftea/stationsgatan-24--sodra-jarnvagsgatan-42/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 369838174,
@@ -13645,7 +13755,12 @@
         "osm_fee": "yes",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "stationsgatan-24--sodra-jarnvagsgatan-42",
+        "aimopark_distance_m": 152.1,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -14183,23 +14298,22 @@
       "properties": {
         "id": "skelleftea-osm-404925248",
         "name": "OSM-404925248",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1167",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 20,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 20 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": null,
+        "source_url": "https://www.aimopark.se/en/cities/skelleftea/stationsgatan-24--sodra-jarnvagsgatan-42/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 404925248,
@@ -14208,7 +14322,12 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "stationsgatan-24--sodra-jarnvagsgatan-42",
+        "aimopark_distance_m": 161.4,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -14263,7 +14382,7 @@
       "properties": {
         "id": "skelleftea-osm-404925249",
         "name": "OSM-404925249",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -14275,11 +14394,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.55,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "near_aimo_zone"
         ],
         "last_verified": null,
         "osm_id": 404925249,
@@ -16618,23 +16736,22 @@
       "properties": {
         "id": "skelleftea-osm-553774437",
         "name": "OSM-553774437",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1228",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": null,
+        "source_url": "https://www.aimopark.se/en/cities/skelleftea/ploggatan-2-6/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 553774437,
@@ -16643,7 +16760,12 @@
         "osm_fee": "yes",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "ploggatan-2-6",
+        "aimopark_distance_m": 189.0,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -19136,23 +19258,22 @@
       "properties": {
         "id": "skelleftea-osm-997711007",
         "name": "OSM-997711007",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1242",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 7 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": null,
+        "source_url": "https://www.aimopark.se/en/cities/skelleftea/lovgrand-2/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 997711007,
@@ -19161,7 +19282,12 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "lovgrand-2",
+        "aimopark_distance_m": 149.7,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -19680,23 +19806,22 @@
       "properties": {
         "id": "skelleftea-osm-997791650",
         "name": "OSM-997791650",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1223",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": null,
+        "source_url": "https://www.aimopark.se/en/cities/skelleftea/norra-jarnvagsgatan-9-11/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 997791650,
@@ -19705,7 +19830,12 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "norra-jarnvagsgatan-9-11",
+        "aimopark_distance_m": 161.8,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -22937,23 +23067,22 @@
       "properties": {
         "id": "skelleftea-osm-1159209383",
         "name": "OSM-1159209383",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1163",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 7 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": null,
+        "source_url": "https://www.aimopark.se/en/cities/skelleftea/skiftesgatan-1-95-2-96/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1159209383,
@@ -22962,7 +23091,12 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "skiftesgatan-1-95-2-96",
+        "aimopark_distance_m": 110.4,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -22997,23 +23131,22 @@
       "properties": {
         "id": "skelleftea-osm-1159209385",
         "name": "OSM-1159209385",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1163",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 7 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": null,
+        "source_url": "https://www.aimopark.se/en/cities/skelleftea/skiftesgatan-1-95-2-96/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1159209385,
@@ -23022,7 +23155,12 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "skiftesgatan-1-95-2-96",
+        "aimopark_distance_m": 95.6,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -23490,22 +23628,22 @@
       "properties": {
         "id": "skelleftea-osm-1255722299",
         "name": "OSM-1255722299",
-        "operator": "private_property",
+        "operator": "aimopark",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1242",
         "spots": null,
-        "price_per_hour": 0,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 7 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.85,
+        "source_url": "https://www.aimopark.se/en/cities/skelleftea/frogatan-1-2-262/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1255722299,
@@ -23514,7 +23652,12 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "frogatan-1-2-262",
+        "aimopark_distance_m": 131.6,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -23925,23 +24068,22 @@
       "properties": {
         "id": "skelleftea-osm-1354482605",
         "name": "OSM-1354482605",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1233",
         "spots": null,
         "price_per_hour": null,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: For every started 15 min - 6 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": null,
+        "source_url": "https://www.aimopark.se/en/cities/skelleftea/torggatan-32/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "fee_confirmed_unknown"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1354482605,
@@ -23950,7 +24092,12 @@
         "osm_fee": "yes",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "torggatan-32",
+        "aimopark_distance_m": 131.8,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -25395,23 +25542,22 @@
       "properties": {
         "id": "skelleftea-osm-1429718114",
         "name": "OSM-1429718114",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1242",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 7 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": null,
+        "source_url": "https://www.aimopark.se/en/cities/skelleftea/anderstorpsleden-1-5/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1429718114,
@@ -25420,7 +25566,12 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "anderstorpsleden-1-5",
+        "aimopark_distance_m": 124.7,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -25455,23 +25606,22 @@
       "properties": {
         "id": "skelleftea-osm-1429718115",
         "name": "OSM-1429718115",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1242",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 7 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": null,
+        "source_url": "https://www.aimopark.se/en/cities/skelleftea/anderstorpsleden-1-5/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1429718115,
@@ -25480,7 +25630,12 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "anderstorpsleden-1-5",
+        "aimopark_distance_m": 47.2,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -25519,23 +25674,22 @@
       "properties": {
         "id": "skelleftea-osm-1429718116",
         "name": "OSM-1429718116",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1242",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 7 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": null,
+        "source_url": "https://www.aimopark.se/en/cities/skelleftea/anderstorpsleden-1-5/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1429718116,
@@ -25544,7 +25698,12 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "anderstorpsleden-1-5",
+        "aimopark_distance_m": 151.8,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",

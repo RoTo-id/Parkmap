@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-03-31T05:05:31.867749+00:00",
+    "generated": "2026-03-31T09:47:38.029583+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Norrbotten",
     "city": "pitea",
@@ -11,36 +11,40 @@
     "agent_run_id": "pitea-osm-bootstrap",
     "zone_count": 207,
     "bootstrap": {
-      "osm_source": "output/osm_parking_pitea.geojson",
+      "osm_source": "output\\osm_parking_pitea.geojson",
       "zones_imported": 207,
       "bootstrap_date": "2026-03-31"
     },
     "operator_identification": {
       "before_unknown": 207,
-      "aimo_matched": 0,
+      "after_unknown": 200,
+      "total_identified": 7,
+      "per_operator": {
+        "aimopark": 7,
+        "kommun": 0
+      },
+      "aimo_matched": 7,
       "lulebo_matched": 0,
       "kommun_matched": 0,
-      "after_unknown": 207,
-      "total_identified": 0,
       "run_date": "2026-03-31"
     },
     "osm_reclassification": {
-      "private_property": 31,
-      "free_parking": 19,
+      "private_property": 29,
+      "free_parking": 16,
       "kommun_street_side": 5,
       "needs_identification": 2,
       "osm_operator_mapped": 2,
       "lulebo_district": 0,
-      "near_aimo": 0,
+      "near_aimo": 1,
       "rural_free": 16,
       "note_matched": 0,
       "access_yes_free": 1,
       "fee_confirmed_unknown": 8,
-      "genuinely_unknown": 123,
-      "before": 207,
-      "after": 133,
+      "genuinely_unknown": 120,
+      "before": 200,
+      "after": 130,
       "total": 207,
-      "coverage_pct": 35.7,
+      "coverage_pct": 37.2,
       "run_date": "2026-03-31"
     }
   },
@@ -2268,23 +2272,22 @@
       "properties": {
         "id": "pitea-osm-314262731",
         "name": "OSM-314262731",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Piteå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1033",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": null,
+        "source_url": "https://www.aimopark.se/en/cities/pitea/pitea-sjukhus/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 314262731,
@@ -2293,7 +2296,12 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "pitea-sjukhus",
+        "aimopark_distance_m": 186.8,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -2328,22 +2336,22 @@
       "properties": {
         "id": "pitea-osm-314262972",
         "name": "OSM-314262972",
-        "operator": "private_property",
+        "operator": "aimopark",
         "municipality": "Piteå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1033",
         "spots": null,
-        "price_per_hour": 0,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.85,
+        "source_url": "https://www.aimopark.se/en/cities/pitea/pitea-sjukhus/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 314262972,
@@ -2352,7 +2360,12 @@
         "osm_fee": "yes",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "pitea-sjukhus",
+        "aimopark_distance_m": 140.5,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -2395,22 +2408,22 @@
       "properties": {
         "id": "pitea-osm-314262973",
         "name": "OSM-314262973",
-        "operator": "free_parking",
+        "operator": "aimopark",
         "municipality": "Piteå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1033",
         "spots": null,
-        "price_per_hour": 0,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.7,
+        "source_url": "https://www.aimopark.se/en/cities/pitea/pitea-sjukhus/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 314262973,
@@ -2419,7 +2432,12 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "pitea-sjukhus",
+        "aimopark_distance_m": 105.1,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -2454,22 +2472,22 @@
       "properties": {
         "id": "pitea-osm-314262974",
         "name": "OSM-314262974",
-        "operator": "free_parking",
+        "operator": "aimopark",
         "municipality": "Piteå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1033",
         "spots": null,
-        "price_per_hour": 0,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.85,
+        "source_url": "https://www.aimopark.se/en/cities/pitea/pitea-sjukhus/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 314262974,
@@ -2478,7 +2496,12 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "pitea-sjukhus",
+        "aimopark_distance_m": 106.6,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -2521,22 +2544,22 @@
       "properties": {
         "id": "pitea-osm-314262975",
         "name": "OSM-314262975",
-        "operator": "free_parking",
+        "operator": "aimopark",
         "municipality": "Piteå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1033",
         "spots": null,
-        "price_per_hour": 0,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.7,
+        "source_url": "https://www.aimopark.se/en/cities/pitea/pitea-sjukhus/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 314262975,
@@ -2545,7 +2568,12 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "pitea-sjukhus",
+        "aimopark_distance_m": 63.6,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -3010,22 +3038,22 @@
       "properties": {
         "id": "pitea-osm-316456841",
         "name": "OSM-316456841",
-        "operator": "private_property",
+        "operator": "aimopark",
         "municipality": "Piteå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1033",
         "spots": null,
-        "price_per_hour": 0,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.85,
+        "source_url": "https://www.aimopark.se/en/cities/pitea/pitea-sjukhus/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 316456841,
@@ -3034,7 +3062,12 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "pitea-sjukhus",
+        "aimopark_distance_m": 120.2,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -3069,7 +3102,7 @@
       "properties": {
         "id": "pitea-osm-316601477",
         "name": "OSM-316601477",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Piteå",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -3081,11 +3114,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.55,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "near_aimo_zone"
         ],
         "last_verified": null,
         "osm_id": 316601477,
@@ -8002,23 +8034,22 @@
       "properties": {
         "id": "pitea-osm-699520576",
         "name": "OSM-699520576",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Piteå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1033",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": null,
+        "source_url": "https://www.aimopark.se/en/cities/pitea/pitea-sjukhus/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 699520576,
@@ -8027,7 +8058,12 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "pitea-sjukhus",
+        "aimopark_distance_m": 198.7,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
