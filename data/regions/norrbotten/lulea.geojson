@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-03-31T04:29:54.811574+00:00",
+    "generated": "2026-03-31T14:55:30.310031+00:00",
     "source": "ParkMap Sverige — Maxine Platform Agent Pipeline",
     "region": "Norrbotten",
     "city": "lulea",
@@ -40,12 +40,19 @@
       "merge_date": "2026-03-30"
     },
     "operator_identification": {
-      "before_unknown": 88,
-      "aimo_matched": 0,
-      "lulebo_matched": 49,
+      "before_unknown": 9,
+      "after_unknown": 8,
+      "total_identified": 1,
+      "per_operator": {
+        "aimopark": 13,
+        "apcoa": 0,
+        "lulebo": 0,
+        "swedavia": 0,
+        "kommun": 0
+      },
+      "aimo_matched": 13,
+      "lulebo_matched": 0,
       "kommun_matched": 0,
-      "after_unknown": 39,
-      "total_identified": 49,
       "run_date": "2026-03-31"
     },
     "osm_reclassification": {
@@ -56,12 +63,12 @@
       "osm_operator_mapped": 0,
       "lulebo_district": 0,
       "near_aimo": 0,
-      "rural_free": 29,
+      "rural_free": 0,
       "note_matched": 0,
-      "access_yes_free": 1,
+      "access_yes_free": 0,
       "fee_confirmed_unknown": 1,
       "genuinely_unknown": 8,
-      "before": 39,
+      "before": 9,
       "after": 9,
       "total": 686,
       "coverage_pct": 98.7,
@@ -9957,7 +9964,7 @@
       "properties": {
         "id": "lulea-osm-49169387",
         "name": "Parkering (OSM #49169387)",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -9969,18 +9976,23 @@
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/49169387",
-        "confidence": 0.4,
+        "confidence": 0.82,
         "flags": [
-          "unknown_operator",
           "osm_imported",
-          "fee_confirmed_unknown"
+          "fee_confirmed_unknown",
+          "aimopark_location_override"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 49169387,
         "osm_access": "yes",
         "osm_fee": "yes",
         "osm_surface": null,
-        "osm_operator": null
+        "osm_operator": null,
+        "payment_apps": [
+          "aimo"
+        ],
+        "aimopark_location": "Sunderby sjukhus",
+        "aimopark_distance_m": 225.0
       },
       "geometry": {
         "type": "Polygon",
@@ -10055,7 +10067,7 @@
       "properties": {
         "id": "lulea-osm-49169388",
         "name": "OSM-49169388",
-        "operator": "free_parking",
+        "operator": "aimopark",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -10067,10 +10079,11 @@
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/49169388",
-        "confidence": 0.45,
+        "confidence": 0.82,
         "flags": [
           "osm_imported",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "aimopark_location_override"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 49169388,
@@ -10078,7 +10091,12 @@
         "osm_fee": null,
         "osm_surface": null,
         "osm_operator": null,
-        "source_note": "13.8 km från centrum, ingen avgiftstagg"
+        "source_note": "13.8 km från centrum, ingen avgiftstagg",
+        "payment_apps": [
+          "aimo"
+        ],
+        "aimopark_location": "Sunderby sjukhus",
+        "aimopark_distance_m": 308.9
       },
       "geometry": {
         "type": "Polygon",
@@ -10153,7 +10171,7 @@
       "properties": {
         "id": "lulea-osm-49169393",
         "name": "OSM-49169393",
-        "operator": "free_parking",
+        "operator": "aimopark",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -10165,10 +10183,11 @@
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/49169393",
-        "confidence": 0.45,
+        "confidence": 0.82,
         "flags": [
           "osm_imported",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "aimopark_location_override"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 49169393,
@@ -10176,7 +10195,12 @@
         "osm_fee": null,
         "osm_surface": null,
         "osm_operator": null,
-        "source_note": "13.8 km från centrum, ingen avgiftstagg"
+        "source_note": "13.8 km från centrum, ingen avgiftstagg",
+        "payment_apps": [
+          "aimo"
+        ],
+        "aimopark_location": "Sunderby sjukhus",
+        "aimopark_distance_m": 349.8
       },
       "geometry": {
         "type": "Polygon",
@@ -10271,7 +10295,7 @@
       "properties": {
         "id": "lulea-osm-49169394",
         "name": "OSM-49169394",
-        "operator": "free_parking",
+        "operator": "aimopark",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -10283,10 +10307,11 @@
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/49169394",
-        "confidence": 0.45,
+        "confidence": 0.82,
         "flags": [
           "osm_imported",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "aimopark_location_override"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 49169394,
@@ -10294,7 +10319,12 @@
         "osm_fee": null,
         "osm_surface": null,
         "osm_operator": null,
-        "source_note": "14.0 km från centrum, ingen avgiftstagg"
+        "source_note": "14.0 km från centrum, ingen avgiftstagg",
+        "payment_apps": [
+          "aimo"
+        ],
+        "aimopark_location": "Sunderby sjukhus",
+        "aimopark_distance_m": 232.0
       },
       "geometry": {
         "type": "Polygon",
@@ -10337,7 +10367,7 @@
       "properties": {
         "id": "lulea-osm-49169395",
         "name": "OSM-49169395",
-        "operator": "free_parking",
+        "operator": "aimopark",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -10349,10 +10379,11 @@
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/49169395",
-        "confidence": 0.45,
+        "confidence": 0.82,
         "flags": [
           "osm_imported",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "aimopark_location_override"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 49169395,
@@ -10360,7 +10391,12 @@
         "osm_fee": null,
         "osm_surface": null,
         "osm_operator": null,
-        "source_note": "14.0 km från centrum, ingen avgiftstagg"
+        "source_note": "14.0 km från centrum, ingen avgiftstagg",
+        "payment_apps": [
+          "aimo"
+        ],
+        "aimopark_location": "Sunderby sjukhus",
+        "aimopark_distance_m": 224.9
       },
       "geometry": {
         "type": "Polygon",
@@ -10395,7 +10431,7 @@
       "properties": {
         "id": "lulea-osm-49169396",
         "name": "OSM-49169396",
-        "operator": "free_parking",
+        "operator": "aimopark",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -10407,10 +10443,11 @@
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/49169396",
-        "confidence": 0.45,
+        "confidence": 0.82,
         "flags": [
           "osm_imported",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "aimopark_location_override"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 49169396,
@@ -10418,7 +10455,12 @@
         "osm_fee": null,
         "osm_surface": null,
         "osm_operator": null,
-        "source_note": "14.1 km från centrum, ingen avgiftstagg"
+        "source_note": "14.1 km från centrum, ingen avgiftstagg",
+        "payment_apps": [
+          "aimo"
+        ],
+        "aimopark_location": "Sunderby sjukhus",
+        "aimopark_distance_m": 207.0
       },
       "geometry": {
         "type": "Polygon",
@@ -12017,7 +12059,7 @@
       "properties": {
         "id": "lulea-osm-62197739",
         "name": "OSM-62197739",
-        "operator": "free_parking",
+        "operator": "aimopark",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -12029,10 +12071,11 @@
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/62197739",
-        "confidence": 0.45,
+        "confidence": 0.82,
         "flags": [
           "osm_imported",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "aimopark_location_override"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 62197739,
@@ -12040,7 +12083,12 @@
         "osm_fee": null,
         "osm_surface": null,
         "osm_operator": null,
-        "source_note": "13.6 km från centrum, ingen avgiftstagg"
+        "source_note": "13.6 km från centrum, ingen avgiftstagg",
+        "payment_apps": [
+          "aimo"
+        ],
+        "aimopark_location": "Sunderby sjukhus",
+        "aimopark_distance_m": 532.5
       },
       "geometry": {
         "type": "Polygon",
@@ -32939,7 +32987,7 @@
       "properties": {
         "id": "lulea-osm-537064645",
         "name": "OSM-537064645",
-        "operator": "free_parking",
+        "operator": "aimopark",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -32951,10 +32999,11 @@
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/537064645",
-        "confidence": 0.45,
+        "confidence": 0.82,
         "flags": [
           "osm_imported",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "aimopark_location_override"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 537064645,
@@ -32962,7 +33011,12 @@
         "osm_fee": null,
         "osm_surface": null,
         "osm_operator": null,
-        "source_note": "14.3 km från centrum, ingen avgiftstagg"
+        "source_note": "14.3 km från centrum, ingen avgiftstagg",
+        "payment_apps": [
+          "aimo"
+        ],
+        "aimopark_location": "Sunderby sjukhus",
+        "aimopark_distance_m": 203.5
       },
       "geometry": {
         "type": "Polygon",
@@ -41567,7 +41621,7 @@
       "properties": {
         "id": "lulea-osm-1284271352",
         "name": "OSM-1284271352",
-        "operator": "free_parking",
+        "operator": "aimopark",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -41579,17 +41633,23 @@
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/1284271352",
-        "confidence": 0.7,
+        "confidence": 0.82,
         "flags": [
           "osm_imported",
-          "osm_reclassified"
+          "osm_reclassified",
+          "aimopark_location_override"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 1284271352,
         "osm_access": "permissive",
         "osm_fee": null,
         "osm_surface": null,
-        "osm_operator": null
+        "osm_operator": null,
+        "payment_apps": [
+          "aimo"
+        ],
+        "aimopark_location": "Sunderby sjukhus",
+        "aimopark_distance_m": 458.2
       },
       "geometry": {
         "type": "Polygon",
@@ -42127,7 +42187,7 @@
       "properties": {
         "id": "lulea-osm-1288174719",
         "name": "OSM-1288174719",
-        "operator": "free_parking",
+        "operator": "aimopark",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -42139,10 +42199,11 @@
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/1288174719",
-        "confidence": 0.45,
+        "confidence": 0.82,
         "flags": [
           "osm_imported",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "aimopark_location_override"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 1288174719,
@@ -42150,7 +42211,12 @@
         "osm_fee": null,
         "osm_surface": null,
         "osm_operator": null,
-        "source_note": "14.0 km från centrum, ingen avgiftstagg"
+        "source_note": "14.0 km från centrum, ingen avgiftstagg",
+        "payment_apps": [
+          "aimo"
+        ],
+        "aimopark_location": "Sunderby sjukhus",
+        "aimopark_distance_m": 128.8
       },
       "geometry": {
         "type": "Polygon",
@@ -42193,7 +42259,7 @@
       "properties": {
         "id": "lulea-osm-1288174720",
         "name": "OSM-1288174720",
-        "operator": "free_parking",
+        "operator": "aimopark",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -42205,10 +42271,11 @@
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/1288174720",
-        "confidence": 0.45,
+        "confidence": 0.82,
         "flags": [
           "osm_imported",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "aimopark_location_override"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 1288174720,
@@ -42216,7 +42283,12 @@
         "osm_fee": null,
         "osm_surface": null,
         "osm_operator": null,
-        "source_note": "14.0 km från centrum, ingen avgiftstagg"
+        "source_note": "14.0 km från centrum, ingen avgiftstagg",
+        "payment_apps": [
+          "aimo"
+        ],
+        "aimopark_location": "Sunderby sjukhus",
+        "aimopark_distance_m": 105.7
       },
       "geometry": {
         "type": "Polygon",
@@ -42275,7 +42347,7 @@
       "properties": {
         "id": "lulea-osm-1288175140",
         "name": "OSM-1288175140",
-        "operator": "free_parking",
+        "operator": "aimopark",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -42287,10 +42359,11 @@
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/1288175140",
-        "confidence": 0.45,
+        "confidence": 0.82,
         "flags": [
           "osm_imported",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "aimopark_location_override"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 1288175140,
@@ -42298,7 +42371,12 @@
         "osm_fee": null,
         "osm_surface": null,
         "osm_operator": null,
-        "source_note": "14.1 km från centrum, ingen avgiftstagg"
+        "source_note": "14.1 km från centrum, ingen avgiftstagg",
+        "payment_apps": [
+          "aimo"
+        ],
+        "aimopark_location": "Sunderby sjukhus",
+        "aimopark_distance_m": 140.2
       },
       "geometry": {
         "type": "Polygon",
@@ -42337,7 +42415,7 @@
       "properties": {
         "id": "lulea-osm-1288176968",
         "name": "OSM-1288176968",
-        "operator": "free_parking",
+        "operator": "aimopark",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -42349,10 +42427,11 @@
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/1288176968",
-        "confidence": 0.45,
+        "confidence": 0.82,
         "flags": [
           "osm_imported",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "aimopark_location_override"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 1288176968,
@@ -42360,7 +42439,12 @@
         "osm_fee": null,
         "osm_surface": null,
         "osm_operator": null,
-        "source_note": "14.2 km från centrum, ingen avgiftstagg"
+        "source_note": "14.2 km från centrum, ingen avgiftstagg",
+        "payment_apps": [
+          "aimo"
+        ],
+        "aimopark_location": "Sunderby sjukhus",
+        "aimopark_distance_m": 196.2
       },
       "geometry": {
         "type": "Polygon",
