@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-03-31T04:22:01.882935+00:00",
+    "generated": "2026-03-31T04:29:54.811574+00:00",
     "source": "ParkMap Sverige — Maxine Platform Agent Pipeline",
     "region": "Norrbotten",
     "city": "lulea",
@@ -56,11 +56,15 @@
       "osm_operator_mapped": 0,
       "lulebo_district": 0,
       "near_aimo": 0,
-      "genuinely_unknown": 39,
+      "rural_free": 29,
+      "note_matched": 0,
+      "access_yes_free": 1,
+      "fee_confirmed_unknown": 1,
+      "genuinely_unknown": 8,
       "before": 39,
-      "after": 39,
+      "after": 9,
       "total": 686,
-      "coverage_pct": 94.3,
+      "coverage_pct": 98.7,
       "run_date": "2026-03-31"
     }
   },
@@ -9969,7 +9973,7 @@
         "flags": [
           "unknown_operator",
           "osm_imported",
-          "genuinely_unknown"
+          "fee_confirmed_unknown"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 49169387,
@@ -10050,31 +10054,31 @@
       "type": "Feature",
       "properties": {
         "id": "lulea-osm-49169388",
-        "name": "Parkering (OSM #49169388)",
-        "operator": "unknown",
+        "name": "OSM-49169388",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/49169388",
-        "confidence": 0.4,
+        "confidence": 0.45,
         "flags": [
-          "unknown_operator",
           "osm_imported",
-          "genuinely_unknown"
+          "rural_free_heuristic"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 49169388,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": null,
-        "osm_operator": null
+        "osm_operator": null,
+        "source_note": "13.8 km från centrum, ingen avgiftstagg"
       },
       "geometry": {
         "type": "Polygon",
@@ -10148,31 +10152,31 @@
       "type": "Feature",
       "properties": {
         "id": "lulea-osm-49169393",
-        "name": "Parkering (OSM #49169393)",
-        "operator": "unknown",
+        "name": "OSM-49169393",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/49169393",
-        "confidence": 0.4,
+        "confidence": 0.45,
         "flags": [
-          "unknown_operator",
           "osm_imported",
-          "genuinely_unknown"
+          "rural_free_heuristic"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 49169393,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": null,
-        "osm_operator": null
+        "osm_operator": null,
+        "source_note": "13.8 km från centrum, ingen avgiftstagg"
       },
       "geometry": {
         "type": "Polygon",
@@ -10266,31 +10270,31 @@
       "type": "Feature",
       "properties": {
         "id": "lulea-osm-49169394",
-        "name": "Parkering (OSM #49169394)",
-        "operator": "unknown",
+        "name": "OSM-49169394",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/49169394",
-        "confidence": 0.4,
+        "confidence": 0.45,
         "flags": [
-          "unknown_operator",
           "osm_imported",
-          "genuinely_unknown"
+          "rural_free_heuristic"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 49169394,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": null,
-        "osm_operator": null
+        "osm_operator": null,
+        "source_note": "14.0 km från centrum, ingen avgiftstagg"
       },
       "geometry": {
         "type": "Polygon",
@@ -10332,31 +10336,31 @@
       "type": "Feature",
       "properties": {
         "id": "lulea-osm-49169395",
-        "name": "Parkering (OSM #49169395)",
-        "operator": "unknown",
+        "name": "OSM-49169395",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/49169395",
-        "confidence": 0.4,
+        "confidence": 0.45,
         "flags": [
-          "unknown_operator",
           "osm_imported",
-          "genuinely_unknown"
+          "rural_free_heuristic"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 49169395,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": null,
-        "osm_operator": null
+        "osm_operator": null,
+        "source_note": "14.0 km från centrum, ingen avgiftstagg"
       },
       "geometry": {
         "type": "Polygon",
@@ -10390,31 +10394,31 @@
       "type": "Feature",
       "properties": {
         "id": "lulea-osm-49169396",
-        "name": "Parkering (OSM #49169396)",
-        "operator": "unknown",
+        "name": "OSM-49169396",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/49169396",
-        "confidence": 0.4,
+        "confidence": 0.45,
         "flags": [
-          "unknown_operator",
           "osm_imported",
-          "genuinely_unknown"
+          "rural_free_heuristic"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 49169396,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": null,
-        "osm_operator": null
+        "osm_operator": null,
+        "source_note": "14.1 km från centrum, ingen avgiftstagg"
       },
       "geometry": {
         "type": "Polygon",
@@ -12012,31 +12016,31 @@
       "type": "Feature",
       "properties": {
         "id": "lulea-osm-62197739",
-        "name": "Parkering (OSM #62197739)",
-        "operator": "unknown",
+        "name": "OSM-62197739",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/62197739",
-        "confidence": 0.4,
+        "confidence": 0.45,
         "flags": [
-          "unknown_operator",
           "osm_imported",
-          "genuinely_unknown"
+          "rural_free_heuristic"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 62197739,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": null,
-        "osm_operator": null
+        "osm_operator": null,
+        "source_note": "13.6 km från centrum, ingen avgiftstagg"
       },
       "geometry": {
         "type": "Polygon",
@@ -12086,31 +12090,31 @@
       "type": "Feature",
       "properties": {
         "id": "lulea-osm-62238486",
-        "name": "Parkering (OSM #62238486)",
-        "operator": "unknown",
+        "name": "OSM-62238486",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/62238486",
-        "confidence": 0.4,
+        "confidence": 0.45,
         "flags": [
-          "unknown_operator",
           "osm_imported",
-          "genuinely_unknown"
+          "rural_free_heuristic"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 62238486,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": null,
-        "osm_operator": null
+        "osm_operator": null,
+        "source_note": "12.1 km från centrum, ingen avgiftstagg"
       },
       "geometry": {
         "type": "Polygon",
@@ -12521,31 +12525,31 @@
       "type": "Feature",
       "properties": {
         "id": "lulea-osm-64457197",
-        "name": "Parkering (OSM #64457197)",
-        "operator": "unknown",
+        "name": "OSM-64457197",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/64457197",
-        "confidence": 0.4,
+        "confidence": 0.45,
         "flags": [
-          "unknown_operator",
           "osm_imported",
-          "genuinely_unknown"
+          "rural_free_heuristic"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 64457197,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": null,
-        "osm_operator": null
+        "osm_operator": null,
+        "source_note": "23.5 km från centrum, ingen avgiftstagg"
       },
       "geometry": {
         "type": "Polygon",
@@ -25456,31 +25460,31 @@
       "type": "Feature",
       "properties": {
         "id": "lulea-osm-322423258",
-        "name": "Parkering (OSM #322423258)",
-        "operator": "unknown",
+        "name": "OSM-322423258",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/322423258",
-        "confidence": 0.4,
+        "confidence": 0.45,
         "flags": [
-          "unknown_operator",
           "osm_imported",
-          "genuinely_unknown"
+          "rural_free_heuristic"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 322423258,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": null,
-        "osm_operator": null
+        "osm_operator": null,
+        "source_note": "16.4 km från centrum, ingen avgiftstagg"
       },
       "geometry": {
         "type": "Polygon",
@@ -29582,31 +29586,31 @@
       "type": "Feature",
       "properties": {
         "id": "lulea-osm-369773607",
-        "name": "Parkering (OSM #369773607)",
-        "operator": "unknown",
+        "name": "OSM-369773607",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/369773607",
-        "confidence": 0.4,
+        "confidence": 0.45,
         "flags": [
-          "unknown_operator",
           "osm_imported",
-          "genuinely_unknown"
+          "rural_free_heuristic"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 369773607,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": null,
-        "osm_operator": null
+        "osm_operator": null,
+        "source_note": "12.6 km från centrum, ingen avgiftstagg"
       },
       "geometry": {
         "type": "Polygon",
@@ -32934,31 +32938,31 @@
       "type": "Feature",
       "properties": {
         "id": "lulea-osm-537064645",
-        "name": "Parkering (OSM #537064645)",
-        "operator": "unknown",
+        "name": "OSM-537064645",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/537064645",
-        "confidence": 0.4,
+        "confidence": 0.45,
         "flags": [
-          "unknown_operator",
           "osm_imported",
-          "genuinely_unknown"
+          "rural_free_heuristic"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 537064645,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": null,
-        "osm_operator": null
+        "osm_operator": null,
+        "source_note": "14.3 km från centrum, ingen avgiftstagg"
       },
       "geometry": {
         "type": "Polygon",
@@ -33620,31 +33624,31 @@
       "type": "Feature",
       "properties": {
         "id": "lulea-osm-599031085",
-        "name": "Parkering (OSM #599031085)",
-        "operator": "unknown",
+        "name": "OSM-599031085",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/599031085",
-        "confidence": 0.4,
+        "confidence": 0.45,
         "flags": [
-          "unknown_operator",
           "osm_imported",
-          "genuinely_unknown"
+          "rural_free_heuristic"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 599031085,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": null,
-        "osm_operator": null
+        "osm_operator": null,
+        "source_note": "17.3 km från centrum, ingen avgiftstagg"
       },
       "geometry": {
         "type": "Polygon",
@@ -33682,31 +33686,31 @@
       "type": "Feature",
       "properties": {
         "id": "lulea-osm-607253541",
-        "name": "Parkering (OSM #607253541)",
-        "operator": "unknown",
+        "name": "OSM-607253541",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/607253541",
-        "confidence": 0.4,
+        "confidence": 0.45,
         "flags": [
-          "unknown_operator",
           "osm_imported",
-          "genuinely_unknown"
+          "rural_free_heuristic"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 607253541,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": null,
-        "osm_operator": null
+        "osm_operator": null,
+        "source_note": "22.3 km från centrum, ingen avgiftstagg"
       },
       "geometry": {
         "type": "Polygon",
@@ -33827,31 +33831,31 @@
       "type": "Feature",
       "properties": {
         "id": "lulea-osm-637171938",
-        "name": "Parkering (OSM #637171938)",
-        "operator": "unknown",
+        "name": "OSM-637171938",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/637171938",
-        "confidence": 0.4,
+        "confidence": 0.45,
         "flags": [
-          "unknown_operator",
           "osm_imported",
-          "genuinely_unknown"
+          "rural_free_heuristic"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 637171938,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": null,
-        "osm_operator": null
+        "osm_operator": null,
+        "source_note": "12.7 km från centrum, ingen avgiftstagg"
       },
       "geometry": {
         "type": "Polygon",
@@ -33889,31 +33893,31 @@
       "type": "Feature",
       "properties": {
         "id": "lulea-osm-637171939",
-        "name": "Parkering (OSM #637171939)",
-        "operator": "unknown",
+        "name": "OSM-637171939",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/637171939",
-        "confidence": 0.4,
+        "confidence": 0.45,
         "flags": [
-          "unknown_operator",
           "osm_imported",
-          "genuinely_unknown"
+          "rural_free_heuristic"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 637171939,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": null,
-        "osm_operator": null
+        "osm_operator": null,
+        "source_note": "12.5 km från centrum, ingen avgiftstagg"
       },
       "geometry": {
         "type": "Polygon",
@@ -35520,31 +35524,31 @@
       "type": "Feature",
       "properties": {
         "id": "lulea-osm-758760240",
-        "name": "Parkering (OSM #758760240)",
-        "operator": "unknown",
+        "name": "OSM-758760240",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/758760240",
-        "confidence": 0.4,
+        "confidence": 0.45,
         "flags": [
-          "unknown_operator",
           "osm_imported",
-          "genuinely_unknown"
+          "rural_free_heuristic"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 758760240,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": "gravel",
-        "osm_operator": null
+        "osm_operator": null,
+        "source_note": "13.6 km från centrum, ingen avgiftstagg"
       },
       "geometry": {
         "type": "Polygon",
@@ -36321,24 +36325,25 @@
       "type": "Feature",
       "properties": {
         "id": "lulea-osm-987790503",
-        "name": "Parkering (OSM #987790503)",
-        "operator": "unknown",
+        "name": "OSM-987790503",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/987790503",
-        "confidence": 0.4,
+        "confidence": 0.55,
         "flags": [
-          "unknown_operator",
           "osm_imported",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "osm_reclassified",
+          "access_yes_free"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 987790503,
@@ -36485,31 +36490,31 @@
       "type": "Feature",
       "properties": {
         "id": "lulea-osm-991556849",
-        "name": "Parkering (OSM #991556849)",
-        "operator": "unknown",
+        "name": "OSM-991556849",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/991556849",
-        "confidence": 0.4,
+        "confidence": 0.45,
         "flags": [
-          "unknown_operator",
           "osm_imported",
-          "genuinely_unknown"
+          "rural_free_heuristic"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 991556849,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": "asphalt",
-        "osm_operator": null
+        "osm_operator": null,
+        "source_note": "14.4 km från centrum, ingen avgiftstagg"
       },
       "geometry": {
         "type": "Polygon",
@@ -36567,31 +36572,31 @@
       "type": "Feature",
       "properties": {
         "id": "lulea-osm-992910142",
-        "name": "Parkering (OSM #992910142)",
-        "operator": "unknown",
+        "name": "OSM-992910142",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/992910142",
-        "confidence": 0.4,
+        "confidence": 0.45,
         "flags": [
-          "unknown_operator",
           "osm_imported",
-          "genuinely_unknown"
+          "rural_free_heuristic"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 992910142,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": null,
-        "osm_operator": null
+        "osm_operator": null,
+        "source_note": "22.0 km från centrum, ingen avgiftstagg"
       },
       "geometry": {
         "type": "Polygon",
@@ -37347,31 +37352,31 @@
       "type": "Feature",
       "properties": {
         "id": "lulea-osm-1018742626",
-        "name": "Parkering (OSM #1018742626)",
-        "operator": "unknown",
+        "name": "OSM-1018742626",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/1018742626",
-        "confidence": 0.4,
+        "confidence": 0.45,
         "flags": [
-          "unknown_operator",
           "osm_imported",
-          "genuinely_unknown"
+          "rural_free_heuristic"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 1018742626,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": "compacted",
-        "osm_operator": null
+        "osm_operator": null,
+        "source_note": "32.4 km från centrum, ingen avgiftstagg"
       },
       "geometry": {
         "type": "Polygon",
@@ -37724,31 +37729,31 @@
       "type": "Feature",
       "properties": {
         "id": "lulea-osm-1077109323",
-        "name": "Parkering (OSM #1077109323)",
-        "operator": "unknown",
+        "name": "OSM-1077109323",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/1077109323",
-        "confidence": 0.4,
+        "confidence": 0.45,
         "flags": [
-          "unknown_operator",
           "osm_imported",
-          "genuinely_unknown"
+          "rural_free_heuristic"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 1077109323,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": "asphalt",
-        "osm_operator": null
+        "osm_operator": null,
+        "source_note": "14.3 km från centrum, ingen avgiftstagg"
       },
       "geometry": {
         "type": "Polygon",
@@ -39911,31 +39916,31 @@
       "type": "Feature",
       "properties": {
         "id": "lulea-osm-1187260638",
-        "name": "Parkering (OSM #1187260638)",
-        "operator": "unknown",
+        "name": "OSM-1187260638",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/1187260638",
-        "confidence": 0.4,
+        "confidence": 0.45,
         "flags": [
-          "unknown_operator",
           "osm_imported",
-          "genuinely_unknown"
+          "rural_free_heuristic"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 1187260638,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": "compacted",
-        "osm_operator": null
+        "osm_operator": null,
+        "source_note": "16.1 km från centrum, ingen avgiftstagg"
       },
       "geometry": {
         "type": "Polygon",
@@ -40184,31 +40189,31 @@
       "type": "Feature",
       "properties": {
         "id": "lulea-osm-1216102823",
-        "name": "Parkering (OSM #1216102823)",
-        "operator": "unknown",
+        "name": "OSM-1216102823",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/1216102823",
-        "confidence": 0.4,
+        "confidence": 0.45,
         "flags": [
-          "unknown_operator",
           "osm_imported",
-          "genuinely_unknown"
+          "rural_free_heuristic"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 1216102823,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": null,
-        "osm_operator": null
+        "osm_operator": null,
+        "source_note": "35.6 km från centrum, ingen avgiftstagg"
       },
       "geometry": {
         "type": "Polygon",
@@ -42121,31 +42126,31 @@
       "type": "Feature",
       "properties": {
         "id": "lulea-osm-1288174719",
-        "name": "Parkering (OSM #1288174719)",
-        "operator": "unknown",
+        "name": "OSM-1288174719",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/1288174719",
-        "confidence": 0.4,
+        "confidence": 0.45,
         "flags": [
-          "unknown_operator",
           "osm_imported",
-          "genuinely_unknown"
+          "rural_free_heuristic"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 1288174719,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": null,
-        "osm_operator": null
+        "osm_operator": null,
+        "source_note": "14.0 km från centrum, ingen avgiftstagg"
       },
       "geometry": {
         "type": "Polygon",
@@ -42187,31 +42192,31 @@
       "type": "Feature",
       "properties": {
         "id": "lulea-osm-1288174720",
-        "name": "Parkering (OSM #1288174720)",
-        "operator": "unknown",
+        "name": "OSM-1288174720",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/1288174720",
-        "confidence": 0.4,
+        "confidence": 0.45,
         "flags": [
-          "unknown_operator",
           "osm_imported",
-          "genuinely_unknown"
+          "rural_free_heuristic"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 1288174720,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": null,
-        "osm_operator": null
+        "osm_operator": null,
+        "source_note": "14.0 km från centrum, ingen avgiftstagg"
       },
       "geometry": {
         "type": "Polygon",
@@ -42269,31 +42274,31 @@
       "type": "Feature",
       "properties": {
         "id": "lulea-osm-1288175140",
-        "name": "Parkering (OSM #1288175140)",
-        "operator": "unknown",
+        "name": "OSM-1288175140",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/1288175140",
-        "confidence": 0.4,
+        "confidence": 0.45,
         "flags": [
-          "unknown_operator",
           "osm_imported",
-          "genuinely_unknown"
+          "rural_free_heuristic"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 1288175140,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": null,
-        "osm_operator": null
+        "osm_operator": null,
+        "source_note": "14.1 km från centrum, ingen avgiftstagg"
       },
       "geometry": {
         "type": "Polygon",
@@ -42331,31 +42336,31 @@
       "type": "Feature",
       "properties": {
         "id": "lulea-osm-1288176968",
-        "name": "Parkering (OSM #1288176968)",
-        "operator": "unknown",
+        "name": "OSM-1288176968",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/1288176968",
-        "confidence": 0.4,
+        "confidence": 0.45,
         "flags": [
-          "unknown_operator",
           "osm_imported",
-          "genuinely_unknown"
+          "rural_free_heuristic"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 1288176968,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": null,
-        "osm_operator": null
+        "osm_operator": null,
+        "source_note": "14.2 km från centrum, ingen avgiftstagg"
       },
       "geometry": {
         "type": "Polygon",
@@ -48201,31 +48206,31 @@
       "type": "Feature",
       "properties": {
         "id": "lulea-osm-1382109245",
-        "name": "Parkering (OSM #1382109245)",
-        "operator": "unknown",
+        "name": "OSM-1382109245",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/1382109245",
-        "confidence": 0.4,
+        "confidence": 0.45,
         "flags": [
-          "unknown_operator",
           "osm_imported",
-          "genuinely_unknown"
+          "rural_free_heuristic"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 1382109245,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": "asphalt",
-        "osm_operator": null
+        "osm_operator": null,
+        "source_note": "17.5 km från centrum, ingen avgiftstagg"
       },
       "geometry": {
         "type": "Polygon",
@@ -48498,31 +48503,31 @@
       "type": "Feature",
       "properties": {
         "id": "lulea-osm-1417018616",
-        "name": "Parkering (OSM #1417018616)",
-        "operator": "unknown",
+        "name": "OSM-1417018616",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/1417018616",
-        "confidence": 0.4,
+        "confidence": 0.45,
         "flags": [
-          "unknown_operator",
           "osm_imported",
-          "genuinely_unknown"
+          "rural_free_heuristic"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 1417018616,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": null,
-        "osm_operator": null
+        "osm_operator": null,
+        "source_note": "14.3 km från centrum, ingen avgiftstagg"
       },
       "geometry": {
         "type": "Polygon",
@@ -48796,31 +48801,31 @@
       "type": "Feature",
       "properties": {
         "id": "lulea-osm-1475086364",
-        "name": "Parkering (OSM #1475086364)",
-        "operator": "unknown",
+        "name": "OSM-1475086364",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/1475086364",
-        "confidence": 0.4,
+        "confidence": 0.45,
         "flags": [
-          "unknown_operator",
           "osm_imported",
-          "genuinely_unknown"
+          "rural_free_heuristic"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 1475086364,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": "gravel",
-        "osm_operator": null
+        "osm_operator": null,
+        "source_note": "20.4 km från centrum, ingen avgiftstagg"
       },
       "geometry": {
         "type": "Polygon",
