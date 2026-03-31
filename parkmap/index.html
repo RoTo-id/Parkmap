@@ -121,6 +121,22 @@ a:hover{text-decoration:underline}
 .retry-btn{background:var(--accent);color:#fff;border:none;padding:8px 20px;border-radius:8px;font-family:inherit;font-size:13px;cursor:pointer;margin-top:8px}
 .retry-btn:hover{opacity:.9}
 
+/* Coverage panel */
+.coverage-panel{position:fixed;top:68px;right:12px;background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px;z-index:1000;min-width:252px;font-size:12px}
+.coverage-panel-title{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;margin-bottom:10px;font-weight:600;display:flex;justify-content:space-between;align-items:center}
+.cov-row{display:flex;align-items:center;gap:8px;cursor:pointer;border-radius:6px;padding:5px 6px;transition:background .15s}
+.cov-row:hover{background:var(--bg)}
+.cov-row.active{border-left:2px solid var(--accent);padding-left:4px}
+.cov-city{width:78px;color:var(--text);font-weight:500;white-space:nowrap}
+.cov-bar-bg{flex:1;height:6px;background:var(--border);border-radius:3px;overflow:hidden}
+.cov-bar-fill{height:100%;border-radius:3px;transition:width .4s}
+.cov-pct{width:38px;text-align:right;font-family:'Space Mono',monospace;font-size:11px}
+.cov-count{width:60px;text-align:right;color:var(--muted);font-size:11px}
+
+/* Toast */
+.toast{position:fixed;top:68px;left:50%;transform:translateX(-50%);background:var(--panel);border:1px solid var(--accent);border-radius:8px;padding:8px 18px;font-size:13px;color:var(--accent);z-index:3000;opacity:0;transition:opacity .3s;pointer-events:none;white-space:nowrap}
+.toast.show{opacity:1}
+
 /* Mobile */
 @media(max-width:768px){
   .stats{display:none}
@@ -129,6 +145,7 @@ a:hover{text-decoration:underline}
   .legend{bottom:12px;left:8px;right:8px;max-width:none}
   .detail-panel{left:0;right:0;width:auto;max-height:50vh}
   .back-link{display:none}
+  .coverage-panel{right:8px;left:8px;min-width:0;top:auto;bottom:calc(24px + 180px)}
 }
 </style>
 </head>
@@ -154,6 +171,10 @@ a:hover{text-decoration:underline}
     <input type="checkbox" id="showUnknown" />
     <span>Visa alla parkeringar</span>
   </label>
+  <label class="osm-toggle">
+    <input type="checkbox" id="followMap" checked />
+    <span>Följ karta</span>
+  </label>
   <div class="stats">
     <div class="stat"><div class="stat-val" id="stat-zones">-</div><div class="stat-label">Kartlagda</div></div>
     <div class="stat"><div class="stat-val" id="stat-total">-</div><div class="stat-label">Totalt</div></div>
@@ -165,6 +186,8 @@ a:hover{text-decoration:underline}
 <div id="map"></div>
 
 <div class="legend" id="legend"></div>
+<div class="coverage-panel" id="coverage-panel"></div>
+<div class="toast" id="toast"></div>
 
 <div class="detail-panel" id="detail">
   <div class="detail-header">
@@ -196,6 +219,22 @@ const CITIES = {
   skelleftea: { name: 'Skellefteå',  region: 'vasterbotten',center: [64.750, 20.950], zoom: 13 },
 };
 
+// Municipality bounding boxes (used for auto-switch + bbox overlays)
+const CITY_BOUNDS = {
+  lulea:      { latMin: 65.54, latMax: 65.64, lngMin: 21.98, lngMax: 22.32 },
+  boden:      { latMin: 65.74, latMax: 65.87, lngMin: 21.62, lngMax: 21.78 },
+  pitea:      { latMin: 65.28, latMax: 65.36, lngMin: 21.40, lngMax: 21.60 },
+  skelleftea: { latMin: 64.71, latMax: 64.80, lngMin: 20.87, lngMax: 21.03 },
+};
+
+// Coverage stats — updated by sync_to_parkmap.py after each pipeline run
+const COVERAGE = {
+  lulea:      { total: 686, known: 678, pct: 98.8 },
+  boden:      { total: 149, known: 126, pct: 84.6 },
+  pitea:      { total: 207, known:  98, pct: 47.3 },
+  skelleftea: { total: 398, known: 331, pct: 83.2 },
+};
+
 // Default operators for cities without an operators.json
 const DEFAULT_OPS = {
   kommun:          { name: 'Kommunen',         color: '#4a9eff', payment_apps: [] },
@@ -224,11 +263,14 @@ L.control.layers({"Ljus": baseLight, "Mork": baseDark}, null, {position: 'toprig
 let geoData = null;
 let opsData = null;
 let geoLayer = null;
+let bboxLayer = null;
 let activeFilters = new Set();
 let searchTerm = '';
 let showUnknown = false;
 let unknownMode = false;  // true = show ONLY unknowns, dim all others
 let currentCity = 'lulea';
+let followMap = true;       // auto-switch city when map pans
+let autoSwitching = false;  // guard against recursive moveend loops
 
 async function loadData(city) {
   city = city || currentCity;
@@ -265,6 +307,7 @@ async function loadData(city) {
     map.setView(cfg.center, cfg.zoom);
     document.title = `ParkMap Sverige - ${cfg.name}`;
     render();
+    renderBboxOverlays();
     document.getElementById('loading').style.display = 'none';
   } catch (e) {
     document.getElementById('loading').style.display = 'none';
@@ -322,6 +365,7 @@ function render() {
 
   updateStats(features);
   renderLegend();
+  renderCoveragePanel();
 }
 
 function styleForZone(feature) {
@@ -679,6 +723,120 @@ function typeLabel(t) {
   const labels = {garage:'Garage',outdoor:'Utomhus',underground:'Underjordisk',street:'Gatuparkering',lot:'Parkeringsplats'};
   return labels[t] || t;
 }
+
+// -- Toast notification -----------------------------------------------
+function showToast(msg) {
+  const el = document.getElementById('toast');
+  el.textContent = msg;
+  el.classList.add('show');
+  clearTimeout(el._timer);
+  el._timer = setTimeout(() => el.classList.remove('show'), 2200);
+}
+
+// -- Coverage summary panel -------------------------------------------
+function covColor(pct) {
+  return pct >= 90 ? '#34d399' : pct >= 70 ? '#fbbf24' : pct >= 50 ? '#f97316' : '#f87171';
+}
+
+function renderCoveragePanel() {
+  const panel = document.getElementById('coverage-panel');
+  let html = `<div class="coverage-panel-title">
+    <span>TÄCKNING PER KOMMUN</span>
+  </div>`;
+  for (const [key, cfg] of Object.entries(CITIES)) {
+    const c = COVERAGE[key];
+    const color = covColor(c.pct);
+    const isActive = key === currentCity;
+    html += `<div class="cov-row${isActive ? ' active' : ''}" onclick="switchCity('${key}')">
+      <div class="cov-city">${cfg.name}</div>
+      <div class="cov-bar-bg"><div class="cov-bar-fill" style="width:${c.pct}%;background:${color}"></div></div>
+      <div class="cov-pct" style="color:${color}">${c.pct}%</div>
+      <div class="cov-count">${c.total}&nbsp;zoner</div>
+    </div>`;
+  }
+  panel.innerHTML = html;
+}
+
+// Helper: switch city from panel click or bbox click (updates dropdown + loads)
+function switchCity(key) {
+  if (key === currentCity) return;
+  document.getElementById('detail').classList.remove('open');
+  document.getElementById('city-select').value = key;
+  loadData(key);
+}
+
+// -- Municipality bbox overlays (visible when zoomed out) -------------
+function renderBboxOverlays() {
+  if (bboxLayer) { map.removeLayer(bboxLayer); bboxLayer = null; }
+  if (map.getZoom() >= 11) return;  // only show when zoomed out
+
+  bboxLayer = L.layerGroup();
+  for (const [key, bb] of Object.entries(CITY_BOUNDS)) {
+    const c = COVERAGE[key];
+    const color = covColor(c.pct);
+    const isActive = key === currentCity;
+    const bounds = [[bb.latMin, bb.lngMin], [bb.latMax, bb.lngMax]];
+
+    const rect = L.rectangle(bounds, {
+      color: color,
+      weight: isActive ? 2.5 : 1.5,
+      fillColor: color,
+      fillOpacity: isActive ? 0.18 : 0.10,
+      dashArray: isActive ? null : '5,5',
+    });
+
+    const centerLat = (bb.latMin + bb.latMax) / 2;
+    const centerLng = (bb.lngMin + bb.lngMax) / 2;
+    const label = L.marker([centerLat, centerLng], {
+      icon: L.divIcon({
+        className: '',
+        html: `<div style="
+          background:${color}dd;color:#0c0e14;
+          padding:3px 10px;border-radius:5px;
+          font-size:12px;font-weight:700;
+          white-space:nowrap;text-align:center;
+          font-family:'DM Sans',sans-serif;
+          box-shadow:0 2px 6px rgba(0,0,0,.4)
+        ">${CITIES[key].name}<br><span style="font-size:11px;font-weight:400">${c.pct}% · ${c.total} zoner</span></div>`,
+        iconSize: [100, 38],
+        iconAnchor: [50, 19],
+      }),
+      interactive: true,
+    });
+
+    rect.on('click', () => switchCity(key));
+    label.on('click', () => switchCity(key));
+    bboxLayer.addLayer(rect);
+    bboxLayer.addLayer(label);
+  }
+  bboxLayer.addTo(map);
+}
+
+// -- Auto-switch: detect municipality from map center -----------------
+function detectCityFromCenter() {
+  const c = map.getCenter();
+  for (const [key, bb] of Object.entries(CITY_BOUNDS)) {
+    if (c.lat >= bb.latMin && c.lat <= bb.latMax &&
+        c.lng >= bb.lngMin && c.lng <= bb.lngMax) return key;
+  }
+  return null;
+}
+
+map.on('moveend', () => {
+  renderBboxOverlays();  // refresh bbox highlight on every move
+  if (!followMap || autoSwitching) return;
+  const detected = detectCityFromCenter();
+  if (detected && detected !== currentCity) {
+    autoSwitching = true;
+    document.getElementById('city-select').value = detected;
+    showToast(`Visar ${CITIES[detected].name}`);
+    loadData(detected).finally(() => { autoSwitching = false; });
+  }
+});
+
+document.getElementById('followMap').addEventListener('change', e => {
+  followMap = e.target.checked;
+});
 
 document.getElementById('detail-close').onclick = () => {
   document.getElementById('detail').classList.remove('open');
