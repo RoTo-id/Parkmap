@@ -2,13 +2,13 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-03-31T20:49:30.893602+00:00",
+    "generated": "2026-03-31T20:51:05.940418+00:00",
     "source": "ParkMap Sverige — Maxine Platform Agent Pipeline",
     "region": "Norrbotten",
     "city": "lulea",
     "scrape_type": "deep",
     "agent_run_id": "lulea-deep-20260326T215927",
-    "zone_count": 686,
+    "zone_count": 688,
     "osm_merge": {
       "osm_source": "output/osm_parking_lulea.geojson",
       "upgraded_geometries": 53,
@@ -23,9 +23,9 @@
     "phone_scan_merge": {
       "parkster_zones": 8,
       "epark_zones": 9,
-      "enriched_existing": 2,
-      "new_zones_added": 15,
-      "merge_date": "2026-03-30"
+      "enriched_existing": 15,
+      "new_zones_added": 2,
+      "merge_date": "2026-03-31"
     },
     "fee_update": {
       "zones_updated": 388,
@@ -53034,7 +53034,8 @@
         "flags": [
           "osm_imported",
           "lulebo_district_match",
-          "fees_verified"
+          "fees_verified",
+          "phone_scan_enriched"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 1482329384,
@@ -53056,7 +53057,8 @@
           }
         ],
         "max_per_day": 40,
-        "fee_note": "Biljett giltig på samtliga Lulebos adresser"
+        "fee_note": "Biljett giltig på samtliga Lulebos adresser",
+        "parkster_name": "Lulebo"
       },
       "geometry": {
         "type": "Polygon",
@@ -53321,7 +53323,8 @@
         "flags": [
           "phone_scan",
           "parkster",
-          "fees_verified"
+          "fees_verified",
+          "phone_scan_enriched"
         ],
         "last_verified": "2026-03-30",
         "payment_apps": [
@@ -53373,7 +53376,8 @@
         "flags": [
           "phone_scan",
           "parkster",
-          "fees_verified"
+          "fees_verified",
+          "phone_scan_enriched"
         ],
         "last_verified": "2026-03-30",
         "payment_apps": [
@@ -53425,7 +53429,8 @@
         "flags": [
           "phone_scan",
           "parkster",
-          "fees_verified"
+          "fees_verified",
+          "phone_scan_enriched"
         ],
         "last_verified": "2026-03-30",
         "payment_apps": [
@@ -53479,7 +53484,8 @@
           "phone_scan",
           "parkster",
           "fees_verified",
-          "duplicate_merged"
+          "duplicate_merged",
+          "phone_scan_enriched"
         ],
         "last_verified": "2026-03-30",
         "payment_apps": [
@@ -53536,7 +53542,8 @@
           "phone_scan",
           "parkster",
           "fees_verified",
-          "duplicate_merged"
+          "duplicate_merged",
+          "phone_scan_enriched"
         ],
         "last_verified": "2026-03-30",
         "payment_apps": [
@@ -53649,7 +53656,8 @@
         "flags": [
           "phone_scan",
           "parkster",
-          "fees_verified"
+          "fees_verified",
+          "phone_scan_enriched"
         ],
         "last_verified": "2026-03-30",
         "payment_apps": [
@@ -53701,7 +53709,8 @@
         "flags": [
           "phone_scan",
           "epark",
-          "needs_price_verification"
+          "needs_price_verification",
+          "phone_scan_enriched"
         ],
         "last_verified": "2026-03-30",
         "payment_apps": [
@@ -53742,7 +53751,8 @@
         "flags": [
           "phone_scan",
           "epark",
-          "needs_price_verification"
+          "needs_price_verification",
+          "phone_scan_enriched"
         ],
         "last_verified": "2026-03-30",
         "payment_apps": [
@@ -53783,7 +53793,8 @@
         "flags": [
           "phone_scan",
           "epark",
-          "needs_price_verification"
+          "needs_price_verification",
+          "phone_scan_enriched"
         ],
         "last_verified": "2026-03-30",
         "payment_apps": [
@@ -53824,7 +53835,8 @@
         "flags": [
           "phone_scan",
           "epark",
-          "needs_price_verification"
+          "needs_price_verification",
+          "phone_scan_enriched"
         ],
         "last_verified": "2026-03-30",
         "payment_apps": [
@@ -53862,7 +53874,8 @@
         "confidence": 0.7,
         "flags": [
           "phone_scan",
-          "epark"
+          "epark",
+          "phone_scan_enriched"
         ],
         "last_verified": "2026-03-30",
         "payment_apps": [
@@ -53899,13 +53912,88 @@
         "confidence": 0.7,
         "flags": [
           "phone_scan",
-          "epark"
+          "epark",
+          "phone_scan_enriched"
         ],
         "last_verified": "2026-03-30",
         "payment_apps": [
           "epark"
         ],
         "epark_name": "Porsöhallen",
+        "epark_operator": "Luleå Kommun"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1465,
+          65.5842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-ep-2106",
+        "name": "Karpens P-Hus",
+        "operator": "kommun",
+        "municipality": "Lulea",
+        "region": "Norrbotten",
+        "type": "garage",
+        "zone_code": "2106",
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.7,
+        "flags": [
+          "phone_scan",
+          "epark"
+        ],
+        "last_verified": "2026-03-31",
+        "payment_apps": [
+          "epark"
+        ],
+        "epark_name": "Karpens P-Hus",
+        "epark_operator": "Luleå Kommun"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1465,
+          65.5842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-ep-2107",
+        "name": "Kulturens Hus P-Hus",
+        "operator": "kommun",
+        "municipality": "Lulea",
+        "region": "Norrbotten",
+        "type": "garage",
+        "zone_code": "2107",
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.7,
+        "flags": [
+          "phone_scan",
+          "epark"
+        ],
+        "last_verified": "2026-03-31",
+        "payment_apps": [
+          "epark"
+        ],
+        "epark_name": "Kulturens Hus P-Hus",
         "epark_operator": "Luleå Kommun"
       },
       "geometry": {
