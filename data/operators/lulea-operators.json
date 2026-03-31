@@ -134,12 +134,18 @@
     ],
     "scrape_notes": "Private property owner. Mainly rental/contract parking: garage, flex, MC. Not public visitor parking. Include for completeness but flag as needs_review."
   },
-  "unknown": {
-    "name": "Okand operator",
-    "color": "#6b7280",
-    "type": "unknown",
-    "web": null,
-    "contact": null,
-    "payment_apps": []
+  "private_property": {
+    "name": "Privatparkering (fastighet)",
+    "color": "#78716c",
+    "type": "private",
+    "description": "Privat parkeringsplats tillhörande fastighet eller verksamhet",
+    "notes": "access=private eller access=customers i OSM"
+  },
+  "free_parking": {
+    "name": "Gratis parkering",
+    "color": "#a3e635",
+    "type": "public",
+    "description": "Kostnadsfri parkering - allmän eller kommunal",
+    "notes": "fee=no eller access=permissive i OSM"
   }
 }
