@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-03-31T15:08:03.681805+00:00",
+    "generated": "2026-03-31T17:19:11.125861+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Västerbotten",
     "city": "skelleftea",
@@ -16,36 +16,36 @@
       "bootstrap_date": "2026-03-31"
     },
     "operator_identification": {
-      "before_unknown": 151,
-      "after_unknown": 94,
-      "total_identified": 57,
+      "before_unknown": 398,
+      "after_unknown": 262,
+      "total_identified": 136,
       "per_operator": {
-        "aimopark": 1,
-        "apcoa": 0,
-        "skelleftea_parkering": 56
+        "aimopark": 38,
+        "skelleftea_parkering": 69,
+        "skebo": 29
       },
-      "aimo_matched": 1,
+      "aimo_matched": 38,
       "lulebo_matched": 0,
       "kommun_matched": 0,
       "run_date": "2026-03-31"
     },
     "osm_reclassification": {
-      "private_property": 0,
-      "free_parking": 0,
-      "kommun_street_side": 0,
+      "private_property": 32,
+      "free_parking": 23,
+      "kommun_street_side": 13,
       "needs_identification": 0,
       "osm_operator_mapped": 0,
       "lulebo_district": 0,
       "near_aimo": 0,
-      "rural_free": 0,
+      "rural_free": 124,
       "note_matched": 0,
-      "access_yes_free": 0,
+      "access_yes_free": 3,
       "fee_confirmed_unknown": 0,
-      "genuinely_unknown": 94,
-      "before": 94,
-      "after": 94,
+      "genuinely_unknown": 67,
+      "before": 262,
+      "after": 67,
       "total": 398,
-      "coverage_pct": 76.4,
+      "coverage_pct": 83.2,
       "run_date": "2026-03-31"
     }
   },
@@ -67,10 +67,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -84,7 +83,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -332,10 +331,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -349,7 +347,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -1287,22 +1285,22 @@
       "properties": {
         "id": "skelleftea-osm-85486738",
         "name": "OSM-85486738",
-        "operator": "free_parking",
+        "operator": "skebo",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.85,
+        "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified"
+          "skebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 85486738,
@@ -1311,7 +1309,11 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "skebo_district": "Prästbordet",
+        "payment_apps": [
+          "parkster"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -1438,10 +1440,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -1455,7 +1456,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -1503,10 +1504,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -1520,7 +1520,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -1556,7 +1556,7 @@
       "properties": {
         "id": "skelleftea-osm-91795667",
         "name": "OSM-91795667",
-        "operator": "aimopark",
+        "operator": "skelleftea_parkering",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -1568,10 +1568,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.55,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "near_aimo_zone"
+          "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
         "osm_id": 91795667,
@@ -1580,7 +1580,12 @@
         "osm_fee": "yes",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "skelleftea_parkering_district": "Centrum",
+        "payment_apps": [
+          "parkster",
+          "epark"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -1651,10 +1656,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -1668,7 +1672,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -1736,10 +1740,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -1753,7 +1756,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -1869,10 +1872,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -1886,7 +1888,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -1942,10 +1944,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -1959,7 +1960,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -2015,10 +2016,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -2032,7 +2032,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -2212,10 +2212,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -2229,7 +2228,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -2796,10 +2795,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -2813,7 +2811,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -2941,10 +2939,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -2958,7 +2955,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -3022,10 +3019,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -3039,7 +3035,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -3107,10 +3103,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -3124,7 +3119,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -3196,10 +3191,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -3213,7 +3207,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -3281,10 +3275,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -3298,7 +3291,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -3586,10 +3579,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -3603,7 +3595,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -4611,7 +4603,7 @@
       "properties": {
         "id": "skelleftea-osm-204020765",
         "name": "OSM-204020765",
-        "operator": "aimopark",
+        "operator": "skelleftea_parkering",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -4623,10 +4615,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.55,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "near_aimo_zone"
+          "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
         "osm_id": 204020765,
@@ -4635,7 +4627,12 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "skelleftea_parkering_district": "Centrum",
+        "payment_apps": [
+          "parkster",
+          "epark"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -4838,10 +4835,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -4855,7 +4851,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -5210,10 +5206,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -5227,7 +5222,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -5477,10 +5472,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -5494,7 +5488,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -7494,7 +7488,7 @@
       "properties": {
         "id": "skelleftea-osm-289862332",
         "name": "OSM-289862332",
-        "operator": "unknown",
+        "operator": "skebo",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -7506,11 +7500,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "skebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 289862332,
@@ -7519,7 +7512,11 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "skebo_district": "Getberget",
+        "payment_apps": [
+          "parkster"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -7554,7 +7551,7 @@
       "properties": {
         "id": "skelleftea-osm-289862334",
         "name": "OSM-289862334",
-        "operator": "unknown",
+        "operator": "skebo",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -7566,11 +7563,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "skebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 289862334,
@@ -7579,7 +7575,11 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "skebo_district": "Getberget",
+        "payment_apps": [
+          "parkster"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -7902,10 +7902,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -7919,7 +7918,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -8151,10 +8150,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -8168,7 +8166,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -8280,7 +8278,7 @@
       "properties": {
         "id": "skelleftea-osm-297712548",
         "name": "OSM-297712548",
-        "operator": "unknown",
+        "operator": "skebo",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -8292,11 +8290,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "skebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 297712548,
@@ -8305,7 +8302,11 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "skebo_district": "Prästbordet",
+        "payment_apps": [
+          "parkster"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -10388,10 +10389,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -10405,7 +10405,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -10453,10 +10453,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -10470,7 +10469,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -10522,10 +10521,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -10539,7 +10537,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -10591,10 +10589,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -10608,7 +10605,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -10664,10 +10661,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -10681,7 +10677,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -10729,10 +10725,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -10746,7 +10741,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -10794,10 +10789,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -10811,7 +10805,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -10859,10 +10853,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -10876,7 +10869,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -10924,10 +10917,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -10941,7 +10933,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -10989,10 +10981,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -11006,7 +10997,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -11054,10 +11045,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -11071,7 +11061,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -12594,7 +12584,7 @@
       "properties": {
         "id": "skelleftea-osm-361033893",
         "name": "OSM-361033893",
-        "operator": "unknown",
+        "operator": "skebo",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -12606,11 +12596,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "skebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 361033893,
@@ -12619,7 +12608,11 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "skebo_district": "Erikslid",
+        "payment_apps": [
+          "parkster"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -13502,10 +13495,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -13519,7 +13511,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -13555,22 +13547,22 @@
       "properties": {
         "id": "skelleftea-osm-367588432",
         "name": "OSM-367588432",
-        "operator": "private_property",
+        "operator": "skelleftea_parkering",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
-        "restrictions": "Kunder",
+        "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified"
+          "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
         "osm_id": 367588432,
@@ -13579,7 +13571,12 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "skelleftea_parkering_district": "Centrum",
+        "payment_apps": [
+          "parkster",
+          "epark"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -13654,22 +13651,22 @@
       "properties": {
         "id": "skelleftea-osm-367588434",
         "name": "OSM-367588434",
-        "operator": "private_property",
+        "operator": "skelleftea_parkering",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.85,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified"
+          "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
         "osm_id": 367588434,
@@ -13678,7 +13675,12 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "skelleftea_parkering_district": "Centrum",
+        "payment_apps": [
+          "parkster",
+          "epark"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -13725,10 +13727,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "fee_confirmed_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -13742,7 +13743,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -13778,7 +13779,7 @@
       "properties": {
         "id": "skelleftea-osm-369018192",
         "name": "OSM-369018192",
-        "operator": "unknown",
+        "operator": "skebo",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -13790,11 +13791,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "skebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 369018192,
@@ -13803,7 +13803,11 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "skebo_district": "Prästbordet",
+        "payment_apps": [
+          "parkster"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -13846,7 +13850,7 @@
       "properties": {
         "id": "skelleftea-osm-369021071",
         "name": "OSM-369021071",
-        "operator": "unknown",
+        "operator": "skebo",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -13858,11 +13862,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "skebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 369021071,
@@ -13871,7 +13874,11 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "skebo_district": "Prästbordet",
+        "payment_apps": [
+          "parkster"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -13970,22 +13977,22 @@
       "properties": {
         "id": "skelleftea-osm-370282728",
         "name": "OSM-370282728",
-        "operator": "private_property",
+        "operator": "skelleftea_parkering",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
-        "restrictions": "Kunder",
+        "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified"
+          "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
         "osm_id": 370282728,
@@ -13994,7 +14001,12 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "skelleftea_parkering_district": "Centrum",
+        "payment_apps": [
+          "parkster",
+          "epark"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -14113,7 +14125,7 @@
       "properties": {
         "id": "skelleftea-osm-385021770",
         "name": "OSM-385021770",
-        "operator": "unknown",
+        "operator": "skebo",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -14125,11 +14137,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "skebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 385021770,
@@ -14138,7 +14149,11 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "skebo_district": "Getberget",
+        "payment_apps": [
+          "parkster"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -14173,7 +14188,7 @@
       "properties": {
         "id": "skelleftea-osm-385021771",
         "name": "OSM-385021771",
-        "operator": "unknown",
+        "operator": "skebo",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -14185,11 +14200,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "skebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 385021771,
@@ -14198,7 +14212,11 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "skebo_district": "Getberget",
+        "payment_apps": [
+          "parkster"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -14233,7 +14251,7 @@
       "properties": {
         "id": "skelleftea-osm-385021773",
         "name": "OSM-385021773",
-        "operator": "unknown",
+        "operator": "skebo",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -14245,11 +14263,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "skebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 385021773,
@@ -14258,7 +14275,11 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "skebo_district": "Getberget",
+        "payment_apps": [
+          "parkster"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -14293,7 +14314,7 @@
       "properties": {
         "id": "skelleftea-osm-385021774",
         "name": "OSM-385021774",
-        "operator": "unknown",
+        "operator": "skebo",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -14305,11 +14326,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "skebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 385021774,
@@ -14318,7 +14338,11 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "skebo_district": "Getberget",
+        "payment_apps": [
+          "parkster"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -14353,7 +14377,7 @@
       "properties": {
         "id": "skelleftea-osm-385021776",
         "name": "OSM-385021776",
-        "operator": "unknown",
+        "operator": "skebo",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -14365,11 +14389,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "skebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 385021776,
@@ -14378,7 +14401,11 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "skebo_district": "Getberget",
+        "payment_apps": [
+          "parkster"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -14557,7 +14584,7 @@
       "properties": {
         "id": "skelleftea-osm-404925249",
         "name": "OSM-404925249",
-        "operator": "aimopark",
+        "operator": "skelleftea_parkering",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -14569,10 +14596,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.55,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "near_aimo_zone"
+          "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
         "osm_id": 404925249,
@@ -14581,7 +14608,12 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "skelleftea_parkering_district": "Centrum",
+        "payment_apps": [
+          "parkster",
+          "epark"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -14867,10 +14899,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -14884,7 +14915,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -16444,10 +16475,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "fee_confirmed_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -16461,7 +16491,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -16685,22 +16715,22 @@
       "properties": {
         "id": "skelleftea-osm-551966424",
         "name": "OSM-551966424",
-        "operator": "private_property",
+        "operator": "skelleftea_parkering",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.85,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified"
+          "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
         "osm_id": 551966424,
@@ -16709,7 +16739,12 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "skelleftea_parkering_district": "Centrum",
+        "payment_apps": [
+          "parkster",
+          "epark"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -16744,22 +16779,22 @@
       "properties": {
         "id": "skelleftea-osm-551966425",
         "name": "OSM-551966425",
-        "operator": "private_property",
+        "operator": "skelleftea_parkering",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.85,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified"
+          "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
         "osm_id": 551966425,
@@ -16768,7 +16803,12 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "skelleftea_parkering_district": "Centrum",
+        "payment_apps": [
+          "parkster",
+          "epark"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -16803,22 +16843,22 @@
       "properties": {
         "id": "skelleftea-osm-551966431",
         "name": "OSM-551966431",
-        "operator": "private_property",
+        "operator": "skelleftea_parkering",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.85,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified"
+          "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
         "osm_id": 551966431,
@@ -16827,7 +16867,12 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "skelleftea_parkering_district": "Centrum",
+        "payment_apps": [
+          "parkster",
+          "epark"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -16862,22 +16907,22 @@
       "properties": {
         "id": "skelleftea-osm-551966440",
         "name": "OSM-551966440",
-        "operator": "private_property",
+        "operator": "skelleftea_parkering",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.85,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified"
+          "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
         "osm_id": 551966440,
@@ -16886,7 +16931,12 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "skelleftea_parkering_district": "Centrum",
+        "payment_apps": [
+          "parkster",
+          "epark"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -17045,22 +17095,22 @@
       "properties": {
         "id": "skelleftea-osm-677112513",
         "name": "OSM-677112513",
-        "operator": "free_parking",
+        "operator": "skelleftea_parkering",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.85,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified"
+          "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
         "osm_id": 677112513,
@@ -17069,7 +17119,12 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "skelleftea_parkering_district": "Centrum",
+        "payment_apps": [
+          "parkster",
+          "epark"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -17112,22 +17167,22 @@
       "properties": {
         "id": "skelleftea-osm-677112516",
         "name": "OSM-677112516",
-        "operator": "free_parking",
+        "operator": "skebo",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.85,
+        "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified"
+          "skebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 677112516,
@@ -17136,7 +17191,11 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "skebo_district": "Prästbordet",
+        "payment_apps": [
+          "parkster"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -17191,10 +17250,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -17208,7 +17266,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -17252,7 +17310,7 @@
       "properties": {
         "id": "skelleftea-osm-677112549",
         "name": "OSM-677112549",
-        "operator": "unknown",
+        "operator": "skebo",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -17264,11 +17322,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "skebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 677112549,
@@ -17277,7 +17334,11 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "skebo_district": "Prästbordet",
+        "payment_apps": [
+          "parkster"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -17320,7 +17381,7 @@
       "properties": {
         "id": "skelleftea-osm-748840130",
         "name": "OSM-748840130",
-        "operator": "unknown",
+        "operator": "skebo",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -17332,11 +17393,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "skebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 748840130,
@@ -17345,7 +17405,11 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "skebo_district": "Sunnanå",
+        "payment_apps": [
+          "parkster"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -17380,7 +17444,7 @@
       "properties": {
         "id": "skelleftea-osm-748840131",
         "name": "OSM-748840131",
-        "operator": "unknown",
+        "operator": "skebo",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -17392,11 +17456,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "skebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 748840131,
@@ -17405,7 +17468,11 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "skebo_district": "Sunnanå",
+        "payment_apps": [
+          "parkster"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -17440,22 +17507,22 @@
       "properties": {
         "id": "skelleftea-osm-748919102",
         "name": "OSM-748919102",
-        "operator": "free_parking",
+        "operator": "skelleftea_parkering",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.85,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified"
+          "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
         "osm_id": 748919102,
@@ -17464,7 +17531,12 @@
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": "Skellefteå kommun",
-        "osm_note": null
+        "osm_note": null,
+        "skelleftea_parkering_district": "Centrum",
+        "payment_apps": [
+          "parkster",
+          "epark"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -18113,7 +18185,7 @@
       "properties": {
         "id": "skelleftea-osm-964248201",
         "name": "OSM-964248201",
-        "operator": "unknown",
+        "operator": "skebo",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -18125,11 +18197,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "skebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 964248201,
@@ -18138,7 +18209,11 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "skebo_district": "Getberget",
+        "payment_apps": [
+          "parkster"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -18181,7 +18256,7 @@
       "properties": {
         "id": "skelleftea-osm-964248205",
         "name": "OSM-964248205",
-        "operator": "unknown",
+        "operator": "skebo",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -18193,11 +18268,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "skebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 964248205,
@@ -18206,7 +18280,11 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "skebo_district": "Getberget",
+        "payment_apps": [
+          "parkster"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -18241,7 +18319,7 @@
       "properties": {
         "id": "skelleftea-osm-964248208",
         "name": "OSM-964248208",
-        "operator": "unknown",
+        "operator": "skebo",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -18253,11 +18331,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "skebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 964248208,
@@ -18266,7 +18343,11 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "skebo_district": "Getberget",
+        "payment_apps": [
+          "parkster"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -18569,7 +18650,7 @@
       "properties": {
         "id": "skelleftea-osm-975108275",
         "name": "OSM-975108275",
-        "operator": "unknown",
+        "operator": "skebo",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -18581,11 +18662,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "skebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 975108275,
@@ -18594,7 +18674,11 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "skebo_district": "Sunnanå",
+        "payment_apps": [
+          "parkster"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -18637,7 +18721,7 @@
       "properties": {
         "id": "skelleftea-osm-975108289",
         "name": "OSM-975108289",
-        "operator": "unknown",
+        "operator": "skebo",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -18649,11 +18733,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "skebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 975108289,
@@ -18662,7 +18745,11 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "skebo_district": "Sunnanå",
+        "payment_apps": [
+          "parkster"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -18709,10 +18796,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -18726,7 +18812,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -18774,10 +18860,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -18791,7 +18876,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -18839,10 +18924,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -18856,7 +18940,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -18904,10 +18988,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -18921,7 +19004,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -19344,10 +19427,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -19361,7 +19443,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -19425,10 +19507,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -19442,7 +19523,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -19746,7 +19827,7 @@
       "properties": {
         "id": "skelleftea-osm-997711024",
         "name": "OSM-997711024",
-        "operator": "unknown",
+        "operator": "skebo",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -19758,11 +19839,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "skebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 997711024,
@@ -19771,7 +19851,11 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "skebo_district": "Getberget",
+        "payment_apps": [
+          "parkster"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -19806,7 +19890,7 @@
       "properties": {
         "id": "skelleftea-osm-997711029",
         "name": "OSM-997711029",
-        "operator": "unknown",
+        "operator": "skebo",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -19818,11 +19902,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "skebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 997711029,
@@ -19831,7 +19914,11 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "skebo_district": "Getberget",
+        "payment_apps": [
+          "parkster"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -19978,10 +20065,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -19995,7 +20081,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -20095,7 +20181,7 @@
       "properties": {
         "id": "skelleftea-osm-1018320530",
         "name": "OSM-1018320530",
-        "operator": "unknown",
+        "operator": "skebo",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -20107,11 +20193,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "skebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1018320530,
@@ -20120,7 +20205,11 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "skebo_district": "Prästbordet",
+        "payment_apps": [
+          "parkster"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -20171,10 +20260,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -20188,7 +20276,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -23609,7 +23697,7 @@
       "properties": {
         "id": "skelleftea-osm-1162257954",
         "name": "OSM-1162257954",
-        "operator": "unknown",
+        "operator": "skebo",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -23621,11 +23709,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "skebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1162257954,
@@ -23634,7 +23721,11 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "skebo_district": "Getberget",
+        "payment_apps": [
+          "parkster"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -24374,10 +24465,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "fee_confirmed_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -24391,7 +24481,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -24439,10 +24529,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -24456,7 +24545,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -24848,7 +24937,7 @@
       "properties": {
         "id": "skelleftea-osm-1364727057",
         "name": "OSM-1364727057",
-        "operator": "unknown",
+        "operator": "skebo",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -24860,11 +24949,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "skebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1364727057,
@@ -24873,7 +24961,11 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "skebo_district": "Prästbordet",
+        "payment_apps": [
+          "parkster"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -25096,7 +25188,7 @@
       "properties": {
         "id": "skelleftea-osm-1410165631",
         "name": "OSM-1410165631",
-        "operator": "unknown",
+        "operator": "skebo",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -25108,11 +25200,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "skebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1410165631,
@@ -25121,7 +25212,11 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "skebo_district": "Getberget",
+        "payment_apps": [
+          "parkster"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -25366,10 +25461,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -25383,7 +25477,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -25435,10 +25529,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -25452,7 +25545,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -25500,10 +25593,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -25517,7 +25609,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -25565,10 +25657,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -25582,7 +25673,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -25630,10 +25721,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -25647,7 +25737,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -25695,10 +25785,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -25712,7 +25801,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -25760,10 +25849,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -25777,7 +25865,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -26013,23 +26101,22 @@
       "properties": {
         "id": "skelleftea-osm-1429718118",
         "name": "OSM-1429718118",
-        "operator": "aimopark",
+        "operator": "skelleftea_parkering",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
-        "zone_code": "1242",
+        "zone_code": null,
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "Every day 00-24: 1 h - 7 SEK",
+        "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/skelleftea/anderstorpsleden-1-5/",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "aimopark_matched"
+          "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
         "osm_id": 1429718118,
@@ -26039,10 +26126,10 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "anderstorpsleden-1-5",
-        "aimopark_distance_m": 160.2,
+        "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "aimo"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -26170,10 +26257,9 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.62,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
           "skelleftea_parkering_district_match"
         ],
         "last_verified": null,
@@ -26187,7 +26273,7 @@
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
           "parkster",
-          "easypark"
+          "epark"
         ]
       },
       "geometry": {
@@ -26263,7 +26349,7 @@
       "properties": {
         "id": "skelleftea-osm-1430153932",
         "name": "OSM-1430153932",
-        "operator": "unknown",
+        "operator": "skebo",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -26275,11 +26361,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "skebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1430153932,
@@ -26288,7 +26373,11 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "skebo_district": "Prästbordet",
+        "payment_apps": [
+          "parkster"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -26479,7 +26568,7 @@
       "properties": {
         "id": "skelleftea-osm-1454616925",
         "name": "OSM-1454616925",
-        "operator": "unknown",
+        "operator": "skebo",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -26491,11 +26580,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "skebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1454616925,
@@ -26504,7 +26592,11 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "skebo_district": "Prästbordet",
+        "payment_apps": [
+          "parkster"
+        ]
       },
       "geometry": {
         "type": "Polygon",
