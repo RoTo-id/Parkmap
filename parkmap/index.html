@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ParkMap Sverige - Lulea</title>
+<title>ParkMap Sverige</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
@@ -41,6 +41,11 @@ a:hover{text-decoration:underline}
 .stat-label{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px}
 
 .back-link{font-size:12px;color:var(--text2);flex-shrink:0;white-space:nowrap}
+
+/* City selector */
+.city-select-wrap{flex-shrink:0}
+.city-select{background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:6px 10px;color:var(--text);font-family:inherit;font-size:13px;outline:none;cursor:pointer;appearance:none;-webkit-appearance:none;padding-right:24px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%239196ab'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 8px center}
+.city-select:hover,.city-select:focus{border-color:var(--accent)}
 
 /* Map */
 #map{position:fixed;top:56px;left:0;right:0;bottom:0}
@@ -134,7 +139,14 @@ a:hover{text-decoration:underline}
     <div class="logo-icon">P</div>
     <div class="logo-text">ParkMap <span>SVERIGE</span></div>
   </div>
-  <div class="pilot-badge">LULEA PILOT</div>
+  <div class="city-select-wrap">
+    <select class="city-select" id="city-select">
+      <option value="lulea">Luleå</option>
+      <option value="boden">Boden</option>
+      <option value="pitea">Piteå</option>
+      <option value="skelleftea">Skellefteå</option>
+    </select>
+  </div>
   <div class="search-box">
     <input type="text" id="search" placeholder="Sok zon, gata, operator...">
   </div>
@@ -172,11 +184,30 @@ a:hover{text-decoration:underline}
 
 <div class="overlay" id="error" style="display:none">
   <div class="overlay-text" id="error-msg">Kunde inte ladda data</div>
-  <button class="retry-btn" onclick="loadData()">Forsok igen</button>
+  <button class="retry-btn" onclick="loadData(currentCity)">Forsok igen</button>
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <script>
+const CITIES = {
+  lulea:      { name: 'Luleå',       region: 'norrbotten',  center: [65.583, 22.148], zoom: 13 },
+  boden:      { name: 'Boden',       region: 'norrbotten',  center: [65.825, 21.695], zoom: 13 },
+  pitea:      { name: 'Piteå',       region: 'norrbotten',  center: [65.317, 21.500], zoom: 13 },
+  skelleftea: { name: 'Skellefteå',  region: 'vasterbotten',center: [64.750, 20.950], zoom: 13 },
+};
+
+// Default operators for cities without an operators.json
+const DEFAULT_OPS = {
+  kommun:          { name: 'Kommunen',         color: '#4a9eff', payment_apps: [] },
+  aimopark:        { name: 'Aimo Park',        color: '#f43f5e', payment_apps: ['EasyPark', 'Aimo'] },
+  apcoa:           { name: 'APCOA',            color: '#a855f7', payment_apps: ['EasyPark', 'APCOA Flow'] },
+  lulebo:          { name: 'Lulebo',           color: '#f59e0b', payment_apps: [] },
+  swedavia:        { name: 'Swedavia',         color: '#6366f1', payment_apps: [] },
+  private_property:{ name: 'Privat',           color: '#6b7280', payment_apps: [] },
+  free_parking:    { name: 'Gratis',           color: '#34d399', payment_apps: [] },
+  unknown:         { name: 'Okänd',            color: '#f97316', payment_apps: [] },
+};
+
 const map = L.map('map', {zoomControl: true}).setView([65.583, 22.148], 13);
 
 const baseLight = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
@@ -197,18 +228,42 @@ let activeFilters = new Set();
 let searchTerm = '';
 let showUnknown = false;
 let unknownMode = false;  // true = show ONLY unknowns, dim all others
+let currentCity = 'lulea';
 
-async function loadData() {
+async function loadData(city) {
+  city = city || currentCity;
+  currentCity = city;
+  const cfg = CITIES[city];
+  if (!cfg) return;
+
   document.getElementById('loading').style.display = 'flex';
   document.getElementById('error').style.display = 'none';
+  activeFilters.clear();
+  unknownMode = false;
+  showUnknown = false;
+  document.getElementById('showUnknown').checked = false;
+  searchTerm = '';
+  document.getElementById('search').value = '';
+
   try {
-    const [geoRes, opsRes] = await Promise.all([
-      fetch('../data/regions/norrbotten/lulea.geojson'),
-      fetch('../data/operators/lulea-operators.json')
-    ]);
-    if (!geoRes.ok || !opsRes.ok) throw new Error('HTTP ' + geoRes.status);
+    const geoRes = await fetch(`../data/regions/${cfg.region}/${city}.geojson`);
+    if (!geoRes.ok) throw new Error('HTTP ' + geoRes.status);
     geoData = await geoRes.json();
-    opsData = await opsRes.json();
+
+    // Try to load operators file; fall back to defaults if missing
+    try {
+      const opsRes = await fetch(`../data/operators/${city}-operators.json`);
+      opsData = opsRes.ok ? await opsRes.json() : DEFAULT_OPS;
+    } catch(e) {
+      opsData = DEFAULT_OPS;
+    }
+    // Always ensure defaults for any operator not in opsData
+    Object.assign(opsData, Object.fromEntries(
+      Object.entries(DEFAULT_OPS).filter(([k]) => !opsData[k])
+    ));
+
+    map.setView(cfg.center, cfg.zoom);
+    document.title = `ParkMap Sverige - ${cfg.name}`;
     render();
     document.getElementById('loading').style.display = 'none';
   } catch (e) {
@@ -642,7 +697,19 @@ document.getElementById('showUnknown').addEventListener('change', e => {
 
 map.on('click', () => document.getElementById('detail').classList.remove('open'));
 
-loadData();
+document.getElementById('city-select').addEventListener('change', e => {
+  document.getElementById('detail').classList.remove('open');
+  loadData(e.target.value);
+});
+
+// Read city from URL hash if present (e.g. parkmap/#boden)
+const hashCity = location.hash.replace('#', '').toLowerCase();
+if (hashCity && CITIES[hashCity]) {
+  document.getElementById('city-select').value = hashCity;
+  loadData(hashCity);
+} else {
+  loadData('lulea');
+}
 </script>
 </body>
 </html>
