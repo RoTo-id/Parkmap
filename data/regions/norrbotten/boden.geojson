@@ -47,6 +47,13 @@
       "total": 149,
       "coverage_pct": 84.6,
       "run_date": "2026-03-31"
+    },
+    "operator_classification_v2": {
+      "pdisc_free_classified": 23,
+      "run_date": "2026-04-01",
+      "note": "Boden uses P-disc system. Paid parking (350 spots) approved but NOT yet implemented. Unknown zones classified as free_parking with P-disc restriction.",
+      "source": "boden.se/gator-och-trafik/gator-och-parkering/parkering",
+      "coverage_pct_after": 100.0
     }
   },
   "features": [
@@ -585,7 +592,7 @@
       "properties": {
         "id": "boden-osm-395874328",
         "name": "OSM-395874328",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -594,14 +601,15 @@
         "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
-        "restrictions": null,
+        "restrictions": "P-skiva krävs",
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.7,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "boden_pdisc_free"
         ],
         "last_verified": null,
         "osm_id": 395874328,
@@ -1381,7 +1389,7 @@
       "properties": {
         "id": "boden-osm-655356678",
         "name": "OSM-655356678",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -1390,14 +1398,15 @@
         "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
-        "restrictions": null,
+        "restrictions": "P-skiva krävs",
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.7,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "boden_pdisc_free"
         ],
         "last_verified": null,
         "osm_id": 655356678,
@@ -1449,7 +1458,7 @@
       "properties": {
         "id": "boden-osm-655603935",
         "name": "OSM-655603935",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -1458,14 +1467,15 @@
         "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
-        "restrictions": null,
+        "restrictions": "P-skiva krävs",
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.7,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "boden_pdisc_free"
         ],
         "last_verified": null,
         "osm_id": 655603935,
@@ -1509,7 +1519,7 @@
       "properties": {
         "id": "boden-osm-655654742",
         "name": "OSM-655654742",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -1518,14 +1528,15 @@
         "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
-        "restrictions": null,
+        "restrictions": "P-skiva krävs",
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.7,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "boden_pdisc_free"
         ],
         "last_verified": null,
         "osm_id": 655654742,
@@ -1589,7 +1600,7 @@
       "properties": {
         "id": "boden-osm-833961559",
         "name": "OSM-833961559",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -1598,14 +1609,15 @@
         "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
-        "restrictions": null,
+        "restrictions": "P-skiva krävs",
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.7,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "boden_pdisc_free"
         ],
         "last_verified": null,
         "osm_id": 833961559,
@@ -2193,7 +2205,7 @@
       "properties": {
         "id": "boden-osm-998569938",
         "name": "OSM-998569938",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -2202,14 +2214,15 @@
         "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
-        "restrictions": null,
+        "restrictions": "P-skiva krävs",
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.7,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "boden_pdisc_free"
         ],
         "last_verified": null,
         "osm_id": 998569938,
@@ -2592,7 +2605,7 @@
       "properties": {
         "id": "boden-osm-999737554",
         "name": "OSM-999737554",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -2601,14 +2614,15 @@
         "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
-        "restrictions": null,
+        "restrictions": "P-skiva krävs",
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.7,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "boden_pdisc_free"
         ],
         "last_verified": null,
         "osm_id": 999737554,
@@ -3098,7 +3112,7 @@
       "properties": {
         "id": "boden-osm-1002276423",
         "name": "OSM-1002276423",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -3107,14 +3121,15 @@
         "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
-        "restrictions": null,
+        "restrictions": "P-skiva krävs",
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.7,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "boden_pdisc_free"
         ],
         "last_verified": null,
         "osm_id": 1002276423,
@@ -3452,7 +3467,7 @@
       "properties": {
         "id": "boden-osm-1056599609",
         "name": "OSM-1056599609",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -3461,14 +3476,15 @@
         "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
-        "restrictions": null,
+        "restrictions": "P-skiva krävs",
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.7,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "boden_pdisc_free"
         ],
         "last_verified": null,
         "osm_id": 1056599609,
@@ -3540,7 +3556,7 @@
       "properties": {
         "id": "boden-osm-1056599610",
         "name": "OSM-1056599610",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -3549,14 +3565,15 @@
         "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
-        "restrictions": null,
+        "restrictions": "P-skiva krävs",
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.7,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "boden_pdisc_free"
         ],
         "last_verified": null,
         "osm_id": 1056599610,
@@ -4679,7 +4696,7 @@
       "properties": {
         "id": "boden-osm-1078786661",
         "name": "OSM-1078786661",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -4688,14 +4705,15 @@
         "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
-        "restrictions": null,
+        "restrictions": "P-skiva krävs",
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.7,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "boden_pdisc_free"
         ],
         "last_verified": null,
         "osm_id": 1078786661,
@@ -5334,7 +5352,7 @@
       "properties": {
         "id": "boden-osm-1083463521",
         "name": "OSM-1083463521",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -5343,14 +5361,15 @@
         "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
-        "restrictions": null,
+        "restrictions": "P-skiva krävs",
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.7,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "boden_pdisc_free"
         ],
         "last_verified": null,
         "osm_id": 1083463521,
@@ -5394,7 +5413,7 @@
       "properties": {
         "id": "boden-osm-1084628611",
         "name": "OSM-1084628611",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -5403,14 +5422,15 @@
         "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
-        "restrictions": null,
+        "restrictions": "P-skiva krävs",
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.7,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "boden_pdisc_free"
         ],
         "last_verified": null,
         "osm_id": 1084628611,
@@ -5668,7 +5688,7 @@
       "properties": {
         "id": "boden-osm-1094461032",
         "name": "OSM-1094461032",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -5677,14 +5697,15 @@
         "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
-        "restrictions": null,
+        "restrictions": "P-skiva krävs",
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.7,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "boden_pdisc_free"
         ],
         "last_verified": null,
         "osm_id": 1094461032,
@@ -5993,7 +6014,7 @@
       "properties": {
         "id": "boden-osm-1108296542",
         "name": "OSM-1108296542",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -6002,14 +6023,15 @@
         "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
-        "restrictions": null,
+        "restrictions": "P-skiva krävs",
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.7,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "boden_pdisc_free"
         ],
         "last_verified": null,
         "osm_id": 1108296542,
@@ -6093,7 +6115,7 @@
       "properties": {
         "id": "boden-osm-1108296548",
         "name": "OSM-1108296548",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -6102,14 +6124,15 @@
         "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
-        "restrictions": null,
+        "restrictions": "P-skiva krävs",
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.7,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "boden_pdisc_free"
         ],
         "last_verified": null,
         "osm_id": 1108296548,
@@ -6698,7 +6721,7 @@
       "properties": {
         "id": "boden-osm-1272407406",
         "name": "OSM-1272407406",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -6707,14 +6730,15 @@
         "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
-        "restrictions": null,
+        "restrictions": "P-skiva krävs",
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.7,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "boden_pdisc_free"
         ],
         "last_verified": null,
         "osm_id": 1272407406,
@@ -6758,7 +6782,7 @@
       "properties": {
         "id": "boden-osm-1272407407",
         "name": "OSM-1272407407",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -6767,14 +6791,15 @@
         "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
-        "restrictions": null,
+        "restrictions": "P-skiva krävs",
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.7,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "boden_pdisc_free"
         ],
         "last_verified": null,
         "osm_id": 1272407407,
@@ -6818,7 +6843,7 @@
       "properties": {
         "id": "boden-osm-1272407408",
         "name": "OSM-1272407408",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -6827,14 +6852,15 @@
         "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
-        "restrictions": null,
+        "restrictions": "P-skiva krävs",
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.7,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "boden_pdisc_free"
         ],
         "last_verified": null,
         "osm_id": 1272407408,
@@ -6878,7 +6904,7 @@
       "properties": {
         "id": "boden-osm-1272407409",
         "name": "OSM-1272407409",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -6887,14 +6913,15 @@
         "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
-        "restrictions": null,
+        "restrictions": "P-skiva krävs",
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.7,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "boden_pdisc_free"
         ],
         "last_verified": null,
         "osm_id": 1272407409,
@@ -7388,7 +7415,7 @@
       "properties": {
         "id": "boden-osm-1395929718",
         "name": "OSM-1395929718",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -7397,14 +7424,15 @@
         "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
-        "restrictions": null,
+        "restrictions": "P-skiva krävs",
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.7,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "boden_pdisc_free"
         ],
         "last_verified": null,
         "osm_id": 1395929718,
@@ -7512,7 +7540,7 @@
       "properties": {
         "id": "boden-osm-1413466253",
         "name": "OSM-1413466253",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -7521,14 +7549,15 @@
         "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
-        "restrictions": null,
+        "restrictions": "P-skiva krävs",
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.7,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "boden_pdisc_free"
         ],
         "last_verified": null,
         "osm_id": 1413466253,
@@ -10514,7 +10543,7 @@
       "properties": {
         "id": "boden-osm-1475013633",
         "name": "OSM-1475013633",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -10523,14 +10552,15 @@
         "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
-        "restrictions": null,
+        "restrictions": "P-skiva krävs",
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.7,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "boden_pdisc_free"
         ],
         "last_verified": null,
         "osm_id": 1475013633,
