@@ -217,6 +217,11 @@ const CITIES = {
   boden:      { name: 'Boden',       region: 'norrbotten',  center: [65.825, 21.695], zoom: 13 },
   pitea:      { name: 'Piteå',       region: 'norrbotten',  center: [65.317, 21.500], zoom: 13 },
   skelleftea: { name: 'Skellefteå',  region: 'vasterbotten',center: [64.750, 20.950], zoom: 13 },
+  kalix:      { name: 'Kalix',       region: 'norrbotten',  center: [65.853, 23.163], zoom: 13 },
+  haparanda:  { name: 'Haparanda',   region: 'norrbotten',  center: [65.835, 24.136], zoom: 13 },
+  alvsbyn:    { name: 'Älvsbyn',     region: 'norrbotten',  center: [65.677, 21.000], zoom: 14 },
+  kiruna:     { name: 'Kiruna',      region: 'norrbotten',  center: [67.855, 20.225], zoom: 13 },
+  gallivare:  { name: 'Gällivare',   region: 'norrbotten',  center: [67.134, 20.652], zoom: 13 },
 };
 
 // Municipality bounding boxes (used for auto-switch + bbox overlays)
@@ -225,6 +230,11 @@ const CITY_BOUNDS = {
   boden:      { latMin: 65.74, latMax: 65.87, lngMin: 21.62, lngMax: 21.78 },
   pitea:      { latMin: 65.28, latMax: 65.36, lngMin: 21.40, lngMax: 21.60 },
   skelleftea: { latMin: 64.71, latMax: 64.80, lngMin: 20.87, lngMax: 21.03 },
+  kalix:      { latMin: 65.82, latMax: 65.89, lngMin: 23.08, lngMax: 23.25 },
+  haparanda:  { latMin: 65.80, latMax: 65.87, lngMin: 24.05, lngMax: 24.22 },
+  alvsbyn:    { latMin: 65.64, latMax: 65.72, lngMin: 20.90, lngMax: 21.10 },
+  kiruna:     { latMin: 67.82, latMax: 67.90, lngMin: 20.12, lngMax: 20.35 },
+  gallivare:  { latMin: 67.10, latMax: 67.18, lngMin: 20.57, lngMax: 20.76 },
 };
 
 // Coverage stats — updated by sync_to_parkmap.py after each pipeline run
@@ -233,6 +243,11 @@ const COVERAGE = {
   boden       : { total:  149, known:  126, pct:  84.6 },
   pitea       : { total:  207, known:  117, pct:  56.5 },
   skelleftea  : { total:  398, known:  331, pct:  83.2 },
+  kalix       : { total:  348, known:  201, pct:  57.8 },
+  haparanda   : { total:   56, known:   20, pct:  35.7 },
+  alvsbyn     : { total:   29, known:   11, pct:  37.9 },
+  kiruna      : { total:  305, known:  192, pct:  63.0 },
+  gallivare   : { total:  255, known:  183, pct:  71.8 },
 };
 
 // Default operators for cities without an operators.json
