@@ -221,7 +221,10 @@ const CITIES = {
   haparanda:  { name: 'Haparanda',   region: 'norrbotten',  center: [65.835, 24.136], zoom: 13 },
   alvsbyn:    { name: 'Älvsbyn',     region: 'norrbotten',  center: [65.677, 21.000], zoom: 14 },
   kiruna:     { name: 'Kiruna',      region: 'norrbotten',  center: [67.855, 20.225], zoom: 13 },
-  gallivare:  { name: 'Gällivare',   region: 'norrbotten',  center: [67.134, 20.652], zoom: 13 },
+  gallivare:  { name: 'Gällivare',   region: 'norrbotten',   center: [67.134, 20.652], zoom: 13 },
+  umea:       { name: 'Umeå',        region: 'vasterbotten', center: [63.825, 20.263], zoom: 13 },
+  sundsvall:  { name: 'Sundsvall',   region: 'vasternorrland', center: [62.390, 17.307], zoom: 13 },
+  ostersund:  { name: 'Östersund',   region: 'jamtland',     center: [63.177, 14.636], zoom: 13 },
 };
 
 // Municipality bounding boxes (used for auto-switch + bbox overlays)
@@ -235,6 +238,9 @@ const CITY_BOUNDS = {
   alvsbyn:    { latMin: 65.64, latMax: 65.72, lngMin: 20.90, lngMax: 21.10 },
   kiruna:     { latMin: 67.82, latMax: 67.90, lngMin: 20.12, lngMax: 20.35 },
   gallivare:  { latMin: 67.10, latMax: 67.18, lngMin: 20.57, lngMax: 20.76 },
+  umea:       { latMin: 63.77, latMax: 63.88, lngMin: 20.17, lngMax: 20.40 },
+  sundsvall:  { latMin: 62.34, latMax: 62.45, lngMin: 17.23, lngMax: 17.40 },
+  ostersund:  { latMin: 63.13, latMax: 63.22, lngMin: 14.55, lngMax: 14.73 },
 };
 
 // Coverage stats — updated by sync_to_parkmap.py after each pipeline run
@@ -248,6 +254,9 @@ const COVERAGE = {
   alvsbyn     : { total:   29, known:   29, pct: 100.0 },
   kiruna      : { total:  305, known:  305, pct: 100.0 },
   gallivare   : { total:  255, known:  254, pct:  99.6 },
+  umea        : { total: 1026, known: 1026, pct: 100.0 },
+  sundsvall   : { total: 1036, known: 1036, pct: 100.0 },
+  ostersund   : { total:  505, known:  505, pct: 100.0 },
 };
 
 // Default operators for cities without an operators.json
