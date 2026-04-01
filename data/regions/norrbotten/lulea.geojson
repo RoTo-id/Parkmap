@@ -73,6 +73,15 @@
       "total": 686,
       "coverage_pct": 98.7,
       "run_date": "2026-03-31"
+    },
+    "sunderby_fix": {
+      "zone": "lulea-osm-119235808",
+      "operator": "aimopark",
+      "zone_code": "1037",
+      "price": "8 kr/h",
+      "spots": 832,
+      "run_date": "2026-04-01",
+      "coverage_pct_after": 99.0
     }
   },
   "features": [
@@ -14629,24 +14638,23 @@
       "type": "Feature",
       "properties": {
         "id": "lulea-osm-119235808",
-        "name": "Parkering (OSM #119235808)",
-        "operator": "unknown",
+        "name": "Sunderby Sjukhus Parkering",
+        "operator": "aimopark",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
-        "spots": null,
-        "price_per_hour": null,
+        "zone_code": "1037",
+        "spots": 832,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "00:00-24:00",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.openstreetmap.org/way/119235808",
-        "confidence": 0.4,
+        "source_url": "https://www.aimopark.se/en/cities/sodra-sunderbyn/sunderby-sjukhus/",
+        "confidence": 0.95,
         "flags": [
-          "unknown_operator",
-          "osm_imported",
-          "genuinely_unknown"
+          "aimopark_confirmed",
+          "sunderby_sjukhus"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 119235808,
