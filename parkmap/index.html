@@ -158,10 +158,30 @@ a:hover{text-decoration:underline}
   </div>
   <div class="city-select-wrap">
     <select class="city-select" id="city-select">
-      <option value="lulea">Luleå</option>
-      <option value="boden">Boden</option>
-      <option value="pitea">Piteå</option>
-      <option value="skelleftea">Skellefteå</option>
+      <optgroup label="Norrbotten">
+        <option value="lulea">Luleå</option>
+        <option value="boden">Boden</option>
+        <option value="pitea">Piteå</option>
+        <option value="kalix">Kalix</option>
+        <option value="haparanda">Haparanda</option>
+        <option value="alvsbyn">Älvsbyn</option>
+        <option value="kiruna">Kiruna</option>
+        <option value="gallivare">Gällivare</option>
+      </optgroup>
+      <optgroup label="Västerbotten">
+        <option value="skelleftea">Skellefteå</option>
+        <option value="umea">Umeå</option>
+        <option value="lycksele">Lycksele</option>
+      </optgroup>
+      <optgroup label="Västernorrland">
+        <option value="sundsvall">Sundsvall</option>
+        <option value="harnosand">Härnösand</option>
+        <option value="ornskoldsvik">Örnsköldsvik</option>
+        <option value="kramfors">Kramfors</option>
+      </optgroup>
+      <optgroup label="Jämtland">
+        <option value="ostersund">Östersund</option>
+      </optgroup>
     </select>
   </div>
   <div class="search-box">
@@ -225,6 +245,10 @@ const CITIES = {
   umea:       { name: 'Umeå',        region: 'vasterbotten', center: [63.825, 20.263], zoom: 13 },
   sundsvall:  { name: 'Sundsvall',   region: 'vasternorrland', center: [62.390, 17.307], zoom: 13 },
   ostersund:  { name: 'Östersund',   region: 'jamtland',     center: [63.177, 14.636], zoom: 13 },
+  harnosand:  { name: 'Härnösand',   region: 'vasternorrland', center: [62.634, 17.938], zoom: 14 },
+  ornskoldsvik: { name: 'Örnsköldsvik', region: 'vasternorrland', center: [63.291, 18.716], zoom: 13 },
+  kramfors:   { name: 'Kramfors',     region: 'vasternorrland', center: [62.932, 17.793], zoom: 14 },
+  lycksele:   { name: 'Lycksele',     region: 'vasterbotten',   center: [64.594, 18.674], zoom: 14 },
 };
 
 // Municipality bounding boxes (used for auto-switch + bbox overlays)
@@ -241,6 +265,10 @@ const CITY_BOUNDS = {
   umea:       { latMin: 63.77, latMax: 63.88, lngMin: 20.17, lngMax: 20.40 },
   sundsvall:  { latMin: 62.34, latMax: 62.45, lngMin: 17.23, lngMax: 17.40 },
   ostersund:  { latMin: 63.13, latMax: 63.22, lngMin: 14.55, lngMax: 14.73 },
+  harnosand:  { latMin: 62.60, latMax: 62.66, lngMin: 17.88, lngMax: 18.00 },
+  ornskoldsvik: { latMin: 63.25, latMax: 63.33, lngMin: 18.65, lngMax: 18.80 },
+  kramfors:   { latMin: 62.90, latMax: 62.96, lngMin: 17.75, lngMax: 17.84 },
+  lycksele:   { latMin: 64.57, latMax: 64.62, lngMin: 18.63, lngMax: 18.72 },
 };
 
 // Coverage stats — updated by sync_to_parkmap.py after each pipeline run
@@ -257,6 +285,10 @@ const COVERAGE = {
   umea        : { total: 1026, known: 1026, pct: 100.0 },
   sundsvall   : { total: 1036, known: 1036, pct: 100.0 },
   ostersund   : { total:  505, known:  505, pct: 100.0 },
+  harnosand   : { total:  239, known:  239, pct: 100.0 },
+  ornskoldsvik: { total:  206, known:  206, pct: 100.0 },
+  kramfors    : { total:  174, known:  174, pct: 100.0 },
+  lycksele    : { total:   52, known:   52, pct: 100.0 },
 };
 
 // Default operators for cities without an operators.json
