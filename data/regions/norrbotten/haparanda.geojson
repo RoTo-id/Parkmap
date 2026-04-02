@@ -41,7 +41,7 @@
       "properties": {
         "id": "haparanda-osm-42311782",
         "name": "OSM-42311782",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Haparanda",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -53,13 +53,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.72,
         "flags": [
           "bulk_classified:no_paid_apps_in_haparanda",
           "osm_bootstrap",
           "genuinely_unknown",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "haparanda_free_muni"
         ],
         "last_verified": null,
         "osm_id": 42311782,
@@ -181,7 +182,7 @@
       "properties": {
         "id": "haparanda-osm-42349119",
         "name": "OSM-42349119",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Haparanda",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -193,13 +194,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.72,
         "flags": [
           "bulk_classified:no_paid_apps_in_haparanda",
           "osm_bootstrap",
           "genuinely_unknown",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "haparanda_free_muni"
         ],
         "last_verified": null,
         "osm_id": 42349119,
@@ -315,7 +317,7 @@
       "properties": {
         "id": "haparanda-osm-43114097",
         "name": "OSM-43114097",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Haparanda",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -327,13 +329,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.72,
         "flags": [
           "bulk_classified:no_paid_apps_in_haparanda",
           "osm_bootstrap",
           "genuinely_unknown",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "haparanda_free_muni"
         ],
         "last_verified": null,
         "osm_id": 43114097,
@@ -512,7 +515,7 @@
       "properties": {
         "id": "haparanda-osm-56683771",
         "name": "OSM-56683771",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Haparanda",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -524,13 +527,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.72,
         "flags": [
           "bulk_classified:no_paid_apps_in_haparanda",
           "osm_bootstrap",
           "genuinely_unknown",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "haparanda_free_muni"
         ],
         "last_verified": null,
         "osm_id": 56683771,
@@ -637,7 +641,7 @@
       "properties": {
         "id": "haparanda-osm-68883030",
         "name": "OSM-68883030",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Haparanda",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -649,13 +653,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.72,
         "flags": [
           "bulk_classified:no_paid_apps_in_haparanda",
           "osm_bootstrap",
           "genuinely_unknown",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "haparanda_free_muni"
         ],
         "last_verified": null,
         "osm_id": 68883030,
@@ -923,7 +928,7 @@
       "properties": {
         "id": "haparanda-osm-68883044",
         "name": "OSM-68883044",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Haparanda",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -935,13 +940,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.72,
         "flags": [
           "bulk_classified:no_paid_apps_in_haparanda",
           "osm_bootstrap",
           "genuinely_unknown",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "haparanda_free_muni"
         ],
         "last_verified": null,
         "osm_id": 68883044,
@@ -1092,7 +1098,7 @@
       "properties": {
         "id": "haparanda-osm-69304406",
         "name": "OSM-69304406",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Haparanda",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -1104,13 +1110,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.72,
         "flags": [
           "bulk_classified:no_paid_apps_in_haparanda",
           "osm_bootstrap",
           "genuinely_unknown",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "haparanda_free_muni"
         ],
         "last_verified": null,
         "osm_id": 69304406,
@@ -1560,7 +1567,7 @@
       "properties": {
         "id": "haparanda-osm-654903643",
         "name": "OSM-654903643",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Haparanda",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -1572,13 +1579,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.72,
         "flags": [
           "bulk_classified:no_paid_apps_in_haparanda",
           "osm_bootstrap",
           "genuinely_unknown",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "haparanda_free_muni"
         ],
         "last_verified": null,
         "osm_id": 654903643,
@@ -1622,7 +1630,7 @@
       "properties": {
         "id": "haparanda-osm-654903644",
         "name": "OSM-654903644",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Haparanda",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -1634,13 +1642,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.72,
         "flags": [
           "bulk_classified:no_paid_apps_in_haparanda",
           "osm_bootstrap",
           "genuinely_unknown",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "haparanda_free_muni"
         ],
         "last_verified": null,
         "osm_id": 654903644,
@@ -1684,7 +1693,7 @@
       "properties": {
         "id": "haparanda-osm-654903645",
         "name": "OSM-654903645",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Haparanda",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -1696,13 +1705,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.72,
         "flags": [
           "bulk_classified:no_paid_apps_in_haparanda",
           "osm_bootstrap",
           "genuinely_unknown",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "haparanda_free_muni"
         ],
         "last_verified": null,
         "osm_id": 654903645,
@@ -1750,7 +1760,7 @@
       "properties": {
         "id": "haparanda-osm-654904991",
         "name": "OSM-654904991",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Haparanda",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -1762,13 +1772,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.72,
         "flags": [
           "bulk_classified:no_paid_apps_in_haparanda",
           "osm_bootstrap",
           "genuinely_unknown",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "haparanda_free_muni"
         ],
         "last_verified": null,
         "osm_id": 654904991,
@@ -1812,7 +1823,7 @@
       "properties": {
         "id": "haparanda-osm-654904992",
         "name": "OSM-654904992",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Haparanda",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -1824,13 +1835,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.72,
         "flags": [
           "bulk_classified:no_paid_apps_in_haparanda",
           "osm_bootstrap",
           "genuinely_unknown",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "haparanda_free_muni"
         ],
         "last_verified": null,
         "osm_id": 654904992,
@@ -1874,7 +1886,7 @@
       "properties": {
         "id": "haparanda-osm-654904993",
         "name": "OSM-654904993",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Haparanda",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -1886,13 +1898,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.72,
         "flags": [
           "bulk_classified:no_paid_apps_in_haparanda",
           "osm_bootstrap",
           "genuinely_unknown",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "haparanda_free_muni"
         ],
         "last_verified": null,
         "osm_id": 654904993,
@@ -1936,7 +1949,7 @@
       "properties": {
         "id": "haparanda-osm-654905270",
         "name": "OSM-654905270",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Haparanda",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -1948,13 +1961,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.72,
         "flags": [
           "bulk_classified:no_paid_apps_in_haparanda",
           "osm_bootstrap",
           "genuinely_unknown",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "haparanda_free_muni"
         ],
         "last_verified": null,
         "osm_id": 654905270,
@@ -1998,7 +2012,7 @@
       "properties": {
         "id": "haparanda-osm-654905271",
         "name": "OSM-654905271",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Haparanda",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -2010,13 +2024,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.72,
         "flags": [
           "bulk_classified:no_paid_apps_in_haparanda",
           "osm_bootstrap",
           "genuinely_unknown",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "haparanda_free_muni"
         ],
         "last_verified": null,
         "osm_id": 654905271,
@@ -2060,7 +2075,7 @@
       "properties": {
         "id": "haparanda-osm-654905819",
         "name": "OSM-654905819",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Haparanda",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -2072,13 +2087,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.72,
         "flags": [
           "bulk_classified:no_paid_apps_in_haparanda",
           "osm_bootstrap",
           "genuinely_unknown",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "haparanda_free_muni"
         ],
         "last_verified": null,
         "osm_id": 654905819,
@@ -2122,7 +2138,7 @@
       "properties": {
         "id": "haparanda-osm-654905820",
         "name": "OSM-654905820",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Haparanda",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -2134,13 +2150,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.72,
         "flags": [
           "bulk_classified:no_paid_apps_in_haparanda",
           "osm_bootstrap",
           "genuinely_unknown",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "haparanda_free_muni"
         ],
         "last_verified": null,
         "osm_id": 654905820,
@@ -2184,7 +2201,7 @@
       "properties": {
         "id": "haparanda-osm-655152175",
         "name": "OSM-655152175",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Haparanda",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -2196,13 +2213,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.72,
         "flags": [
           "bulk_classified:no_paid_apps_in_haparanda",
           "osm_bootstrap",
           "genuinely_unknown",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "haparanda_free_muni"
         ],
         "last_verified": null,
         "osm_id": 655152175,
@@ -2250,7 +2268,7 @@
       "properties": {
         "id": "haparanda-osm-655152209",
         "name": "OSM-655152209",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Haparanda",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -2262,13 +2280,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.72,
         "flags": [
           "bulk_classified:no_paid_apps_in_haparanda",
           "osm_bootstrap",
           "genuinely_unknown",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "haparanda_free_muni"
         ],
         "last_verified": null,
         "osm_id": 655152209,
@@ -2312,7 +2331,7 @@
       "properties": {
         "id": "haparanda-osm-655152210",
         "name": "OSM-655152210",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Haparanda",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -2324,13 +2343,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.72,
         "flags": [
           "bulk_classified:no_paid_apps_in_haparanda",
           "osm_bootstrap",
           "genuinely_unknown",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "haparanda_free_muni"
         ],
         "last_verified": null,
         "osm_id": 655152210,
@@ -2378,7 +2398,7 @@
       "properties": {
         "id": "haparanda-osm-655152211",
         "name": "OSM-655152211",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Haparanda",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -2390,13 +2410,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.72,
         "flags": [
           "bulk_classified:no_paid_apps_in_haparanda",
           "osm_bootstrap",
           "genuinely_unknown",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "haparanda_free_muni"
         ],
         "last_verified": null,
         "osm_id": 655152211,
@@ -2440,7 +2461,7 @@
       "properties": {
         "id": "haparanda-osm-655152212",
         "name": "OSM-655152212",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Haparanda",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -2452,13 +2473,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.72,
         "flags": [
           "bulk_classified:no_paid_apps_in_haparanda",
           "osm_bootstrap",
           "genuinely_unknown",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "haparanda_free_muni"
         ],
         "last_verified": null,
         "osm_id": 655152212,
@@ -2693,7 +2715,7 @@
       "properties": {
         "id": "haparanda-osm-1038281988",
         "name": "OSM-1038281988",
-        "operator": "unknown",
+        "operator": "private_property",
         "municipality": "Haparanda",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -2705,13 +2727,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.72,
         "flags": [
           "bulk_classified:no_paid_apps_in_haparanda",
           "osm_bootstrap",
           "genuinely_unknown",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "haparanda_rajalla_area"
         ],
         "last_verified": null,
         "osm_id": 1038281988,
@@ -2775,7 +2798,7 @@
       "properties": {
         "id": "haparanda-osm-1090676664",
         "name": "OSM-1090676664",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Haparanda",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -2787,13 +2810,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.72,
         "flags": [
           "bulk_classified:no_paid_apps_in_haparanda",
           "osm_bootstrap",
           "genuinely_unknown",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "haparanda_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1090676664,
@@ -3017,7 +3041,7 @@
       "properties": {
         "id": "haparanda-osm-1143575196",
         "name": "OSM-1143575196",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Haparanda",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -3029,13 +3053,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.72,
         "flags": [
           "bulk_classified:no_paid_apps_in_haparanda",
           "osm_bootstrap",
           "genuinely_unknown",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "haparanda_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1143575196,
@@ -3083,7 +3108,7 @@
       "properties": {
         "id": "haparanda-osm-1143575197",
         "name": "OSM-1143575197",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Haparanda",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -3095,13 +3120,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.72,
         "flags": [
           "bulk_classified:no_paid_apps_in_haparanda",
           "osm_bootstrap",
           "genuinely_unknown",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "haparanda_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1143575197,
@@ -3145,7 +3171,7 @@
       "properties": {
         "id": "haparanda-osm-1279470870",
         "name": "OSM-1279470870",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Haparanda",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -3157,13 +3183,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.72,
         "flags": [
           "bulk_classified:no_paid_apps_in_haparanda",
           "osm_bootstrap",
           "genuinely_unknown",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "haparanda_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1279470870,
@@ -3211,7 +3238,7 @@
       "properties": {
         "id": "haparanda-osm-1299067518",
         "name": "OSM-1299067518",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Haparanda",
         "region": "Norrbotten",
         "type": "street",
@@ -3223,13 +3250,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.72,
         "flags": [
           "bulk_classified:no_paid_apps_in_haparanda",
           "osm_bootstrap",
           "genuinely_unknown",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "haparanda_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1299067518,
@@ -3336,7 +3364,7 @@
       "properties": {
         "id": "haparanda-osm-1343441730",
         "name": "OSM-1343441730",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Haparanda",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -3348,13 +3376,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.72,
         "flags": [
           "bulk_classified:no_paid_apps_in_haparanda",
           "osm_bootstrap",
           "genuinely_unknown",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "haparanda_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1343441730,
@@ -3718,7 +3747,7 @@
       "properties": {
         "id": "haparanda-osm-1392104620",
         "name": "OSM-1392104620",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Haparanda",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -3730,13 +3759,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.72,
         "flags": [
           "bulk_classified:no_paid_apps_in_haparanda",
           "osm_bootstrap",
           "genuinely_unknown",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "haparanda_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1392104620,
@@ -4067,7 +4097,7 @@
       "properties": {
         "id": "haparanda-osm-1473659096",
         "name": "OSM-1473659096",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Haparanda",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -4079,13 +4109,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.72,
         "flags": [
           "bulk_classified:no_paid_apps_in_haparanda",
           "osm_bootstrap",
           "genuinely_unknown",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "haparanda_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1473659096,
@@ -4137,7 +4168,7 @@
       "properties": {
         "id": "haparanda-osm-1473659808",
         "name": "OSM-1473659808",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Haparanda",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -4149,13 +4180,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.72,
         "flags": [
           "bulk_classified:no_paid_apps_in_haparanda",
           "osm_bootstrap",
           "genuinely_unknown",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "haparanda_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1473659808,

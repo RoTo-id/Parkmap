@@ -489,7 +489,7 @@
       "properties": {
         "id": "gallivare-osm-179537329",
         "name": "OSM-179537329",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -501,13 +501,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 179537329,
@@ -551,7 +552,7 @@
       "properties": {
         "id": "gallivare-osm-198055855",
         "name": "OSM-198055855",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -563,13 +564,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 198055855,
@@ -912,7 +914,7 @@
       "properties": {
         "id": "gallivare-osm-198086504",
         "name": "OSM-198086504",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -924,13 +926,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 198086504,
@@ -1249,7 +1252,7 @@
       "properties": {
         "id": "gallivare-osm-198095008",
         "name": "OSM-198095008",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -1261,13 +1264,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 198095008,
@@ -1347,7 +1351,7 @@
       "properties": {
         "id": "gallivare-osm-198095009",
         "name": "OSM-198095009",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -1359,13 +1363,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 198095009,
@@ -1409,7 +1414,7 @@
       "properties": {
         "id": "gallivare-osm-198099486",
         "name": "OSM-198099486",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -1421,13 +1426,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 198099486,
@@ -1546,7 +1552,7 @@
       "properties": {
         "id": "gallivare-osm-203775119",
         "name": "OSM-203775119",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -1558,13 +1564,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 203775119,
@@ -2448,7 +2455,7 @@
       "properties": {
         "id": "gallivare-osm-354952417",
         "name": "OSM-354952417",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -2460,13 +2467,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 354952417,
@@ -2518,7 +2526,7 @@
       "properties": {
         "id": "gallivare-osm-354952418",
         "name": "OSM-354952418",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -2530,13 +2538,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 354952418,
@@ -3157,7 +3166,7 @@
       "properties": {
         "id": "gallivare-osm-406509644",
         "name": "OSM-406509644",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -3169,13 +3178,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 406509644,
@@ -3485,7 +3495,7 @@
       "properties": {
         "id": "gallivare-osm-481535030",
         "name": "OSM-481535030",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -3497,13 +3507,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 481535030,
@@ -3875,7 +3886,7 @@
       "properties": {
         "id": "gallivare-osm-483541272",
         "name": "OSM-483541272",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -3887,13 +3898,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 483541272,
@@ -4024,7 +4036,7 @@
       "properties": {
         "id": "gallivare-osm-483545634",
         "name": "OSM-483545634",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -4036,13 +4048,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 483545634,
@@ -4219,7 +4232,7 @@
       "properties": {
         "id": "gallivare-osm-509489765",
         "name": "OSM-509489765",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -4231,13 +4244,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 509489765,
@@ -4281,7 +4295,7 @@
       "properties": {
         "id": "gallivare-osm-531623807",
         "name": "OSM-531623807",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -4293,13 +4307,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 531623807,
@@ -5110,7 +5125,7 @@
       "properties": {
         "id": "gallivare-osm-757888497",
         "name": "OSM-757888497",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -5122,13 +5137,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 757888497,
@@ -5382,7 +5398,7 @@
       "properties": {
         "id": "gallivare-osm-758117815",
         "name": "OSM-758117815",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -5394,13 +5410,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 758117815,
@@ -6832,7 +6849,7 @@
       "properties": {
         "id": "gallivare-osm-1067846835",
         "name": "OSM-1067846835",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -6844,13 +6861,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1067846835,
@@ -7195,7 +7213,7 @@
       "properties": {
         "id": "gallivare-osm-1070627122",
         "name": "OSM-1070627122",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -7207,13 +7225,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1070627122,
@@ -7289,7 +7308,7 @@
       "properties": {
         "id": "gallivare-osm-1071336256",
         "name": "OSM-1071336256",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -7301,13 +7320,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1071336256,
@@ -7355,7 +7375,7 @@
       "properties": {
         "id": "gallivare-osm-1099007874",
         "name": "OSM-1099007874",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -7367,13 +7387,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1099007874,
@@ -7706,7 +7727,7 @@
       "properties": {
         "id": "gallivare-osm-1100599505",
         "name": "OSM-1100599505",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -7718,13 +7739,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1100599505,
@@ -7768,7 +7790,7 @@
       "properties": {
         "id": "gallivare-osm-1100599506",
         "name": "OSM-1100599506",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -7780,13 +7802,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1100599506,
@@ -7830,7 +7853,7 @@
       "properties": {
         "id": "gallivare-osm-1100599507",
         "name": "OSM-1100599507",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -7842,13 +7865,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1100599507,
@@ -7953,7 +7977,7 @@
       "properties": {
         "id": "gallivare-osm-1100599866",
         "name": "OSM-1100599866",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -7965,13 +7989,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1100599866,
@@ -8015,7 +8040,7 @@
       "properties": {
         "id": "gallivare-osm-1100599867",
         "name": "OSM-1100599867",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -8027,13 +8052,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1100599867,
@@ -8077,7 +8103,7 @@
       "properties": {
         "id": "gallivare-osm-1100599868",
         "name": "OSM-1100599868",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -8089,13 +8115,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1100599868,
@@ -8259,7 +8286,7 @@
       "properties": {
         "id": "gallivare-osm-1100605131",
         "name": "OSM-1100605131",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -8271,13 +8298,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1100605131,
@@ -8447,7 +8475,7 @@
       "properties": {
         "id": "gallivare-osm-1100605911",
         "name": "OSM-1100605911",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -8459,13 +8487,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1100605911,
@@ -8568,7 +8597,7 @@
       "properties": {
         "id": "gallivare-osm-1100788216",
         "name": "OSM-1100788216",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -8580,13 +8609,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1100788216,
@@ -8630,7 +8660,7 @@
       "properties": {
         "id": "gallivare-osm-1100788224",
         "name": "OSM-1100788224",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -8642,13 +8672,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1100788224,
@@ -9127,7 +9158,7 @@
       "properties": {
         "id": "gallivare-osm-1136708293",
         "name": "OSM-1136708293",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -9139,13 +9170,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1136708293,
@@ -11831,7 +11863,7 @@
       "properties": {
         "id": "gallivare-osm-1136708342",
         "name": "OSM-1136708342",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -11843,13 +11875,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1136708342,
@@ -12291,7 +12324,7 @@
       "properties": {
         "id": "gallivare-osm-1136713733",
         "name": "OSM-1136713733",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -12303,13 +12336,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1136713733,
@@ -12934,7 +12968,7 @@
       "properties": {
         "id": "gallivare-osm-1136713741",
         "name": "OSM-1136713741",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -12946,13 +12980,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1136713741,
@@ -13431,7 +13466,7 @@
       "properties": {
         "id": "gallivare-osm-1136713747",
         "name": "OSM-1136713747",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -13443,13 +13478,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1136713747,
@@ -13493,7 +13529,7 @@
       "properties": {
         "id": "gallivare-osm-1136713748",
         "name": "OSM-1136713748",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -13505,13 +13541,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1136713748,
@@ -13555,7 +13592,7 @@
       "properties": {
         "id": "gallivare-osm-1136713749",
         "name": "OSM-1136713749",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -13567,13 +13604,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1136713749,
@@ -13617,7 +13655,7 @@
       "properties": {
         "id": "gallivare-osm-1136713750",
         "name": "OSM-1136713750",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -13629,13 +13667,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1136713750,
@@ -13782,7 +13821,7 @@
       "properties": {
         "id": "gallivare-osm-1136718502",
         "name": "OSM-1136718502",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -13794,13 +13833,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1136718502,
@@ -13852,7 +13892,7 @@
       "properties": {
         "id": "gallivare-osm-1136718503",
         "name": "OSM-1136718503",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -13864,13 +13904,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1136718503,
@@ -13938,7 +13979,7 @@
       "properties": {
         "id": "gallivare-osm-1136718504",
         "name": "OSM-1136718504",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -13950,13 +13991,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1136718504,
@@ -14028,7 +14070,7 @@
       "properties": {
         "id": "gallivare-osm-1136718505",
         "name": "OSM-1136718505",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -14040,13 +14082,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1136718505,
@@ -14122,7 +14165,7 @@
       "properties": {
         "id": "gallivare-osm-1136718506",
         "name": "OSM-1136718506",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -14134,13 +14177,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1136718506,
@@ -14200,7 +14244,7 @@
       "properties": {
         "id": "gallivare-osm-1136718507",
         "name": "OSM-1136718507",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -14212,13 +14256,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1136718507,
@@ -14262,7 +14307,7 @@
       "properties": {
         "id": "gallivare-osm-1136718508",
         "name": "OSM-1136718508",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -14274,13 +14319,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1136718508,
@@ -14324,7 +14370,7 @@
       "properties": {
         "id": "gallivare-osm-1136718509",
         "name": "OSM-1136718509",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -14336,13 +14382,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1136718509,
@@ -14398,7 +14445,7 @@
       "properties": {
         "id": "gallivare-osm-1136718510",
         "name": "OSM-1136718510",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -14410,13 +14457,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1136718510,
@@ -14468,7 +14516,7 @@
       "properties": {
         "id": "gallivare-osm-1136718511",
         "name": "OSM-1136718511",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -14480,13 +14528,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1136718511,
@@ -14546,7 +14595,7 @@
       "properties": {
         "id": "gallivare-osm-1136718512",
         "name": "OSM-1136718512",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -14558,13 +14607,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1136718512,
@@ -14616,7 +14666,7 @@
       "properties": {
         "id": "gallivare-osm-1136718513",
         "name": "OSM-1136718513",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -14628,13 +14678,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1136718513,
@@ -14678,7 +14729,7 @@
       "properties": {
         "id": "gallivare-osm-1136718514",
         "name": "OSM-1136718514",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -14690,13 +14741,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1136718514,
@@ -15254,7 +15306,7 @@
       "properties": {
         "id": "gallivare-osm-1136723250",
         "name": "OSM-1136723250",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -15266,13 +15318,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1136723250,
@@ -15553,7 +15606,7 @@
       "properties": {
         "id": "gallivare-osm-1136723254",
         "name": "OSM-1136723254",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -15565,13 +15618,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1136723254,
@@ -15615,7 +15669,7 @@
       "properties": {
         "id": "gallivare-osm-1136723255",
         "name": "OSM-1136723255",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -15627,13 +15681,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1136723255,
@@ -15973,7 +16028,7 @@
       "properties": {
         "id": "gallivare-osm-1158822057",
         "name": "OSM-1158822057",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -15985,13 +16040,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1158822057,
@@ -16185,7 +16241,7 @@
       "properties": {
         "id": "gallivare-osm-1180264590",
         "name": "OSM-1180264590",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -16197,13 +16253,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1180264590,
@@ -16247,7 +16304,7 @@
       "properties": {
         "id": "gallivare-osm-1180264591",
         "name": "OSM-1180264591",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -16259,13 +16316,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1180264591,
@@ -17448,7 +17506,7 @@
       "properties": {
         "id": "gallivare-osm-1180949224",
         "name": "OSM-1180949224",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -17460,13 +17518,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1180949224,
@@ -17777,7 +17836,7 @@
       "properties": {
         "id": "gallivare-osm-1359304196",
         "name": "OSM-1359304196",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -17789,13 +17848,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:gallivare_free_muni",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "gallivare_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1359304196,

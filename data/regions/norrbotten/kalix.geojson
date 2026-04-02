@@ -41,7 +41,7 @@
       "properties": {
         "id": "kalix-osm-6951660",
         "name": "OSM-6951660",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -53,13 +53,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 6951660,
@@ -107,7 +108,7 @@
       "properties": {
         "id": "kalix-osm-233706856",
         "name": "OSM-233706856",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -119,13 +120,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 233706856,
@@ -169,7 +171,7 @@
       "properties": {
         "id": "kalix-osm-233713230",
         "name": "OSM-233713230",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -181,13 +183,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 233713230,
@@ -231,7 +234,7 @@
       "properties": {
         "id": "kalix-osm-233713700",
         "name": "OSM-233713700",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -243,13 +246,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 233713700,
@@ -301,7 +305,7 @@
       "properties": {
         "id": "kalix-osm-233713880",
         "name": "OSM-233713880",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -313,13 +317,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 233713880,
@@ -363,7 +368,7 @@
       "properties": {
         "id": "kalix-osm-233714419",
         "name": "OSM-233714419",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -375,13 +380,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 233714419,
@@ -425,7 +431,7 @@
       "properties": {
         "id": "kalix-osm-233715384",
         "name": "OSM-233715384",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -437,13 +443,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 233715384,
@@ -487,7 +494,7 @@
       "properties": {
         "id": "kalix-osm-233715721",
         "name": "OSM-233715721",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -499,13 +506,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 233715721,
@@ -549,7 +557,7 @@
       "properties": {
         "id": "kalix-osm-233718371",
         "name": "OSM-233718371",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -561,13 +569,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 233718371,
@@ -672,7 +681,7 @@
       "properties": {
         "id": "kalix-osm-233718376",
         "name": "OSM-233718376",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -684,13 +693,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 233718376,
@@ -742,7 +752,7 @@
       "properties": {
         "id": "kalix-osm-233718767",
         "name": "OSM-233718767",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -754,13 +764,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 233718767,
@@ -812,7 +823,7 @@
       "properties": {
         "id": "kalix-osm-233719269",
         "name": "OSM-233719269",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -824,13 +835,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 233719269,
@@ -878,7 +890,7 @@
       "properties": {
         "id": "kalix-osm-233723478",
         "name": "OSM-233723478",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -890,13 +902,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 233723478,
@@ -956,7 +969,7 @@
       "properties": {
         "id": "kalix-osm-233723484",
         "name": "OSM-233723484",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -968,13 +981,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 233723484,
@@ -1026,7 +1040,7 @@
       "properties": {
         "id": "kalix-osm-233724975",
         "name": "OSM-233724975",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -1038,13 +1052,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 233724975,
@@ -1092,7 +1107,7 @@
       "properties": {
         "id": "kalix-osm-233727711",
         "name": "OSM-233727711",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -1104,13 +1119,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 233727711,
@@ -1166,7 +1182,7 @@
       "properties": {
         "id": "kalix-osm-233728361",
         "name": "OSM-233728361",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -1178,13 +1194,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 233728361,
@@ -1228,7 +1245,7 @@
       "properties": {
         "id": "kalix-osm-233735019",
         "name": "OSM-233735019",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -1240,13 +1257,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 233735019,
@@ -1322,7 +1340,7 @@
       "properties": {
         "id": "kalix-osm-233743689",
         "name": "OSM-233743689",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -1334,13 +1352,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 233743689,
@@ -1392,7 +1411,7 @@
       "properties": {
         "id": "kalix-osm-233806655",
         "name": "OSM-233806655",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -1404,13 +1423,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 233806655,
@@ -1454,7 +1474,7 @@
       "properties": {
         "id": "kalix-osm-233859897",
         "name": "OSM-233859897",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -1466,13 +1486,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 233859897,
@@ -1516,7 +1537,7 @@
       "properties": {
         "id": "kalix-osm-233891083",
         "name": "OSM-233891083",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -1528,13 +1549,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 233891083,
@@ -1578,7 +1600,7 @@
       "properties": {
         "id": "kalix-osm-233898116",
         "name": "OSM-233898116",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -1590,13 +1612,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 233898116,
@@ -1644,7 +1667,7 @@
       "properties": {
         "id": "kalix-osm-233898119",
         "name": "OSM-233898119",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -1656,13 +1679,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 233898119,
@@ -1722,7 +1746,7 @@
       "properties": {
         "id": "kalix-osm-233898121",
         "name": "OSM-233898121",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -1734,13 +1758,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 233898121,
@@ -1914,7 +1939,7 @@
       "properties": {
         "id": "kalix-osm-237845860",
         "name": "OSM-237845860",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -1926,13 +1951,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 237845860,
@@ -2044,7 +2070,7 @@
       "properties": {
         "id": "kalix-osm-238874886",
         "name": "OSM-238874886",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -2056,13 +2082,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 238874886,
@@ -2118,7 +2145,7 @@
       "properties": {
         "id": "kalix-osm-239316718",
         "name": "OSM-239316718",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -2130,13 +2157,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 239316718,
@@ -2180,7 +2208,7 @@
       "properties": {
         "id": "kalix-osm-239318344",
         "name": "OSM-239318344",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -2192,13 +2220,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 239318344,
@@ -2242,7 +2271,7 @@
       "properties": {
         "id": "kalix-osm-239403110",
         "name": "OSM-239403110",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -2254,13 +2283,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 239403110,
@@ -2304,7 +2334,7 @@
       "properties": {
         "id": "kalix-osm-252866394",
         "name": "OSM-252866394",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -2316,13 +2346,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 252866394,
@@ -2472,7 +2503,7 @@
       "properties": {
         "id": "kalix-osm-366336386",
         "name": "OSM-366336386",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -2484,13 +2515,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 366336386,
@@ -2614,7 +2646,7 @@
       "properties": {
         "id": "kalix-osm-395249210",
         "name": "OSM-395249210",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -2626,13 +2658,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 395249210,
@@ -2780,7 +2813,7 @@
       "properties": {
         "id": "kalix-osm-482211353",
         "name": "OSM-482211353",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -2792,13 +2825,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 482211353,
@@ -2938,7 +2972,7 @@
       "properties": {
         "id": "kalix-osm-482211356",
         "name": "OSM-482211356",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -2950,13 +2984,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 482211356,
@@ -3020,7 +3055,7 @@
       "properties": {
         "id": "kalix-osm-482211364",
         "name": "OSM-482211364",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -3032,13 +3067,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 482211364,
@@ -3144,7 +3180,7 @@
       "properties": {
         "id": "kalix-osm-712481605",
         "name": "OSM-712481605",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -3156,13 +3192,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 712481605,
@@ -3265,7 +3302,7 @@
       "properties": {
         "id": "kalix-osm-924760687",
         "name": "OSM-924760687",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -3277,13 +3314,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 924760687,
@@ -5250,7 +5288,7 @@
       "properties": {
         "id": "kalix-osm-1178246750",
         "name": "OSM-1178246750",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -5262,13 +5300,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1178246750,
@@ -5312,7 +5351,7 @@
       "properties": {
         "id": "kalix-osm-1195009899",
         "name": "OSM-1195009899",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -5324,13 +5363,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1195009899,
@@ -5386,7 +5426,7 @@
       "properties": {
         "id": "kalix-osm-1195009901",
         "name": "OSM-1195009901",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -5398,13 +5438,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1195009901,
@@ -5476,7 +5517,7 @@
       "properties": {
         "id": "kalix-osm-1195009904",
         "name": "OSM-1195009904",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -5488,13 +5529,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1195009904,
@@ -5646,7 +5688,7 @@
       "properties": {
         "id": "kalix-osm-1195009911",
         "name": "OSM-1195009911",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -5658,13 +5700,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1195009911,
@@ -5752,7 +5795,7 @@
       "properties": {
         "id": "kalix-osm-1195009914",
         "name": "OSM-1195009914",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -5764,13 +5807,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1195009914,
@@ -5822,7 +5866,7 @@
       "properties": {
         "id": "kalix-osm-1195009916",
         "name": "OSM-1195009916",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -5834,13 +5878,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1195009916,
@@ -5888,7 +5933,7 @@
       "properties": {
         "id": "kalix-osm-1195009940",
         "name": "OSM-1195009940",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -5900,13 +5945,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1195009940,
@@ -5982,7 +6028,7 @@
       "properties": {
         "id": "kalix-osm-1195009954",
         "name": "OSM-1195009954",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -5994,13 +6040,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1195009954,
@@ -6072,7 +6119,7 @@
       "properties": {
         "id": "kalix-osm-1195009966",
         "name": "OSM-1195009966",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -6084,13 +6131,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1195009966,
@@ -6166,7 +6214,7 @@
       "properties": {
         "id": "kalix-osm-1195009985",
         "name": "OSM-1195009985",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -6178,13 +6226,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1195009985,
@@ -6252,7 +6301,7 @@
       "properties": {
         "id": "kalix-osm-1195009988",
         "name": "OSM-1195009988",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -6264,13 +6313,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1195009988,
@@ -6982,7 +7032,7 @@
       "properties": {
         "id": "kalix-osm-1222106049",
         "name": "OSM-1222106049",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -6994,13 +7044,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1222106049,
@@ -7068,7 +7119,7 @@
       "properties": {
         "id": "kalix-osm-1222106057",
         "name": "OSM-1222106057",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -7080,13 +7131,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1222106057,
@@ -7162,7 +7214,7 @@
       "properties": {
         "id": "kalix-osm-1222106081",
         "name": "OSM-1222106081",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -7174,13 +7226,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1222106081,
@@ -7264,7 +7317,7 @@
       "properties": {
         "id": "kalix-osm-1222981766",
         "name": "OSM-1222981766",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -7276,13 +7329,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1222981766,
@@ -7326,7 +7380,7 @@
       "properties": {
         "id": "kalix-osm-1222981767",
         "name": "OSM-1222981767",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -7338,13 +7392,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1222981767,
@@ -7400,7 +7455,7 @@
       "properties": {
         "id": "kalix-osm-1222981770",
         "name": "OSM-1222981770",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -7412,13 +7467,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1222981770,
@@ -7470,7 +7526,7 @@
       "properties": {
         "id": "kalix-osm-1222981771",
         "name": "OSM-1222981771",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -7482,13 +7538,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1222981771,
@@ -7600,7 +7657,7 @@
       "properties": {
         "id": "kalix-osm-1223079725",
         "name": "OSM-1223079725",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -7612,13 +7669,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1223079725,
@@ -8526,7 +8584,7 @@
       "properties": {
         "id": "kalix-osm-1240461128",
         "name": "OSM-1240461128",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -8538,13 +8596,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1240461128,
@@ -8872,7 +8931,7 @@
       "properties": {
         "id": "kalix-osm-1240461143",
         "name": "OSM-1240461143",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -8884,13 +8943,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1240461143,
@@ -8934,7 +8994,7 @@
       "properties": {
         "id": "kalix-osm-1240461148",
         "name": "OSM-1240461148",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -8946,13 +9006,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1240461148,
@@ -9180,7 +9241,7 @@
       "properties": {
         "id": "kalix-osm-1240461153",
         "name": "OSM-1240461153",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -9192,13 +9253,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1240461153,
@@ -9310,7 +9372,7 @@
       "properties": {
         "id": "kalix-osm-1240461157",
         "name": "OSM-1240461157",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -9322,13 +9384,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1240461157,
@@ -9376,7 +9439,7 @@
       "properties": {
         "id": "kalix-osm-1240461173",
         "name": "OSM-1240461173",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -9388,13 +9451,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1240461173,
@@ -9442,7 +9506,7 @@
       "properties": {
         "id": "kalix-osm-1240461176",
         "name": "OSM-1240461176",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -9454,13 +9518,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1240461176,
@@ -9808,7 +9873,7 @@
       "properties": {
         "id": "kalix-osm-1245410799",
         "name": "OSM-1245410799",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -9820,13 +9885,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1245410799,
@@ -10018,7 +10084,7 @@
       "properties": {
         "id": "kalix-osm-1245410863",
         "name": "OSM-1245410863",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -10030,13 +10096,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1245410863,
@@ -10088,7 +10155,7 @@
       "properties": {
         "id": "kalix-osm-1245678492",
         "name": "OSM-1245678492",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -10100,13 +10167,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1245678492,
@@ -10150,7 +10218,7 @@
       "properties": {
         "id": "kalix-osm-1245678496",
         "name": "OSM-1245678496",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -10162,13 +10230,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1245678496,
@@ -10216,7 +10285,7 @@
       "properties": {
         "id": "kalix-osm-1245678497",
         "name": "OSM-1245678497",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -10228,13 +10297,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1245678497,
@@ -11270,7 +11340,7 @@
       "properties": {
         "id": "kalix-osm-1248955805",
         "name": "OSM-1248955805",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -11282,13 +11352,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1248955805,
@@ -11472,7 +11543,7 @@
       "properties": {
         "id": "kalix-osm-1248955814",
         "name": "OSM-1248955814",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -11484,13 +11555,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1248955814,
@@ -11566,7 +11638,7 @@
       "properties": {
         "id": "kalix-osm-1248955842",
         "name": "OSM-1248955842",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -11578,13 +11650,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1248955842,
@@ -11688,7 +11761,7 @@
       "properties": {
         "id": "kalix-osm-1248955847",
         "name": "OSM-1248955847",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -11700,13 +11773,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1248955847,
@@ -12058,7 +12132,7 @@
       "properties": {
         "id": "kalix-osm-1248955910",
         "name": "OSM-1248955910",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -12070,13 +12144,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1248955910,
@@ -12184,7 +12259,7 @@
       "properties": {
         "id": "kalix-osm-1249350283",
         "name": "OSM-1249350283",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -12196,13 +12271,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1249350283,
@@ -12306,7 +12382,7 @@
       "properties": {
         "id": "kalix-osm-1253460682",
         "name": "OSM-1253460682",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -12318,13 +12394,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1253460682,
@@ -12452,7 +12529,7 @@
       "properties": {
         "id": "kalix-osm-1320120633",
         "name": "OSM-1320120633",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -12464,13 +12541,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1320120633,
@@ -12762,7 +12840,7 @@
       "properties": {
         "id": "kalix-osm-1331177236",
         "name": "OSM-1331177236",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -12774,13 +12852,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1331177236,
@@ -13327,7 +13406,7 @@
       "properties": {
         "id": "kalix-osm-1335883731",
         "name": "OSM-1335883731",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -13339,13 +13418,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1335883731,
@@ -13421,7 +13501,7 @@
       "properties": {
         "id": "kalix-osm-1335883737",
         "name": "OSM-1335883737",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -13433,13 +13513,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1335883737,
@@ -13631,7 +13712,7 @@
       "properties": {
         "id": "kalix-osm-1339617724",
         "name": "OSM-1339617724",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -13643,13 +13724,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1339617724,
@@ -13693,7 +13775,7 @@
       "properties": {
         "id": "kalix-osm-1343654948",
         "name": "OSM-1343654948",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -13705,13 +13787,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1343654948,
@@ -13952,7 +14035,7 @@
       "properties": {
         "id": "kalix-osm-1392354603",
         "name": "OSM-1392354603",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -13964,13 +14047,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1392354603,
@@ -14079,7 +14163,7 @@
       "properties": {
         "id": "kalix-osm-1392354606",
         "name": "OSM-1392354606",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -14091,13 +14175,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1392354606,
@@ -16051,7 +16136,7 @@
       "properties": {
         "id": "kalix-osm-1392354660",
         "name": "OSM-1392354660",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -16063,13 +16148,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1392354660,
@@ -16113,7 +16199,7 @@
       "properties": {
         "id": "kalix-osm-1392354661",
         "name": "OSM-1392354661",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -16125,13 +16211,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1392354661,
@@ -16175,7 +16262,7 @@
       "properties": {
         "id": "kalix-osm-1392354662",
         "name": "OSM-1392354662",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -16187,13 +16274,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1392354662,
@@ -16241,7 +16329,7 @@
       "properties": {
         "id": "kalix-osm-1392354663",
         "name": "OSM-1392354663",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -16253,13 +16341,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1392354663,
@@ -16303,7 +16392,7 @@
       "properties": {
         "id": "kalix-osm-1392354664",
         "name": "OSM-1392354664",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -16315,13 +16404,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1392354664,
@@ -16365,7 +16455,7 @@
       "properties": {
         "id": "kalix-osm-1392354665",
         "name": "OSM-1392354665",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -16377,13 +16467,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1392354665,
@@ -16427,7 +16518,7 @@
       "properties": {
         "id": "kalix-osm-1392354671",
         "name": "OSM-1392354671",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -16439,13 +16530,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1392354671,
@@ -16489,7 +16581,7 @@
       "properties": {
         "id": "kalix-osm-1392354672",
         "name": "OSM-1392354672",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -16501,13 +16593,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1392354672,
@@ -16551,7 +16644,7 @@
       "properties": {
         "id": "kalix-osm-1392354673",
         "name": "OSM-1392354673",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -16563,13 +16656,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1392354673,
@@ -16613,7 +16707,7 @@
       "properties": {
         "id": "kalix-osm-1392354674",
         "name": "OSM-1392354674",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -16625,13 +16719,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1392354674,
@@ -16675,7 +16770,7 @@
       "properties": {
         "id": "kalix-osm-1393213435",
         "name": "OSM-1393213435",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -16687,13 +16782,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1393213435,
@@ -16785,7 +16881,7 @@
       "properties": {
         "id": "kalix-osm-1393213482",
         "name": "OSM-1393213482",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -16797,13 +16893,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1393213482,
@@ -17335,7 +17432,7 @@
       "properties": {
         "id": "kalix-osm-1394200370",
         "name": "OSM-1394200370",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -17347,13 +17444,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1394200370,
@@ -17465,7 +17563,7 @@
       "properties": {
         "id": "kalix-osm-1394573640",
         "name": "OSM-1394573640",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -17477,13 +17575,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1394573640,
@@ -17679,7 +17778,7 @@
       "properties": {
         "id": "kalix-osm-1395924785",
         "name": "OSM-1395924785",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -17691,13 +17790,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1395924785,
@@ -17785,7 +17885,7 @@
       "properties": {
         "id": "kalix-osm-1395924795",
         "name": "OSM-1395924795",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -17797,13 +17897,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1395924795,
@@ -17847,7 +17948,7 @@
       "properties": {
         "id": "kalix-osm-1395946887",
         "name": "OSM-1395946887",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -17859,13 +17960,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1395946887,
@@ -17909,7 +18011,7 @@
       "properties": {
         "id": "kalix-osm-1396065782",
         "name": "OSM-1396065782",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -17921,13 +18023,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1396065782,
@@ -18402,7 +18505,7 @@
       "properties": {
         "id": "kalix-osm-1396578975",
         "name": "OSM-1396578975",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -18414,13 +18517,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1396578975,
@@ -18585,7 +18689,7 @@
       "properties": {
         "id": "kalix-osm-1396596621",
         "name": "OSM-1396596621",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -18597,13 +18701,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1396596621,
@@ -18900,7 +19005,7 @@
       "properties": {
         "id": "kalix-osm-1397710631",
         "name": "OSM-1397710631",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -18912,13 +19017,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1397710631,
@@ -18962,7 +19068,7 @@
       "properties": {
         "id": "kalix-osm-1397710641",
         "name": "OSM-1397710641",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -18974,13 +19080,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1397710641,
@@ -19024,7 +19131,7 @@
       "properties": {
         "id": "kalix-osm-1397710642",
         "name": "OSM-1397710642",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -19036,13 +19143,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1397710642,
@@ -19641,7 +19749,7 @@
       "properties": {
         "id": "kalix-osm-1426113337",
         "name": "OSM-1426113337",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -19653,13 +19761,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1426113337,
@@ -19822,7 +19931,7 @@
       "properties": {
         "id": "kalix-osm-1431573515",
         "name": "OSM-1431573515",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -19834,13 +19943,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1431573515,
@@ -19892,7 +20002,7 @@
       "properties": {
         "id": "kalix-osm-1431573518",
         "name": "OSM-1431573518",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -19904,13 +20014,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1431573518,
@@ -20465,7 +20576,7 @@
       "properties": {
         "id": "kalix-osm-1444375229",
         "name": "OSM-1444375229",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -20477,13 +20588,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1444375229,
@@ -20983,7 +21095,7 @@
       "properties": {
         "id": "kalix-osm-1447120568",
         "name": "OSM-1447120568",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -20995,13 +21107,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1447120568,
@@ -21049,7 +21162,7 @@
       "properties": {
         "id": "kalix-osm-1447120572",
         "name": "OSM-1447120572",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -21061,13 +21174,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1447120572,
@@ -21355,7 +21469,7 @@
       "properties": {
         "id": "kalix-osm-1447358947",
         "name": "OSM-1447358947",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -21367,13 +21481,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1447358947,
@@ -21665,7 +21780,7 @@
       "properties": {
         "id": "kalix-osm-1448255557",
         "name": "OSM-1448255557",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -21677,13 +21792,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1448255557,
@@ -21743,7 +21859,7 @@
       "properties": {
         "id": "kalix-osm-1448255558",
         "name": "OSM-1448255558",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -21755,13 +21871,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1448255558,
@@ -21876,7 +21993,7 @@
       "properties": {
         "id": "kalix-osm-1450977721",
         "name": "OSM-1450977721",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -21888,13 +22005,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1450977721,
@@ -21950,7 +22068,7 @@
       "properties": {
         "id": "kalix-osm-1450977722",
         "name": "OSM-1450977722",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -21962,13 +22080,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1450977722,
@@ -22020,7 +22139,7 @@
       "properties": {
         "id": "kalix-osm-1450977724",
         "name": "OSM-1450977724",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -22032,13 +22151,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1450977724,
@@ -22326,7 +22446,7 @@
       "properties": {
         "id": "kalix-osm-1453006283",
         "name": "OSM-1453006283",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -22338,13 +22458,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1453006283,
@@ -22780,7 +22901,7 @@
       "properties": {
         "id": "kalix-osm-1459957192",
         "name": "OSM-1459957192",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -22792,13 +22913,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1459957192,
@@ -23038,7 +23160,7 @@
       "properties": {
         "id": "kalix-osm-1475036924",
         "name": "OSM-1475036924",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kalix",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -23050,13 +23172,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "bulk_classified:kalix_no_paid_apps",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "kalix_confirmed_free_muni"
         ],
         "last_verified": null,
         "osm_id": 1475036924,
