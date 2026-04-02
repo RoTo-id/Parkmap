@@ -415,7 +415,7 @@
       "properties": {
         "id": "ostersund-osm-33824014",
         "name": "OSM-33824014",
-        "operator": "unknown",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -427,13 +427,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.7,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "ostersund_centrum_street"
         ],
         "last_verified": null,
         "osm_id": 33824014,
@@ -805,7 +806,7 @@
       "properties": {
         "id": "ostersund-osm-39821846",
         "name": "OSM-39821846",
-        "operator": "unknown",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -817,13 +818,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.7,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "ostersund_centrum_street"
         ],
         "last_verified": null,
         "osm_id": 39821846,
@@ -1158,7 +1160,7 @@
       "properties": {
         "id": "ostersund-osm-39977746",
         "name": "OSM-39977746",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -1175,7 +1177,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "fee_confirmed_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 39977746,
@@ -1575,7 +1578,7 @@
       "properties": {
         "id": "ostersund-osm-41430137",
         "name": "OSM-41430137",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -1592,7 +1595,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 41430137,
@@ -1641,7 +1645,7 @@
       "properties": {
         "id": "ostersund-osm-41474162",
         "name": "OSM-41474162",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -1658,7 +1662,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 41474162,
@@ -1703,7 +1708,7 @@
       "properties": {
         "id": "ostersund-osm-41498203",
         "name": "Skjutbanan",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -1720,7 +1725,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "fee_confirmed_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 41498203,
@@ -2535,7 +2541,7 @@
       "properties": {
         "id": "ostersund-osm-43222215",
         "name": "OSM-43222215",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -2552,7 +2558,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "fee_confirmed_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 43222215,
@@ -2705,7 +2712,7 @@
       "properties": {
         "id": "ostersund-osm-43301035",
         "name": "OSM-43301035",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -2722,7 +2729,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "fee_confirmed_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 43301035,
@@ -2978,7 +2986,7 @@
       "properties": {
         "id": "ostersund-osm-43329442",
         "name": "OSM-43329442",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -2995,7 +3003,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 43329442,
@@ -3651,7 +3660,7 @@
       "properties": {
         "id": "ostersund-osm-88420032",
         "name": "OSM-88420032",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -3668,7 +3677,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 88420032,
@@ -3924,7 +3934,7 @@
       "properties": {
         "id": "ostersund-osm-88735166",
         "name": "OSM-88735166",
-        "operator": "unknown",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -3936,13 +3946,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.7,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "ostersund_centrum_street"
         ],
         "last_verified": null,
         "osm_id": 88735166,
@@ -4329,7 +4340,7 @@
       "properties": {
         "id": "ostersund-osm-89124576",
         "name": "OSM-89124576",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -4346,7 +4357,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 89124576,
@@ -6634,7 +6646,7 @@
       "properties": {
         "id": "ostersund-osm-92432889",
         "name": "OSM-92432889",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -6651,7 +6663,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 92432889,
@@ -6920,26 +6933,27 @@
       "type": "Feature",
       "properties": {
         "id": "ostersund-osm-92708939",
-        "name": "OSM-92708939",
-        "operator": "parkster",
+        "name": "P-hus Mittpunkten",
+        "operator": "aimopark",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "garage",
-        "zone_code": null,
-        "spots": null,
-        "price_per_hour": null,
+        "zone_code": "1158",
+        "spots": 193,
+        "price_per_hour": 33.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "06:00-24:00",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": null,
+        "source_url": "https://www.aimopark.se/en/cities/ostersund/",
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "needs_identification",
           "multi_storey_parking",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "aimopark_mittpunkten_confirmed"
         ],
         "last_verified": null,
         "osm_id": 92708939,
@@ -7354,7 +7368,7 @@
       "properties": {
         "id": "ostersund-osm-92960988",
         "name": "OSM-92960988",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -7371,7 +7385,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 92960988,
@@ -7550,7 +7565,7 @@
       "properties": {
         "id": "ostersund-osm-93115206",
         "name": "OSM-93115206",
-        "operator": "unknown",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -7562,13 +7577,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.7,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "ostersund_centrum_street"
         ],
         "last_verified": null,
         "osm_id": 93115206,
@@ -7700,7 +7716,7 @@
       "properties": {
         "id": "ostersund-osm-93115222",
         "name": "OSM-93115222",
-        "operator": "unknown",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -7712,13 +7728,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.7,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "ostersund_centrum_street"
         ],
         "last_verified": null,
         "osm_id": 93115222,
@@ -8364,7 +8381,7 @@
       "properties": {
         "id": "ostersund-osm-95350248",
         "name": "OSM-95350248",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -8381,7 +8398,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 95350248,
@@ -8808,7 +8826,7 @@
       "properties": {
         "id": "ostersund-osm-105794135",
         "name": "OSM-105794135",
-        "operator": "unknown",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -8820,13 +8838,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.7,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "ostersund_centrum_street"
         ],
         "last_verified": null,
         "osm_id": 105794135,
@@ -9320,7 +9339,7 @@
       "properties": {
         "id": "ostersund-osm-108016202",
         "name": "OSM-108016202",
-        "operator": "unknown",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -9332,13 +9351,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.7,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "ostersund_centrum_street"
         ],
         "last_verified": null,
         "osm_id": 108016202,
@@ -12821,7 +12841,7 @@
       "properties": {
         "id": "ostersund-osm-119419426",
         "name": "OSM-119419426",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -12838,7 +12858,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 119419426,
@@ -12919,7 +12940,7 @@
       "properties": {
         "id": "ostersund-osm-119660244",
         "name": "OSM-119660244",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -12936,7 +12957,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 119660244,
@@ -12985,7 +13007,7 @@
       "properties": {
         "id": "ostersund-osm-119660245",
         "name": "OSM-119660245",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -13002,7 +13024,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 119660245,
@@ -13107,7 +13130,7 @@
       "properties": {
         "id": "ostersund-osm-119660250",
         "name": "OSM-119660250",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -13124,7 +13147,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 119660250,
@@ -13169,7 +13193,7 @@
       "properties": {
         "id": "ostersund-osm-119885185",
         "name": "OSM-119885185",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -13186,7 +13210,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 119885185,
@@ -13766,7 +13791,7 @@
       "properties": {
         "id": "ostersund-osm-122572825",
         "name": "OSM-122572825",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -13783,7 +13808,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "fee_confirmed_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 122572825,
@@ -14687,7 +14713,7 @@
       "properties": {
         "id": "ostersund-osm-122849184",
         "name": "OSM-122849184",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -14704,7 +14730,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 122849184,
@@ -14749,7 +14776,7 @@
       "properties": {
         "id": "ostersund-osm-122849188",
         "name": "OSM-122849188",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -14766,7 +14793,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 122849188,
@@ -14811,7 +14839,7 @@
       "properties": {
         "id": "ostersund-osm-122984134",
         "name": "OSM-122984134",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -14828,7 +14856,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 122984134,
@@ -14873,7 +14902,7 @@
       "properties": {
         "id": "ostersund-osm-122984139",
         "name": "OSM-122984139",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -14890,7 +14919,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 122984139,
@@ -19201,7 +19231,7 @@
       "properties": {
         "id": "ostersund-osm-137046912",
         "name": "OSM-137046912",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -19218,7 +19248,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 137046912,
@@ -19263,7 +19294,7 @@
       "properties": {
         "id": "ostersund-osm-137046917",
         "name": "OSM-137046917",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -19280,7 +19311,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 137046917,
@@ -19333,7 +19365,7 @@
       "properties": {
         "id": "ostersund-osm-137046919",
         "name": "OSM-137046919",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -19350,7 +19382,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 137046919,
@@ -20738,7 +20771,7 @@
       "properties": {
         "id": "ostersund-osm-158483180",
         "name": "OSM-158483180",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -20755,7 +20788,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 158483180,
@@ -22034,7 +22068,7 @@
       "properties": {
         "id": "ostersund-osm-197657142",
         "name": "OSM-197657142",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -22051,7 +22085,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 197657142,
@@ -22096,7 +22131,7 @@
       "properties": {
         "id": "ostersund-osm-197657143",
         "name": "OSM-197657143",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -22113,7 +22148,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 197657143,
@@ -22158,7 +22194,7 @@
       "properties": {
         "id": "ostersund-osm-197657144",
         "name": "OSM-197657144",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -22175,7 +22211,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 197657144,
@@ -22549,23 +22586,24 @@
       "type": "Feature",
       "properties": {
         "id": "ostersund-osm-224068776",
-        "name": "Privatparkering",
-        "operator": "private_property",
+        "name": "P-hus Mittpunkten",
+        "operator": "aimopark",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
-        "zone_code": null,
-        "spots": null,
-        "price_per_hour": 0,
+        "zone_code": "1158",
+        "spots": 193,
+        "price_per_hour": 33.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "06:00-24:00",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.85,
+        "source_url": "https://www.aimopark.se/en/cities/ostersund/",
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified"
+          "osm_reclassified",
+          "aimopark_mittpunkten_confirmed"
         ],
         "last_verified": null,
         "osm_id": 224068776,
@@ -26263,7 +26301,7 @@
       "properties": {
         "id": "ostersund-osm-250646945",
         "name": "OSM-250646945",
-        "operator": "unknown",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -26275,13 +26313,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.7,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "ostersund_centrum_street"
         ],
         "last_verified": null,
         "osm_id": 250646945,
@@ -26325,7 +26364,7 @@
       "properties": {
         "id": "ostersund-osm-250646946",
         "name": "OSM-250646946",
-        "operator": "unknown",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -26337,13 +26376,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.7,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "ostersund_centrum_street"
         ],
         "last_verified": null,
         "osm_id": 250646946,
@@ -26387,7 +26427,7 @@
       "properties": {
         "id": "ostersund-osm-250646947",
         "name": "OSM-250646947",
-        "operator": "unknown",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -26399,13 +26439,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.7,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "ostersund_centrum_street"
         ],
         "last_verified": null,
         "osm_id": 250646947,
@@ -26453,7 +26494,7 @@
       "properties": {
         "id": "ostersund-osm-250646948",
         "name": "OSM-250646948",
-        "operator": "unknown",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -26465,13 +26506,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.7,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "ostersund_centrum_street"
         ],
         "last_verified": null,
         "osm_id": 250646948,
@@ -26523,7 +26565,7 @@
       "properties": {
         "id": "ostersund-osm-251833432",
         "name": "OSM-251833432",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -26540,7 +26582,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 251833432,
@@ -26669,7 +26712,7 @@
       "properties": {
         "id": "ostersund-osm-254363158",
         "name": "OSM-254363158",
-        "operator": "unknown",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -26681,13 +26724,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.7,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "ostersund_centrum_street"
         ],
         "last_verified": null,
         "osm_id": 254363158,
@@ -26798,7 +26842,7 @@
       "properties": {
         "id": "ostersund-osm-298566203",
         "name": "OSM-298566203",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -26815,7 +26859,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 298566203,
@@ -26996,7 +27041,7 @@
       "properties": {
         "id": "ostersund-osm-328571311",
         "name": "OSM-328571311",
-        "operator": "unknown",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -27008,13 +27053,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.7,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "ostersund_centrum_street"
         ],
         "last_verified": null,
         "osm_id": 328571311,
@@ -27070,7 +27116,7 @@
       "properties": {
         "id": "ostersund-osm-328577108",
         "name": "OSM-328577108",
-        "operator": "unknown",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -27082,13 +27128,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.7,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "ostersund_centrum_street"
         ],
         "last_verified": null,
         "osm_id": 328577108,
@@ -28920,7 +28967,7 @@
       "properties": {
         "id": "ostersund-osm-1086246796",
         "name": "OSM-1086246796",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -28937,7 +28984,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 1086246796,
@@ -31124,7 +31172,7 @@
       "properties": {
         "id": "ostersund-osm-1288836591",
         "name": "OSM-1288836591",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -31141,7 +31189,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "fee_confirmed_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 1288836591,
@@ -31656,7 +31705,7 @@
       "properties": {
         "id": "ostersund-osm-1328203414",
         "name": "OSM-1328203414",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -31673,7 +31722,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "fee_confirmed_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 1328203414,
@@ -31782,7 +31832,7 @@
       "properties": {
         "id": "ostersund-osm-1330253926",
         "name": "OSM-1330253926",
-        "operator": "unknown",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -31794,13 +31844,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.7,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "ostersund_centrum_street"
         ],
         "last_verified": null,
         "osm_id": 1330253926,
@@ -31844,7 +31895,7 @@
       "properties": {
         "id": "ostersund-osm-1330253933",
         "name": "OSM-1330253933",
-        "operator": "unknown",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -31856,13 +31907,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.7,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "ostersund_centrum_street"
         ],
         "last_verified": null,
         "osm_id": 1330253933,
@@ -31906,7 +31958,7 @@
       "properties": {
         "id": "ostersund-osm-1330253934",
         "name": "OSM-1330253934",
-        "operator": "unknown",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -31918,13 +31970,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.7,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "ostersund_centrum_street"
         ],
         "last_verified": null,
         "osm_id": 1330253934,
@@ -31968,7 +32021,7 @@
       "properties": {
         "id": "ostersund-osm-1330253935",
         "name": "OSM-1330253935",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -31985,7 +32038,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 1330253935,
@@ -32030,7 +32084,7 @@
       "properties": {
         "id": "ostersund-osm-1330253936",
         "name": "OSM-1330253936",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -32047,7 +32101,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 1330253936,
@@ -32092,7 +32147,7 @@
       "properties": {
         "id": "ostersund-osm-1330253937",
         "name": "OSM-1330253937",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -32109,7 +32164,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 1330253937,
@@ -32154,7 +32210,7 @@
       "properties": {
         "id": "ostersund-osm-1330253941",
         "name": "OSM-1330253941",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -32171,7 +32227,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 1330253941,
@@ -32216,7 +32273,7 @@
       "properties": {
         "id": "ostersund-osm-1330253942",
         "name": "OSM-1330253942",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -32233,7 +32290,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 1330253942,
@@ -32302,7 +32360,7 @@
       "properties": {
         "id": "ostersund-osm-1330253945",
         "name": "OSM-1330253945",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -32319,7 +32377,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 1330253945,
@@ -32372,7 +32431,7 @@
       "properties": {
         "id": "ostersund-osm-1330253947",
         "name": "OSM-1330253947",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -32389,7 +32448,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 1330253947,
@@ -32494,7 +32554,7 @@
       "properties": {
         "id": "ostersund-osm-1330253968",
         "name": "OSM-1330253968",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -32511,7 +32571,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 1330253968,
@@ -32556,7 +32617,7 @@
       "properties": {
         "id": "ostersund-osm-1330253973",
         "name": "OSM-1330253973",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -32573,7 +32634,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 1330253973,
@@ -32626,7 +32688,7 @@
       "properties": {
         "id": "ostersund-osm-1330253975",
         "name": "OSM-1330253975",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -32643,7 +32705,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 1330253975,
@@ -32696,7 +32759,7 @@
       "properties": {
         "id": "ostersund-osm-1330253980",
         "name": "OSM-1330253980",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -32713,7 +32776,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 1330253980,
@@ -32782,7 +32846,7 @@
       "properties": {
         "id": "ostersund-osm-1330253988",
         "name": "OSM-1330253988",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -32799,7 +32863,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 1330253988,
@@ -32852,7 +32917,7 @@
       "properties": {
         "id": "ostersund-osm-1330253989",
         "name": "OSM-1330253989",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -32869,7 +32934,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 1330253989,
@@ -32922,7 +32988,7 @@
       "properties": {
         "id": "ostersund-osm-1330253991",
         "name": "OSM-1330253991",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -32939,7 +33005,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 1330253991,
@@ -32992,7 +33059,7 @@
       "properties": {
         "id": "ostersund-osm-1330253992",
         "name": "OSM-1330253992",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -33009,7 +33076,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 1330253992,
@@ -33078,7 +33146,7 @@
       "properties": {
         "id": "ostersund-osm-1330253997",
         "name": "OSM-1330253997",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -33095,7 +33163,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 1330253997,
@@ -33140,7 +33209,7 @@
       "properties": {
         "id": "ostersund-osm-1330254001",
         "name": "OSM-1330254001",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -33157,7 +33226,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 1330254001,
@@ -33210,7 +33280,7 @@
       "properties": {
         "id": "ostersund-osm-1330254019",
         "name": "OSM-1330254019",
-        "operator": "unknown",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -33222,13 +33292,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.7,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "ostersund_centrum_street"
         ],
         "last_verified": null,
         "osm_id": 1330254019,
@@ -33276,7 +33347,7 @@
       "properties": {
         "id": "ostersund-osm-1330254029",
         "name": "OSM-1330254029",
-        "operator": "unknown",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -33288,13 +33359,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.7,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "ostersund_centrum_street"
         ],
         "last_verified": null,
         "osm_id": 1330254029,
@@ -34539,7 +34611,7 @@
       "properties": {
         "id": "ostersund-osm-1423012176",
         "name": "OSM-1423012176",
-        "operator": "parkster",
+        "operator": "easypark_parkster",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -34556,7 +34628,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "ostersund_multiapp_corrected"
         ],
         "last_verified": null,
         "osm_id": 1423012176,

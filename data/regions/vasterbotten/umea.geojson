@@ -1058,7 +1058,7 @@
       "properties": {
         "id": "umea-osm-26170453",
         "name": "Skruven",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -1075,7 +1075,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "fee_confirmed_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 26170453,
@@ -1263,7 +1264,7 @@
       "properties": {
         "id": "umea-osm-26171701",
         "name": "OSM-26171701",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -1280,7 +1281,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 26171701,
@@ -2181,7 +2183,7 @@
       "properties": {
         "id": "umea-osm-27872699",
         "name": "OSM-27872699",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -2198,7 +2200,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "fee_confirmed_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 27872699,
@@ -2704,7 +2707,7 @@
       "properties": {
         "id": "umea-osm-37982053",
         "name": "OSM-37982053",
-        "operator": "unknown",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -2716,13 +2719,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.72,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "upab_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 37982053,
@@ -10543,7 +10547,7 @@
       "properties": {
         "id": "umea-osm-102726432",
         "name": "OSM-102726432",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "garage",
@@ -10555,14 +10559,15 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.65,
         "flags": [
           "multi_storey_parking",
           "unknown_operator",
           "outside_centrum:free",
           "osm_bootstrap",
           "needs_identification",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "umea_hospital_area_aimopark"
         ],
         "last_verified": null,
         "osm_id": 102726432,
@@ -10638,7 +10643,7 @@
       "properties": {
         "id": "umea-osm-102726443",
         "name": "OSM-102726443",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "garage",
@@ -10650,14 +10655,15 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.65,
         "flags": [
           "multi_storey_parking",
           "unknown_operator",
           "outside_centrum:free",
           "osm_bootstrap",
           "needs_identification",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "umea_hospital_area_aimopark"
         ],
         "last_verified": null,
         "osm_id": 102726443,
@@ -10733,7 +10739,7 @@
       "properties": {
         "id": "umea-osm-102726444",
         "name": "OSM-102726444",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "garage",
@@ -10745,14 +10751,15 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.65,
         "flags": [
           "multi_storey_parking",
           "unknown_operator",
           "outside_centrum:free",
           "osm_bootstrap",
           "needs_identification",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "umea_hospital_area_aimopark"
         ],
         "last_verified": null,
         "osm_id": 102726444,
@@ -10828,7 +10835,7 @@
       "properties": {
         "id": "umea-osm-102726449",
         "name": "OSM-102726449",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "garage",
@@ -10840,14 +10847,15 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.65,
         "flags": [
           "multi_storey_parking",
           "unknown_operator",
           "outside_centrum:free",
           "osm_bootstrap",
           "needs_identification",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "umea_hospital_area_aimopark"
         ],
         "last_verified": null,
         "osm_id": 102726449,
@@ -10923,7 +10931,7 @@
       "properties": {
         "id": "umea-osm-102726451",
         "name": "OSM-102726451",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "garage",
@@ -10935,14 +10943,15 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.65,
         "flags": [
           "multi_storey_parking",
           "unknown_operator",
           "outside_centrum:free",
           "osm_bootstrap",
           "needs_identification",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "umea_hospital_area_aimopark"
         ],
         "last_verified": null,
         "osm_id": 102726451,
@@ -11018,7 +11027,7 @@
       "properties": {
         "id": "umea-osm-102726453",
         "name": "OSM-102726453",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "garage",
@@ -11030,14 +11039,15 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.65,
         "flags": [
           "multi_storey_parking",
           "unknown_operator",
           "outside_centrum:free",
           "osm_bootstrap",
           "needs_identification",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "umea_hospital_area_aimopark"
         ],
         "last_verified": null,
         "osm_id": 102726453,
@@ -11121,7 +11131,7 @@
       "properties": {
         "id": "umea-osm-102726454",
         "name": "OSM-102726454",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "garage",
@@ -11133,14 +11143,15 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.65,
         "flags": [
           "multi_storey_parking",
           "unknown_operator",
           "outside_centrum:free",
           "osm_bootstrap",
           "needs_identification",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "umea_hospital_area_aimopark"
         ],
         "last_verified": null,
         "osm_id": 102726454,
@@ -11224,7 +11235,7 @@
       "properties": {
         "id": "umea-osm-102726456",
         "name": "OSM-102726456",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "garage",
@@ -11236,14 +11247,15 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.65,
         "flags": [
           "multi_storey_parking",
           "unknown_operator",
           "outside_centrum:free",
           "osm_bootstrap",
           "needs_identification",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "umea_hospital_area_aimopark"
         ],
         "last_verified": null,
         "osm_id": 102726456,
@@ -15072,7 +15084,7 @@
       "properties": {
         "id": "umea-osm-112707711",
         "name": "OSM-112707711",
-        "operator": "unknown",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -15084,13 +15096,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.72,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "upab_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 112707711,
@@ -15158,7 +15171,7 @@
       "properties": {
         "id": "umea-osm-113058471",
         "name": "OSM-113058471",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -15175,7 +15188,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 113058471,
@@ -15232,7 +15246,7 @@
       "properties": {
         "id": "umea-osm-113058501",
         "name": "OSM-113058501",
-        "operator": "unknown",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -15244,13 +15258,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.72,
         "flags": [
           "osm_bootstrap",
           "outside_centrum:free",
           "unknown_operator",
           "fee_confirmed_unknown",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "upab_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 113058501,
@@ -15406,7 +15421,7 @@
       "properties": {
         "id": "umea-osm-113445099",
         "name": "OSM-113445099",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -15423,7 +15438,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 113445099,
@@ -15524,7 +15540,7 @@
       "properties": {
         "id": "umea-osm-113445132",
         "name": "OSM-113445132",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -15541,7 +15557,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 113445132,
@@ -16051,7 +16068,7 @@
       "properties": {
         "id": "umea-osm-120303281",
         "name": "OSM-120303281",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -16068,7 +16085,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "fee_confirmed_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 120303281,
@@ -16113,7 +16131,7 @@
       "properties": {
         "id": "umea-osm-120303290",
         "name": "OSM-120303290",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -16130,7 +16148,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 120303290,
@@ -16662,7 +16681,7 @@
       "properties": {
         "id": "umea-osm-123316053",
         "name": "OSM-123316053",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -16679,7 +16698,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 123316053,
@@ -16858,7 +16878,7 @@
       "properties": {
         "id": "umea-osm-123500092",
         "name": "OSM-123500092",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -16875,7 +16895,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 123500092,
@@ -17172,7 +17193,7 @@
       "properties": {
         "id": "umea-osm-123519018",
         "name": "OSM-123519018",
-        "operator": "unknown",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -17184,13 +17205,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.72,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "upab_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 123519018,
@@ -17362,7 +17384,7 @@
       "properties": {
         "id": "umea-osm-123520394",
         "name": "OSM-123520394",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -17379,7 +17401,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 123520394,
@@ -17432,7 +17455,7 @@
       "properties": {
         "id": "umea-osm-123973050",
         "name": "OSM-123973050",
-        "operator": "unknown",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -17444,13 +17467,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.72,
         "flags": [
           "osm_bootstrap",
           "outside_centrum:free",
           "unknown_operator",
           "fee_confirmed_unknown",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "upab_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 123973050,
@@ -17498,7 +17522,7 @@
       "properties": {
         "id": "umea-osm-123973053",
         "name": "OSM-123973053",
-        "operator": "unknown",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -17510,13 +17534,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.72,
         "flags": [
           "osm_bootstrap",
           "outside_centrum:free",
           "unknown_operator",
           "fee_confirmed_unknown",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "upab_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 123973053,
@@ -18188,7 +18213,7 @@
       "properties": {
         "id": "umea-osm-126289630",
         "name": "OSM-126289630",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -18205,7 +18230,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 126289630,
@@ -19884,7 +19910,7 @@
       "properties": {
         "id": "umea-osm-137126065",
         "name": "OSM-137126065",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -19901,7 +19927,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 137126065,
@@ -21935,7 +21962,7 @@
       "properties": {
         "id": "umea-osm-172670183",
         "name": "OSM-172670183",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -21952,7 +21979,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "fee_confirmed_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 172670183,
@@ -22328,7 +22356,7 @@
       "properties": {
         "id": "umea-osm-183393207",
         "name": "OSM-183393207",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -22345,7 +22373,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 183393207,
@@ -23171,7 +23200,7 @@
       "properties": {
         "id": "umea-osm-192666815",
         "name": "OSM-192666815",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -23188,7 +23217,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 192666815,
@@ -23293,7 +23323,7 @@
       "properties": {
         "id": "umea-osm-192666817",
         "name": "OSM-192666817",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -23310,7 +23340,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 192666817,
@@ -26695,7 +26726,7 @@
       "properties": {
         "id": "umea-osm-205687484",
         "name": "OSM-205687484",
-        "operator": "unknown",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -26707,13 +26738,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.72,
         "flags": [
           "osm_bootstrap",
           "outside_centrum:free",
           "unknown_operator",
           "fee_confirmed_unknown",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "upab_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 205687484,
@@ -28624,7 +28656,7 @@
       "properties": {
         "id": "umea-osm-232460126",
         "name": "OSM-232460126",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -28641,7 +28673,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "fee_confirmed_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 232460126,
@@ -29517,7 +29550,7 @@
       "properties": {
         "id": "umea-osm-301951832",
         "name": "OSM-301951832",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -29534,7 +29567,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 301951832,
@@ -29599,7 +29633,7 @@
       "properties": {
         "id": "umea-osm-328945573",
         "name": "OSM-328945573",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -29616,7 +29650,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 328945573,
@@ -29673,7 +29708,7 @@
       "properties": {
         "id": "umea-osm-352665503",
         "name": "OSM-352665503",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -29690,7 +29725,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "fee_confirmed_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 352665503,
@@ -29802,7 +29838,7 @@
       "properties": {
         "id": "umea-osm-358278361",
         "name": "OSM-358278361",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -29819,7 +29855,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 358278361,
@@ -33866,7 +33903,7 @@
       "properties": {
         "id": "umea-osm-408912441",
         "name": "OSM-408912441",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -33883,7 +33920,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 408912441,
@@ -34080,7 +34118,7 @@
       "properties": {
         "id": "umea-osm-414489622",
         "name": "OSM-414489622",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -34097,7 +34135,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 414489622,
@@ -34271,7 +34310,7 @@
       "properties": {
         "id": "umea-osm-416111054",
         "name": "OSM-416111054",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -34288,7 +34327,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 416111054,
@@ -35228,7 +35268,7 @@
       "properties": {
         "id": "umea-osm-425343516",
         "name": "OSM-425343516",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -35245,7 +35285,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 425343516,
@@ -35477,7 +35518,7 @@
       "properties": {
         "id": "umea-osm-430494987",
         "name": "OSM-430494987",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -35494,7 +35535,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 430494987,
@@ -36300,7 +36342,7 @@
       "properties": {
         "id": "umea-osm-454963552",
         "name": "OSM-454963552",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -36317,7 +36359,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 454963552,
@@ -36362,7 +36405,7 @@
       "properties": {
         "id": "umea-osm-456590194",
         "name": "OSM-456590194",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -36379,7 +36422,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 456590194,
@@ -38548,7 +38592,7 @@
       "properties": {
         "id": "umea-osm-476088515",
         "name": "OSM-476088515",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -38565,7 +38609,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 476088515,
@@ -41325,7 +41370,7 @@
       "properties": {
         "id": "umea-osm-505330812",
         "name": "OSM-505330812",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -41342,7 +41387,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "fee_confirmed_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 505330812,
@@ -41579,7 +41625,7 @@
       "properties": {
         "id": "umea-osm-562225283",
         "name": "JÃ¤rnvÃ¤gsallÃ©n",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "garage",
@@ -41596,7 +41642,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "fee_confirmed_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 562225283,
@@ -42358,7 +42405,7 @@
       "properties": {
         "id": "umea-osm-605211508",
         "name": "OSM-605211508",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -42375,7 +42422,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "fee_confirmed_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 605211508,
@@ -43121,25 +43169,26 @@
       "type": "Feature",
       "properties": {
         "id": "umea-osm-620705172",
-        "name": "OSM-620705172",
-        "operator": "parkster",
+        "name": "P-huset Nanna",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": "4",
-        "price_per_hour": null,
+        "price_per_hour": 7.5,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": null,
+        "source_url": "https://upab.se/",
+        "confidence": 0.88,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "fee_confirmed_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_nanna_confirmed"
         ],
         "last_verified": null,
         "osm_id": 620705172,
@@ -43192,7 +43241,7 @@
       "properties": {
         "id": "umea-osm-620888543",
         "name": "OSM-620888543",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "garage",
@@ -43209,7 +43258,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "fee_confirmed_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 620888543,
@@ -43667,7 +43717,7 @@
       "properties": {
         "id": "umea-osm-642515977",
         "name": "OSM-642515977",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -43684,7 +43734,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 642515977,
@@ -43729,7 +43780,7 @@
       "properties": {
         "id": "umea-osm-642515978",
         "name": "OSM-642515978",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -43746,7 +43797,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 642515978,
@@ -43791,7 +43843,7 @@
       "properties": {
         "id": "umea-osm-642654009",
         "name": "OSM-642654009",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -43808,7 +43860,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 642654009,
@@ -44809,7 +44862,7 @@
       "properties": {
         "id": "umea-osm-671095298",
         "name": "OSM-671095298",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -44826,7 +44879,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "fee_confirmed_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 671095298,
@@ -46367,7 +46421,7 @@
       "properties": {
         "id": "umea-osm-700080367",
         "name": "OSM-700080367",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -46384,7 +46438,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 700080367,
@@ -47600,7 +47655,7 @@
       "properties": {
         "id": "umea-osm-701065327",
         "name": "OSM-701065327",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -47617,7 +47672,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 701065327,
@@ -47678,7 +47734,7 @@
       "properties": {
         "id": "umea-osm-701153098",
         "name": "OSM-701153098",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -47695,7 +47751,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 701153098,
@@ -49436,7 +49493,7 @@
       "properties": {
         "id": "umea-osm-725947011",
         "name": "OSM-725947011",
-        "operator": "unknown",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -49448,13 +49505,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.72,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "upab_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 725947011,
@@ -49596,7 +49654,7 @@
       "properties": {
         "id": "umea-osm-728850298",
         "name": "OSM-728850298",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -49613,7 +49671,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 728850298,
@@ -49658,7 +49717,7 @@
       "properties": {
         "id": "umea-osm-728850299",
         "name": "OSM-728850299",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -49675,7 +49734,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 728850299,
@@ -49720,7 +49780,7 @@
       "properties": {
         "id": "umea-osm-728850300",
         "name": "OSM-728850300",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -49737,7 +49797,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 728850300,
@@ -49782,7 +49843,7 @@
       "properties": {
         "id": "umea-osm-728850305",
         "name": "OSM-728850305",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -49799,7 +49860,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 728850305,
@@ -49844,7 +49906,7 @@
       "properties": {
         "id": "umea-osm-728850320",
         "name": "OSM-728850320",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -49861,7 +49923,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 728850320,
@@ -50440,7 +50503,7 @@
       "properties": {
         "id": "umea-osm-733830029",
         "name": "OSM-733830029",
-        "operator": "unknown",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -50452,13 +50515,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.72,
         "flags": [
           "osm_bootstrap",
           "outside_centrum:free",
           "unknown_operator",
           "fee_confirmed_unknown",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "upab_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 733830029,
@@ -50522,7 +50586,7 @@
       "properties": {
         "id": "umea-osm-733830030",
         "name": "OSM-733830030",
-        "operator": "unknown",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -50534,13 +50598,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.72,
         "flags": [
           "osm_bootstrap",
           "outside_centrum:free",
           "unknown_operator",
           "fee_confirmed_unknown",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "upab_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 733830030,
@@ -55073,7 +55138,7 @@
       "properties": {
         "id": "umea-osm-997356248",
         "name": "OSM-997356248",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -55090,7 +55155,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "fee_confirmed_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 997356248,
@@ -55175,7 +55241,7 @@
       "properties": {
         "id": "umea-osm-997363273",
         "name": "OSM-997363273",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -55192,7 +55258,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "fee_confirmed_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 997363273,
@@ -55593,7 +55660,7 @@
       "properties": {
         "id": "umea-osm-1038839042",
         "name": "OSM-1038839042",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -55610,7 +55677,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1038839042,
@@ -55691,7 +55759,7 @@
       "properties": {
         "id": "umea-osm-1041485748",
         "name": "OSM-1041485748",
-        "operator": "unknown",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -55703,13 +55771,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.72,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "upab_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1041485748,
@@ -56507,7 +56576,7 @@
       "properties": {
         "id": "umea-osm-1047660389",
         "name": "OSM-1047660389",
-        "operator": "unknown",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -56519,13 +56588,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.72,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "upab_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1047660389,
@@ -56569,7 +56639,7 @@
       "properties": {
         "id": "umea-osm-1049216979",
         "name": "OSM-1049216979",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -56586,7 +56656,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1049216979,
@@ -56631,7 +56702,7 @@
       "properties": {
         "id": "umea-osm-1049216980",
         "name": "OSM-1049216980",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -56648,7 +56719,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1049216980,
@@ -57121,7 +57193,7 @@
       "properties": {
         "id": "umea-osm-1091131969",
         "name": "OSM-1091131969",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -57138,7 +57210,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "fee_confirmed_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1091131969,
@@ -58069,7 +58142,7 @@
       "properties": {
         "id": "umea-osm-1123899756",
         "name": "OSM-1123899756",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -58086,7 +58159,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1123899756,
@@ -58139,7 +58213,7 @@
       "properties": {
         "id": "umea-osm-1123899763",
         "name": "OSM-1123899763",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -58156,7 +58230,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1123899763,
@@ -58320,7 +58395,7 @@
       "properties": {
         "id": "umea-osm-1123940497",
         "name": "OSM-1123940497",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -58337,7 +58412,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1123940497,
@@ -59440,7 +59516,7 @@
       "properties": {
         "id": "umea-osm-1126944334",
         "name": "OSM-1126944334",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -59457,7 +59533,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1126944334,
@@ -59514,7 +59591,7 @@
       "properties": {
         "id": "umea-osm-1126944350",
         "name": "OSM-1126944350",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -59531,7 +59608,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1126944350,
@@ -59576,7 +59654,7 @@
       "properties": {
         "id": "umea-osm-1126944354",
         "name": "OSM-1126944354",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -59593,7 +59671,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1126944354,
@@ -59646,7 +59725,7 @@
       "properties": {
         "id": "umea-osm-1126944363",
         "name": "OSM-1126944363",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -59663,7 +59742,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1126944363,
@@ -59708,7 +59788,7 @@
       "properties": {
         "id": "umea-osm-1126944364",
         "name": "OSM-1126944364",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -59725,7 +59805,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1126944364,
@@ -60082,7 +60163,7 @@
       "properties": {
         "id": "umea-osm-1140848359",
         "name": "OSM-1140848359",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -60099,7 +60180,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1140848359,
@@ -60980,7 +61062,7 @@
       "properties": {
         "id": "umea-osm-1157506164",
         "name": "OSM-1157506164",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -60997,7 +61079,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1157506164,
@@ -61042,7 +61125,7 @@
       "properties": {
         "id": "umea-osm-1157506169",
         "name": "OSM-1157506169",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -61059,7 +61142,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1157506169,
@@ -61104,7 +61188,7 @@
       "properties": {
         "id": "umea-osm-1157506172",
         "name": "OSM-1157506172",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -61121,7 +61205,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1157506172,
@@ -61166,7 +61251,7 @@
       "properties": {
         "id": "umea-osm-1157506173",
         "name": "OSM-1157506173",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -61183,7 +61268,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1157506173,
@@ -61228,7 +61314,7 @@
       "properties": {
         "id": "umea-osm-1157506174",
         "name": "OSM-1157506174",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -61245,7 +61331,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1157506174,
@@ -61994,7 +62081,7 @@
       "properties": {
         "id": "umea-osm-1238026811",
         "name": "OSM-1238026811",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -62011,7 +62098,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1238026811,
@@ -62056,7 +62144,7 @@
       "properties": {
         "id": "umea-osm-1238026814",
         "name": "OSM-1238026814",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -62073,7 +62161,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1238026814,
@@ -62118,7 +62207,7 @@
       "properties": {
         "id": "umea-osm-1238026818",
         "name": "OSM-1238026818",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -62135,7 +62224,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1238026818,
@@ -62212,7 +62302,7 @@
       "properties": {
         "id": "umea-osm-1238026819",
         "name": "OSM-1238026819",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -62229,7 +62319,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1238026819,
@@ -62290,7 +62381,7 @@
       "properties": {
         "id": "umea-osm-1238026820",
         "name": "OSM-1238026820",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -62307,7 +62398,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1238026820,
@@ -62352,7 +62444,7 @@
       "properties": {
         "id": "umea-osm-1238026825",
         "name": "OSM-1238026825",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -62369,7 +62461,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1238026825,
@@ -62414,7 +62507,7 @@
       "properties": {
         "id": "umea-osm-1238026826",
         "name": "OSM-1238026826",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -62431,7 +62524,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1238026826,
@@ -62508,7 +62602,7 @@
       "properties": {
         "id": "umea-osm-1238026832",
         "name": "OSM-1238026832",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -62525,7 +62619,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1238026832,
@@ -62570,7 +62665,7 @@
       "properties": {
         "id": "umea-osm-1238026850",
         "name": "OSM-1238026850",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -62587,7 +62682,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1238026850,
@@ -63620,7 +63716,7 @@
       "properties": {
         "id": "umea-osm-1317098240",
         "name": "OSM-1317098240",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -63637,7 +63733,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1317098240,
@@ -63682,7 +63779,7 @@
       "properties": {
         "id": "umea-osm-1317098241",
         "name": "OSM-1317098241",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -63699,7 +63796,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1317098241,
@@ -63744,7 +63842,7 @@
       "properties": {
         "id": "umea-osm-1317098243",
         "name": "OSM-1317098243",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -63761,7 +63859,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1317098243,
@@ -68346,7 +68445,7 @@
       "properties": {
         "id": "umea-osm-1354420029",
         "name": "OSM-1354420029",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -68363,7 +68462,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1354420029,
@@ -68412,7 +68512,7 @@
       "properties": {
         "id": "umea-osm-1354420030",
         "name": "OSM-1354420030",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -68429,7 +68529,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1354420030,
@@ -68474,7 +68575,7 @@
       "properties": {
         "id": "umea-osm-1354420031",
         "name": "OSM-1354420031",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -68491,7 +68592,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1354420031,
@@ -68536,7 +68638,7 @@
       "properties": {
         "id": "umea-osm-1354420032",
         "name": "OSM-1354420032",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -68553,7 +68655,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1354420032,
@@ -68598,7 +68701,7 @@
       "properties": {
         "id": "umea-osm-1354420033",
         "name": "OSM-1354420033",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -68615,7 +68718,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1354420033,
@@ -68660,7 +68764,7 @@
       "properties": {
         "id": "umea-osm-1354420034",
         "name": "OSM-1354420034",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -68677,7 +68781,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1354420034,
@@ -68722,7 +68827,7 @@
       "properties": {
         "id": "umea-osm-1354420068",
         "name": "OSM-1354420068",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -68739,7 +68844,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1354420068,
@@ -69485,7 +69591,7 @@
       "properties": {
         "id": "umea-osm-1358180607",
         "name": "OSM-1358180607",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -69502,7 +69608,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1358180607,
@@ -69567,7 +69674,7 @@
       "properties": {
         "id": "umea-osm-1358180612",
         "name": "OSM-1358180612",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -69584,7 +69691,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1358180612,
@@ -69629,7 +69737,7 @@
       "properties": {
         "id": "umea-osm-1358180615",
         "name": "OSM-1358180615",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -69646,7 +69754,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1358180615,
@@ -69691,7 +69800,7 @@
       "properties": {
         "id": "umea-osm-1358180619",
         "name": "OSM-1358180619",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -69708,7 +69817,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1358180619,
@@ -69761,7 +69871,7 @@
       "properties": {
         "id": "umea-osm-1358425992",
         "name": "OSM-1358425992",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -69778,7 +69888,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "fee_confirmed_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1358425992,
@@ -69875,7 +69986,7 @@
       "properties": {
         "id": "umea-osm-1358680885",
         "name": "OSM-1358680885",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -69892,7 +70003,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1358680885,
@@ -69941,7 +70053,7 @@
       "properties": {
         "id": "umea-osm-1358680886",
         "name": "OSM-1358680886",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -69958,7 +70070,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1358680886,
@@ -70007,7 +70120,7 @@
       "properties": {
         "id": "umea-osm-1358680887",
         "name": "OSM-1358680887",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -70024,7 +70137,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1358680887,
@@ -70069,7 +70183,7 @@
       "properties": {
         "id": "umea-osm-1358680888",
         "name": "OSM-1358680888",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -70086,7 +70200,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1358680888,
@@ -70131,7 +70246,7 @@
       "properties": {
         "id": "umea-osm-1358680889",
         "name": "OSM-1358680889",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -70148,7 +70263,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1358680889,
@@ -70197,7 +70313,7 @@
       "properties": {
         "id": "umea-osm-1358680890",
         "name": "OSM-1358680890",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -70214,7 +70330,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1358680890,
@@ -70259,7 +70376,7 @@
       "properties": {
         "id": "umea-osm-1358680891",
         "name": "OSM-1358680891",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -70276,7 +70393,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1358680891,
@@ -70321,7 +70439,7 @@
       "properties": {
         "id": "umea-osm-1358680892",
         "name": "OSM-1358680892",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -70338,7 +70456,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1358680892,
@@ -70383,7 +70502,7 @@
       "properties": {
         "id": "umea-osm-1358680893",
         "name": "OSM-1358680893",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -70400,7 +70519,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1358680893,
@@ -70445,7 +70565,7 @@
       "properties": {
         "id": "umea-osm-1358680894",
         "name": "OSM-1358680894",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -70462,7 +70582,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1358680894,
@@ -70507,7 +70628,7 @@
       "properties": {
         "id": "umea-osm-1358680895",
         "name": "OSM-1358680895",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -70524,7 +70645,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1358680895,
@@ -70631,7 +70753,7 @@
       "properties": {
         "id": "umea-osm-1358680897",
         "name": "OSM-1358680897",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -70648,7 +70770,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1358680897,
@@ -70693,7 +70816,7 @@
       "properties": {
         "id": "umea-osm-1358680898",
         "name": "OSM-1358680898",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -70710,7 +70833,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1358680898,
@@ -70755,7 +70879,7 @@
       "properties": {
         "id": "umea-osm-1358680899",
         "name": "OSM-1358680899",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -70772,7 +70896,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1358680899,
@@ -70817,7 +70942,7 @@
       "properties": {
         "id": "umea-osm-1358680900",
         "name": "OSM-1358680900",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -70834,7 +70959,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1358680900,
@@ -70879,7 +71005,7 @@
       "properties": {
         "id": "umea-osm-1358680901",
         "name": "OSM-1358680901",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -70896,7 +71022,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1358680901,
@@ -70941,7 +71068,7 @@
       "properties": {
         "id": "umea-osm-1358680902",
         "name": "OSM-1358680902",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -70958,7 +71085,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1358680902,
@@ -71003,7 +71131,7 @@
       "properties": {
         "id": "umea-osm-1358680903",
         "name": "OSM-1358680903",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -71020,7 +71148,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1358680903,
@@ -71065,7 +71194,7 @@
       "properties": {
         "id": "umea-osm-1358680904",
         "name": "OSM-1358680904",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -71082,7 +71211,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1358680904,
@@ -71127,7 +71257,7 @@
       "properties": {
         "id": "umea-osm-1358680905",
         "name": "OSM-1358680905",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -71144,7 +71274,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1358680905,
@@ -71189,7 +71320,7 @@
       "properties": {
         "id": "umea-osm-1358680906",
         "name": "OSM-1358680906",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -71206,7 +71337,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1358680906,
@@ -71251,7 +71383,7 @@
       "properties": {
         "id": "umea-osm-1358680907",
         "name": "OSM-1358680907",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -71268,7 +71400,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1358680907,
@@ -74011,7 +74144,7 @@
       "properties": {
         "id": "umea-osm-1395292488",
         "name": "OSM-1395292488",
-        "operator": "parkster",
+        "operator": "upab",
         "municipality": "Umeå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -74028,7 +74161,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified:unverified"
+          "centrum_bbox_classified:unverified",
+          "upab_from_centrum_bbox"
         ],
         "last_verified": null,
         "osm_id": 1395292488,
