@@ -61,16 +61,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": null,
         "osm_id": 30022411,
@@ -137,16 +138,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.652070+00:00",
         "osm_id": 36865954,
@@ -196,16 +198,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.652070+00:00",
         "osm_id": 36865955,
@@ -325,16 +328,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": null,
         "osm_id": 47718056,
@@ -608,16 +612,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.652070+00:00",
         "osm_id": 68882023,
@@ -854,16 +859,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.652070+00:00",
         "osm_id": 68882058,
@@ -917,16 +923,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.652070+00:00",
         "osm_id": 68882077,
@@ -1044,16 +1051,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.652070+00:00",
         "osm_id": 68882109,
@@ -1233,7 +1241,7 @@
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
@@ -1243,7 +1251,8 @@
         "flags": [
           "osm_bootstrap",
           "osm_reclassified",
-          "street_side_match"
+          "street_side_match",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": null,
         "osm_id": 84335879,
@@ -1252,7 +1261,8 @@
         "osm_fee": null,
         "osm_parking": "street_side",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -1302,7 +1312,8 @@
         "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "skebo_district_match"
+          "skebo_district_match",
+          "residential_no_public_price"
         ],
         "last_verified": null,
         "osm_id": 85486738,
@@ -1315,7 +1326,9 @@
         "skebo_district": "Prästbordet",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "residents",
+        "note": "Boendeparkering SKEBO, ej publik"
       },
       "geometry": {
         "type": "Polygon",
@@ -1436,16 +1449,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon2_8kr"
         ],
         "last_verified": null,
         "osm_id": 91795664,
@@ -1500,16 +1514,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon2_8kr"
         ],
         "last_verified": null,
         "osm_id": 91795665,
@@ -1564,16 +1579,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon2_8kr"
         ],
         "last_verified": null,
         "osm_id": 91795667,
@@ -1652,16 +1668,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon2_8kr"
         ],
         "last_verified": null,
         "osm_id": 91795684,
@@ -1736,16 +1753,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": null,
         "osm_id": 91795693,
@@ -1868,16 +1886,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": null,
         "osm_id": 91795702,
@@ -1940,16 +1959,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": null,
         "osm_id": 91876682,
@@ -2012,16 +2032,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": null,
         "osm_id": 91876705,
@@ -2132,16 +2153,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.652070+00:00",
         "osm_id": 93482303,
@@ -2207,16 +2229,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": null,
         "osm_id": 96650878,
@@ -2433,16 +2456,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.652070+00:00",
         "osm_id": 107075488,
@@ -2516,16 +2540,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.652070+00:00",
         "osm_id": 107075494,
@@ -2792,16 +2817,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": null,
         "osm_id": 123542404,
@@ -2936,16 +2962,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon2_8kr"
         ],
         "last_verified": null,
         "osm_id": 123542424,
@@ -3016,16 +3043,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon2_8kr"
         ],
         "last_verified": null,
         "osm_id": 123619497,
@@ -3100,16 +3128,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon2_8kr"
         ],
         "last_verified": null,
         "osm_id": 123619498,
@@ -3188,16 +3217,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": null,
         "osm_id": 123619499,
@@ -3272,16 +3302,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": null,
         "osm_id": 123619500,
@@ -3420,7 +3451,7 @@
         "type": "outdoor",
         "zone_code": "1147",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 10.0,
         "currency": "SEK",
         "hours": "Alla dagar 00-24: For every started 10 min - 3 SEK",
         "restrictions": null,
@@ -3429,7 +3460,8 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "aimopark_matched",
+          "aimopark_default_price_estimate"
         ],
         "last_verified": null,
         "osm_id": 123620511,
@@ -3500,7 +3532,7 @@
         "type": "outdoor",
         "zone_code": "1147",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 10.0,
         "currency": "SEK",
         "hours": "Alla dagar 00-24: For every started 10 min - 3 SEK",
         "restrictions": null,
@@ -3509,7 +3541,8 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "aimopark_matched",
+          "aimopark_default_price_estimate"
         ],
         "last_verified": null,
         "osm_id": 123625160,
@@ -3576,16 +3609,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 10.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon1_10kr"
         ],
         "last_verified": null,
         "osm_id": 123625161,
@@ -3780,16 +3814,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.652070+00:00",
         "osm_id": 171552178,
@@ -4005,7 +4040,7 @@
         "type": "outdoor",
         "zone_code": "1233",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 10.0,
         "currency": "SEK",
         "hours": "Every day 00-24: For every started 15 min - 6 SEK",
         "restrictions": null,
@@ -4014,7 +4049,8 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "aimopark_matched",
+          "aimopark_default_price_estimate"
         ],
         "last_verified": null,
         "osm_id": 201482816,
@@ -4089,16 +4125,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.652070+00:00",
         "osm_id": 203503636,
@@ -4156,16 +4193,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.652070+00:00",
         "osm_id": 203503637,
@@ -4555,16 +4593,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.652070+00:00",
         "osm_id": 203982749,
@@ -4614,16 +4653,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon2_8kr"
         ],
         "last_verified": null,
         "osm_id": 204020765,
@@ -4834,16 +4874,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon2_8kr"
         ],
         "last_verified": null,
         "osm_id": 204026987,
@@ -5026,16 +5067,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.652070+00:00",
         "osm_id": 205491722,
@@ -5206,16 +5248,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon2_8kr"
         ],
         "last_verified": null,
         "osm_id": 217524626,
@@ -5337,7 +5380,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -5348,7 +5391,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "rural_confirmed_by_distance"
+          "rural_confirmed_by_distance",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 219424880,
@@ -5473,16 +5517,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon2_8kr"
         ],
         "last_verified": null,
         "osm_id": 226239373,
@@ -5549,16 +5594,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.652070+00:00",
         "osm_id": 227025439,
@@ -5670,7 +5716,7 @@
         "type": "outdoor",
         "zone_code": "1233",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 10.0,
         "currency": "SEK",
         "hours": "Every day 00-24: For every started 15 min - 6 SEK",
         "restrictions": null,
@@ -5679,7 +5725,8 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "aimopark_matched",
+          "aimopark_default_price_estimate"
         ],
         "last_verified": null,
         "osm_id": 255961156,
@@ -6352,16 +6399,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.666000+00:00",
         "osm_id": 259728216,
@@ -6691,16 +6739,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.666000+00:00",
         "osm_id": 259732396,
@@ -6825,16 +6874,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.666000+00:00",
         "osm_id": 260272304,
@@ -7395,16 +7445,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.666000+00:00",
         "osm_id": 285947969,
@@ -7458,16 +7509,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.666000+00:00",
         "osm_id": 289290739,
@@ -7526,7 +7578,8 @@
         "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "skebo_district_match"
+          "skebo_district_match",
+          "residential_no_public_price"
         ],
         "last_verified": null,
         "osm_id": 289862332,
@@ -7539,7 +7592,9 @@
         "skebo_district": "Getberget",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "residents",
+        "note": "Boendeparkering SKEBO, ej publik"
       },
       "geometry": {
         "type": "Polygon",
@@ -7589,7 +7644,8 @@
         "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "skebo_district_match"
+          "skebo_district_match",
+          "residential_no_public_price"
         ],
         "last_verified": null,
         "osm_id": 289862334,
@@ -7602,7 +7658,9 @@
         "skebo_district": "Getberget",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "residents",
+        "note": "Boendeparkering SKEBO, ej publik"
       },
       "geometry": {
         "type": "Polygon",
@@ -7927,16 +7985,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 10.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon1_10kr"
         ],
         "last_verified": null,
         "osm_id": 297699445,
@@ -8179,16 +8238,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon2_8kr"
         ],
         "last_verified": null,
         "osm_id": 297699449,
@@ -8328,7 +8388,8 @@
         "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "skebo_district_match"
+          "skebo_district_match",
+          "residential_no_public_price"
         ],
         "last_verified": null,
         "osm_id": 297712548,
@@ -8341,7 +8402,9 @@
         "skebo_district": "Prästbordet",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "residents",
+        "note": "Boendeparkering SKEBO, ej publik"
       },
       "geometry": {
         "type": "Polygon",
@@ -8386,7 +8449,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -8397,7 +8460,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "rural_confirmed_by_distance"
+          "rural_confirmed_by_distance",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 297712551,
@@ -8506,16 +8570,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.666000+00:00",
         "osm_id": 321477211,
@@ -8565,16 +8630,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.668016+00:00",
         "osm_id": 321477212,
@@ -8628,16 +8694,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.668016+00:00",
         "osm_id": 321477213,
@@ -8695,16 +8762,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.668016+00:00",
         "osm_id": 321477214,
@@ -9734,16 +9802,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": "20",
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_p_dist0m"
+          "gis_p_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.668016+00:00",
         "osm_id": 353635101,
@@ -10448,16 +10517,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": null,
         "osm_id": 356929109,
@@ -10512,16 +10582,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": null,
         "osm_id": 356929110,
@@ -10580,16 +10651,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": null,
         "osm_id": 356929111,
@@ -10648,16 +10720,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": null,
         "osm_id": 356929112,
@@ -10720,16 +10793,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": null,
         "osm_id": 356937516,
@@ -10784,16 +10858,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": null,
         "osm_id": 357254029,
@@ -10848,16 +10923,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": null,
         "osm_id": 357254030,
@@ -10912,16 +10988,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": null,
         "osm_id": 357254031,
@@ -10976,16 +11053,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": null,
         "osm_id": 357254032,
@@ -11040,16 +11118,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": null,
         "osm_id": 357254033,
@@ -11104,16 +11183,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": null,
         "osm_id": 357254034,
@@ -11168,16 +11248,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.668016+00:00",
         "osm_id": 357254035,
@@ -12687,7 +12768,8 @@
         "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "skebo_district_match"
+          "skebo_district_match",
+          "residential_no_public_price"
         ],
         "last_verified": null,
         "osm_id": 361033893,
@@ -12700,7 +12782,9 @@
         "skebo_district": "Erikslid",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "residents",
+        "note": "Boendeparkering SKEBO, ej publik"
       },
       "geometry": {
         "type": "Polygon",
@@ -12869,7 +12953,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -12880,7 +12964,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "rural_confirmed_by_distance"
+          "rural_confirmed_by_distance",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 364437872,
@@ -12930,7 +13015,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -12941,7 +13026,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "rural_confirmed_by_distance"
+          "rural_confirmed_by_distance",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 364437877,
@@ -12991,7 +13077,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -13002,7 +13088,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "rural_confirmed_by_distance"
+          "rural_confirmed_by_distance",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 364437878,
@@ -13052,7 +13139,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -13063,7 +13150,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "rural_confirmed_by_distance"
+          "rural_confirmed_by_distance",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 364437879,
@@ -13113,7 +13201,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -13124,7 +13212,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "rural_confirmed_by_distance"
+          "rural_confirmed_by_distance",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 364437881,
@@ -13178,7 +13267,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -13189,7 +13278,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "rural_confirmed_by_distance"
+          "rural_confirmed_by_distance",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 364437882,
@@ -13239,16 +13329,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.670019+00:00",
         "osm_id": 364481723,
@@ -13330,16 +13421,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.670019+00:00",
         "osm_id": 364481724,
@@ -13405,16 +13497,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.670019+00:00",
         "osm_id": 364491384,
@@ -13464,16 +13557,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.670019+00:00",
         "osm_id": 366147255,
@@ -13523,16 +13617,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.670019+00:00",
         "osm_id": 366147257,
@@ -13582,16 +13677,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon2_8kr"
         ],
         "last_verified": null,
         "osm_id": 367512828,
@@ -13646,16 +13742,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 10.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon1_10kr"
         ],
         "last_verified": null,
         "osm_id": 367588432,
@@ -13750,16 +13847,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon2_8kr"
         ],
         "last_verified": null,
         "osm_id": 367588434,
@@ -13814,16 +13912,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon2_8kr"
         ],
         "last_verified": null,
         "osm_id": 367588435,
@@ -13887,7 +13986,8 @@
         "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "skebo_district_match"
+          "skebo_district_match",
+          "residential_no_public_price"
         ],
         "last_verified": null,
         "osm_id": 369018192,
@@ -13900,7 +14000,9 @@
         "skebo_district": "Prästbordet",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "residents",
+        "note": "Boendeparkering SKEBO, ej publik"
       },
       "geometry": {
         "type": "Polygon",
@@ -13958,7 +14060,8 @@
         "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "skebo_district_match"
+          "skebo_district_match",
+          "residential_no_public_price"
         ],
         "last_verified": null,
         "osm_id": 369021071,
@@ -13971,7 +14074,9 @@
         "skebo_district": "Prästbordet",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "residents",
+        "note": "Boendeparkering SKEBO, ej publik"
       },
       "geometry": {
         "type": "Polygon",
@@ -14076,16 +14181,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": null,
         "osm_id": 370282728,
@@ -14140,18 +14246,19 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 10.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.5,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "osm_fee_yes_confirmed"
+          "osm_fee_yes_confirmed",
+          "fee_unknown_10kr_estimate"
         ],
         "last_verified": null,
         "osm_id": 378756285,
@@ -14234,7 +14341,8 @@
         "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "skebo_district_match"
+          "skebo_district_match",
+          "residential_no_public_price"
         ],
         "last_verified": null,
         "osm_id": 385021770,
@@ -14247,7 +14355,9 @@
         "skebo_district": "Getberget",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "residents",
+        "note": "Boendeparkering SKEBO, ej publik"
       },
       "geometry": {
         "type": "Polygon",
@@ -14297,7 +14407,8 @@
         "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "skebo_district_match"
+          "skebo_district_match",
+          "residential_no_public_price"
         ],
         "last_verified": null,
         "osm_id": 385021771,
@@ -14310,7 +14421,9 @@
         "skebo_district": "Getberget",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "residents",
+        "note": "Boendeparkering SKEBO, ej publik"
       },
       "geometry": {
         "type": "Polygon",
@@ -14360,7 +14473,8 @@
         "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "skebo_district_match"
+          "skebo_district_match",
+          "residential_no_public_price"
         ],
         "last_verified": null,
         "osm_id": 385021773,
@@ -14373,7 +14487,9 @@
         "skebo_district": "Getberget",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "residents",
+        "note": "Boendeparkering SKEBO, ej publik"
       },
       "geometry": {
         "type": "Polygon",
@@ -14423,7 +14539,8 @@
         "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "skebo_district_match"
+          "skebo_district_match",
+          "residential_no_public_price"
         ],
         "last_verified": null,
         "osm_id": 385021774,
@@ -14436,7 +14553,9 @@
         "skebo_district": "Getberget",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "residents",
+        "note": "Boendeparkering SKEBO, ej publik"
       },
       "geometry": {
         "type": "Polygon",
@@ -14486,7 +14605,8 @@
         "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "skebo_district_match"
+          "skebo_district_match",
+          "residential_no_public_price"
         ],
         "last_verified": null,
         "osm_id": 385021776,
@@ -14499,7 +14619,9 @@
         "skebo_district": "Getberget",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "residents",
+        "note": "Boendeparkering SKEBO, ej publik"
       },
       "geometry": {
         "type": "Polygon",
@@ -14686,16 +14808,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 10.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon1_10kr"
         ],
         "last_verified": null,
         "osm_id": 404925249,
@@ -14933,7 +15056,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -14944,7 +15067,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "rural_confirmed_by_distance"
+          "rural_confirmed_by_distance",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 436784370,
@@ -14994,16 +15118,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon2_8kr"
         ],
         "last_verified": null,
         "osm_id": 436926443,
@@ -16602,16 +16727,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon2_8kr"
         ],
         "last_verified": null,
         "osm_id": 469649806,
@@ -16860,16 +16986,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": null,
         "osm_id": 551966424,
@@ -16924,16 +17051,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": null,
         "osm_id": 551966425,
@@ -16988,16 +17116,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": null,
         "osm_id": 551966431,
@@ -17052,16 +17181,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": null,
         "osm_id": 551966440,
@@ -17180,16 +17310,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.670019+00:00",
         "osm_id": 656183960,
@@ -17239,16 +17370,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": null,
         "osm_id": 677112513,
@@ -17320,7 +17452,8 @@
         "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "skebo_district_match"
+          "skebo_district_match",
+          "residential_no_public_price"
         ],
         "last_verified": null,
         "osm_id": 677112516,
@@ -17333,7 +17466,9 @@
         "skebo_district": "Prästbordet",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "residents",
+        "note": "Boendeparkering SKEBO, ej publik"
       },
       "geometry": {
         "type": "Polygon",
@@ -17382,16 +17517,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": null,
         "osm_id": 677112547,
@@ -17463,7 +17599,8 @@
         "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "skebo_district_match"
+          "skebo_district_match",
+          "residential_no_public_price"
         ],
         "last_verified": null,
         "osm_id": 677112549,
@@ -17476,7 +17613,9 @@
         "skebo_district": "Prästbordet",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "residents",
+        "note": "Boendeparkering SKEBO, ej publik"
       },
       "geometry": {
         "type": "Polygon",
@@ -17534,7 +17673,8 @@
         "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "skebo_district_match"
+          "skebo_district_match",
+          "residential_no_public_price"
         ],
         "last_verified": null,
         "osm_id": 748840130,
@@ -17547,7 +17687,9 @@
         "skebo_district": "Sunnanå",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "residents",
+        "note": "Boendeparkering SKEBO, ej publik"
       },
       "geometry": {
         "type": "Polygon",
@@ -17597,7 +17739,8 @@
         "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "skebo_district_match"
+          "skebo_district_match",
+          "residential_no_public_price"
         ],
         "last_verified": null,
         "osm_id": 748840131,
@@ -17610,7 +17753,9 @@
         "skebo_district": "Sunnanå",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "residents",
+        "note": "Boendeparkering SKEBO, ej publik"
       },
       "geometry": {
         "type": "Polygon",
@@ -17651,16 +17796,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon2_8kr"
         ],
         "last_verified": null,
         "osm_id": 748919102,
@@ -18352,7 +18498,8 @@
         "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "skebo_district_match"
+          "skebo_district_match",
+          "residential_no_public_price"
         ],
         "last_verified": null,
         "osm_id": 964248201,
@@ -18365,7 +18512,9 @@
         "skebo_district": "Getberget",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "residents",
+        "note": "Boendeparkering SKEBO, ej publik"
       },
       "geometry": {
         "type": "Polygon",
@@ -18423,7 +18572,8 @@
         "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "skebo_district_match"
+          "skebo_district_match",
+          "residential_no_public_price"
         ],
         "last_verified": null,
         "osm_id": 964248205,
@@ -18436,7 +18586,9 @@
         "skebo_district": "Getberget",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "residents",
+        "note": "Boendeparkering SKEBO, ej publik"
       },
       "geometry": {
         "type": "Polygon",
@@ -18486,7 +18638,8 @@
         "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "skebo_district_match"
+          "skebo_district_match",
+          "residential_no_public_price"
         ],
         "last_verified": null,
         "osm_id": 964248208,
@@ -18499,7 +18652,9 @@
         "skebo_district": "Getberget",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "residents",
+        "note": "Boendeparkering SKEBO, ej publik"
       },
       "geometry": {
         "type": "Polygon",
@@ -18602,16 +18757,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.670019+00:00",
         "osm_id": 974765954,
@@ -18677,16 +18833,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.670019+00:00",
         "osm_id": 975108238,
@@ -18740,16 +18897,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.673915+00:00",
         "osm_id": 975108240,
@@ -18816,7 +18974,8 @@
         "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "skebo_district_match"
+          "skebo_district_match",
+          "residential_no_public_price"
         ],
         "last_verified": null,
         "osm_id": 975108275,
@@ -18829,7 +18988,9 @@
         "skebo_district": "Sunnanå",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "residents",
+        "note": "Boendeparkering SKEBO, ej publik"
       },
       "geometry": {
         "type": "Polygon",
@@ -18887,7 +19048,8 @@
         "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "skebo_district_match"
+          "skebo_district_match",
+          "residential_no_public_price"
         ],
         "last_verified": null,
         "osm_id": 975108289,
@@ -18900,7 +19062,9 @@
         "skebo_district": "Sunnanå",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "residents",
+        "note": "Boendeparkering SKEBO, ej publik"
       },
       "geometry": {
         "type": "Polygon",
@@ -18941,16 +19105,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": null,
         "osm_id": 975113891,
@@ -19005,16 +19170,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": null,
         "osm_id": 975113896,
@@ -19069,16 +19235,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": null,
         "osm_id": 975113898,
@@ -19133,16 +19300,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": null,
         "osm_id": 975113915,
@@ -19201,16 +19369,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.673915+00:00",
         "osm_id": 975113922,
@@ -19359,16 +19528,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.673915+00:00",
         "osm_id": 997711002,
@@ -19438,16 +19608,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.673915+00:00",
         "osm_id": 997711003,
@@ -19501,16 +19672,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.673915+00:00",
         "osm_id": 997711004,
@@ -19568,16 +19740,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": null,
         "osm_id": 997711005,
@@ -19648,16 +19821,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": null,
         "osm_id": 997711006,
@@ -19788,16 +19962,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.673915+00:00",
         "osm_id": 997711011,
@@ -19851,16 +20026,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.673915+00:00",
         "osm_id": 997711017,
@@ -19918,16 +20094,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.673915+00:00",
         "osm_id": 997711020,
@@ -19986,7 +20163,8 @@
         "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "skebo_district_match"
+          "skebo_district_match",
+          "residential_no_public_price"
         ],
         "last_verified": null,
         "osm_id": 997711024,
@@ -19999,7 +20177,9 @@
         "skebo_district": "Getberget",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "residents",
+        "note": "Boendeparkering SKEBO, ej publik"
       },
       "geometry": {
         "type": "Polygon",
@@ -20049,7 +20229,8 @@
         "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "skebo_district_match"
+          "skebo_district_match",
+          "residential_no_public_price"
         ],
         "last_verified": null,
         "osm_id": 997711029,
@@ -20062,7 +20243,9 @@
         "skebo_district": "Getberget",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "residents",
+        "note": "Boendeparkering SKEBO, ej publik"
       },
       "geometry": {
         "type": "Polygon",
@@ -20107,16 +20290,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.673915+00:00",
         "osm_id": 997711046,
@@ -20202,16 +20386,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon2_8kr"
         ],
         "last_verified": null,
         "osm_id": 997791633,
@@ -20339,7 +20524,8 @@
         "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "skebo_district_match"
+          "skebo_district_match",
+          "residential_no_public_price"
         ],
         "last_verified": null,
         "osm_id": 1018320530,
@@ -20352,7 +20538,9 @@
         "skebo_district": "Prästbordet",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "residents",
+        "note": "Boendeparkering SKEBO, ej publik"
       },
       "geometry": {
         "type": "Polygon",
@@ -20397,16 +20585,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon2_8kr"
         ],
         "last_verified": null,
         "osm_id": 1018320531,
@@ -20527,7 +20716,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -20538,7 +20727,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "rural_confirmed_by_distance"
+          "rural_confirmed_by_distance",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 1026369972,
@@ -20596,7 +20786,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -20607,7 +20797,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "rural_confirmed_by_distance"
+          "rural_confirmed_by_distance",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 1026369973,
@@ -20665,7 +20856,7 @@
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
@@ -20675,7 +20866,8 @@
         "flags": [
           "osm_bootstrap",
           "osm_reclassified",
-          "street_side_match"
+          "street_side_match",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": null,
         "osm_id": 1064457818,
@@ -20684,7 +20876,8 @@
         "osm_fee": null,
         "osm_parking": "street_side",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -21055,7 +21248,7 @@
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
@@ -21065,7 +21258,8 @@
         "flags": [
           "osm_bootstrap",
           "osm_reclassified",
-          "street_side_match"
+          "street_side_match",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": null,
         "osm_id": 1065912545,
@@ -21074,7 +21268,8 @@
         "osm_fee": null,
         "osm_parking": "street_side",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -21202,7 +21397,7 @@
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
@@ -21212,7 +21407,8 @@
         "flags": [
           "osm_bootstrap",
           "osm_reclassified",
-          "street_side_match"
+          "street_side_match",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": null,
         "osm_id": 1065919940,
@@ -21221,7 +21417,8 @@
         "osm_fee": null,
         "osm_parking": "street_side",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -21262,7 +21459,7 @@
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
@@ -21272,7 +21469,8 @@
         "flags": [
           "osm_bootstrap",
           "osm_reclassified",
-          "street_side_match"
+          "street_side_match",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": null,
         "osm_id": 1065919941,
@@ -21281,7 +21479,8 @@
         "osm_fee": null,
         "osm_parking": "street_side",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -21326,7 +21525,7 @@
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
@@ -21336,7 +21535,8 @@
         "flags": [
           "osm_bootstrap",
           "osm_reclassified",
-          "street_side_match"
+          "street_side_match",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": null,
         "osm_id": 1065919942,
@@ -21345,7 +21545,8 @@
         "osm_fee": null,
         "osm_parking": "street_side",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -22018,7 +22219,7 @@
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
@@ -22028,7 +22229,8 @@
         "flags": [
           "osm_bootstrap",
           "osm_reclassified",
-          "street_side_match"
+          "street_side_match",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": null,
         "osm_id": 1067408050,
@@ -22037,7 +22239,8 @@
         "osm_fee": null,
         "osm_parking": "street_side",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -22292,7 +22495,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -22303,7 +22506,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "rural_confirmed_by_distance"
+          "rural_confirmed_by_distance",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 1079791943,
@@ -22385,16 +22589,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.673915+00:00",
         "osm_id": 1079791968,
@@ -22480,16 +22685,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.673915+00:00",
         "osm_id": 1079791969,
@@ -22547,16 +22753,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.673915+00:00",
         "osm_id": 1079791982,
@@ -22626,16 +22833,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.673915+00:00",
         "osm_id": 1079791984,
@@ -22685,16 +22893,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.673915+00:00",
         "osm_id": 1079791985,
@@ -22744,16 +22953,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.673915+00:00",
         "osm_id": 1079791986,
@@ -22879,16 +23089,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.673915+00:00",
         "osm_id": 1093450264,
@@ -22950,16 +23161,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.673915+00:00",
         "osm_id": 1111542919,
@@ -23697,16 +23909,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.679472+00:00",
         "osm_id": 1159209410,
@@ -23889,7 +24102,8 @@
         "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "skebo_district_match"
+          "skebo_district_match",
+          "residential_no_public_price"
         ],
         "last_verified": null,
         "osm_id": 1162257954,
@@ -23902,7 +24116,9 @@
         "skebo_district": "Getberget",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "residents",
+        "note": "Boendeparkering SKEBO, ej publik"
       },
       "geometry": {
         "type": "Polygon",
@@ -24398,7 +24614,7 @@
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
@@ -24408,7 +24624,8 @@
         "flags": [
           "osm_bootstrap",
           "osm_reclassified",
-          "street_side_match"
+          "street_side_match",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": null,
         "osm_id": 1354284334,
@@ -24417,7 +24634,8 @@
         "osm_fee": null,
         "osm_parking": "street_side",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -24582,7 +24800,7 @@
         "type": "outdoor",
         "zone_code": "1233",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 10.0,
         "currency": "SEK",
         "hours": "Every day 00-24: For every started 15 min - 6 SEK",
         "restrictions": null,
@@ -24591,7 +24809,8 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "aimopark_matched",
+          "aimopark_default_price_estimate"
         ],
         "last_verified": null,
         "osm_id": 1354482605,
@@ -24646,16 +24865,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 10.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon1_10kr"
         ],
         "last_verified": null,
         "osm_id": 1354482606,
@@ -24710,16 +24930,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 10.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon1_10kr"
         ],
         "last_verified": null,
         "osm_id": 1354482609,
@@ -24856,7 +25077,7 @@
         "type": "street",
         "zone_code": null,
         "spots": "2",
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
@@ -24866,7 +25087,8 @@
         "flags": [
           "osm_bootstrap",
           "osm_reclassified",
-          "street_side_match"
+          "street_side_match",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": null,
         "osm_id": 1356142807,
@@ -24875,7 +25097,8 @@
         "osm_fee": null,
         "osm_parking": "street_side",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -25076,16 +25299,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.679472+00:00",
         "osm_id": 1364727056,
@@ -25144,7 +25368,8 @@
         "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "skebo_district_match"
+          "skebo_district_match",
+          "residential_no_public_price"
         ],
         "last_verified": null,
         "osm_id": 1364727057,
@@ -25157,7 +25382,9 @@
         "skebo_district": "Prästbordet",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "residents",
+        "note": "Boendeparkering SKEBO, ej publik"
       },
       "geometry": {
         "type": "Polygon",
@@ -25399,7 +25626,8 @@
         "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "skebo_district_match"
+          "skebo_district_match",
+          "residential_no_public_price"
         ],
         "last_verified": null,
         "osm_id": 1410165631,
@@ -25412,7 +25640,9 @@
         "skebo_district": "Getberget",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "residents",
+        "note": "Boendeparkering SKEBO, ej publik"
       },
       "geometry": {
         "type": "Polygon",
@@ -25653,16 +25883,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon2_8kr"
         ],
         "last_verified": null,
         "osm_id": 1429071925,
@@ -25721,16 +25952,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon2_8kr"
         ],
         "last_verified": null,
         "osm_id": 1429071926,
@@ -25785,16 +26017,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon2_8kr"
         ],
         "last_verified": null,
         "osm_id": 1429071927,
@@ -25849,16 +26082,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon2_8kr"
         ],
         "last_verified": null,
         "osm_id": 1429071929,
@@ -25913,16 +26147,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon2_8kr"
         ],
         "last_verified": null,
         "osm_id": 1429071930,
@@ -25977,16 +26212,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon2_8kr"
         ],
         "last_verified": null,
         "osm_id": 1429071934,
@@ -26041,16 +26277,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon2_8kr"
         ],
         "last_verified": null,
         "osm_id": 1429071935,
@@ -26305,16 +26542,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": null,
         "osm_id": 1429718118,
@@ -26385,16 +26623,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
         "confidence": 0.82,
         "flags": [
           "osm_bootstrap",
-          "gis_a_dist0m"
+          "gis_a_dist0m",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": "2026-04-01T07:38:45.679472+00:00",
         "osm_id": 1429718120,
@@ -26448,16 +26687,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00, lör 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.65,
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "skelleftea_zon3_5kr"
         ],
         "last_verified": null,
         "osm_id": 1429718125,
@@ -26561,7 +26801,8 @@
         "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "skebo_district_match"
+          "skebo_district_match",
+          "residential_no_public_price"
         ],
         "last_verified": null,
         "osm_id": 1430153932,
@@ -26574,7 +26815,9 @@
         "skebo_district": "Prästbordet",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "residents",
+        "note": "Boendeparkering SKEBO, ej publik"
       },
       "geometry": {
         "type": "Polygon",
@@ -26784,7 +27027,8 @@
         "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "skebo_district_match"
+          "skebo_district_match",
+          "residential_no_public_price"
         ],
         "last_verified": null,
         "osm_id": 1454616925,
@@ -26797,7 +27041,9 @@
         "skebo_district": "Prästbordet",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "residents",
+        "note": "Boendeparkering SKEBO, ej publik"
       },
       "geometry": {
         "type": "Polygon",
@@ -26838,7 +27084,7 @@
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
@@ -26848,7 +27094,8 @@
         "flags": [
           "osm_bootstrap",
           "osm_reclassified",
-          "street_side_match"
+          "street_side_match",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": null,
         "osm_id": 1463129173,
@@ -26857,7 +27104,8 @@
         "osm_fee": null,
         "osm_parking": "street_side",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -27124,7 +27372,7 @@
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
@@ -27134,7 +27382,8 @@
         "flags": [
           "osm_bootstrap",
           "osm_reclassified",
-          "street_side_match"
+          "street_side_match",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": null,
         "osm_id": 1486542634,
@@ -27143,7 +27392,8 @@
         "osm_fee": null,
         "osm_parking": "street_side",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -27192,7 +27442,7 @@
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
@@ -27202,7 +27452,8 @@
         "flags": [
           "osm_bootstrap",
           "osm_reclassified",
-          "street_side_match"
+          "street_side_match",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": null,
         "osm_id": 1486542640,
@@ -27211,7 +27462,8 @@
         "osm_fee": null,
         "osm_parking": "street_side",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -27252,7 +27504,7 @@
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
@@ -27262,7 +27514,8 @@
         "flags": [
           "osm_bootstrap",
           "osm_reclassified",
-          "street_side_match"
+          "street_side_match",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": null,
         "osm_id": 1486542650,
@@ -27271,7 +27524,8 @@
         "osm_fee": null,
         "osm_parking": "street_side",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",

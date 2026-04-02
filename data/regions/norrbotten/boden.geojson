@@ -68,16 +68,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 263062012,
@@ -90,7 +91,9 @@
         "bodenbo_district": "Erikslund",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -131,16 +134,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 263062013,
@@ -153,7 +157,9 @@
         "bodenbo_district": "Erikslund",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -194,16 +200,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 263062014,
@@ -216,7 +223,9 @@
         "bodenbo_district": "Erikslund",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -257,16 +266,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 263062015,
@@ -279,7 +289,9 @@
         "bodenbo_district": "Erikslund",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -324,16 +336,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 263062017,
@@ -346,7 +359,9 @@
         "bodenbo_district": "Erikslund",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -391,16 +406,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 263062018,
@@ -413,7 +429,9 @@
         "bodenbo_district": "Erikslund",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -598,7 +616,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": "P-skiva krävs",
@@ -609,7 +627,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "boden_pdisc_free"
+          "boden_pdisc_free",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 395874328,
@@ -723,7 +742,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -732,7 +751,8 @@
         "confidence": 0.55,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match"
+          "kommun_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 440519366,
@@ -746,7 +766,8 @@
         "payment_apps": [
           "easypark",
           "parkster"
-        ]
+        ],
+        "restriction": "P-skiva krävs"
       },
       "geometry": {
         "type": "Polygon",
@@ -1297,7 +1318,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -1306,7 +1327,8 @@
         "confidence": 0.55,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match"
+          "kommun_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 655356662,
@@ -1320,7 +1342,8 @@
         "payment_apps": [
           "easypark",
           "parkster"
-        ]
+        ],
+        "restriction": "P-skiva krävs"
       },
       "geometry": {
         "type": "Polygon",
@@ -1397,7 +1420,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": "P-skiva krävs",
@@ -1408,7 +1431,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "boden_pdisc_free"
+          "boden_pdisc_free",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 655356678,
@@ -1466,7 +1490,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": "P-skiva krävs",
@@ -1477,7 +1501,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "boden_pdisc_free"
+          "boden_pdisc_free",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 655603935,
@@ -1527,7 +1552,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": "P-skiva krävs",
@@ -1538,7 +1563,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "boden_pdisc_free"
+          "boden_pdisc_free",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 655654742,
@@ -1608,7 +1634,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": "P-skiva krävs",
@@ -1619,7 +1645,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "boden_pdisc_free"
+          "boden_pdisc_free",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 833961559,
@@ -1705,7 +1732,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -1714,7 +1741,8 @@
         "confidence": 0.55,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match"
+          "kommun_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 865581258,
@@ -1728,7 +1756,8 @@
         "payment_apps": [
           "easypark",
           "parkster"
-        ]
+        ],
+        "restriction": "P-skiva krävs"
       },
       "geometry": {
         "type": "Polygon",
@@ -1769,7 +1798,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -1778,7 +1807,8 @@
         "confidence": 0.55,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match"
+          "kommun_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 865581259,
@@ -1792,7 +1822,8 @@
         "payment_apps": [
           "easypark",
           "parkster"
-        ]
+        ],
+        "restriction": "P-skiva krävs"
       },
       "geometry": {
         "type": "Polygon",
@@ -1833,7 +1864,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -1842,7 +1873,8 @@
         "confidence": 0.55,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match"
+          "kommun_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 865581260,
@@ -1856,7 +1888,8 @@
         "payment_apps": [
           "easypark",
           "parkster"
-        ]
+        ],
+        "restriction": "P-skiva krävs"
       },
       "geometry": {
         "type": "Polygon",
@@ -1897,7 +1930,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -1906,7 +1939,8 @@
         "confidence": 0.55,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match"
+          "kommun_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 865581272,
@@ -1920,7 +1954,8 @@
         "payment_apps": [
           "easypark",
           "parkster"
-        ]
+        ],
+        "restriction": "P-skiva krävs"
       },
       "geometry": {
         "type": "Polygon",
@@ -2217,7 +2252,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": "P-skiva krävs",
@@ -2228,7 +2263,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "boden_pdisc_free"
+          "boden_pdisc_free",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 998569938,
@@ -2286,16 +2322,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 999270034,
@@ -2308,7 +2345,9 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -2357,16 +2396,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 999270055,
@@ -2379,7 +2419,9 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -2420,16 +2462,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 999270058,
@@ -2442,7 +2485,9 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -2491,16 +2536,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 999270072,
@@ -2513,7 +2559,9 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -2554,16 +2602,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 999270073,
@@ -2576,7 +2625,9 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -2617,7 +2668,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": "P-skiva krävs",
@@ -2628,7 +2679,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "boden_pdisc_free"
+          "boden_pdisc_free",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 999737554,
@@ -2694,16 +2746,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1002077685,
@@ -2716,7 +2769,9 @@
         "bodenbo_district": "Sveafältet",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -2765,16 +2820,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1002077692,
@@ -2787,7 +2843,9 @@
         "bodenbo_district": "Sveafältet",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -2856,16 +2914,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1002077693,
@@ -2878,7 +2937,9 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -2919,16 +2980,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1002077694,
@@ -2941,7 +3003,9 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -2998,16 +3062,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1002077701,
@@ -3020,7 +3085,9 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -3061,16 +3128,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1002077704,
@@ -3083,7 +3151,9 @@
         "bodenbo_district": "Sveafältet",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -3124,7 +3194,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": "P-skiva krävs",
@@ -3135,7 +3205,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "boden_pdisc_free"
+          "boden_pdisc_free",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 1002276423,
@@ -3193,16 +3264,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1004436766,
@@ -3215,7 +3287,9 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -3340,16 +3414,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1004595443,
@@ -3362,7 +3437,9 @@
         "bodenbo_district": "Prästholmen",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -3479,7 +3556,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": "P-skiva krävs",
@@ -3490,7 +3567,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "boden_pdisc_free"
+          "boden_pdisc_free",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 1056599609,
@@ -3568,7 +3646,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": "P-skiva krävs",
@@ -3579,7 +3657,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "boden_pdisc_free"
+          "boden_pdisc_free",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 1056599610,
@@ -3637,16 +3716,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1073421798,
@@ -3659,7 +3739,9 @@
         "bodenbo_district": "Erikslund",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -3700,16 +3782,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1076039763,
@@ -3722,7 +3805,9 @@
         "bodenbo_district": "Prästholmen",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -3767,16 +3852,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1076039782,
@@ -3789,7 +3875,9 @@
         "bodenbo_district": "Sanden",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -4034,16 +4122,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1078147618,
@@ -4056,7 +4145,9 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -4181,16 +4272,17 @@
         "type": "garage",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1078147662,
@@ -4203,7 +4295,9 @@
         "bodenbo_district": "Sanden",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -4260,16 +4354,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1078184374,
@@ -4282,7 +4377,9 @@
         "bodenbo_district": "Sanden",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -4323,16 +4420,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1078742248,
@@ -4345,7 +4443,9 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -4518,16 +4618,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1078786589,
@@ -4540,7 +4641,9 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -4581,16 +4684,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1078786590,
@@ -4603,7 +4707,9 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -4708,7 +4814,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": "P-skiva krävs",
@@ -4719,7 +4825,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "boden_pdisc_free"
+          "boden_pdisc_free",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 1078786661,
@@ -4837,16 +4944,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1082863937,
@@ -4859,7 +4967,9 @@
         "bodenbo_district": "Sanden",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -4912,16 +5022,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1082863940,
@@ -4934,7 +5045,9 @@
         "bodenbo_district": "Sanden",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -4975,16 +5088,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1082863941,
@@ -4997,7 +5111,9 @@
         "bodenbo_district": "Sanden",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -5038,16 +5154,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1082863942,
@@ -5060,7 +5177,9 @@
         "bodenbo_district": "Sanden",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -5101,16 +5220,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1082863943,
@@ -5123,7 +5243,9 @@
         "bodenbo_district": "Sanden",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -5364,7 +5486,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": "P-skiva krävs",
@@ -5375,7 +5497,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "boden_pdisc_free"
+          "boden_pdisc_free",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 1083463521,
@@ -5425,7 +5548,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": "P-skiva krävs",
@@ -5436,7 +5559,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "boden_pdisc_free"
+          "boden_pdisc_free",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 1084628611,
@@ -5494,16 +5618,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1088102923,
@@ -5516,7 +5641,9 @@
         "bodenbo_district": "Erikslund",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -5621,16 +5748,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1094117311,
@@ -5643,7 +5771,9 @@
         "bodenbo_district": "Sanden",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -5700,7 +5830,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": "P-skiva krävs",
@@ -5711,7 +5841,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "boden_pdisc_free"
+          "boden_pdisc_free",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 1094461032,
@@ -5833,16 +5964,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1096942985,
@@ -5855,7 +5987,9 @@
         "bodenbo_district": "Erikslund",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -5896,16 +6030,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1105028878,
@@ -5918,7 +6053,9 @@
         "bodenbo_district": "Sävast",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -5963,16 +6100,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1105155691,
@@ -5985,7 +6123,9 @@
         "bodenbo_district": "Sävast",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -6026,7 +6166,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": "P-skiva krävs",
@@ -6037,7 +6177,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "boden_pdisc_free"
+          "boden_pdisc_free",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 1108296542,
@@ -6127,7 +6268,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": "P-skiva krävs",
@@ -6138,7 +6279,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "boden_pdisc_free"
+          "boden_pdisc_free",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 1108296548,
@@ -6288,7 +6430,7 @@
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
@@ -6298,7 +6440,8 @@
         "flags": [
           "osm_bootstrap",
           "osm_reclassified",
-          "street_side_match"
+          "street_side_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1112521427,
@@ -6307,7 +6450,8 @@
         "osm_fee": null,
         "osm_parking": "street_side",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva krävs"
       },
       "geometry": {
         "type": "Polygon",
@@ -6412,16 +6556,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1211799094,
@@ -6434,7 +6579,9 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -6575,16 +6722,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1211799401,
@@ -6597,7 +6745,9 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -6733,7 +6883,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": "P-skiva krävs",
@@ -6744,7 +6894,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "boden_pdisc_free"
+          "boden_pdisc_free",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 1272407406,
@@ -6794,7 +6945,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": "P-skiva krävs",
@@ -6805,7 +6956,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "boden_pdisc_free"
+          "boden_pdisc_free",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 1272407407,
@@ -6855,7 +7007,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": "P-skiva krävs",
@@ -6866,7 +7018,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "boden_pdisc_free"
+          "boden_pdisc_free",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 1272407408,
@@ -6916,7 +7069,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": "P-skiva krävs",
@@ -6927,7 +7080,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "boden_pdisc_free"
+          "boden_pdisc_free",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 1272407409,
@@ -7216,16 +7370,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1354637536,
@@ -7238,7 +7393,9 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -7279,16 +7436,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1355833546,
@@ -7301,7 +7459,9 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -7429,7 +7589,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": "P-skiva krävs",
@@ -7440,7 +7600,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "boden_pdisc_free"
+          "boden_pdisc_free",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 1395929718,
@@ -7554,7 +7715,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": "P-skiva krävs",
@@ -7565,7 +7726,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "boden_pdisc_free"
+          "boden_pdisc_free",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 1413466253,
@@ -7843,16 +8005,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1424658546,
@@ -7865,7 +8028,9 @@
         "bodenbo_district": "Sanden",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -7985,16 +8150,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1435969732,
@@ -8007,7 +8173,9 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -8076,16 +8244,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1435986358,
@@ -8098,7 +8267,9 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -8183,16 +8354,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1435986359,
@@ -8205,7 +8377,9 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -8250,16 +8424,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1435986360,
@@ -8272,7 +8447,9 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -8325,16 +8502,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1437106595,
@@ -8347,7 +8525,9 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -8388,16 +8568,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1437106614,
@@ -8410,7 +8591,9 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -8455,16 +8638,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1437106616,
@@ -8477,7 +8661,9 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -8542,16 +8728,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1437116871,
@@ -8564,7 +8751,9 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -8613,16 +8802,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1437116874,
@@ -8635,7 +8825,9 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -8680,16 +8872,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1437116878,
@@ -8702,7 +8895,9 @@
         "bodenbo_district": "Sveafältet",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -8743,16 +8938,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": "2",
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1437116879,
@@ -8765,7 +8961,9 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -8806,16 +9004,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1437116880,
@@ -8828,7 +9027,9 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -9301,16 +9502,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1441487806,
@@ -9323,7 +9525,9 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -9376,16 +9580,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1441487822,
@@ -9398,7 +9603,9 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -9447,16 +9654,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1441603295,
@@ -9469,7 +9677,9 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -9518,16 +9728,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1441603296,
@@ -9540,7 +9751,9 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -9713,16 +9926,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1441603311,
@@ -9735,7 +9949,9 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -9784,16 +10000,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1441612710,
@@ -9806,7 +10023,9 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -9847,16 +10066,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1441612715,
@@ -9869,7 +10089,9 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -9910,16 +10132,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1441642018,
@@ -9932,7 +10155,9 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -9973,16 +10198,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1441642019,
@@ -9995,7 +10221,9 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -10036,16 +10264,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1441642024,
@@ -10058,7 +10287,9 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -10099,16 +10330,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1441642039,
@@ -10121,7 +10353,9 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -10366,16 +10600,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1441642070,
@@ -10388,7 +10623,9 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -10433,16 +10670,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": "2",
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1441642073,
@@ -10455,7 +10693,9 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -10496,16 +10736,17 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": 0.95,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "bodenbo_district_match",
+          "boden_pdisc_free_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1441642076,
@@ -10518,7 +10759,9 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ]
+        ],
+        "access": "public",
+        "restriction": "P-skiva krävs, max 2h"
       },
       "geometry": {
         "type": "Polygon",
@@ -10559,7 +10802,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": "P-skiva krävs",
@@ -10570,7 +10813,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "boden_pdisc_free"
+          "boden_pdisc_free",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 1475013633,

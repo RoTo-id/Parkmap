@@ -1120,7 +1120,7 @@
         "type": "outdoor",
         "zone_code": "1090",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 10.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -1132,7 +1132,8 @@
           "new_zone",
           "price_changed",
           "low_confidence",
-          "osm_upgraded"
+          "osm_upgraded",
+          "aimopark_default_price_estimate"
         ],
         "last_verified": "2026-03-26",
         "osm_id": 383635512,
@@ -1181,7 +1182,7 @@
         "type": "outdoor",
         "zone_code": "1090",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 10.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -1193,7 +1194,8 @@
           "new_zone",
           "price_changed",
           "low_confidence",
-          "no_osm_match"
+          "no_osm_match",
+          "aimopark_default_price_estimate"
         ],
         "last_verified": "2026-03-26"
       },
@@ -2709,7 +2711,7 @@
         "type": "outdoor",
         "zone_code": "1053",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 10.0,
         "currency": "SEK",
         "hours": "Every day 00-24: For every started 20 min - 7 SEK",
         "restrictions": "24h/d: 110 kr",
@@ -2721,7 +2723,8 @@
           "new_zone",
           "price_changed",
           "low_confidence",
-          "osm_upgraded"
+          "osm_upgraded",
+          "aimopark_default_price_estimate"
         ],
         "last_verified": "2026-03-26",
         "osm_id": 308210349,
@@ -2790,7 +2793,7 @@
         "type": "outdoor",
         "zone_code": "1053",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 10.0,
         "currency": "SEK",
         "hours": "Every day 00-24: For every started 20 min - 7 SEK",
         "restrictions": "24h/d: 110 kr",
@@ -2802,7 +2805,8 @@
           "new_zone",
           "price_changed",
           "low_confidence",
-          "osm_upgraded"
+          "osm_upgraded",
+          "aimopark_default_price_estimate"
         ],
         "last_verified": "2026-03-26",
         "osm_id": 313485892,
@@ -3838,7 +3842,7 @@
         "type": "outdoor",
         "zone_code": "1132",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 10.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -3850,7 +3854,8 @@
           "new_zone",
           "price_changed",
           "low_confidence",
-          "no_osm_match"
+          "no_osm_match",
+          "aimopark_default_price_estimate"
         ],
         "last_verified": "2026-03-26"
       },
@@ -3873,7 +3878,7 @@
         "type": "outdoor",
         "zone_code": "1132",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 10.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -3885,7 +3890,8 @@
           "new_zone",
           "price_changed",
           "low_confidence",
-          "osm_upgraded"
+          "osm_upgraded",
+          "aimopark_default_price_estimate"
         ],
         "last_verified": "2026-03-26",
         "osm_id": 1366076573,
@@ -4890,7 +4896,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -4899,7 +4905,8 @@
         "confidence": 0.75,
         "flags": [
           "osm_imported",
-          "osm_operator_mapped"
+          "osm_operator_mapped",
+          "lulea_kommun_free_estimate"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 47411322,
@@ -4907,7 +4914,8 @@
         "osm_fee": "yes",
         "osm_surface": null,
         "osm_operator": "Luleå Kommun",
-        "source_note": "OSM operator tag: Luleå Kommun"
+        "source_note": "OSM operator tag: Luleå Kommun",
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -5056,7 +5064,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -5065,7 +5073,8 @@
         "confidence": 0.75,
         "flags": [
           "osm_imported",
-          "osm_operator_mapped"
+          "osm_operator_mapped",
+          "lulea_kommun_free_estimate"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 47411331,
@@ -5073,7 +5082,8 @@
         "osm_fee": "yes",
         "osm_surface": null,
         "osm_operator": "Luleå Kommun",
-        "source_note": "OSM operator tag: Luleå Kommun"
+        "source_note": "OSM operator tag: Luleå Kommun",
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -6508,7 +6518,7 @@
         "type": "street",
         "zone_code": null,
         "spots": 80,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
@@ -6518,14 +6528,16 @@
         "flags": [
           "osm_imported",
           "osm_reclassified",
-          "street_side_match"
+          "street_side_match",
+          "lulea_kommun_free_estimate"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 47785093,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": null,
-        "osm_operator": null
+        "osm_operator": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -8264,7 +8276,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -8275,7 +8287,8 @@
           "unknown_operator",
           "osm_imported",
           "genuinely_unknown",
-          "rural_confirmed_by_distance"
+          "rural_confirmed_by_distance",
+          "free_parking_price_zero"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 47957546,
@@ -10288,7 +10301,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 10.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -10298,7 +10311,8 @@
         "flags": [
           "osm_imported",
           "fee_confirmed_unknown",
-          "aimopark_location_override"
+          "aimopark_location_override",
+          "aimopark_default_price_estimate"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 49169387,
@@ -13983,7 +13997,7 @@
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
@@ -13993,14 +14007,16 @@
         "flags": [
           "osm_imported",
           "osm_reclassified",
-          "street_side_match"
+          "street_side_match",
+          "lulea_kommun_free_estimate"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 90843737,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": null,
-        "osm_operator": null
+        "osm_operator": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -14759,7 +14775,7 @@
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
@@ -14769,14 +14785,16 @@
         "flags": [
           "osm_imported",
           "osm_reclassified",
-          "street_side_match"
+          "street_side_match",
+          "lulea_kommun_free_estimate"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 139518711,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": null,
-        "osm_operator": null
+        "osm_operator": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -14825,7 +14843,7 @@
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
@@ -14835,14 +14853,16 @@
         "flags": [
           "osm_imported",
           "osm_reclassified",
-          "street_side_match"
+          "street_side_match",
+          "lulea_kommun_free_estimate"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 139518713,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": null,
-        "osm_operator": null
+        "osm_operator": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -15151,7 +15171,7 @@
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
@@ -15161,14 +15181,16 @@
         "flags": [
           "osm_imported",
           "osm_reclassified",
-          "street_side_match"
+          "street_side_match",
+          "lulea_kommun_free_estimate"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 155814856,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": null,
-        "osm_operator": null
+        "osm_operator": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -17500,18 +17522,19 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 10.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/224643063",
-        "confidence": 0.4,
+        "confidence": 0.5,
         "flags": [
           "unknown_operator",
           "osm_imported",
           "genuinely_unknown",
-          "osm_fee_yes_confirmed"
+          "osm_fee_yes_confirmed",
+          "fee_unknown_10kr_estimate"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 224643063,
@@ -23236,7 +23259,7 @@
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
@@ -23246,14 +23269,16 @@
         "flags": [
           "osm_imported",
           "osm_reclassified",
-          "street_side_match"
+          "street_side_match",
+          "lulea_kommun_free_estimate"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 309089254,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": null,
-        "osm_operator": null
+        "osm_operator": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -23294,7 +23319,7 @@
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
@@ -23304,14 +23329,16 @@
         "flags": [
           "osm_imported",
           "osm_reclassified",
-          "street_side_match"
+          "street_side_match",
+          "lulea_kommun_free_estimate"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 309089256,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": null,
-        "osm_operator": null
+        "osm_operator": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -26965,7 +26992,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 10.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -26974,7 +27001,8 @@
         "confidence": 0.55,
         "flags": [
           "osm_imported",
-          "near_aimo_zone"
+          "near_aimo_zone",
+          "aimopark_default_price_estimate"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 322221297,
@@ -27022,7 +27050,7 @@
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
@@ -27032,14 +27060,16 @@
         "flags": [
           "osm_imported",
           "osm_reclassified",
-          "street_side_match"
+          "street_side_match",
+          "lulea_kommun_free_estimate"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 322221298,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": null,
-        "osm_operator": null
+        "osm_operator": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -27751,7 +27781,7 @@
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
@@ -27761,14 +27791,16 @@
         "flags": [
           "osm_imported",
           "osm_reclassified",
-          "street_side_match"
+          "street_side_match",
+          "lulea_kommun_free_estimate"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 331679317,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": null,
-        "osm_operator": null
+        "osm_operator": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -27809,7 +27841,7 @@
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
@@ -27819,14 +27851,16 @@
         "flags": [
           "osm_imported",
           "osm_reclassified",
-          "street_side_match"
+          "street_side_match",
+          "lulea_kommun_free_estimate"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 331679318,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": null,
-        "osm_operator": null
+        "osm_operator": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -31461,7 +31495,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -31472,7 +31506,8 @@
           "unknown_operator",
           "osm_imported",
           "genuinely_unknown",
-          "rural_confirmed_by_distance"
+          "rural_confirmed_by_distance",
+          "free_parking_price_zero"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 342968535,
@@ -31910,7 +31945,7 @@
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
@@ -31920,14 +31955,16 @@
         "flags": [
           "osm_imported",
           "osm_reclassified",
-          "street_side_match"
+          "street_side_match",
+          "lulea_kommun_free_estimate"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 345127040,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": "asphalt",
-        "osm_operator": null
+        "osm_operator": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -40383,7 +40420,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -40392,7 +40429,8 @@
         "confidence": 0.75,
         "flags": [
           "osm_imported",
-          "osm_operator_mapped"
+          "osm_operator_mapped",
+          "lulea_kommun_free_estimate"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 1011719023,
@@ -40400,7 +40438,8 @@
         "osm_fee": null,
         "osm_surface": null,
         "osm_operator": "Luleå kommun",
-        "source_note": "OSM operator tag: Luleå kommun"
+        "source_note": "OSM operator tag: Luleå kommun",
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -40700,7 +40739,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -40711,7 +40750,8 @@
           "unknown_operator",
           "osm_imported",
           "genuinely_unknown",
-          "rural_confirmed_by_distance"
+          "rural_confirmed_by_distance",
+          "free_parking_price_zero"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 1047060018,
@@ -45609,7 +45649,7 @@
         "type": "street",
         "zone_code": null,
         "spots": 16,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
@@ -45619,14 +45659,16 @@
         "flags": [
           "osm_imported",
           "osm_reclassified",
-          "street_side_match"
+          "street_side_match",
+          "lulea_kommun_free_estimate"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 1286092762,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": null,
-        "osm_operator": null
+        "osm_operator": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -46197,7 +46239,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 10.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -46206,7 +46248,8 @@
         "confidence": 0.55,
         "flags": [
           "osm_imported",
-          "near_aimo_zone"
+          "near_aimo_zone",
+          "aimopark_default_price_estimate"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 1288967660,
@@ -50686,7 +50729,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": 2,
-        "price_per_hour": null,
+        "price_per_hour": 10.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -50695,7 +50738,8 @@
         "confidence": 0.55,
         "flags": [
           "osm_imported",
-          "near_aimo_zone"
+          "near_aimo_zone",
+          "aimopark_default_price_estimate"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 1317700367,
@@ -52180,7 +52224,7 @@
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
@@ -52190,14 +52234,16 @@
         "flags": [
           "osm_imported",
           "osm_reclassified",
-          "street_side_match"
+          "street_side_match",
+          "lulea_kommun_free_estimate"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 1373125073,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": "asphalt",
-        "osm_operator": null
+        "osm_operator": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -52238,7 +52284,7 @@
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
@@ -52248,14 +52294,16 @@
         "flags": [
           "osm_imported",
           "osm_reclassified",
-          "street_side_match"
+          "street_side_match",
+          "lulea_kommun_free_estimate"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 1379168100,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": null,
-        "osm_operator": null
+        "osm_operator": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -52296,7 +52344,7 @@
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
@@ -52306,14 +52354,16 @@
         "flags": [
           "osm_imported",
           "osm_reclassified",
-          "street_side_match"
+          "street_side_match",
+          "lulea_kommun_free_estimate"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 1379168101,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": null,
-        "osm_operator": null
+        "osm_operator": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -52746,7 +52796,7 @@
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
@@ -52756,14 +52806,16 @@
         "flags": [
           "osm_imported",
           "osm_reclassified",
-          "street_side_match"
+          "street_side_match",
+          "lulea_kommun_free_estimate"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 1454088910,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": "asphalt",
-        "osm_operator": null
+        "osm_operator": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -52804,7 +52856,7 @@
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
@@ -52814,14 +52866,16 @@
         "flags": [
           "osm_imported",
           "osm_reclassified",
-          "street_side_match"
+          "street_side_match",
+          "lulea_kommun_free_estimate"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 1454088911,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": "asphalt",
-        "osm_operator": null
+        "osm_operator": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -53147,7 +53201,7 @@
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
@@ -53157,14 +53211,16 @@
         "flags": [
           "osm_imported",
           "osm_reclassified",
-          "street_side_match"
+          "street_side_match",
+          "lulea_kommun_free_estimate"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 1492280062,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": "compacted",
-        "osm_operator": null
+        "osm_operator": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -53221,7 +53277,7 @@
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
@@ -53231,14 +53287,16 @@
         "flags": [
           "osm_imported",
           "osm_reclassified",
-          "street_side_match"
+          "street_side_match",
+          "lulea_kommun_free_estimate"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 1492280070,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": "asphalt",
-        "osm_operator": null
+        "osm_operator": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -53279,7 +53337,7 @@
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
@@ -53289,14 +53347,16 @@
         "flags": [
           "osm_imported",
           "osm_reclassified",
-          "street_side_match"
+          "street_side_match",
+          "lulea_kommun_free_estimate"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 1492280071,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": "asphalt",
-        "osm_operator": null
+        "osm_operator": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -53873,7 +53933,7 @@
         "type": "street",
         "zone_code": "2104",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -53884,7 +53944,8 @@
           "phone_scan",
           "epark",
           "needs_price_verification",
-          "phone_scan_enriched"
+          "phone_scan_enriched",
+          "lulea_kommun_free_estimate"
         ],
         "last_verified": "2026-03-30",
         "payment_apps": [
@@ -53892,7 +53953,8 @@
         ],
         "epark_name": "Zon 4",
         "epark_operator": "Luleå Kommun",
-        "mapping_confidence": 0.3
+        "mapping_confidence": 0.3,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Point",
@@ -53913,7 +53975,7 @@
         "type": "street",
         "zone_code": "2108",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -53923,14 +53985,16 @@
         "flags": [
           "phone_scan",
           "epark",
-          "phone_scan_enriched"
+          "phone_scan_enriched",
+          "lulea_kommun_free_estimate"
         ],
         "last_verified": "2026-03-30",
         "payment_apps": [
           "epark"
         ],
         "epark_name": "Norrbottensteatern",
-        "epark_operator": "Luleå Kommun"
+        "epark_operator": "Luleå Kommun",
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Point",
@@ -53951,7 +54015,7 @@
         "type": "street",
         "zone_code": "2109",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -53961,14 +54025,16 @@
         "flags": [
           "phone_scan",
           "epark",
-          "phone_scan_enriched"
+          "phone_scan_enriched",
+          "lulea_kommun_free_estimate"
         ],
         "last_verified": "2026-03-30",
         "payment_apps": [
           "epark"
         ],
         "epark_name": "Porsöhallen",
-        "epark_operator": "Luleå Kommun"
+        "epark_operator": "Luleå Kommun",
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Point",
@@ -53989,7 +54055,7 @@
         "type": "garage",
         "zone_code": "2106",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -53998,14 +54064,16 @@
         "confidence": 0.7,
         "flags": [
           "phone_scan",
-          "epark"
+          "epark",
+          "lulea_kommun_free_estimate"
         ],
         "last_verified": "2026-03-31",
         "payment_apps": [
           "epark"
         ],
         "epark_name": "Karpens P-Hus",
-        "epark_operator": "Luleå Kommun"
+        "epark_operator": "Luleå Kommun",
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Point",
@@ -54026,7 +54094,7 @@
         "type": "garage",
         "zone_code": "2107",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -54035,14 +54103,16 @@
         "confidence": 0.7,
         "flags": [
           "phone_scan",
-          "epark"
+          "epark",
+          "lulea_kommun_free_estimate"
         ],
         "last_verified": "2026-03-31",
         "payment_apps": [
           "epark"
         ],
         "epark_name": "Kulturens Hus P-Hus",
-        "epark_operator": "Luleå Kommun"
+        "epark_operator": "Luleå Kommun",
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Point",

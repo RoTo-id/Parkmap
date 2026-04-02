@@ -163,7 +163,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -176,7 +176,8 @@
           "genuinely_unknown",
           "unknown_operator",
           "reset_from_fallback_free",
-          "alvsbyn_confirmed_free_muni"
+          "alvsbyn_confirmed_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 253267759,
@@ -431,7 +432,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -444,7 +445,8 @@
           "genuinely_unknown",
           "unknown_operator",
           "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_confirmed_by_distance",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 254038426,
@@ -774,7 +776,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -787,7 +789,8 @@
           "genuinely_unknown",
           "unknown_operator",
           "reset_from_fallback_free",
-          "alvsbyn_confirmed_free_muni"
+          "alvsbyn_confirmed_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 440360687,
@@ -1359,7 +1362,7 @@
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
@@ -1369,7 +1372,8 @@
         "flags": [
           "osm_bootstrap",
           "osm_reclassified",
-          "street_side_match"
+          "street_side_match",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": null,
         "osm_id": 1160816919,
@@ -1378,7 +1382,8 @@
         "osm_fee": null,
         "osm_parking": "street_side",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -1886,7 +1891,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -1899,7 +1904,8 @@
           "genuinely_unknown",
           "unknown_operator",
           "reset_from_fallback_free",
-          "alvsbyn_confirmed_free_muni"
+          "alvsbyn_confirmed_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 1490220009,
@@ -1949,7 +1955,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -1962,7 +1968,8 @@
           "genuinely_unknown",
           "unknown_operator",
           "reset_from_fallback_free",
-          "alvsbyn_confirmed_free_muni"
+          "alvsbyn_confirmed_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 1490220010,
@@ -2012,7 +2019,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -2025,7 +2032,8 @@
           "genuinely_unknown",
           "unknown_operator",
           "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_confirmed_by_distance",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 1494110553,

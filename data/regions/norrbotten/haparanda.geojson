@@ -47,7 +47,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -60,7 +60,8 @@
           "genuinely_unknown",
           "unknown_operator",
           "reset_from_fallback_free",
-          "haparanda_free_muni"
+          "haparanda_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 42311782,
@@ -118,19 +119,20 @@
         "type": "underground",
         "zone_code": null,
         "spots": "500",
-        "price_per_hour": null,
+        "price_per_hour": 10.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.5,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "needs_identification",
           "multi_storey_parking",
-          "osm_fee_yes_confirmed"
+          "osm_fee_yes_confirmed",
+          "fee_unknown_10kr_estimate"
         ],
         "last_verified": null,
         "osm_id": 42344662,
@@ -188,7 +190,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -201,7 +203,8 @@
           "genuinely_unknown",
           "unknown_operator",
           "reset_from_fallback_free",
-          "haparanda_free_muni"
+          "haparanda_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 42349119,
@@ -323,7 +326,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -336,7 +339,8 @@
           "genuinely_unknown",
           "unknown_operator",
           "reset_from_fallback_free",
-          "haparanda_free_muni"
+          "haparanda_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 43114097,
@@ -521,7 +525,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -534,7 +538,8 @@
           "genuinely_unknown",
           "unknown_operator",
           "reset_from_fallback_free",
-          "haparanda_free_muni"
+          "haparanda_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 56683771,
@@ -584,7 +589,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -597,7 +602,8 @@
           "genuinely_unknown",
           "unknown_operator",
           "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_confirmed_by_distance",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 66945769,
@@ -647,7 +653,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -660,7 +666,8 @@
           "genuinely_unknown",
           "unknown_operator",
           "reset_from_fallback_free",
-          "haparanda_free_muni"
+          "haparanda_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 68883030,
@@ -934,7 +941,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -947,7 +954,8 @@
           "genuinely_unknown",
           "unknown_operator",
           "reset_from_fallback_free",
-          "haparanda_free_muni"
+          "haparanda_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 68883044,
@@ -1104,7 +1112,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -1117,7 +1125,8 @@
           "genuinely_unknown",
           "unknown_operator",
           "reset_from_fallback_free",
-          "haparanda_free_muni"
+          "haparanda_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 69304406,
@@ -1386,7 +1395,7 @@
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
@@ -1396,7 +1405,8 @@
         "flags": [
           "osm_bootstrap",
           "osm_reclassified",
-          "street_side_match"
+          "street_side_match",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": null,
         "osm_id": 444468430,
@@ -1405,7 +1415,8 @@
         "osm_fee": null,
         "osm_parking": "street_side",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -1446,7 +1457,7 @@
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
@@ -1456,7 +1467,8 @@
         "flags": [
           "osm_bootstrap",
           "osm_reclassified",
-          "street_side_match"
+          "street_side_match",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": null,
         "osm_id": 444468431,
@@ -1465,7 +1477,8 @@
         "osm_fee": null,
         "osm_parking": "street_side",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -1573,7 +1586,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -1586,7 +1599,8 @@
           "genuinely_unknown",
           "unknown_operator",
           "reset_from_fallback_free",
-          "haparanda_free_muni"
+          "haparanda_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 654903643,
@@ -1636,7 +1650,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -1649,7 +1663,8 @@
           "genuinely_unknown",
           "unknown_operator",
           "reset_from_fallback_free",
-          "haparanda_free_muni"
+          "haparanda_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 654903644,
@@ -1699,7 +1714,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -1712,7 +1727,8 @@
           "genuinely_unknown",
           "unknown_operator",
           "reset_from_fallback_free",
-          "haparanda_free_muni"
+          "haparanda_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 654903645,
@@ -1766,7 +1782,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -1779,7 +1795,8 @@
           "genuinely_unknown",
           "unknown_operator",
           "reset_from_fallback_free",
-          "haparanda_free_muni"
+          "haparanda_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 654904991,
@@ -1829,7 +1846,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -1842,7 +1859,8 @@
           "genuinely_unknown",
           "unknown_operator",
           "reset_from_fallback_free",
-          "haparanda_free_muni"
+          "haparanda_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 654904992,
@@ -1892,7 +1910,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -1905,7 +1923,8 @@
           "genuinely_unknown",
           "unknown_operator",
           "reset_from_fallback_free",
-          "haparanda_free_muni"
+          "haparanda_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 654904993,
@@ -1955,7 +1974,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -1968,7 +1987,8 @@
           "genuinely_unknown",
           "unknown_operator",
           "reset_from_fallback_free",
-          "haparanda_free_muni"
+          "haparanda_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 654905270,
@@ -2018,7 +2038,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -2031,7 +2051,8 @@
           "genuinely_unknown",
           "unknown_operator",
           "reset_from_fallback_free",
-          "haparanda_free_muni"
+          "haparanda_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 654905271,
@@ -2081,7 +2102,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -2094,7 +2115,8 @@
           "genuinely_unknown",
           "unknown_operator",
           "reset_from_fallback_free",
-          "haparanda_free_muni"
+          "haparanda_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 654905819,
@@ -2144,7 +2166,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -2157,7 +2179,8 @@
           "genuinely_unknown",
           "unknown_operator",
           "reset_from_fallback_free",
-          "haparanda_free_muni"
+          "haparanda_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 654905820,
@@ -2207,7 +2230,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -2220,7 +2243,8 @@
           "genuinely_unknown",
           "unknown_operator",
           "reset_from_fallback_free",
-          "haparanda_free_muni"
+          "haparanda_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 655152175,
@@ -2274,7 +2298,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -2287,7 +2311,8 @@
           "genuinely_unknown",
           "unknown_operator",
           "reset_from_fallback_free",
-          "haparanda_free_muni"
+          "haparanda_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 655152209,
@@ -2337,7 +2362,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -2350,7 +2375,8 @@
           "genuinely_unknown",
           "unknown_operator",
           "reset_from_fallback_free",
-          "haparanda_free_muni"
+          "haparanda_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 655152210,
@@ -2404,7 +2430,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -2417,7 +2443,8 @@
           "genuinely_unknown",
           "unknown_operator",
           "reset_from_fallback_free",
-          "haparanda_free_muni"
+          "haparanda_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 655152211,
@@ -2467,7 +2494,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -2480,7 +2507,8 @@
           "genuinely_unknown",
           "unknown_operator",
           "reset_from_fallback_free",
-          "haparanda_free_muni"
+          "haparanda_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 655152212,
@@ -2721,7 +2749,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -2734,7 +2762,8 @@
           "genuinely_unknown",
           "unknown_operator",
           "reset_from_fallback_free",
-          "haparanda_rajalla_area"
+          "haparanda_rajalla_area",
+          "private_property_price_zero"
         ],
         "last_verified": null,
         "osm_id": 1038281988,
@@ -2804,7 +2833,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -2817,7 +2846,8 @@
           "genuinely_unknown",
           "unknown_operator",
           "reset_from_fallback_free",
-          "haparanda_free_muni"
+          "haparanda_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 1090676664,
@@ -3047,7 +3077,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -3060,7 +3090,8 @@
           "genuinely_unknown",
           "unknown_operator",
           "reset_from_fallback_free",
-          "haparanda_free_muni"
+          "haparanda_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 1143575196,
@@ -3114,7 +3145,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -3127,7 +3158,8 @@
           "genuinely_unknown",
           "unknown_operator",
           "reset_from_fallback_free",
-          "haparanda_free_muni"
+          "haparanda_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 1143575197,
@@ -3177,7 +3209,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -3190,7 +3222,8 @@
           "genuinely_unknown",
           "unknown_operator",
           "reset_from_fallback_free",
-          "haparanda_free_muni"
+          "haparanda_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 1279470870,
@@ -3244,7 +3277,7 @@
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -3257,7 +3290,8 @@
           "genuinely_unknown",
           "unknown_operator",
           "reset_from_fallback_free",
-          "haparanda_free_muni"
+          "haparanda_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 1299067518,
@@ -3370,7 +3404,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -3383,7 +3417,8 @@
           "genuinely_unknown",
           "unknown_operator",
           "reset_from_fallback_free",
-          "haparanda_free_muni"
+          "haparanda_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 1343441730,
@@ -3441,7 +3476,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -3454,7 +3489,8 @@
           "genuinely_unknown",
           "unknown_operator",
           "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_confirmed_by_distance",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 1354279726,
@@ -3504,7 +3540,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -3517,7 +3553,8 @@
           "genuinely_unknown",
           "unknown_operator",
           "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_confirmed_by_distance",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 1354279727,
@@ -3753,7 +3790,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -3766,7 +3803,8 @@
           "genuinely_unknown",
           "unknown_operator",
           "reset_from_fallback_free",
-          "haparanda_free_muni"
+          "haparanda_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 1392104620,
@@ -4103,7 +4141,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -4116,7 +4154,8 @@
           "genuinely_unknown",
           "unknown_operator",
           "reset_from_fallback_free",
-          "haparanda_free_muni"
+          "haparanda_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 1473659096,
@@ -4174,7 +4213,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -4187,7 +4226,8 @@
           "genuinely_unknown",
           "unknown_operator",
           "reset_from_fallback_free",
-          "haparanda_free_muni"
+          "haparanda_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 1473659808,

@@ -152,7 +152,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -165,7 +165,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "pitea_confirmed_free_muni"
+          "pitea_confirmed_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 58727298,
@@ -219,9 +220,9 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00",
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.pitea.se/bo-och-bygga/trafik-och-parkering/parkering/",
@@ -230,7 +231,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "pitea_centrum_8kr_estimate"
         ],
         "last_verified": null,
         "osm_id": 58916922,
@@ -510,9 +512,9 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00",
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.pitea.se/bo-och-bygga/trafik-och-parkering/parkering/",
@@ -521,7 +523,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "pitea_centrum_8kr_estimate"
         ],
         "last_verified": null,
         "osm_id": 171606661,
@@ -768,7 +771,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -781,7 +784,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_confirmed_by_distance",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 253395222,
@@ -831,7 +835,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -844,7 +848,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_confirmed_by_distance",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 253494026,
@@ -894,7 +899,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -907,7 +912,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_confirmed_by_distance",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 253855717,
@@ -1019,7 +1025,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -1032,7 +1038,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "pitea_confirmed_free_muni"
+          "pitea_confirmed_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 254027862,
@@ -1082,7 +1089,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -1095,7 +1102,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "pitea_confirmed_free_muni"
+          "pitea_confirmed_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 254428366,
@@ -1466,7 +1474,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -1479,7 +1487,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "pitea_confirmed_free_muni"
+          "pitea_confirmed_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 297602134,
@@ -1529,7 +1538,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -1539,7 +1548,8 @@
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
-          "kommun_district_match"
+          "kommun_district_match",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": null,
         "osm_id": 297609868,
@@ -1553,7 +1563,8 @@
         "payment_apps": [
           "parkster",
           "easypark"
-        ]
+        ],
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -1726,9 +1737,9 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00",
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.pitea.se/bo-och-bygga/trafik-och-parkering/parkering/",
@@ -1737,7 +1748,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "pitea_centrum_8kr_estimate"
         ],
         "last_verified": null,
         "osm_id": 298141073,
@@ -1787,9 +1799,9 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00",
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.pitea.se/bo-och-bygga/trafik-och-parkering/parkering/",
@@ -1798,7 +1810,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "pitea_centrum_8kr_estimate"
         ],
         "last_verified": null,
         "osm_id": 298141075,
@@ -1848,9 +1861,9 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00",
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.pitea.se/bo-och-bygga/trafik-och-parkering/parkering/",
@@ -1859,7 +1872,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "pitea_centrum_8kr_estimate"
         ],
         "last_verified": null,
         "osm_id": 298141076,
@@ -1909,9 +1923,9 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00",
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.pitea.se/bo-och-bygga/trafik-och-parkering/parkering/",
@@ -1920,7 +1934,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "pitea_centrum_8kr_estimate"
         ],
         "last_verified": null,
         "osm_id": 308133893,
@@ -1970,9 +1985,9 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00",
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.pitea.se/bo-och-bygga/trafik-och-parkering/parkering/",
@@ -1981,7 +1996,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "pitea_centrum_8kr_estimate"
         ],
         "last_verified": null,
         "osm_id": 308133894,
@@ -2031,7 +2047,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -2044,7 +2060,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_confirmed_by_distance",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 310526432,
@@ -2094,7 +2111,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -2107,7 +2124,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "pitea_confirmed_free_muni"
+          "pitea_confirmed_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 312258826,
@@ -2688,7 +2706,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -2698,7 +2716,8 @@
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
-          "kommun_district_match"
+          "kommun_district_match",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": null,
         "osm_id": 314263213,
@@ -2712,7 +2731,8 @@
         "payment_apps": [
           "parkster",
           "easypark"
-        ]
+        ],
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -2773,7 +2793,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -2786,7 +2806,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "pitea_confirmed_free_muni"
+          "pitea_confirmed_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 314315431,
@@ -2899,7 +2920,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -2912,7 +2933,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_confirmed_by_distance",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 314432072,
@@ -3053,7 +3075,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -3066,7 +3088,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "pitea_confirmed_free_muni"
+          "pitea_confirmed_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 314720559,
@@ -3192,7 +3215,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 10.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -3201,7 +3224,8 @@
         "confidence": 0.55,
         "flags": [
           "osm_bootstrap",
-          "near_aimo_zone"
+          "near_aimo_zone",
+          "aimopark_default_price_estimate"
         ],
         "last_verified": null,
         "osm_id": 316601477,
@@ -3610,9 +3634,9 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00",
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.pitea.se/bo-och-bygga/trafik-och-parkering/parkering/",
@@ -3621,7 +3645,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "pitea_centrum_8kr_estimate"
         ],
         "last_verified": null,
         "osm_id": 316736615,
@@ -3715,9 +3740,9 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00",
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.pitea.se/bo-och-bygga/trafik-och-parkering/parkering/",
@@ -3726,7 +3751,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "pitea_centrum_8kr_estimate"
         ],
         "last_verified": null,
         "osm_id": 316736620,
@@ -3776,9 +3802,9 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00",
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.pitea.se/bo-och-bygga/trafik-och-parkering/parkering/",
@@ -3787,7 +3813,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "pitea_centrum_8kr_estimate"
         ],
         "last_verified": null,
         "osm_id": 318702930,
@@ -3845,7 +3872,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": 132,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -3854,7 +3881,8 @@
         "confidence": 0.72,
         "flags": [
           "osm_bootstrap",
-          "gis_match_1m"
+          "gis_match_1m",
+          "free_parking_price_zero"
         ],
         "last_verified": "2026-04-01T04:32:48.206853+00:00",
         "osm_id": 319196686,
@@ -3904,7 +3932,7 @@
         "type": "outdoor",
         "zone_code": "2243",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "Vardagar 08:00-18:00; Lördagar 09:00-15:00",
         "restrictions": null,
@@ -3913,7 +3941,8 @@
         "confidence": 0.72,
         "flags": [
           "osm_bootstrap",
-          "gis_match_1m"
+          "gis_match_1m",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": "2026-04-01T04:32:48.206853+00:00",
         "osm_id": 319196839,
@@ -3922,7 +3951,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -3963,7 +3993,7 @@
         "type": "outdoor",
         "zone_code": "2240",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "Vardagar 08:00-18:00; Lördagar 09:00-15:00",
         "restrictions": null,
@@ -3972,7 +4002,8 @@
         "confidence": 0.88,
         "flags": [
           "osm_bootstrap",
-          "gis_zone_match"
+          "gis_zone_match",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": "2026-04-01T04:31:52.859584+00:00",
         "osm_id": 319196840,
@@ -3981,7 +4012,8 @@
         "osm_fee": "yes",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -4148,7 +4180,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -4161,7 +4193,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "pitea_confirmed_free_muni"
+          "pitea_confirmed_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 320522292,
@@ -4255,7 +4288,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -4268,7 +4301,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "pitea_confirmed_free_muni"
+          "pitea_confirmed_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 320522294,
@@ -4318,7 +4352,7 @@
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
@@ -4328,7 +4362,8 @@
         "flags": [
           "osm_bootstrap",
           "osm_reclassified",
-          "street_side_match"
+          "street_side_match",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": null,
         "osm_id": 321359741,
@@ -4337,7 +4372,8 @@
         "osm_fee": null,
         "osm_parking": "street_side",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -4422,7 +4458,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -4435,7 +4471,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "pitea_confirmed_free_muni"
+          "pitea_confirmed_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 321359742,
@@ -4680,7 +4717,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -4693,7 +4730,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "pitea_confirmed_free_muni"
+          "pitea_confirmed_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 321359746,
@@ -4743,7 +4781,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -4756,7 +4794,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "pitea_confirmed_free_muni"
+          "pitea_confirmed_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 321359747,
@@ -4806,7 +4845,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -4819,7 +4858,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "pitea_confirmed_free_muni"
+          "pitea_confirmed_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 321359749,
@@ -4869,7 +4909,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -4882,7 +4922,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "pitea_confirmed_free_muni"
+          "pitea_confirmed_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 321359750,
@@ -4932,7 +4973,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -4945,7 +4986,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "pitea_confirmed_free_muni"
+          "pitea_confirmed_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 321359751,
@@ -4995,7 +5037,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -5008,7 +5050,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "pitea_confirmed_free_muni"
+          "pitea_confirmed_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 321359753,
@@ -5066,7 +5109,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -5076,7 +5119,8 @@
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
-          "kommun_district_match"
+          "kommun_district_match",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": null,
         "osm_id": 328725719,
@@ -5090,7 +5134,8 @@
         "payment_apps": [
           "parkster",
           "easypark"
-        ]
+        ],
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -5131,7 +5176,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -5141,7 +5186,8 @@
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
-          "kommun_district_match"
+          "kommun_district_match",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": null,
         "osm_id": 329007608,
@@ -5155,7 +5201,8 @@
         "payment_apps": [
           "parkster",
           "easypark"
-        ]
+        ],
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -5279,7 +5326,7 @@
         "type": "outdoor",
         "zone_code": "2240",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "Vardagar 08:00-18:00; Lördagar 09:00-15:00",
         "restrictions": null,
@@ -5288,7 +5335,8 @@
         "confidence": 0.88,
         "flags": [
           "osm_bootstrap",
-          "gis_zone_match"
+          "gis_zone_match",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": "2026-04-01T04:31:52.873919+00:00",
         "osm_id": 329016009,
@@ -5297,7 +5345,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -5346,7 +5395,7 @@
         "type": "outdoor",
         "zone_code": "2243",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "Vardagar 08:00-18:00; Lördagar 09:00-15:00",
         "restrictions": null,
@@ -5355,7 +5404,8 @@
         "confidence": 0.88,
         "flags": [
           "osm_bootstrap",
-          "gis_zone_match"
+          "gis_zone_match",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": "2026-04-01T04:31:52.873919+00:00",
         "osm_id": 329016011,
@@ -5364,7 +5414,8 @@
         "osm_fee": "yes",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -5464,9 +5515,9 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00",
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.pitea.se/bo-och-bygga/trafik-och-parkering/parkering/",
@@ -5475,7 +5526,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "pitea_centrum_8kr_estimate"
         ],
         "last_verified": null,
         "osm_id": 360717149,
@@ -5608,7 +5660,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -5617,7 +5669,8 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "gis_yta_match"
+          "gis_yta_match",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 360782461,
@@ -5691,9 +5744,9 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00",
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.pitea.se/bo-och-bygga/trafik-och-parkering/parkering/",
@@ -5702,7 +5755,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "pitea_centrum_8kr_estimate"
         ],
         "last_verified": null,
         "osm_id": 361449616,
@@ -5752,7 +5806,7 @@
         "type": "garage",
         "zone_code": "2240",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "Vardagar 08:00-18:00; Lördagar 09:00-15:00",
         "restrictions": null,
@@ -5763,7 +5817,8 @@
           "osm_bootstrap",
           "needs_identification",
           "multi_storey_parking",
-          "gis_zone_match"
+          "gis_zone_match",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": "2026-04-01T04:31:52.873919+00:00",
         "osm_id": 383419604,
@@ -5772,7 +5827,8 @@
         "osm_fee": null,
         "osm_parking": "multi-storey",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -5813,7 +5869,7 @@
         "type": "garage",
         "zone_code": "2240",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "Vardagar 08:00-18:00; Lördagar 09:00-15:00",
         "restrictions": null,
@@ -5824,7 +5880,8 @@
           "osm_bootstrap",
           "needs_identification",
           "multi_storey_parking",
-          "gis_zone_match"
+          "gis_zone_match",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": "2026-04-01T04:31:52.873919+00:00",
         "osm_id": 383419605,
@@ -5833,7 +5890,8 @@
         "osm_fee": null,
         "osm_parking": "multi-storey",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -5878,9 +5936,9 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00",
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.pitea.se/bo-och-bygga/trafik-och-parkering/parkering/",
@@ -5889,7 +5947,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "pitea_centrum_8kr_estimate"
         ],
         "last_verified": null,
         "osm_id": 383432094,
@@ -5947,7 +6006,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -5957,7 +6016,8 @@
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
-          "kommun_district_match"
+          "kommun_district_match",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": null,
         "osm_id": 383447238,
@@ -5971,7 +6031,8 @@
         "payment_apps": [
           "parkster",
           "easypark"
-        ]
+        ],
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -6012,9 +6073,9 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00",
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.pitea.se/bo-och-bygga/trafik-och-parkering/parkering/",
@@ -6023,7 +6084,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "pitea_centrum_8kr_estimate"
         ],
         "last_verified": null,
         "osm_id": 383486044,
@@ -6073,9 +6135,9 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00",
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.pitea.se/bo-och-bygga/trafik-och-parkering/parkering/",
@@ -6084,7 +6146,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "pitea_centrum_8kr_estimate"
         ],
         "last_verified": null,
         "osm_id": 383503941,
@@ -6158,7 +6221,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -6171,7 +6234,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "pitea_confirmed_free_muni"
+          "pitea_confirmed_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 383603709,
@@ -6221,9 +6285,9 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00",
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.pitea.se/bo-och-bygga/trafik-och-parkering/parkering/",
@@ -6232,7 +6296,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "pitea_centrum_8kr_estimate"
         ],
         "last_verified": null,
         "osm_id": 383634142,
@@ -6341,9 +6406,9 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00",
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.pitea.se/bo-och-bygga/trafik-och-parkering/parkering/",
@@ -6352,7 +6417,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "pitea_centrum_8kr_estimate"
         ],
         "last_verified": null,
         "osm_id": 383634144,
@@ -6410,9 +6476,9 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00",
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.pitea.se/bo-och-bygga/trafik-och-parkering/parkering/",
@@ -6421,7 +6487,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "pitea_centrum_8kr_estimate"
         ],
         "last_verified": null,
         "osm_id": 383634145,
@@ -6547,9 +6614,9 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00",
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.pitea.se/bo-och-bygga/trafik-och-parkering/parkering/",
@@ -6558,7 +6625,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "pitea_centrum_8kr_estimate"
         ],
         "last_verified": null,
         "osm_id": 383634147,
@@ -6624,7 +6692,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -6637,7 +6705,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "pitea_confirmed_free_muni"
+          "pitea_confirmed_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 383639572,
@@ -6687,7 +6756,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -6700,7 +6769,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "pitea_confirmed_free_muni"
+          "pitea_confirmed_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 383643795,
@@ -6750,7 +6820,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -6763,7 +6833,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "pitea_confirmed_free_muni"
+          "pitea_confirmed_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 383864490,
@@ -6813,7 +6884,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -6826,7 +6897,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_confirmed_by_distance",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 383867883,
@@ -6880,7 +6952,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -6893,7 +6965,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_confirmed_by_distance",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 389443516,
@@ -7089,9 +7162,9 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00",
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.pitea.se/bo-och-bygga/trafik-och-parkering/parkering/",
@@ -7100,7 +7173,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "pitea_centrum_8kr_estimate"
         ],
         "last_verified": null,
         "osm_id": 460819928,
@@ -7150,7 +7224,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -7160,7 +7234,8 @@
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
-          "kommun_district_match"
+          "kommun_district_match",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": null,
         "osm_id": 461765306,
@@ -7174,7 +7249,8 @@
         "payment_apps": [
           "parkster",
           "easypark"
-        ]
+        ],
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -7215,7 +7291,7 @@
         "type": "outdoor",
         "zone_code": "2240",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "Vardagar 08:00-18:00; Lördagar 09:00-15:00",
         "restrictions": null,
@@ -7224,7 +7300,8 @@
         "confidence": 0.88,
         "flags": [
           "osm_bootstrap",
-          "gis_zone_match"
+          "gis_zone_match",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": "2026-04-01T04:31:52.886383+00:00",
         "osm_id": 461766148,
@@ -7233,7 +7310,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -7274,7 +7352,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -7282,7 +7360,8 @@
         "source_url": null,
         "confidence": 0.65,
         "flags": [
-          "osm_fee_yes_reclassified"
+          "osm_fee_yes_reclassified",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": null,
         "osm_id": 494187157,
@@ -7291,7 +7370,8 @@
         "osm_fee": "yes",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -7332,7 +7412,7 @@
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
@@ -7342,7 +7422,8 @@
         "flags": [
           "osm_bootstrap",
           "osm_reclassified",
-          "street_side_match"
+          "street_side_match",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": null,
         "osm_id": 494187163,
@@ -7351,7 +7432,8 @@
         "osm_fee": null,
         "osm_parking": "street_side",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -7392,7 +7474,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -7405,7 +7487,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "pitea_confirmed_free_muni"
+          "pitea_confirmed_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 494397731,
@@ -7463,7 +7546,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -7476,7 +7559,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "pitea_confirmed_free_muni"
+          "pitea_confirmed_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 494401988,
@@ -7526,7 +7610,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -7539,7 +7623,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "pitea_confirmed_free_muni"
+          "pitea_confirmed_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 494401989,
@@ -7652,7 +7737,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -7665,7 +7750,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "pitea_confirmed_free_muni"
+          "pitea_confirmed_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 614721748,
@@ -7715,7 +7801,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -7728,7 +7814,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "pitea_confirmed_free_muni"
+          "pitea_confirmed_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 614721751,
@@ -7778,7 +7865,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -7791,7 +7878,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "pitea_confirmed_free_muni"
+          "pitea_confirmed_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 660268579,
@@ -7849,7 +7937,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -7862,7 +7950,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "pitea_confirmed_free_muni"
+          "pitea_confirmed_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 660268580,
@@ -7912,7 +8001,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -7925,7 +8014,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "pitea_confirmed_free_muni"
+          "pitea_confirmed_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 660268581,
@@ -8093,7 +8183,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -8106,7 +8196,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_confirmed_by_distance",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 675503847,
@@ -8160,7 +8251,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -8170,7 +8261,8 @@
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
-          "kommun_district_match"
+          "kommun_district_match",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": null,
         "osm_id": 699520568,
@@ -8184,7 +8276,8 @@
         "payment_apps": [
           "parkster",
           "easypark"
-        ]
+        ],
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -8289,9 +8382,9 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00",
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.pitea.se/bo-och-bygga/trafik-och-parkering/parkering/",
@@ -8300,7 +8393,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "pitea_centrum_8kr_estimate"
         ],
         "last_verified": null,
         "osm_id": 700978323,
@@ -8358,7 +8452,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -8368,7 +8462,8 @@
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
-          "kommun_district_match"
+          "kommun_district_match",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": null,
         "osm_id": 701205455,
@@ -8382,7 +8477,8 @@
         "payment_apps": [
           "parkster",
           "easypark"
-        ]
+        ],
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -8423,7 +8519,7 @@
         "type": "garage",
         "zone_code": "2240",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "Vardagar 08:00-18:00; Lördagar 09:00-15:00",
         "restrictions": null,
@@ -8432,7 +8528,8 @@
         "confidence": 0.88,
         "flags": [
           "osm_bootstrap",
-          "gis_zone_match"
+          "gis_zone_match",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": "2026-04-01T04:31:52.890589+00:00",
         "osm_id": 702235054,
@@ -8441,7 +8538,8 @@
         "osm_fee": "yes",
         "osm_parking": "multi-storey",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -8482,7 +8580,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -8495,7 +8593,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_confirmed_by_distance",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 731001748,
@@ -8613,7 +8712,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -8626,7 +8725,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_confirmed_by_distance",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 731001749,
@@ -8684,7 +8784,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -8697,7 +8797,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "pitea_confirmed_free_muni"
+          "pitea_confirmed_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 771754231,
@@ -8747,7 +8848,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -8760,7 +8861,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "pitea_confirmed_free_muni"
+          "pitea_confirmed_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 772193121,
@@ -8810,7 +8912,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -8823,7 +8925,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "pitea_confirmed_free_muni"
+          "pitea_confirmed_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 772193122,
@@ -8893,7 +8996,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -8906,7 +9009,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "pitea_confirmed_free_muni"
+          "pitea_confirmed_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 786129687,
@@ -8956,7 +9060,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -8969,7 +9073,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "pitea_confirmed_free_muni"
+          "pitea_confirmed_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 786129688,
@@ -9019,7 +9124,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -9032,7 +9137,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "pitea_confirmed_free_muni"
+          "pitea_confirmed_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 786129689,
@@ -9082,7 +9188,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -9095,7 +9201,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "pitea_confirmed_free_muni"
+          "pitea_confirmed_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 786129696,
@@ -9153,7 +9260,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -9166,7 +9273,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "pitea_confirmed_free_muni"
+          "pitea_confirmed_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 801778339,
@@ -9216,7 +9324,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -9229,7 +9337,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_confirmed_by_distance",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 819245408,
@@ -9283,7 +9392,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -9296,7 +9405,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_confirmed_by_distance",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 819245409,
@@ -9346,7 +9456,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -9359,7 +9469,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "pitea_confirmed_free_muni"
+          "pitea_confirmed_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 854034994,
@@ -9413,7 +9524,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -9426,7 +9537,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "pitea_confirmed_free_muni"
+          "pitea_confirmed_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 854034995,
@@ -9476,9 +9588,9 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00",
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.pitea.se/bo-och-bygga/trafik-och-parkering/parkering/",
@@ -9487,7 +9599,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "pitea_centrum_8kr_estimate"
         ],
         "last_verified": null,
         "osm_id": 854034996,
@@ -9670,9 +9783,9 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00",
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.pitea.se/bo-och-bygga/trafik-och-parkering/parkering/",
@@ -9681,7 +9794,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "pitea_centrum_8kr_estimate"
         ],
         "last_verified": null,
         "osm_id": 1056598142,
@@ -10045,7 +10159,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -10054,7 +10168,8 @@
         "confidence": 0.72,
         "flags": [
           "osm_bootstrap",
-          "gis_match_1m"
+          "gis_match_1m",
+          "free_parking_price_zero"
         ],
         "last_verified": "2026-04-01T04:32:48.222544+00:00",
         "osm_id": 1106676633,
@@ -10104,9 +10219,9 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00",
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.pitea.se/bo-och-bygga/trafik-och-parkering/parkering/",
@@ -10115,7 +10230,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "pitea_centrum_8kr_estimate"
         ],
         "last_verified": null,
         "osm_id": 1106892110,
@@ -10283,7 +10399,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -10296,7 +10412,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "pitea_confirmed_free_muni"
+          "pitea_confirmed_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 1118307191,
@@ -10346,7 +10463,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -10359,7 +10476,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_confirmed_by_distance",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 1239407207,
@@ -10409,7 +10527,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -10422,7 +10540,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_confirmed_by_distance",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 1239407219,
@@ -10472,7 +10591,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -10482,7 +10601,8 @@
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
-          "kommun_district_match"
+          "kommun_district_match",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": null,
         "osm_id": 1312216890,
@@ -10496,7 +10616,8 @@
         "payment_apps": [
           "parkster",
           "easypark"
-        ]
+        ],
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -10541,7 +10662,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -10551,7 +10672,8 @@
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
-          "kommun_district_match"
+          "kommun_district_match",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": null,
         "osm_id": 1312234193,
@@ -10565,7 +10687,8 @@
         "payment_apps": [
           "parkster",
           "easypark"
-        ]
+        ],
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -10606,7 +10729,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -10616,7 +10739,8 @@
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
-          "kommun_district_match"
+          "kommun_district_match",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": null,
         "osm_id": 1312234194,
@@ -10630,7 +10754,8 @@
         "payment_apps": [
           "parkster",
           "easypark"
-        ]
+        ],
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -10679,7 +10804,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -10689,7 +10814,8 @@
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
-          "kommun_district_match"
+          "kommun_district_match",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": null,
         "osm_id": 1312238574,
@@ -10703,7 +10829,8 @@
         "payment_apps": [
           "parkster",
           "easypark"
-        ]
+        ],
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -10807,7 +10934,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": 4,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -10816,7 +10943,8 @@
         "confidence": 0.79,
         "flags": [
           "osm_bootstrap",
-          "gis_match_0m"
+          "gis_match_0m",
+          "free_parking_price_zero"
         ],
         "last_verified": "2026-04-01T04:32:48.222544+00:00",
         "osm_id": 1312496525,
@@ -10949,7 +11077,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -10959,7 +11087,8 @@
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
-          "kommun_district_match"
+          "kommun_district_match",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": null,
         "osm_id": 1312608509,
@@ -10973,7 +11102,8 @@
         "payment_apps": [
           "parkster",
           "easypark"
-        ]
+        ],
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -11022,9 +11152,9 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00",
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.pitea.se/bo-och-bygga/trafik-och-parkering/parkering/",
@@ -11033,7 +11163,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "pitea_centrum_8kr_estimate"
         ],
         "last_verified": null,
         "osm_id": 1312614185,
@@ -11083,9 +11214,9 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00",
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.pitea.se/bo-och-bygga/trafik-och-parkering/parkering/",
@@ -11094,7 +11225,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "pitea_centrum_8kr_estimate"
         ],
         "last_verified": null,
         "osm_id": 1312614186,
@@ -11144,7 +11276,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -11157,7 +11289,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_confirmed_by_distance",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 1319587332,
@@ -11207,7 +11340,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -11220,7 +11353,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_confirmed_by_distance",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 1319587335,
@@ -11450,7 +11584,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": "13",
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -11459,7 +11593,8 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "osm_operator_mapped"
+          "osm_operator_mapped",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 1354284343,
@@ -11624,7 +11759,7 @@
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
@@ -11634,7 +11769,8 @@
         "flags": [
           "osm_bootstrap",
           "osm_reclassified",
-          "street_side_match"
+          "street_side_match",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": null,
         "osm_id": 1354284349,
@@ -11643,7 +11779,8 @@
         "osm_fee": null,
         "osm_parking": "street_side",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -11692,7 +11829,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -11701,7 +11838,8 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "osm_operator_mapped"
+          "osm_operator_mapped",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 1354284351,
@@ -12027,7 +12165,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -12035,7 +12173,8 @@
         "source_url": null,
         "confidence": 0.65,
         "flags": [
-          "osm_fee_yes_reclassified"
+          "osm_fee_yes_reclassified",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": null,
         "osm_id": 1425844226,
@@ -12044,7 +12183,8 @@
         "osm_fee": "yes",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -12085,7 +12225,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -12093,7 +12233,8 @@
         "source_url": null,
         "confidence": 0.65,
         "flags": [
-          "osm_fee_yes_reclassified"
+          "osm_fee_yes_reclassified",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": null,
         "osm_id": 1425844227,
@@ -12102,7 +12243,8 @@
         "osm_fee": "yes",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -12143,7 +12285,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -12151,7 +12293,8 @@
         "source_url": null,
         "confidence": 0.65,
         "flags": [
-          "osm_fee_yes_reclassified"
+          "osm_fee_yes_reclassified",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": null,
         "osm_id": 1425844228,
@@ -12160,7 +12303,8 @@
         "osm_fee": "yes",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -12201,7 +12345,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -12214,7 +12358,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "pitea_confirmed_free_muni"
+          "pitea_confirmed_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 1426030276,
@@ -12272,7 +12417,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -12285,7 +12430,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "pitea_confirmed_free_muni"
+          "pitea_confirmed_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 1426030277,
@@ -12402,9 +12548,9 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00",
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.pitea.se/bo-och-bygga/trafik-och-parkering/parkering/",
@@ -12413,7 +12559,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "pitea_centrum_8kr_estimate"
         ],
         "last_verified": null,
         "osm_id": 1426030282,
@@ -12507,7 +12654,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -12517,7 +12664,8 @@
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
-          "kommun_district_match"
+          "kommun_district_match",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": null,
         "osm_id": 1426030284,
@@ -12531,7 +12679,8 @@
         "payment_apps": [
           "parkster",
           "easypark"
-        ]
+        ],
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -12643,7 +12792,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -12653,7 +12802,8 @@
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
-          "kommun_district_match"
+          "kommun_district_match",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": null,
         "osm_id": 1426060679,
@@ -12667,7 +12817,8 @@
         "payment_apps": [
           "parkster",
           "easypark"
-        ]
+        ],
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -12712,7 +12863,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -12722,7 +12873,8 @@
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
-          "kommun_district_match"
+          "kommun_district_match",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": null,
         "osm_id": 1426075793,
@@ -12736,7 +12888,8 @@
         "payment_apps": [
           "parkster",
           "easypark"
-        ]
+        ],
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -12777,9 +12930,9 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00",
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.pitea.se/bo-och-bygga/trafik-och-parkering/parkering/",
@@ -12788,7 +12941,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "pitea_centrum_8kr_estimate"
         ],
         "last_verified": null,
         "osm_id": 1426204122,
@@ -12913,7 +13067,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -12921,7 +13075,8 @@
         "source_url": null,
         "confidence": 0.65,
         "flags": [
-          "osm_fee_yes_reclassified"
+          "osm_fee_yes_reclassified",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": null,
         "osm_id": 1427300463,
@@ -12930,7 +13085,8 @@
         "osm_fee": "yes",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -13089,7 +13245,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -13102,7 +13258,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "pitea_confirmed_free_muni"
+          "pitea_confirmed_free_muni",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 1431513065,
@@ -13152,7 +13309,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": 12,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -13161,7 +13318,8 @@
         "confidence": 0.64,
         "flags": [
           "osm_bootstrap",
-          "gis_match_2m"
+          "gis_match_2m",
+          "free_parking_price_zero"
         ],
         "last_verified": "2026-04-01T04:32:48.227319+00:00",
         "osm_id": 1432267393,
@@ -13211,7 +13369,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -13219,7 +13377,8 @@
         "source_url": null,
         "confidence": 0.75,
         "flags": [
-          "osm_permit_reclassified"
+          "osm_permit_reclassified",
+          "private_property_price_zero"
         ],
         "last_verified": null,
         "osm_id": 1441914079,
@@ -13293,7 +13452,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -13306,7 +13465,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_confirmed_by_distance",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 1444515978,
@@ -13423,7 +13583,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -13433,7 +13593,8 @@
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
-          "kommun_district_match"
+          "kommun_district_match",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": null,
         "osm_id": 1460576437,
@@ -13447,7 +13608,8 @@
         "payment_apps": [
           "parkster",
           "easypark"
-        ]
+        ],
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -13488,7 +13650,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -13498,7 +13660,8 @@
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
-          "kommun_district_match"
+          "kommun_district_match",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": null,
         "osm_id": 1460576438,
@@ -13512,7 +13675,8 @@
         "payment_apps": [
           "parkster",
           "easypark"
-        ]
+        ],
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -13553,7 +13717,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -13563,7 +13727,8 @@
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
-          "kommun_district_match"
+          "kommun_district_match",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": null,
         "osm_id": 1466252677,
@@ -13577,7 +13742,8 @@
         "payment_apps": [
           "parkster",
           "easypark"
-        ]
+        ],
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -13622,7 +13788,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -13632,7 +13798,8 @@
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
-          "kommun_district_match"
+          "kommun_district_match",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": null,
         "osm_id": 1466252681,
@@ -13646,7 +13813,8 @@
         "payment_apps": [
           "parkster",
           "easypark"
-        ]
+        ],
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -13691,7 +13859,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -13704,7 +13872,8 @@
           "unknown_operator",
           "rural_free_classified",
           "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_confirmed_by_distance",
+          "free_parking_price_zero"
         ],
         "last_verified": null,
         "osm_id": 1466354648,
@@ -13758,9 +13927,9 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00",
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.pitea.se/bo-och-bygga/trafik-och-parkering/parkering/",
@@ -13769,7 +13938,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "pitea_centrum_8kr_estimate"
         ],
         "last_verified": null,
         "osm_id": 1473715034,
@@ -13835,9 +14005,9 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "mån-fre 09:00-18:00",
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.pitea.se/bo-och-bygga/trafik-och-parkering/parkering/",
@@ -13846,7 +14016,8 @@
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "centrum_bbox_classified"
+          "centrum_bbox_classified",
+          "pitea_centrum_8kr_estimate"
         ],
         "last_verified": null,
         "osm_id": 1476311558,
@@ -13896,7 +14067,7 @@
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
@@ -13906,7 +14077,8 @@
         "flags": [
           "osm_bootstrap",
           "osm_reclassified",
-          "street_side_match"
+          "street_side_match",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": null,
         "osm_id": 1478430276,
@@ -13915,7 +14087,8 @@
         "osm_fee": null,
         "osm_parking": "street_side",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -13964,7 +14137,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -13974,7 +14147,8 @@
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
-          "kommun_district_match"
+          "kommun_district_match",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": null,
         "osm_id": 1478430569,
@@ -13988,7 +14162,8 @@
         "payment_apps": [
           "parkster",
           "easypark"
-        ]
+        ],
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
@@ -14111,7 +14286,7 @@
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
@@ -14121,7 +14296,8 @@
         "flags": [
           "osm_bootstrap",
           "osm_reclassified",
-          "street_side_match"
+          "street_side_match",
+          "kommun_no_price_free_estimate"
         ],
         "last_verified": null,
         "osm_id": 1493429257,
@@ -14130,7 +14306,8 @@
         "osm_fee": null,
         "osm_parking": "street_side",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "Se skyltning"
       },
       "geometry": {
         "type": "Polygon",
