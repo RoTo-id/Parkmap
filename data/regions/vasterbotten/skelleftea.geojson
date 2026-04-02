@@ -249,7 +249,7 @@
       "properties": {
         "id": "skelleftea-osm-38504025",
         "name": "OSM-38504025",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -261,11 +261,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 38504025,
@@ -469,7 +470,7 @@
       "properties": {
         "id": "skelleftea-osm-67712955",
         "name": "OSM-67712955",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -481,11 +482,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 67712955,
@@ -538,7 +540,7 @@
       "properties": {
         "id": "skelleftea-osm-68882000",
         "name": "OSM-68882000",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -550,11 +552,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 68882000,
@@ -1162,7 +1165,7 @@
       "properties": {
         "id": "skelleftea-osm-69315806",
         "name": "OSM-69315806",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -1174,11 +1177,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 69315806,
@@ -2277,7 +2281,7 @@
       "properties": {
         "id": "skelleftea-osm-96995859",
         "name": "OSM-96995859",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -2289,11 +2293,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 96995859,
@@ -2719,7 +2724,7 @@
       "properties": {
         "id": "skelleftea-osm-118987959",
         "name": "OSM-118987959",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -2731,11 +2736,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 118987959,
@@ -3636,7 +3642,7 @@
       "properties": {
         "id": "skelleftea-osm-146803623",
         "name": "OSM-146803623",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -3648,11 +3654,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 146803623,
@@ -3697,7 +3704,7 @@
       "properties": {
         "id": "skelleftea-osm-146806993",
         "name": "OSM-146806993",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -3709,11 +3716,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 146806993,
@@ -3825,7 +3833,7 @@
       "properties": {
         "id": "skelleftea-osm-171558028",
         "name": "OSM-171558028",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -3837,11 +3845,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 171558028,
@@ -5129,7 +5138,7 @@
       "properties": {
         "id": "skelleftea-osm-207886728",
         "name": "OSM-207886728",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -5141,11 +5150,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 207886728,
@@ -5321,7 +5331,7 @@
       "properties": {
         "id": "skelleftea-osm-219424880",
         "name": "OSM-219424880",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -5333,11 +5343,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 219424880,
@@ -5591,7 +5602,7 @@
       "properties": {
         "id": "skelleftea-osm-227470289",
         "name": "OSM-227470289",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -5603,11 +5614,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 227470289,
@@ -5724,7 +5736,7 @@
       "properties": {
         "id": "skelleftea-osm-258746029",
         "name": "OSM-258746029",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -5736,11 +5748,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 258746029,
@@ -5801,7 +5814,7 @@
       "properties": {
         "id": "skelleftea-osm-259181333",
         "name": "OSM-259181333",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -5813,11 +5826,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 259181333,
@@ -5862,7 +5876,7 @@
       "properties": {
         "id": "skelleftea-osm-259181334",
         "name": "OSM-259181334",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -5874,11 +5888,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 259181334,
@@ -5923,7 +5938,7 @@
       "properties": {
         "id": "skelleftea-osm-259181335",
         "name": "OSM-259181335",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -5935,11 +5950,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 259181335,
@@ -5996,7 +6012,7 @@
       "properties": {
         "id": "skelleftea-osm-259182690",
         "name": "OSM-259182690",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -6008,11 +6024,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 259182690,
@@ -6057,7 +6074,7 @@
       "properties": {
         "id": "skelleftea-osm-259712486",
         "name": "OSM-259712486",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -6069,11 +6086,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 259712486,
@@ -6130,7 +6148,7 @@
       "properties": {
         "id": "skelleftea-osm-259712488",
         "name": "OSM-259712488",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -6142,11 +6160,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 259712488,
@@ -6191,7 +6210,7 @@
       "properties": {
         "id": "skelleftea-osm-259722732",
         "name": "OSM-259722732",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -6203,11 +6222,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 259722732,
@@ -6256,7 +6276,7 @@
       "properties": {
         "id": "skelleftea-osm-259722733",
         "name": "OSM-259722733",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -6268,11 +6288,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 259722733,
@@ -7274,7 +7295,7 @@
       "properties": {
         "id": "skelleftea-osm-263944829",
         "name": "OSM-263944829",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -7286,11 +7307,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 263944829,
@@ -7623,7 +7645,7 @@
       "properties": {
         "id": "skelleftea-osm-291134954",
         "name": "OSM-291134954",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -7635,11 +7657,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 291134954,
@@ -7708,7 +7731,7 @@
       "properties": {
         "id": "skelleftea-osm-292346182",
         "name": "OSM-292346182",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -7720,11 +7743,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 292346182,
@@ -7769,7 +7793,7 @@
       "properties": {
         "id": "skelleftea-osm-292346183",
         "name": "OSM-292346183",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -7781,11 +7805,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 292346183,
@@ -7830,7 +7855,7 @@
       "properties": {
         "id": "skelleftea-osm-297592354",
         "name": "OSM-297592354",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -7842,11 +7867,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 297592354,
@@ -8023,7 +8049,7 @@
       "properties": {
         "id": "skelleftea-osm-297699447",
         "name": "OSM-297699447",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -8035,11 +8061,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 297699447,
@@ -8084,7 +8111,7 @@
       "properties": {
         "id": "skelleftea-osm-297699448",
         "name": "OSM-297699448",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -8096,11 +8123,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 297699448,
@@ -8352,7 +8380,7 @@
       "properties": {
         "id": "skelleftea-osm-297712551",
         "name": "OSM-297712551",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -8364,11 +8392,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 297712551,
@@ -8735,7 +8764,7 @@
       "properties": {
         "id": "skelleftea-osm-321844950",
         "name": "OSM-321844950",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -8747,11 +8776,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 321844950,
@@ -8848,7 +8878,7 @@
       "properties": {
         "id": "skelleftea-osm-321844951",
         "name": "OSM-321844951",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -8860,11 +8890,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 321844951,
@@ -8909,7 +8940,7 @@
       "properties": {
         "id": "skelleftea-osm-321844952",
         "name": "OSM-321844952",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -8921,11 +8952,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 321844952,
@@ -8978,7 +9010,7 @@
       "properties": {
         "id": "skelleftea-osm-322865918",
         "name": "OSM-322865918",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -8990,11 +9022,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 322865918,
@@ -9189,7 +9222,7 @@
       "properties": {
         "id": "skelleftea-osm-353536039",
         "name": "OSM-353536039",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -9201,11 +9234,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 353536039,
@@ -9309,7 +9343,7 @@
       "properties": {
         "id": "skelleftea-osm-353550785",
         "name": "OSM-353550785",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -9321,11 +9355,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 353550785,
@@ -9374,7 +9409,7 @@
       "properties": {
         "id": "skelleftea-osm-353550788",
         "name": "OSM-353550788",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -9386,11 +9421,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 353550788,
@@ -9435,7 +9471,7 @@
       "properties": {
         "id": "skelleftea-osm-353550791",
         "name": "OSM-353550791",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -9447,11 +9483,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 353550791,
@@ -9496,7 +9533,7 @@
       "properties": {
         "id": "skelleftea-osm-353550803",
         "name": "OSM-353550803",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -9508,11 +9545,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 353550803,
@@ -9565,7 +9603,7 @@
       "properties": {
         "id": "skelleftea-osm-353550805",
         "name": "OSM-353550805",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -9577,11 +9615,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 353550805,
@@ -9752,7 +9791,7 @@
       "properties": {
         "id": "skelleftea-osm-354019143",
         "name": "OSM-354019143",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -9764,11 +9803,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 354019143,
@@ -9813,7 +9853,7 @@
       "properties": {
         "id": "skelleftea-osm-354075226",
         "name": "OSM-354075226",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -9825,11 +9865,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 354075226,
@@ -9874,7 +9915,7 @@
       "properties": {
         "id": "skelleftea-osm-354142983",
         "name": "OSM-354142983",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -9886,11 +9927,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 354142983,
@@ -9935,7 +9977,7 @@
       "properties": {
         "id": "skelleftea-osm-354143009",
         "name": "OSM-354143009",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -9947,11 +9989,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 354143009,
@@ -9996,7 +10039,7 @@
       "properties": {
         "id": "skelleftea-osm-354143012",
         "name": "OSM-354143012",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -10008,11 +10051,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 354143012,
@@ -10065,7 +10109,7 @@
       "properties": {
         "id": "skelleftea-osm-354526265",
         "name": "OSM-354526265",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -10077,11 +10121,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 354526265,
@@ -10272,7 +10317,7 @@
       "properties": {
         "id": "skelleftea-osm-355582293",
         "name": "OSM-355582293",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -10284,11 +10329,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 355582293,
@@ -11175,7 +11221,7 @@
       "properties": {
         "id": "skelleftea-osm-357289355",
         "name": "OSM-357289355",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -11187,11 +11233,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 357289355,
@@ -11236,7 +11283,7 @@
       "properties": {
         "id": "skelleftea-osm-357289356",
         "name": "OSM-357289356",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -11248,11 +11295,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 357289356,
@@ -11297,7 +11345,7 @@
       "properties": {
         "id": "skelleftea-osm-357289357",
         "name": "OSM-357289357",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -11309,11 +11357,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 357289357,
@@ -11358,7 +11407,7 @@
       "properties": {
         "id": "skelleftea-osm-357289358",
         "name": "OSM-357289358",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -11370,11 +11419,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 357289358,
@@ -11435,7 +11485,7 @@
       "properties": {
         "id": "skelleftea-osm-357291815",
         "name": "OSM-357291815",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -11447,11 +11497,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 357291815,
@@ -11500,7 +11551,7 @@
       "properties": {
         "id": "skelleftea-osm-357291816",
         "name": "OSM-357291816",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -11512,11 +11563,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 357291816,
@@ -11565,7 +11617,7 @@
       "properties": {
         "id": "skelleftea-osm-357291817",
         "name": "OSM-357291817",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -11577,11 +11629,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 357291817,
@@ -11626,7 +11679,7 @@
       "properties": {
         "id": "skelleftea-osm-357291818",
         "name": "OSM-357291818",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -11638,11 +11691,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 357291818,
@@ -11687,7 +11741,7 @@
       "properties": {
         "id": "skelleftea-osm-357291819",
         "name": "OSM-357291819",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -11699,11 +11753,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 357291819,
@@ -11748,7 +11803,7 @@
       "properties": {
         "id": "skelleftea-osm-357291820",
         "name": "OSM-357291820",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -11760,11 +11815,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 357291820,
@@ -12492,7 +12548,7 @@
       "properties": {
         "id": "skelleftea-osm-360835172",
         "name": "OSM-360835172",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -12504,11 +12560,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 360835172,
@@ -12553,7 +12610,7 @@
       "properties": {
         "id": "skelleftea-osm-360835173",
         "name": "OSM-360835173",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -12565,11 +12622,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 360835173,
@@ -12681,7 +12739,7 @@
       "properties": {
         "id": "skelleftea-osm-363465570",
         "name": "OSM-363465570",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -12693,11 +12751,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 363465570,
@@ -12742,7 +12801,7 @@
       "properties": {
         "id": "skelleftea-osm-363465571",
         "name": "OSM-363465571",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -12754,11 +12813,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 363465571,
@@ -12803,7 +12863,7 @@
       "properties": {
         "id": "skelleftea-osm-364437872",
         "name": "OSM-364437872",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -12815,11 +12875,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 364437872,
@@ -12863,7 +12924,7 @@
       "properties": {
         "id": "skelleftea-osm-364437877",
         "name": "OSM-364437877",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -12875,11 +12936,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 364437877,
@@ -12923,7 +12985,7 @@
       "properties": {
         "id": "skelleftea-osm-364437878",
         "name": "OSM-364437878",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -12935,11 +12997,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 364437878,
@@ -12983,7 +13046,7 @@
       "properties": {
         "id": "skelleftea-osm-364437879",
         "name": "OSM-364437879",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -12995,11 +13058,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 364437879,
@@ -13043,7 +13107,7 @@
       "properties": {
         "id": "skelleftea-osm-364437881",
         "name": "OSM-364437881",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -13055,11 +13119,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 364437881,
@@ -13107,7 +13172,7 @@
       "properties": {
         "id": "skelleftea-osm-364437882",
         "name": "OSM-364437882",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -13119,11 +13184,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 364437882,
@@ -14068,7 +14134,7 @@
       "properties": {
         "id": "skelleftea-osm-378756285",
         "name": "OSM-378756285",
-        "operator": "unknown",
+        "operator": "fee_confirmed_unknown",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -14084,7 +14150,8 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "osm_fee_yes_confirmed"
         ],
         "last_verified": null,
         "osm_id": 378756285,
@@ -14467,7 +14534,7 @@
       "properties": {
         "id": "skelleftea-osm-385023564",
         "name": "OSM-385023564",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -14479,11 +14546,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 385023564,
@@ -14676,7 +14744,7 @@
       "properties": {
         "id": "skelleftea-osm-420852042",
         "name": "OSM-420852042",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -14688,11 +14756,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 420852042,
@@ -14796,7 +14865,7 @@
       "properties": {
         "id": "skelleftea-osm-433253979",
         "name": "OSM-433253979",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -14808,11 +14877,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 433253979,
@@ -14857,7 +14927,7 @@
       "properties": {
         "id": "skelleftea-osm-436784370",
         "name": "OSM-436784370",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -14869,11 +14939,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 436784370,
@@ -15214,7 +15285,7 @@
       "properties": {
         "id": "skelleftea-osm-468358322",
         "name": "OSM-468358322",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -15226,11 +15297,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 468358322,
@@ -15594,7 +15666,7 @@
       "properties": {
         "id": "skelleftea-osm-468901909",
         "name": "OSM-468901909",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -15606,11 +15678,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 468901909,
@@ -15655,7 +15728,7 @@
       "properties": {
         "id": "skelleftea-osm-468921400",
         "name": "OSM-468921400",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -15667,11 +15740,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 468921400,
@@ -15716,7 +15790,7 @@
       "properties": {
         "id": "skelleftea-osm-468964382",
         "name": "OSM-468964382",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -15728,11 +15802,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 468964382,
@@ -15777,7 +15852,7 @@
       "properties": {
         "id": "skelleftea-osm-468964384",
         "name": "OSM-468964384",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -15789,11 +15864,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 468964384,
@@ -15838,7 +15914,7 @@
       "properties": {
         "id": "skelleftea-osm-468964385",
         "name": "OSM-468964385",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -15850,11 +15926,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 468964385,
@@ -15899,7 +15976,7 @@
       "properties": {
         "id": "skelleftea-osm-468964386",
         "name": "OSM-468964386",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -15911,11 +15988,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 468964386,
@@ -15960,7 +16038,7 @@
       "properties": {
         "id": "skelleftea-osm-468968517",
         "name": "OSM-468968517",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -15972,11 +16050,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 468968517,
@@ -16021,7 +16100,7 @@
       "properties": {
         "id": "skelleftea-osm-468968518",
         "name": "OSM-468968518",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -16033,11 +16112,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 468968518,
@@ -16082,7 +16162,7 @@
       "properties": {
         "id": "skelleftea-osm-469357169",
         "name": "OSM-469357169",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -16094,11 +16174,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 469357169,
@@ -16143,7 +16224,7 @@
       "properties": {
         "id": "skelleftea-osm-469627914",
         "name": "OSM-469627914",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -16155,11 +16236,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 469627914,
@@ -16204,7 +16286,7 @@
       "properties": {
         "id": "skelleftea-osm-469634056",
         "name": "OSM-469634056",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -16216,11 +16298,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 469634056,
@@ -16265,7 +16348,7 @@
       "properties": {
         "id": "skelleftea-osm-469634059",
         "name": "OSM-469634059",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "street",
@@ -16277,11 +16360,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 469634059,
@@ -16326,7 +16410,7 @@
       "properties": {
         "id": "skelleftea-osm-469634060",
         "name": "OSM-469634060",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "street",
@@ -16338,11 +16422,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 469634060,
@@ -16387,7 +16472,7 @@
       "properties": {
         "id": "skelleftea-osm-469634061",
         "name": "OSM-469634061",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "street",
@@ -16399,11 +16484,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 469634061,
@@ -16448,7 +16534,7 @@
       "properties": {
         "id": "skelleftea-osm-469634062",
         "name": "OSM-469634062",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "street",
@@ -16460,11 +16546,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 469634062,
@@ -16573,7 +16660,7 @@
       "properties": {
         "id": "skelleftea-osm-470526185",
         "name": "OSM-470526185",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -16585,11 +16672,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 470526185,
@@ -16634,7 +16722,7 @@
       "properties": {
         "id": "skelleftea-osm-470683158",
         "name": "OSM-470683158",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -16646,11 +16734,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 470683158,
@@ -16695,7 +16784,7 @@
       "properties": {
         "id": "skelleftea-osm-508506151",
         "name": "OSM-508506151",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -16707,11 +16796,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 508506151,
@@ -17623,7 +17713,7 @@
       "properties": {
         "id": "skelleftea-osm-758153668",
         "name": "OSM-758153668",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -17635,11 +17725,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 758153668,
@@ -17684,7 +17775,7 @@
       "properties": {
         "id": "skelleftea-osm-758153669",
         "name": "OSM-758153669",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -17696,11 +17787,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 758153669,
@@ -17745,7 +17837,7 @@
       "properties": {
         "id": "skelleftea-osm-758153670",
         "name": "OSM-758153670",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -17757,11 +17849,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 758153670,
@@ -17806,7 +17899,7 @@
       "properties": {
         "id": "skelleftea-osm-758167331",
         "name": "OSM-758167331",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -17818,11 +17911,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 758167331,
@@ -17930,7 +18024,7 @@
       "properties": {
         "id": "skelleftea-osm-816899100",
         "name": "OSM-816899100",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -17942,11 +18036,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 816899100,
@@ -18066,7 +18161,7 @@
       "properties": {
         "id": "skelleftea-osm-905912657",
         "name": "OSM-905912657",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -18078,11 +18173,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 905912657,
@@ -18163,7 +18259,7 @@
       "properties": {
         "id": "skelleftea-osm-946067815",
         "name": "OSM-946067815",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -18175,11 +18271,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 946067815,
@@ -18437,7 +18534,7 @@
       "properties": {
         "id": "skelleftea-osm-972590043",
         "name": "OSM-972590043",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -18449,11 +18546,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 972590043,
@@ -20361,7 +20459,7 @@
       "properties": {
         "id": "skelleftea-osm-1023648162",
         "name": "OSM-1023648162",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -20373,11 +20471,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1023648162,
@@ -20422,7 +20521,7 @@
       "properties": {
         "id": "skelleftea-osm-1026369972",
         "name": "OSM-1026369972",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -20434,11 +20533,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1026369972,
@@ -20490,7 +20590,7 @@
       "properties": {
         "id": "skelleftea-osm-1026369973",
         "name": "OSM-1026369973",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -20502,11 +20602,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1026369973,
@@ -20618,7 +20719,7 @@
       "properties": {
         "id": "skelleftea-osm-1065900788",
         "name": "OSM-1065900788",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -20630,11 +20731,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1065900788,
@@ -20683,7 +20785,7 @@
       "properties": {
         "id": "skelleftea-osm-1065900789",
         "name": "OSM-1065900789",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -20695,11 +20797,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1065900789,
@@ -20748,7 +20851,7 @@
       "properties": {
         "id": "skelleftea-osm-1065900790",
         "name": "OSM-1065900790",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -20760,11 +20863,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1065900790,
@@ -20817,7 +20921,7 @@
       "properties": {
         "id": "skelleftea-osm-1065900792",
         "name": "OSM-1065900792",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -20829,11 +20933,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1065900792,
@@ -20882,7 +20987,7 @@
       "properties": {
         "id": "skelleftea-osm-1065911242",
         "name": "OSM-1065911242",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -20894,11 +20999,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1065911242,
@@ -21278,7 +21384,7 @@
       "properties": {
         "id": "skelleftea-osm-1065930028",
         "name": "OSM-1065930028",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -21290,11 +21396,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1065930028,
@@ -21339,7 +21446,7 @@
       "properties": {
         "id": "skelleftea-osm-1065930035",
         "name": "OSM-1065930035",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -21351,11 +21458,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1065930035,
@@ -21412,7 +21520,7 @@
       "properties": {
         "id": "skelleftea-osm-1065930040",
         "name": "OSM-1065930040",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -21424,11 +21532,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1065930040,
@@ -21971,7 +22080,7 @@
       "properties": {
         "id": "skelleftea-osm-1067669488",
         "name": "OSM-1067669488",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -21983,11 +22092,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1067669488,
@@ -22048,7 +22158,7 @@
       "properties": {
         "id": "skelleftea-osm-1067937565",
         "name": "OSM-1067937565",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -22060,11 +22170,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1067937565,
@@ -22113,7 +22224,7 @@
       "properties": {
         "id": "skelleftea-osm-1069666066",
         "name": "OSM-1069666066",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -22125,11 +22236,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1069666066,
@@ -22174,7 +22286,7 @@
       "properties": {
         "id": "skelleftea-osm-1079791943",
         "name": "OSM-1079791943",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -22186,11 +22298,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1079791943,
@@ -22902,7 +23015,7 @@
       "properties": {
         "id": "skelleftea-osm-1153596439",
         "name": "OSM-1153596439",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -22914,11 +23027,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1153596439,
@@ -22971,7 +23085,7 @@
       "properties": {
         "id": "skelleftea-osm-1153596446",
         "name": "OSM-1153596446",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -22983,11 +23097,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1153596446,
@@ -23040,7 +23155,7 @@
       "properties": {
         "id": "skelleftea-osm-1153596470",
         "name": "OSM-1153596470",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -23052,11 +23167,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1153596470,
@@ -23105,7 +23221,7 @@
       "properties": {
         "id": "skelleftea-osm-1153596481",
         "name": "OSM-1153596481",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -23117,11 +23233,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1153596481,
@@ -23182,7 +23299,7 @@
       "properties": {
         "id": "skelleftea-osm-1153596482",
         "name": "OSM-1153596482",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -23194,11 +23311,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1153596482,
@@ -23243,7 +23361,7 @@
       "properties": {
         "id": "skelleftea-osm-1153596488",
         "name": "OSM-1153596488",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -23255,11 +23373,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1153596488,
@@ -23320,7 +23439,7 @@
       "properties": {
         "id": "skelleftea-osm-1153596506",
         "name": "OSM-1153596506",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -23332,11 +23451,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1153596506,
@@ -23381,7 +23501,7 @@
       "properties": {
         "id": "skelleftea-osm-1153596521",
         "name": "OSM-1153596521",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -23393,11 +23513,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1153596521,
@@ -24069,7 +24190,7 @@
       "properties": {
         "id": "skelleftea-osm-1302100674",
         "name": "OSM-1302100674",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -24081,11 +24202,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1302100674,
@@ -24130,7 +24252,7 @@
       "properties": {
         "id": "skelleftea-osm-1347597476",
         "name": "OSM-1347597476",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -24142,11 +24264,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1347597476,
@@ -24207,7 +24330,7 @@
       "properties": {
         "id": "skelleftea-osm-1347597477",
         "name": "OSM-1347597477",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -24219,11 +24342,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1347597477,
@@ -24328,7 +24452,7 @@
       "properties": {
         "id": "skelleftea-osm-1354287096",
         "name": "OSM-1354287096",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -24340,11 +24464,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1354287096,
@@ -24389,7 +24514,7 @@
       "properties": {
         "id": "skelleftea-osm-1354287097",
         "name": "OSM-1354287097",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -24401,11 +24526,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1354287097,
@@ -24642,7 +24768,7 @@
       "properties": {
         "id": "skelleftea-osm-1356142806",
         "name": "OSM-1356142806",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -24654,11 +24780,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1356142806,
@@ -24787,7 +24914,7 @@
       "properties": {
         "id": "skelleftea-osm-1360972847",
         "name": "OSM-1360972847",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -24799,11 +24926,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1360972847,
@@ -24856,7 +24984,7 @@
       "properties": {
         "id": "skelleftea-osm-1360972849",
         "name": "OSM-1360972849",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -24868,11 +24996,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1360972849,
@@ -25063,7 +25192,7 @@
       "properties": {
         "id": "skelleftea-osm-1393351478",
         "name": "OSM-1393351478",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -25075,11 +25204,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1393351478,
@@ -25192,7 +25322,7 @@
       "properties": {
         "id": "skelleftea-osm-1393353262",
         "name": "OSM-1393353262",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -25204,11 +25334,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1393353262,
@@ -25454,7 +25585,7 @@
       "properties": {
         "id": "skelleftea-osm-1416228173",
         "name": "OSM-1416228173",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -25466,11 +25597,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1416228173,
@@ -26481,7 +26613,7 @@
       "properties": {
         "id": "skelleftea-osm-1433887033",
         "name": "OSM-1433887033",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -26493,11 +26625,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1433887033,
@@ -26562,7 +26695,7 @@
       "properties": {
         "id": "skelleftea-osm-1433887036",
         "name": "OSM-1433887036",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -26574,11 +26707,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1433887036,
@@ -26770,7 +26904,7 @@
       "properties": {
         "id": "skelleftea-osm-1476499009",
         "name": "OSM-1476499009",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -26782,11 +26916,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1476499009,
@@ -26831,7 +26966,7 @@
       "properties": {
         "id": "skelleftea-osm-1476499010",
         "name": "OSM-1476499010",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -26843,11 +26978,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1476499010,
@@ -26892,7 +27028,7 @@
       "properties": {
         "id": "skelleftea-osm-1486542629",
         "name": "OSM-1486542629",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
@@ -26904,11 +27040,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1486542629,

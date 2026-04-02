@@ -1513,7 +1513,7 @@
       "properties": {
         "id": "kiruna-osm-108946105",
         "name": "Ylipää",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -1525,11 +1525,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 108946105,
@@ -1915,7 +1916,7 @@
       "properties": {
         "id": "kiruna-osm-138205392",
         "name": "OSM-138205392",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -1927,11 +1928,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 138205392,
@@ -1984,7 +1986,7 @@
       "properties": {
         "id": "kiruna-osm-138205607",
         "name": "OSM-138205607",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -1996,11 +1998,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 138205607,
@@ -2065,7 +2068,7 @@
       "properties": {
         "id": "kiruna-osm-150240238",
         "name": "OSM-150240238",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -2077,13 +2080,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 150240238,
@@ -2143,7 +2147,7 @@
       "properties": {
         "id": "kiruna-osm-150240239",
         "name": "OSM-150240239",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -2155,13 +2159,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 150240239,
@@ -2284,7 +2289,7 @@
       "properties": {
         "id": "kiruna-osm-155317275",
         "name": "OSM-155317275",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -2296,13 +2301,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 155317275,
@@ -2998,7 +3004,7 @@
       "properties": {
         "id": "kiruna-osm-198242916",
         "name": "OSM-198242916",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -3010,11 +3016,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 198242916,
@@ -3161,7 +3168,7 @@
       "properties": {
         "id": "kiruna-osm-214790181",
         "name": "OSM-214790181",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -3173,11 +3180,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 214790181,
@@ -3506,7 +3514,7 @@
       "properties": {
         "id": "kiruna-osm-219640291",
         "name": "OSM-219640291",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -3518,13 +3526,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 219640291,
@@ -3568,7 +3577,7 @@
       "properties": {
         "id": "kiruna-osm-219642109",
         "name": "OSM-219642109",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -3580,11 +3589,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 219642109,
@@ -3633,7 +3643,7 @@
       "properties": {
         "id": "kiruna-osm-219643948",
         "name": "OSM-219643948",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -3645,11 +3655,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 219643948,
@@ -3694,7 +3705,7 @@
       "properties": {
         "id": "kiruna-osm-219646716",
         "name": "OSM-219646716",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -3706,11 +3717,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 219646716,
@@ -3759,7 +3771,7 @@
       "properties": {
         "id": "kiruna-osm-222041307",
         "name": "OSM-222041307",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -3771,11 +3783,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 222041307,
@@ -5398,7 +5411,7 @@
       "properties": {
         "id": "kiruna-osm-259672356",
         "name": "OSM-259672356",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -5410,11 +5423,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 259672356,
@@ -6061,7 +6075,7 @@
       "properties": {
         "id": "kiruna-osm-275232893",
         "name": "OSM-275232893",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -6073,13 +6087,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 275232893,
@@ -6123,7 +6138,7 @@
       "properties": {
         "id": "kiruna-osm-275232895",
         "name": "OSM-275232895",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -6135,13 +6150,14 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "genuinely_unknown",
           "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 275232895,
@@ -6189,7 +6205,7 @@
       "properties": {
         "id": "kiruna-osm-292607791",
         "name": "OSM-292607791",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -6201,11 +6217,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 292607791,
@@ -6416,7 +6433,7 @@
       "properties": {
         "id": "kiruna-osm-297770753",
         "name": "OSM-297770753",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -6428,11 +6445,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 297770753,
@@ -6477,7 +6495,7 @@
       "properties": {
         "id": "kiruna-osm-297774530",
         "name": "OSM-297774530",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -6489,11 +6507,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 297774530,
@@ -6674,7 +6693,7 @@
       "properties": {
         "id": "kiruna-osm-332746183",
         "name": "OSM-332746183",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -6686,11 +6705,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 332746183,
@@ -7051,7 +7071,7 @@
       "properties": {
         "id": "kiruna-osm-431496001",
         "name": "OSM-431496001",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -7063,11 +7083,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 431496001,
@@ -7112,7 +7133,7 @@
       "properties": {
         "id": "kiruna-osm-431496002",
         "name": "OSM-431496002",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -7124,11 +7145,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 431496002,
@@ -7173,7 +7195,7 @@
       "properties": {
         "id": "kiruna-osm-437016086",
         "name": "Pessisjokka",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -7185,11 +7207,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 437016086,
@@ -7250,7 +7273,7 @@
       "properties": {
         "id": "kiruna-osm-437019665",
         "name": "OSM-437019665",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -7262,11 +7285,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 437019665,
@@ -7311,7 +7335,7 @@
       "properties": {
         "id": "kiruna-osm-437021982",
         "name": "OSM-437021982",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -7323,11 +7347,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 437021982,
@@ -7372,7 +7397,7 @@
       "properties": {
         "id": "kiruna-osm-437021991",
         "name": "OSM-437021991",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -7384,11 +7409,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 437021991,
@@ -7437,7 +7463,7 @@
       "properties": {
         "id": "kiruna-osm-437028848",
         "name": "Bergfors",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -7449,11 +7475,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 437028848,
@@ -7561,7 +7588,7 @@
       "properties": {
         "id": "kiruna-osm-456247968",
         "name": "OSM-456247968",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -7573,11 +7600,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 456247968,
@@ -7622,7 +7650,7 @@
       "properties": {
         "id": "kiruna-osm-456252877",
         "name": "OSM-456252877",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -7634,11 +7662,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 456252877,
@@ -8424,7 +8453,7 @@
       "properties": {
         "id": "kiruna-osm-508505814",
         "name": "OSM-508505814",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -8436,11 +8465,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 508505814,
@@ -9075,7 +9105,7 @@
       "properties": {
         "id": "kiruna-osm-536738013",
         "name": "OSM-536738013",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -9087,11 +9117,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 536738013,
@@ -9136,7 +9167,7 @@
       "properties": {
         "id": "kiruna-osm-536738014",
         "name": "OSM-536738014",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -9148,11 +9179,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 536738014,
@@ -9205,7 +9237,7 @@
       "properties": {
         "id": "kiruna-osm-536765907",
         "name": "OSM-536765907",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -9217,11 +9249,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 536765907,
@@ -13370,7 +13403,7 @@
       "properties": {
         "id": "kiruna-osm-609462221",
         "name": "OSM-609462221",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -13382,11 +13415,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 609462221,
@@ -13431,7 +13465,7 @@
       "properties": {
         "id": "kiruna-osm-609462227",
         "name": "OSM-609462227",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -13443,11 +13477,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 609462227,
@@ -13492,7 +13527,7 @@
       "properties": {
         "id": "kiruna-osm-609462229",
         "name": "OSM-609462229",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -13504,11 +13539,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 609462229,
@@ -13553,7 +13589,7 @@
       "properties": {
         "id": "kiruna-osm-609476537",
         "name": "OSM-609476537",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -13565,11 +13601,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 609476537,
@@ -13626,7 +13663,7 @@
       "properties": {
         "id": "kiruna-osm-619409909",
         "name": "OSM-619409909",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -13638,11 +13675,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 619409909,
@@ -13778,7 +13816,7 @@
       "properties": {
         "id": "kiruna-osm-619681063",
         "name": "OSM-619681063",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -13790,11 +13828,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 619681063,
@@ -13867,7 +13906,7 @@
       "properties": {
         "id": "kiruna-osm-619692616",
         "name": "OSM-619692616",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -13879,11 +13918,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 619692616,
@@ -13991,7 +14031,7 @@
       "properties": {
         "id": "kiruna-osm-619699957",
         "name": "OSM-619699957",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -14003,11 +14043,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 619699957,
@@ -14064,7 +14105,7 @@
       "properties": {
         "id": "kiruna-osm-619703781",
         "name": "OSM-619703781",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -14076,11 +14117,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 619703781,
@@ -14157,7 +14199,7 @@
       "properties": {
         "id": "kiruna-osm-619703785",
         "name": "OSM-619703785",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -14169,11 +14211,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 619703785,
@@ -14279,7 +14322,7 @@
       "properties": {
         "id": "kiruna-osm-619703801",
         "name": "OSM-619703801",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -14291,11 +14334,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 619703801,
@@ -14344,7 +14388,7 @@
       "properties": {
         "id": "kiruna-osm-619703809",
         "name": "OSM-619703809",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -14356,11 +14400,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 619703809,
@@ -14551,7 +14596,7 @@
       "properties": {
         "id": "kiruna-osm-620267424",
         "name": "OSM-620267424",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -14563,11 +14608,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 620267424,
@@ -14612,7 +14658,7 @@
       "properties": {
         "id": "kiruna-osm-620271713",
         "name": "OSM-620271713",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -14624,11 +14670,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 620271713,
@@ -14681,7 +14728,7 @@
       "properties": {
         "id": "kiruna-osm-620271714",
         "name": "OSM-620271714",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -14693,11 +14740,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 620271714,
@@ -14766,7 +14814,7 @@
       "properties": {
         "id": "kiruna-osm-620271716",
         "name": "OSM-620271716",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -14778,11 +14826,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 620271716,
@@ -14827,7 +14876,7 @@
       "properties": {
         "id": "kiruna-osm-620308115",
         "name": "OSM-620308115",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -14839,11 +14888,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 620308115,
@@ -15224,7 +15274,7 @@
       "properties": {
         "id": "kiruna-osm-620757883",
         "name": "OSM-620757883",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -15236,11 +15286,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 620757883,
@@ -15289,7 +15340,7 @@
       "properties": {
         "id": "kiruna-osm-621645576",
         "name": "OSM-621645576",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -15301,11 +15352,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 621645576,
@@ -15350,7 +15402,7 @@
       "properties": {
         "id": "kiruna-osm-621783371",
         "name": "OSM-621783371",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -15362,11 +15414,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 621783371,
@@ -15411,7 +15464,7 @@
       "properties": {
         "id": "kiruna-osm-621783372",
         "name": "OSM-621783372",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -15423,11 +15476,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 621783372,
@@ -15905,7 +15959,7 @@
       "properties": {
         "id": "kiruna-osm-727097722",
         "name": "OSM-727097722",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -15917,11 +15971,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 727097722,
@@ -16501,7 +16556,7 @@
       "properties": {
         "id": "kiruna-osm-790825186",
         "name": "OSM-790825186",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -16513,11 +16568,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 790825186,
@@ -16646,7 +16702,7 @@
       "properties": {
         "id": "kiruna-osm-818524926",
         "name": "OSM-818524926",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -16658,11 +16714,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 818524926,
@@ -16837,7 +16894,7 @@
       "properties": {
         "id": "kiruna-osm-822321942",
         "name": "OSM-822321942",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -16849,11 +16906,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 822321942,
@@ -17030,7 +17088,7 @@
       "properties": {
         "id": "kiruna-osm-904941271",
         "name": "OSM-904941271",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -17042,11 +17100,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 904941271,
@@ -17157,7 +17216,7 @@
       "properties": {
         "id": "kiruna-osm-964360133",
         "name": "OSM-964360133",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -17169,11 +17228,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 964360133,
@@ -17297,7 +17357,7 @@
       "properties": {
         "id": "kiruna-osm-1034575816",
         "name": "OSM-1034575816",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -17309,11 +17369,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1034575816,
@@ -17358,7 +17419,7 @@
       "properties": {
         "id": "kiruna-osm-1073477803",
         "name": "OSM-1073477803",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -17370,11 +17431,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1073477803,
@@ -17427,7 +17489,7 @@
       "properties": {
         "id": "kiruna-osm-1077448080",
         "name": "OSM-1077448080",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -17439,11 +17501,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1077448080,
@@ -17540,7 +17603,7 @@
       "properties": {
         "id": "kiruna-osm-1117107966",
         "name": "OSM-1117107966",
-        "operator": "unknown",
+        "operator": "fee_confirmed_unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -17558,7 +17621,8 @@
           "genuinely_unknown",
           "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "osm_fee_yes_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1117107966,
@@ -17765,7 +17829,7 @@
       "properties": {
         "id": "kiruna-osm-1206581427",
         "name": "OSM-1206581427",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -17777,11 +17841,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1206581427,
@@ -17874,7 +17939,7 @@
       "properties": {
         "id": "kiruna-osm-1206586025",
         "name": "OSM-1206586025",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -17886,11 +17951,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1206586025,
@@ -18039,7 +18105,7 @@
       "properties": {
         "id": "kiruna-osm-1291715871",
         "name": "OSM-1291715871",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -18051,11 +18117,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1291715871,
@@ -18191,7 +18258,7 @@
       "properties": {
         "id": "kiruna-osm-1305002318",
         "name": "OSM-1305002318",
-        "operator": "unknown",
+        "operator": "fee_confirmed_unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -18209,7 +18276,8 @@
           "outside_centrum:free",
           "unknown_operator",
           "fee_confirmed_unknown",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "osm_fee_yes_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1305002318,
@@ -18463,7 +18531,7 @@
       "properties": {
         "id": "kiruna-osm-1417047721",
         "name": "OSM-1417047721",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -18475,11 +18543,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1417047721,
@@ -18584,7 +18653,7 @@
       "properties": {
         "id": "kiruna-osm-1417055451",
         "name": "OSM-1417055451",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -18596,11 +18665,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1417055451,
@@ -19561,7 +19631,7 @@
       "properties": {
         "id": "kiruna-osm-1435666053",
         "name": "OSM-1435666053",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -19573,11 +19643,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1435666053,
@@ -19666,7 +19737,7 @@
       "properties": {
         "id": "kiruna-osm-1435667513",
         "name": "OSM-1435667513",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -19678,11 +19749,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1435667513,
@@ -19771,7 +19843,7 @@
       "properties": {
         "id": "kiruna-osm-1435667518",
         "name": "OSM-1435667518",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -19783,11 +19855,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1435667518,
@@ -20657,7 +20730,7 @@
       "properties": {
         "id": "kiruna-osm-1460137238",
         "name": "OSM-1460137238",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -20669,11 +20742,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1460137238,
@@ -20790,7 +20864,7 @@
       "properties": {
         "id": "kiruna-osm-1476477738",
         "name": "OSM-1476477738",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -20802,11 +20876,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1476477738,
@@ -20946,7 +21021,7 @@
       "properties": {
         "id": "kiruna-osm-1476909358",
         "name": "OSM-1476909358",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -20958,11 +21033,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1476909358,
@@ -21023,7 +21099,7 @@
       "properties": {
         "id": "kiruna-osm-1484012267",
         "name": "OSM-1484012267",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -21035,11 +21111,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1484012267,
@@ -21088,7 +21165,7 @@
       "properties": {
         "id": "kiruna-osm-1484692954",
         "name": "OSM-1484692954",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -21100,11 +21177,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_bootstrap",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": null,
         "osm_id": 1484692954,

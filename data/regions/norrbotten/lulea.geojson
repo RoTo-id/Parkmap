@@ -8258,7 +8258,7 @@
       "properties": {
         "id": "lulea-osm-47957546",
         "name": "Parkering (OSM #47957546)",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -8270,11 +8270,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/47957546",
-        "confidence": 0.4,
+        "confidence": 0.8,
         "flags": [
           "unknown_operator",
           "osm_imported",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 47957546,
@@ -12654,7 +12655,7 @@
       "properties": {
         "id": "lulea-osm-62238486",
         "name": "OSM-62238486",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -12666,11 +12667,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/62238486",
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_imported",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 62238486,
@@ -13123,7 +13125,7 @@
       "properties": {
         "id": "lulea-osm-64457197",
         "name": "OSM-64457197",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -13135,11 +13137,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/64457197",
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_imported",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 64457197,
@@ -17491,7 +17494,7 @@
       "properties": {
         "id": "lulea-osm-224643063",
         "name": "Parkering (OSM #224643063)",
-        "operator": "unknown",
+        "operator": "fee_confirmed_unknown",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -17507,7 +17510,8 @@
         "flags": [
           "unknown_operator",
           "osm_imported",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "osm_fee_yes_confirmed"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 224643063,
@@ -27389,7 +27393,7 @@
       "properties": {
         "id": "lulea-osm-322423258",
         "name": "OSM-322423258",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -27401,11 +27405,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/322423258",
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_imported",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 322423258,
@@ -31450,7 +31455,7 @@
       "properties": {
         "id": "lulea-osm-342968535",
         "name": "Parkering (OSM #342968535)",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -31462,11 +31467,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/342968535",
-        "confidence": 0.4,
+        "confidence": 0.8,
         "flags": [
           "unknown_operator",
           "osm_imported",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 342968535,
@@ -31956,7 +31962,7 @@
       "properties": {
         "id": "lulea-osm-369773607",
         "name": "OSM-369773607",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -31968,11 +31974,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/369773607",
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_imported",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 369773607,
@@ -36364,7 +36371,7 @@
       "properties": {
         "id": "lulea-osm-599031085",
         "name": "OSM-599031085",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -36376,11 +36383,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/599031085",
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_imported",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 599031085,
@@ -36427,7 +36435,7 @@
       "properties": {
         "id": "lulea-osm-607253541",
         "name": "OSM-607253541",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -36439,11 +36447,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/607253541",
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_imported",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 607253541,
@@ -36584,7 +36593,7 @@
       "properties": {
         "id": "lulea-osm-637171938",
         "name": "OSM-637171938",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -36596,11 +36605,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/637171938",
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_imported",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 637171938,
@@ -36647,7 +36657,7 @@
       "properties": {
         "id": "lulea-osm-637171939",
         "name": "OSM-637171939",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -36659,11 +36669,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/637171939",
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_imported",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 637171939,
@@ -38433,7 +38444,7 @@
       "properties": {
         "id": "lulea-osm-758760240",
         "name": "OSM-758760240",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -38445,11 +38456,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/758760240",
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_imported",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 758760240,
@@ -39477,7 +39489,7 @@
       "properties": {
         "id": "lulea-osm-991556849",
         "name": "OSM-991556849",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -39489,11 +39501,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/991556849",
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_imported",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 991556849,
@@ -39560,7 +39573,7 @@
       "properties": {
         "id": "lulea-osm-992910142",
         "name": "OSM-992910142",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -39572,11 +39585,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/992910142",
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_imported",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 992910142,
@@ -40429,7 +40443,7 @@
       "properties": {
         "id": "lulea-osm-1018742626",
         "name": "OSM-1018742626",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -40441,11 +40455,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/1018742626",
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_imported",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 1018742626,
@@ -40679,7 +40694,7 @@
       "properties": {
         "id": "lulea-osm-1047060018",
         "name": "Parkering (OSM #1047060018)",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -40691,11 +40706,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/1047060018",
-        "confidence": 0.4,
+        "confidence": 0.8,
         "flags": [
           "unknown_operator",
           "osm_imported",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 1047060018,
@@ -40818,7 +40834,7 @@
       "properties": {
         "id": "lulea-osm-1077109323",
         "name": "OSM-1077109323",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -40830,11 +40846,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/1077109323",
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_imported",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 1077109323,
@@ -43292,7 +43309,7 @@
       "properties": {
         "id": "lulea-osm-1187260638",
         "name": "OSM-1187260638",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -43304,11 +43321,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/1187260638",
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_imported",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 1187260638,
@@ -43588,7 +43606,7 @@
       "properties": {
         "id": "lulea-osm-1216102823",
         "name": "OSM-1216102823",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -43600,11 +43618,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/1216102823",
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_imported",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 1216102823,
@@ -52329,7 +52348,7 @@
       "properties": {
         "id": "lulea-osm-1382109245",
         "name": "OSM-1382109245",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -52341,11 +52360,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/1382109245",
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_imported",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 1382109245,
@@ -52660,7 +52680,7 @@
       "properties": {
         "id": "lulea-osm-1417018616",
         "name": "OSM-1417018616",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -52672,11 +52692,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/1417018616",
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_imported",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 1417018616,
@@ -52981,7 +53002,7 @@
       "properties": {
         "id": "lulea-osm-1475086364",
         "name": "OSM-1475086364",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -52993,11 +53014,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": "https://www.openstreetmap.org/way/1475086364",
-        "confidence": 0.45,
+        "confidence": 0.8,
         "flags": [
           "osm_imported",
           "rural_free_heuristic",
-          "reset_from_fallback_free"
+          "reset_from_fallback_free",
+          "rural_confirmed_by_distance"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 1475086364,
