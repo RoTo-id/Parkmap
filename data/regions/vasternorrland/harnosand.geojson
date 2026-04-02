@@ -53,12 +53,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.75,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_outside_centrum_free"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 31820163,
@@ -67,7 +67,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -118,12 +119,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.75,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_outside_centrum_free"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 31820173,
@@ -132,7 +133,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -259,12 +261,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.75,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_outside_centrum_free"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 31820455,
@@ -273,7 +275,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -308,24 +311,24 @@
       "properties": {
         "id": "harnosand-osm-32041532",
         "name": "OSM-32041532",
-        "operator": "easypark_parkster",
+        "operator": "free_parking",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 32041532,
@@ -334,7 +337,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -905,24 +909,24 @@
       "properties": {
         "id": "harnosand-osm-39017907",
         "name": "OSM-39017907",
-        "operator": "easypark_parkster",
+        "operator": "free_parking",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "fee_confirmed_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 39017907,
@@ -931,7 +935,8 @@
         "osm_fee": "yes",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -1033,24 +1038,24 @@
       "properties": {
         "id": "harnosand-osm-41774000",
         "name": "OSM-41774000",
-        "operator": "easypark_parkster",
+        "operator": "parkster",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "centrum_harnosand",
         "spots": null,
         "price_per_hour": 10.0,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
+        "hours": "mån-fre 09:00-18:00, 2h gratis sedan 10kr/h",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.92,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_centrumkarna_10kr_confirmed"
         ],
         "last_verified": null,
         "osm_id": 41774000,
@@ -1098,24 +1103,24 @@
       "properties": {
         "id": "harnosand-osm-41815525",
         "name": "OSM-41815525",
-        "operator": "easypark_parkster",
+        "operator": "parkster",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "centrum_harnosand",
         "spots": null,
         "price_per_hour": 10.0,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
+        "hours": "mån-fre 09:00-18:00, 2h gratis sedan 10kr/h",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.92,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_centrumkarna_10kr_confirmed"
         ],
         "last_verified": null,
         "osm_id": 41815525,
@@ -1712,24 +1717,24 @@
       "properties": {
         "id": "harnosand-osm-46418803",
         "name": "OSM-46418803",
-        "operator": "easypark_parkster",
+        "operator": "parkster",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
+        "hours": "mån-fre 09:00-18:00, 2h gratis sedan 5kr/h",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.88,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_mellanholmen_5kr_confirmed"
         ],
         "last_verified": null,
         "osm_id": 46418803,
@@ -2102,12 +2107,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.75,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_outside_centrum_free"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 115984731,
@@ -2116,7 +2121,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -2215,12 +2221,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.75,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_outside_centrum_free"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 128825972,
@@ -2229,7 +2235,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -2406,24 +2413,24 @@
       "properties": {
         "id": "harnosand-osm-190581610",
         "name": "Skiftesvägens parkeringsplats",
-        "operator": "easypark_parkster",
+        "operator": "free_parking",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": "20",
-        "price_per_hour": 10.0,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 190581610,
@@ -2432,7 +2439,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -3474,24 +3482,24 @@
       "properties": {
         "id": "harnosand-osm-335877720",
         "name": "OSM-335877720",
-        "operator": "easypark_parkster",
+        "operator": "free_parking",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 335877720,
@@ -3500,7 +3508,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -3745,24 +3754,24 @@
       "properties": {
         "id": "harnosand-osm-360813391",
         "name": "OSM-360813391",
-        "operator": "easypark_parkster",
+        "operator": "free_parking",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 360813391,
@@ -3771,7 +3780,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -3810,24 +3820,24 @@
       "properties": {
         "id": "harnosand-osm-361131751",
         "name": "OSM-361131751",
-        "operator": "free_parking",
+        "operator": "parkster",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "dygnet runt, 2h gratis sedan 5kr/h",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.75,
+        "confidence": 0.88,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_outside_centrum_free"
+          "harnosand_simhall_5kr_confirmed"
         ],
         "last_verified": null,
         "osm_id": 361131751,
@@ -3879,24 +3889,24 @@
       "properties": {
         "id": "harnosand-osm-361156446",
         "name": "OSM-361156446",
-        "operator": "easypark_parkster",
+        "operator": "free_parking",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 361156446,
@@ -3905,7 +3915,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -3940,24 +3951,24 @@
       "properties": {
         "id": "harnosand-osm-361160565",
         "name": "OSM-361160565",
-        "operator": "easypark_parkster",
+        "operator": "free_parking",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": "200",
-        "price_per_hour": 10.0,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 361160565,
@@ -3966,7 +3977,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -4367,12 +4379,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.75,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_outside_centrum_free"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 362222016,
@@ -4381,7 +4393,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -4564,12 +4577,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.75,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_outside_centrum_free"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 407173791,
@@ -4578,7 +4591,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -4672,24 +4686,24 @@
       "properties": {
         "id": "harnosand-osm-408659662",
         "name": "OSM-408659662",
-        "operator": "easypark_parkster",
+        "operator": "free_parking",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 408659662,
@@ -4698,7 +4712,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -4932,12 +4947,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.75,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_outside_centrum_free"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 427176665,
@@ -4946,7 +4961,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -5116,24 +5132,24 @@
       "properties": {
         "id": "harnosand-osm-431690563",
         "name": "OSM-431690563",
-        "operator": "easypark_parkster",
+        "operator": "parkster",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "centrum_harnosand",
         "spots": null,
         "price_per_hour": 10.0,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
+        "hours": "mån-fre 09:00-18:00, 2h gratis sedan 10kr/h",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.92,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_centrumkarna_10kr_confirmed"
         ],
         "last_verified": null,
         "osm_id": 431690563,
@@ -5193,24 +5209,24 @@
       "properties": {
         "id": "harnosand-osm-431695224",
         "name": "OSM-431695224",
-        "operator": "easypark_parkster",
+        "operator": "parkster",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "centrum_harnosand",
         "spots": null,
         "price_per_hour": 10.0,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
+        "hours": "mån-fre 09:00-18:00, 2h gratis sedan 10kr/h",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.92,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_centrumkarna_10kr_confirmed"
         ],
         "last_verified": null,
         "osm_id": 431695224,
@@ -5254,24 +5270,24 @@
       "properties": {
         "id": "harnosand-osm-431695862",
         "name": "OSM-431695862",
-        "operator": "easypark_parkster",
+        "operator": "free_parking",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "fee_confirmed_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 431695862,
@@ -5280,7 +5296,8 @@
         "osm_fee": "yes",
         "osm_parking": "surface",
         "osm_operator": "Region Västernorrland",
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -5414,12 +5431,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.75,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_outside_centrum_free"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 439278383,
@@ -5428,7 +5445,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -5605,24 +5623,24 @@
       "properties": {
         "id": "harnosand-osm-546448448",
         "name": "OSM-546448448",
-        "operator": "easypark_parkster",
+        "operator": "parkster",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
+        "hours": "mån-fre 09:00-18:00, 2h gratis sedan 5kr/h",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.88,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_mellanholmen_5kr_confirmed"
         ],
         "last_verified": null,
         "osm_id": 546448448,
@@ -5666,24 +5684,24 @@
       "properties": {
         "id": "harnosand-osm-546448450",
         "name": "OSM-546448450",
-        "operator": "easypark_parkster",
+        "operator": "parkster",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
+        "hours": "mån-fre 09:00-18:00, 2h gratis sedan 5kr/h",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.88,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_mellanholmen_5kr_confirmed"
         ],
         "last_verified": null,
         "osm_id": 546448450,
@@ -5751,24 +5769,24 @@
       "properties": {
         "id": "harnosand-osm-546448465",
         "name": "OSM-546448465",
-        "operator": "easypark_parkster",
+        "operator": "parkster",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "centrum_harnosand",
         "spots": null,
         "price_per_hour": 10.0,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
+        "hours": "mån-fre 09:00-18:00, 2h gratis sedan 10kr/h",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.92,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_centrumkarna_10kr_confirmed"
         ],
         "last_verified": null,
         "osm_id": 546448465,
@@ -5871,24 +5889,24 @@
       "properties": {
         "id": "harnosand-osm-546659141",
         "name": "OSM-546659141",
-        "operator": "easypark_parkster",
+        "operator": "parkster",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
+        "hours": "mån-fre 09:00-18:00, 2h gratis sedan 5kr/h",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.88,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_mellanholmen_5kr_confirmed"
         ],
         "last_verified": null,
         "osm_id": 546659141,
@@ -5932,24 +5950,24 @@
       "properties": {
         "id": "harnosand-osm-546659142",
         "name": "OSM-546659142",
-        "operator": "easypark_parkster",
+        "operator": "parkster",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
+        "hours": "mån-fre 09:00-18:00, 2h gratis sedan 5kr/h",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.88,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_mellanholmen_5kr_confirmed"
         ],
         "last_verified": null,
         "osm_id": 546659142,
@@ -5993,24 +6011,24 @@
       "properties": {
         "id": "harnosand-osm-546906779",
         "name": "OSM-546906779",
-        "operator": "free_parking",
+        "operator": "parkster",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": "2",
-        "price_per_hour": 0.0,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "dygnet runt, 2h gratis sedan 5kr/h",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.75,
+        "confidence": 0.88,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_outside_centrum_free"
+          "harnosand_simhall_5kr_confirmed"
         ],
         "last_verified": null,
         "osm_id": 546906779,
@@ -6113,24 +6131,24 @@
       "properties": {
         "id": "harnosand-osm-547029862",
         "name": "OSM-547029862",
-        "operator": "easypark_parkster",
+        "operator": "free_parking",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 547029862,
@@ -6139,7 +6157,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -6261,12 +6280,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.75,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_outside_centrum_free"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 559716809,
@@ -6275,7 +6294,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -6322,12 +6342,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.75,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_outside_centrum_free"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 559716812,
@@ -6336,7 +6356,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -6505,24 +6526,24 @@
       "properties": {
         "id": "harnosand-osm-563665992",
         "name": "OSM-563665992",
-        "operator": "easypark_parkster",
+        "operator": "free_parking",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 563665992,
@@ -6531,7 +6552,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -6949,12 +6971,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.75,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_outside_centrum_free"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 591571323,
@@ -6963,7 +6985,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -7010,12 +7033,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.75,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_outside_centrum_free"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 599381918,
@@ -7024,7 +7047,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -7071,12 +7095,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.75,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_outside_centrum_free"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 599381919,
@@ -7085,7 +7109,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -7132,12 +7157,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.75,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_outside_centrum_free"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 614074107,
@@ -7146,7 +7171,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -7193,12 +7219,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.75,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_outside_centrum_free"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 615236423,
@@ -7207,7 +7233,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -7313,24 +7340,24 @@
       "properties": {
         "id": "harnosand-osm-615747880",
         "name": "OSM-615747880",
-        "operator": "easypark_parkster",
+        "operator": "free_parking",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 615747880,
@@ -7339,7 +7366,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -7386,12 +7414,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.75,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_outside_centrum_free"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 615747882,
@@ -7400,7 +7428,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -7435,24 +7464,24 @@
       "properties": {
         "id": "harnosand-osm-615747884",
         "name": "OSM-615747884",
-        "operator": "easypark_parkster",
+        "operator": "free_parking",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 615747884,
@@ -7461,7 +7490,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -7496,24 +7526,24 @@
       "properties": {
         "id": "harnosand-osm-615747885",
         "name": "OSM-615747885",
-        "operator": "easypark_parkster",
+        "operator": "free_parking",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": "230",
-        "price_per_hour": 10.0,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 615747885,
@@ -7522,7 +7552,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -7597,12 +7628,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.75,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_outside_centrum_free"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 615747886,
@@ -7611,7 +7642,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -7717,12 +7749,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.75,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_outside_centrum_free"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 615747888,
@@ -7731,7 +7763,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -7778,12 +7811,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.75,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_outside_centrum_free"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 615747889,
@@ -7792,7 +7825,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -8288,24 +8322,24 @@
       "properties": {
         "id": "harnosand-osm-625059508",
         "name": "OSM-625059508",
-        "operator": "easypark_parkster",
+        "operator": "free_parking",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 625059508,
@@ -8314,7 +8348,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -8408,24 +8443,24 @@
       "properties": {
         "id": "harnosand-osm-625232870",
         "name": "OSM-625232870",
-        "operator": "easypark_parkster",
+        "operator": "parkster",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "centrum_harnosand",
         "spots": null,
         "price_per_hour": 10.0,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
+        "hours": "mån-fre 09:00-18:00, 2h gratis sedan 10kr/h",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.92,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_centrumkarna_10kr_confirmed"
         ],
         "last_verified": null,
         "osm_id": 625232870,
@@ -8485,24 +8520,24 @@
       "properties": {
         "id": "harnosand-osm-625232875",
         "name": "OSM-625232875",
-        "operator": "easypark_parkster",
+        "operator": "parkster",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "centrum_harnosand",
         "spots": null,
         "price_per_hour": 10.0,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
+        "hours": "mån-fre 09:00-18:00, 2h gratis sedan 10kr/h",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.92,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_centrumkarna_10kr_confirmed"
         ],
         "last_verified": null,
         "osm_id": 625232875,
@@ -8546,24 +8581,24 @@
       "properties": {
         "id": "harnosand-osm-627544584",
         "name": "OSM-627544584",
-        "operator": "easypark_parkster",
+        "operator": "parkster",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
+        "hours": "mån-fre 09:00-18:00, 2h gratis sedan 5kr/h",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.88,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_mellanholmen_5kr_confirmed"
         ],
         "last_verified": null,
         "osm_id": 627544584,
@@ -8758,24 +8793,24 @@
       "properties": {
         "id": "harnosand-osm-628298509",
         "name": "OSM-628298509",
-        "operator": "easypark_parkster",
+        "operator": "free_parking",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": "5",
-        "price_per_hour": 10.0,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 628298509,
@@ -8784,7 +8819,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -8819,24 +8855,24 @@
       "properties": {
         "id": "harnosand-osm-629099556",
         "name": "OSM-629099556",
-        "operator": "easypark_parkster",
+        "operator": "free_parking",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 629099556,
@@ -8845,7 +8881,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -9074,24 +9111,24 @@
       "properties": {
         "id": "harnosand-osm-631644103",
         "name": "OSM-631644103",
-        "operator": "easypark_parkster",
+        "operator": "parkster",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": "4",
-        "price_per_hour": 10.0,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
+        "hours": "mån-fre 09:00-18:00, 2h gratis sedan 5kr/h",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.88,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_mellanholmen_5kr_confirmed"
         ],
         "last_verified": null,
         "osm_id": 631644103,
@@ -9147,12 +9184,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.75,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_outside_centrum_free"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 632206534,
@@ -9161,7 +9198,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -9232,12 +9270,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.75,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_outside_centrum_free"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 644853203,
@@ -9246,7 +9284,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -9293,12 +9332,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.75,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_outside_centrum_free"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 645746382,
@@ -9307,7 +9346,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -9358,12 +9398,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.75,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_outside_centrum_free"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 657654826,
@@ -9372,7 +9412,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -9840,12 +9881,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.75,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_outside_centrum_free"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 677966115,
@@ -9854,7 +9895,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -10077,24 +10119,24 @@
       "properties": {
         "id": "harnosand-osm-686806002",
         "name": "OSM-686806002",
-        "operator": "free_parking",
+        "operator": "parkster",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": null,
+        "hours": "dygnet runt, 2h gratis sedan 5kr/h",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.75,
+        "confidence": 0.88,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_outside_centrum_free"
+          "harnosand_simhall_5kr_confirmed"
         ],
         "last_verified": null,
         "osm_id": 686806002,
@@ -10150,12 +10192,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.75,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_outside_centrum_free"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 693447819,
@@ -10164,7 +10206,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -10211,12 +10254,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.75,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_outside_centrum_free"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 693933765,
@@ -10225,7 +10268,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -10288,12 +10332,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.75,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_outside_centrum_free"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 700800992,
@@ -10302,7 +10346,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -10361,12 +10406,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.75,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_outside_centrum_free"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 701584334,
@@ -10375,7 +10420,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -10430,12 +10476,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.75,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_outside_centrum_free"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 702193677,
@@ -10444,7 +10490,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -10491,12 +10538,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.75,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_outside_centrum_free"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 715763745,
@@ -10505,7 +10552,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -10742,24 +10790,24 @@
       "properties": {
         "id": "harnosand-osm-761061566",
         "name": "OSM-761061566",
-        "operator": "easypark_parkster",
+        "operator": "free_parking",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 761061566,
@@ -10768,7 +10816,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -10803,24 +10852,24 @@
       "properties": {
         "id": "harnosand-osm-761061567",
         "name": "OSM-761061567",
-        "operator": "easypark_parkster",
+        "operator": "free_parking",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 761061567,
@@ -10829,7 +10878,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -11365,24 +11415,24 @@
       "properties": {
         "id": "harnosand-osm-813265500",
         "name": "OSM-813265500",
-        "operator": "easypark_parkster",
+        "operator": "free_parking",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 813265500,
@@ -11391,7 +11441,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -11426,24 +11477,24 @@
       "properties": {
         "id": "harnosand-osm-813265501",
         "name": "OSM-813265501",
-        "operator": "easypark_parkster",
+        "operator": "free_parking",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 813265501,
@@ -11452,7 +11503,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": "Brännaskolan",
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -11617,12 +11669,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.75,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_outside_centrum_free"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 874724391,
@@ -11631,7 +11683,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -11888,12 +11941,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.75,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_outside_centrum_free"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 1071311043,
@@ -11902,7 +11955,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -11949,12 +12003,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.75,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_outside_centrum_free"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 1071311044,
@@ -11963,7 +12017,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -12120,24 +12175,24 @@
       "properties": {
         "id": "harnosand-osm-1096370637",
         "name": "OSM-1096370637",
-        "operator": "easypark_parkster",
+        "operator": "parkster",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "centrum_harnosand",
         "spots": null,
         "price_per_hour": 10.0,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
+        "hours": "mån-fre 09:00-18:00, 2h gratis sedan 10kr/h",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.92,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_centrumkarna_10kr_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1096370637,
@@ -12181,24 +12236,24 @@
       "properties": {
         "id": "harnosand-osm-1096370745",
         "name": "OSM-1096370745",
-        "operator": "easypark_parkster",
+        "operator": "free_parking",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "fee_confirmed_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 1096370745,
@@ -12207,7 +12262,8 @@
         "osm_fee": "yes",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -12309,24 +12365,24 @@
       "properties": {
         "id": "harnosand-osm-1108050442",
         "name": "OSM-1108050442",
-        "operator": "easypark_parkster",
+        "operator": "parkster",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "centrum_harnosand",
         "spots": null,
         "price_per_hour": 10.0,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
+        "hours": "mån-fre 09:00-18:00, 2h gratis sedan 10kr/h",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.92,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_centrumkarna_10kr_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1108050442,
@@ -12370,24 +12426,24 @@
       "properties": {
         "id": "harnosand-osm-1108050443",
         "name": "OSM-1108050443",
-        "operator": "easypark_parkster",
+        "operator": "parkster",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
+        "hours": "mån-fre 09:00-18:00, 2h gratis sedan 5kr/h",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.88,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_mellanholmen_5kr_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1108050443,
@@ -12487,24 +12543,24 @@
       "properties": {
         "id": "harnosand-osm-1108050445",
         "name": "OSM-1108050445",
-        "operator": "easypark_parkster",
+        "operator": "parkster",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
+        "hours": "mån-fre 09:00-18:00, 2h gratis sedan 5kr/h",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.88,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_mellanholmen_5kr_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1108050445,
@@ -12604,24 +12660,24 @@
       "properties": {
         "id": "harnosand-osm-1108062221",
         "name": "OSM-1108062221",
-        "operator": "easypark_parkster",
+        "operator": "parkster",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
+        "hours": "mån-fre 09:00-18:00, 2h gratis sedan 5kr/h",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.88,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_mellanholmen_5kr_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1108062221,
@@ -12665,24 +12721,24 @@
       "properties": {
         "id": "harnosand-osm-1108062222",
         "name": "OSM-1108062222",
-        "operator": "easypark_parkster",
+        "operator": "parkster",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": "12",
-        "price_per_hour": 10.0,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
+        "hours": "mån-fre 09:00-18:00, 2h gratis sedan 5kr/h",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.88,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_mellanholmen_5kr_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1108062222,
@@ -12726,24 +12782,24 @@
       "properties": {
         "id": "harnosand-osm-1108062223",
         "name": "OSM-1108062223",
-        "operator": "easypark_parkster",
+        "operator": "parkster",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": "10",
-        "price_per_hour": 10.0,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
+        "hours": "mån-fre 09:00-18:00, 2h gratis sedan 5kr/h",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.88,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_mellanholmen_5kr_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1108062223,
@@ -12787,24 +12843,24 @@
       "properties": {
         "id": "harnosand-osm-1108062224",
         "name": "OSM-1108062224",
-        "operator": "easypark_parkster",
+        "operator": "parkster",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": "12",
-        "price_per_hour": 10.0,
+        "price_per_hour": 5.0,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
+        "hours": "mån-fre 09:00-18:00, 2h gratis sedan 5kr/h",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.88,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_mellanholmen_5kr_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1108062224,
@@ -12927,24 +12983,24 @@
       "properties": {
         "id": "harnosand-osm-1108062253",
         "name": "OSM-1108062253",
-        "operator": "easypark_parkster",
+        "operator": "free_parking",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 1108062253,
@@ -12953,7 +13009,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -13190,24 +13247,24 @@
       "properties": {
         "id": "harnosand-osm-1108154434",
         "name": "OSM-1108154434",
-        "operator": "easypark_parkster",
+        "operator": "parkster",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "centrum_harnosand",
         "spots": null,
         "price_per_hour": 10.0,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
+        "hours": "mån-fre 09:00-18:00, 2h gratis sedan 10kr/h",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.92,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_centrumkarna_10kr_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1108154434,
@@ -13381,24 +13438,24 @@
       "properties": {
         "id": "harnosand-osm-1127987855",
         "name": "OSM-1127987855",
-        "operator": "easypark_parkster",
+        "operator": "parkster",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "centrum_harnosand",
         "spots": "14",
         "price_per_hour": 10.0,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
+        "hours": "mån-fre 09:00-18:00, 2h gratis sedan 10kr/h",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.92,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_centrumkarna_10kr_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1127987855,
@@ -13501,24 +13558,24 @@
       "properties": {
         "id": "harnosand-osm-1127987862",
         "name": "Hertz",
-        "operator": "easypark_parkster",
+        "operator": "parkster",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "centrum_harnosand",
         "spots": "11",
         "price_per_hour": 10.0,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
+        "hours": "mån-fre 09:00-18:00, 2h gratis sedan 10kr/h",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.92,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_centrumkarna_10kr_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1127987862,
@@ -14204,24 +14261,24 @@
       "properties": {
         "id": "harnosand-osm-1136271207",
         "name": "OSM-1136271207",
-        "operator": "easypark_parkster",
+        "operator": "parkster",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "centrum_harnosand",
         "spots": null,
         "price_per_hour": 10.0,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
+        "hours": "mån-fre 09:00-18:00, 2h gratis sedan 10kr/h",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.92,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_centrumkarna_10kr_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1136271207,
@@ -14803,24 +14860,24 @@
       "properties": {
         "id": "harnosand-osm-1311930531",
         "name": "OSM-1311930531",
-        "operator": "easypark_parkster",
+        "operator": "free_parking",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 1311930531,
@@ -14829,7 +14886,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -15031,24 +15089,24 @@
       "properties": {
         "id": "harnosand-osm-1358420903",
         "name": "OSM-1358420903",
-        "operator": "easypark_parkster",
+        "operator": "free_parking",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 1358420903,
@@ -15057,7 +15115,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -15092,24 +15151,24 @@
       "properties": {
         "id": "harnosand-osm-1358420905",
         "name": "OSM-1358420905",
-        "operator": "easypark_parkster",
+        "operator": "free_parking",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 1358420905,
@@ -15118,7 +15177,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -15153,24 +15213,24 @@
       "properties": {
         "id": "harnosand-osm-1358420920",
         "name": "OSM-1358420920",
-        "operator": "easypark_parkster",
+        "operator": "free_parking",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 1358420920,
@@ -15179,7 +15239,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -15214,24 +15275,24 @@
       "properties": {
         "id": "harnosand-osm-1358420921",
         "name": "OSM-1358420921",
-        "operator": "easypark_parkster",
+        "operator": "free_parking",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 1358420921,
@@ -15240,7 +15301,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -15393,24 +15455,24 @@
       "properties": {
         "id": "harnosand-osm-1358420933",
         "name": "OSM-1358420933",
-        "operator": "easypark_parkster",
+        "operator": "free_parking",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 1358420933,
@@ -15419,7 +15481,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -15572,24 +15635,24 @@
       "properties": {
         "id": "harnosand-osm-1358420942",
         "name": "OSM-1358420942",
-        "operator": "easypark_parkster",
+        "operator": "free_parking",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 1358420942,
@@ -15598,7 +15661,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -15633,24 +15697,24 @@
       "properties": {
         "id": "harnosand-osm-1358420945",
         "name": "OSM-1358420945",
-        "operator": "easypark_parkster",
+        "operator": "free_parking",
         "municipality": "Härnösand",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": 0.0,
         "currency": "SEK",
         "hours": "mån-fre 08:00-18:00, lör 08:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_centrum_easypark"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 1358420945,
@@ -15659,7 +15723,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",
@@ -15824,12 +15889,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.75,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "harnosand_outside_centrum_free"
+          "harnosand_outside_betalzon_free"
         ],
         "last_verified": null,
         "osm_id": 1426397428,
@@ -15838,7 +15903,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "restriction": "P-skiva kan krävas"
       },
       "geometry": {
         "type": "Polygon",

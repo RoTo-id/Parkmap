@@ -53,12 +53,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.92,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "kramfors_centrum_free"
+          "kramfors_pskiva_confirmed"
         ],
         "last_verified": null,
         "osm_id": 39901460,
@@ -68,7 +68,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "restriction": "P-skiva kan krävas"
+        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
       },
       "geometry": {
         "type": "Polygon",
@@ -194,12 +194,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.92,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "kramfors_centrum_free"
+          "kramfors_pskiva_confirmed"
         ],
         "last_verified": null,
         "osm_id": 40025708,
@@ -209,7 +209,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "restriction": "P-skiva kan krävas"
+        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
       },
       "geometry": {
         "type": "Polygon",
@@ -260,12 +260,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.92,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "kramfors_centrum_free"
+          "kramfors_pskiva_confirmed"
         ],
         "last_verified": null,
         "osm_id": 40747620,
@@ -275,7 +275,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "restriction": "P-skiva kan krävas"
+        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
       },
       "geometry": {
         "type": "Polygon",
@@ -322,12 +322,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.92,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "kramfors_centrum_free"
+          "kramfors_pskiva_confirmed"
         ],
         "last_verified": null,
         "osm_id": 40747632,
@@ -337,7 +337,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "restriction": "P-skiva kan krävas"
+        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
       },
       "geometry": {
         "type": "Polygon",
@@ -408,12 +408,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.92,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "kramfors_centrum_free"
+          "kramfors_pskiva_confirmed"
         ],
         "last_verified": null,
         "osm_id": 40747637,
@@ -423,7 +423,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "restriction": "P-skiva kan krävas"
+        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
       },
       "geometry": {
         "type": "Polygon",
@@ -474,12 +474,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.92,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "kramfors_centrum_free"
+          "kramfors_pskiva_confirmed"
         ],
         "last_verified": null,
         "osm_id": 41462247,
@@ -489,7 +489,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "restriction": "P-skiva kan krävas"
+        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
       },
       "geometry": {
         "type": "Polygon",
@@ -536,7 +536,7 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
@@ -597,12 +597,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.92,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "kramfors_centrum_free"
+          "kramfors_pskiva_confirmed"
         ],
         "last_verified": null,
         "osm_id": 42772203,
@@ -612,7 +612,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "restriction": "P-skiva kan krävas"
+        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
       },
       "geometry": {
         "type": "Polygon",
@@ -659,12 +659,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.92,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "kramfors_centrum_free"
+          "kramfors_pskiva_confirmed"
         ],
         "last_verified": null,
         "osm_id": 42772204,
@@ -674,7 +674,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "restriction": "P-skiva kan krävas"
+        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
       },
       "geometry": {
         "type": "Polygon",
@@ -737,7 +737,7 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
@@ -798,7 +798,7 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
@@ -863,7 +863,7 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
@@ -932,7 +932,7 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
@@ -993,7 +993,7 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
@@ -1054,7 +1054,7 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
@@ -1305,7 +1305,7 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
@@ -1426,7 +1426,7 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
@@ -3365,7 +3365,7 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
@@ -3580,7 +3580,7 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
@@ -3649,7 +3649,7 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
@@ -3726,7 +3726,7 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
@@ -3991,7 +3991,7 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
@@ -4123,7 +4123,7 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
@@ -4212,7 +4212,7 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
@@ -4273,12 +4273,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.92,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "kramfors_centrum_free"
+          "kramfors_pskiva_confirmed"
         ],
         "last_verified": null,
         "osm_id": 312239681,
@@ -4288,7 +4288,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "restriction": "P-skiva kan krävas"
+        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
       },
       "geometry": {
         "type": "Polygon",
@@ -4765,7 +4765,7 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
@@ -5665,7 +5665,7 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
@@ -5726,7 +5726,7 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
@@ -5787,12 +5787,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.92,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "kramfors_centrum_free"
+          "kramfors_pskiva_confirmed"
         ],
         "last_verified": null,
         "osm_id": 477969096,
@@ -5802,7 +5802,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "restriction": "P-skiva kan krävas"
+        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
       },
       "geometry": {
         "type": "Polygon",
@@ -5849,12 +5849,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.92,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "kramfors_centrum_free"
+          "kramfors_pskiva_confirmed"
         ],
         "last_verified": null,
         "osm_id": 477969097,
@@ -5864,7 +5864,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "restriction": "P-skiva kan krävas"
+        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
       },
       "geometry": {
         "type": "Polygon",
@@ -5911,12 +5911,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.92,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "kramfors_centrum_free"
+          "kramfors_pskiva_confirmed"
         ],
         "last_verified": null,
         "osm_id": 477969108,
@@ -5926,7 +5926,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "restriction": "P-skiva kan krävas"
+        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
       },
       "geometry": {
         "type": "Polygon",
@@ -5973,12 +5973,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.92,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "kramfors_centrum_free"
+          "kramfors_pskiva_confirmed"
         ],
         "last_verified": null,
         "osm_id": 477969110,
@@ -5988,7 +5988,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "restriction": "P-skiva kan krävas"
+        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
       },
       "geometry": {
         "type": "Polygon",
@@ -6047,12 +6047,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.92,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "kramfors_centrum_free"
+          "kramfors_pskiva_confirmed"
         ],
         "last_verified": null,
         "osm_id": 477969111,
@@ -6062,7 +6062,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "restriction": "P-skiva kan krävas"
+        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
       },
       "geometry": {
         "type": "Polygon",
@@ -6109,12 +6109,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.92,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "kramfors_centrum_free"
+          "kramfors_pskiva_confirmed"
         ],
         "last_verified": null,
         "osm_id": 477969114,
@@ -6124,7 +6124,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "restriction": "P-skiva kan krävas"
+        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
       },
       "geometry": {
         "type": "Polygon",
@@ -6175,7 +6175,7 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
@@ -6244,7 +6244,7 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
@@ -6349,12 +6349,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.92,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "kramfors_centrum_free"
+          "kramfors_pskiva_confirmed"
         ],
         "last_verified": null,
         "osm_id": 488720394,
@@ -6364,7 +6364,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "restriction": "P-skiva kan krävas"
+        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
       },
       "geometry": {
         "type": "Polygon",
@@ -6419,12 +6419,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.92,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "kramfors_centrum_free"
+          "kramfors_pskiva_confirmed"
         ],
         "last_verified": null,
         "osm_id": 488720898,
@@ -6434,7 +6434,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "restriction": "P-skiva kan krävas"
+        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
       },
       "geometry": {
         "type": "Polygon",
@@ -6481,12 +6481,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.92,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "kramfors_centrum_free"
+          "kramfors_pskiva_confirmed"
         ],
         "last_verified": null,
         "osm_id": 488720899,
@@ -6496,7 +6496,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "restriction": "P-skiva kan krävas"
+        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
       },
       "geometry": {
         "type": "Polygon",
@@ -6543,12 +6543,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.92,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "kramfors_centrum_free"
+          "kramfors_pskiva_confirmed"
         ],
         "last_verified": null,
         "osm_id": 488720900,
@@ -6558,7 +6558,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "restriction": "P-skiva kan krävas"
+        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
       },
       "geometry": {
         "type": "Polygon",
@@ -6605,12 +6605,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.92,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "kramfors_centrum_free"
+          "kramfors_pskiva_confirmed"
         ],
         "last_verified": null,
         "osm_id": 488720901,
@@ -6620,7 +6620,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "restriction": "P-skiva kan krävas"
+        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
       },
       "geometry": {
         "type": "Polygon",
@@ -6667,12 +6667,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.92,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "kramfors_centrum_free"
+          "kramfors_pskiva_confirmed"
         ],
         "last_verified": null,
         "osm_id": 488720902,
@@ -6682,7 +6682,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "restriction": "P-skiva kan krävas"
+        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
       },
       "geometry": {
         "type": "Polygon",
@@ -6729,12 +6729,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.92,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "kramfors_centrum_free"
+          "kramfors_pskiva_confirmed"
         ],
         "last_verified": null,
         "osm_id": 488720903,
@@ -6744,7 +6744,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "restriction": "P-skiva kan krävas"
+        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
       },
       "geometry": {
         "type": "Polygon",
@@ -6882,7 +6882,7 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
@@ -7314,7 +7314,7 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
@@ -7379,7 +7379,7 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
@@ -7440,7 +7440,7 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
@@ -7597,7 +7597,7 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
@@ -7844,7 +7844,7 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
@@ -8315,7 +8315,7 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
@@ -11028,12 +11028,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.92,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "kramfors_centrum_free"
+          "kramfors_pskiva_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1419250474,
@@ -11043,7 +11043,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "restriction": "P-skiva kan krävas"
+        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
       },
       "geometry": {
         "type": "Polygon",
@@ -11130,12 +11130,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.92,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "kramfors_centrum_free"
+          "kramfors_pskiva_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1419250479,
@@ -11145,7 +11145,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "restriction": "P-skiva kan krävas"
+        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
       },
       "geometry": {
         "type": "Polygon",
@@ -11372,7 +11372,7 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
@@ -11433,7 +11433,7 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
@@ -11554,12 +11554,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.92,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "kramfors_centrum_free"
+          "kramfors_pskiva_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1426464944,
@@ -11569,7 +11569,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "restriction": "P-skiva kan krävas"
+        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
       },
       "geometry": {
         "type": "Polygon",
@@ -11644,12 +11644,12 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.92,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "genuinely_unknown",
-          "kramfors_centrum_free"
+          "kramfors_pskiva_confirmed"
         ],
         "last_verified": null,
         "osm_id": 1426464945,
@@ -11659,7 +11659,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "restriction": "P-skiva kan krävas"
+        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
       },
       "geometry": {
         "type": "Polygon",
