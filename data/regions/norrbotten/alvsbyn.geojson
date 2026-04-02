@@ -47,7 +47,7 @@
       "properties": {
         "id": "alvsbyn-osm-138203855",
         "name": "OSM-138203855",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Älvsbyn",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -62,7 +62,8 @@
         "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 138203855,
@@ -155,7 +156,7 @@
       "properties": {
         "id": "alvsbyn-osm-253267759",
         "name": "OSM-253267759",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Älvsbyn",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -169,10 +170,11 @@
         "source_url": null,
         "confidence": null,
         "flags": [
+          "bulk_classified:no_paid_apps_in_alvsbyn",
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "bulk_classified:no_paid_apps_in_alvsbyn"
+          "unknown_operator",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 253267759,
@@ -355,7 +357,7 @@
       "properties": {
         "id": "alvsbyn-osm-253383993",
         "name": "OSM-253383993",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Älvsbyn",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -370,7 +372,8 @@
         "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 253383993,
@@ -419,7 +422,7 @@
       "properties": {
         "id": "alvsbyn-osm-254038426",
         "name": "OSM-254038426",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Älvsbyn",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -433,10 +436,11 @@
         "source_url": null,
         "confidence": null,
         "flags": [
+          "bulk_classified:no_paid_apps_in_alvsbyn",
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "bulk_classified:no_paid_apps_in_alvsbyn"
+          "unknown_operator",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 254038426,
@@ -484,7 +488,7 @@
       "properties": {
         "id": "alvsbyn-osm-268877732",
         "name": "OSM-268877732",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Älvsbyn",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -499,7 +503,8 @@
         "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 268877732,
@@ -758,7 +763,7 @@
       "properties": {
         "id": "alvsbyn-osm-440360687",
         "name": "OSM-440360687",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Älvsbyn",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -772,10 +777,11 @@
         "source_url": null,
         "confidence": null,
         "flags": [
+          "bulk_classified:no_paid_apps_in_alvsbyn",
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "bulk_classified:no_paid_apps_in_alvsbyn"
+          "unknown_operator",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 440360687,
@@ -823,7 +829,7 @@
       "properties": {
         "id": "alvsbyn-osm-658294228",
         "name": "OSM-658294228",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Älvsbyn",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -838,7 +844,8 @@
         "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 658294228,
@@ -1866,7 +1873,7 @@
       "properties": {
         "id": "alvsbyn-osm-1490220009",
         "name": "OSM-1490220009",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Älvsbyn",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -1880,10 +1887,11 @@
         "source_url": null,
         "confidence": null,
         "flags": [
+          "bulk_classified:no_paid_apps_in_alvsbyn",
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "bulk_classified:no_paid_apps_in_alvsbyn"
+          "unknown_operator",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 1490220009,
@@ -1927,7 +1935,7 @@
       "properties": {
         "id": "alvsbyn-osm-1490220010",
         "name": "OSM-1490220010",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Älvsbyn",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -1941,10 +1949,11 @@
         "source_url": null,
         "confidence": null,
         "flags": [
+          "bulk_classified:no_paid_apps_in_alvsbyn",
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "bulk_classified:no_paid_apps_in_alvsbyn"
+          "unknown_operator",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 1490220010,
@@ -1988,7 +1997,7 @@
       "properties": {
         "id": "alvsbyn-osm-1494110553",
         "name": "OSM-1494110553",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Älvsbyn",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -2002,10 +2011,11 @@
         "source_url": null,
         "confidence": null,
         "flags": [
+          "bulk_classified:no_paid_apps_in_alvsbyn",
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "bulk_classified:no_paid_apps_in_alvsbyn"
+          "unknown_operator",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 1494110553,

@@ -1137,7 +1137,7 @@
       "properties": {
         "id": "boden-osm-541050828",
         "name": "OSM-541050828",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -1152,7 +1152,8 @@
         "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 541050828,
@@ -2057,7 +2058,7 @@
       "properties": {
         "id": "boden-osm-909190441",
         "name": "OSM-909190441",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -2072,7 +2073,8 @@
         "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 909190441,
@@ -2141,7 +2143,7 @@
       "properties": {
         "id": "boden-osm-909288804",
         "name": "Korpforsen",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -2156,7 +2158,8 @@
         "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 909288804,
@@ -6965,7 +6968,7 @@
       "properties": {
         "id": "boden-osm-1305733589",
         "name": "OSM-1305733589",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -6980,7 +6983,8 @@
         "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 1305733589,
@@ -7692,7 +7696,7 @@
       "properties": {
         "id": "boden-osm-1415690265",
         "name": "OSM-1415690265",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -7707,7 +7711,8 @@
         "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 1415690265,

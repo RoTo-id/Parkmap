@@ -146,7 +146,7 @@
       "properties": {
         "id": "pitea-osm-58727298",
         "name": "OSM-58727298",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -161,9 +161,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 58727298,
@@ -276,7 +277,7 @@
       "properties": {
         "id": "pitea-osm-64459392",
         "name": "OSM-64459392",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -291,7 +292,8 @@
         "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 64459392,
@@ -340,7 +342,7 @@
       "properties": {
         "id": "pitea-osm-64460579",
         "name": "OSM-64460579",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -355,7 +357,8 @@
         "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 64460579,
@@ -428,7 +431,7 @@
       "properties": {
         "id": "pitea-osm-127419248",
         "name": "OSM-127419248",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -443,7 +446,8 @@
         "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 127419248,
@@ -754,7 +758,7 @@
       "properties": {
         "id": "pitea-osm-253395222",
         "name": "OSM-253395222",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -769,9 +773,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 253395222,
@@ -815,7 +820,7 @@
       "properties": {
         "id": "pitea-osm-253494026",
         "name": "OSM-253494026",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -830,9 +835,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 253494026,
@@ -876,7 +882,7 @@
       "properties": {
         "id": "pitea-osm-253855717",
         "name": "OSM-253855717",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -891,9 +897,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 253855717,
@@ -937,7 +944,7 @@
       "properties": {
         "id": "pitea-osm-254020407",
         "name": "OSM-254020407",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -952,7 +959,8 @@
         "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 254020407,
@@ -997,7 +1005,7 @@
       "properties": {
         "id": "pitea-osm-254027862",
         "name": "OSM-254027862",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -1012,9 +1020,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 254027862,
@@ -1058,7 +1067,7 @@
       "properties": {
         "id": "pitea-osm-254428366",
         "name": "OSM-254428366",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -1073,9 +1082,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 254428366,
@@ -1123,7 +1133,7 @@
       "properties": {
         "id": "pitea-osm-262478329",
         "name": "OSM-262478329",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -1138,7 +1148,8 @@
         "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 262478329,
@@ -1195,7 +1206,7 @@
       "properties": {
         "id": "pitea-osm-262478334",
         "name": "OSM-262478334",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -1210,7 +1221,8 @@
         "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 262478334,
@@ -1436,7 +1448,7 @@
       "properties": {
         "id": "pitea-osm-297602134",
         "name": "OSM-297602134",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -1451,9 +1463,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 297602134,
@@ -1570,7 +1583,7 @@
       "properties": {
         "id": "pitea-osm-298129377",
         "name": "OSM-298129377",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -1585,7 +1598,8 @@
         "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 298129377,
@@ -1630,7 +1644,7 @@
       "properties": {
         "id": "pitea-osm-298129378",
         "name": "OSM-298129378",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -1645,7 +1659,8 @@
         "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 298129378,
@@ -1995,7 +2010,7 @@
       "properties": {
         "id": "pitea-osm-310526432",
         "name": "OSM-310526432",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -2010,9 +2025,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 310526432,
@@ -2056,7 +2072,7 @@
       "properties": {
         "id": "pitea-osm-312258826",
         "name": "OSM-312258826",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -2071,9 +2087,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 312258826,
@@ -2731,7 +2748,7 @@
       "properties": {
         "id": "pitea-osm-314315431",
         "name": "OSM-314315431",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -2746,9 +2763,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 314315431,
@@ -2855,7 +2873,7 @@
       "properties": {
         "id": "pitea-osm-314432072",
         "name": "OSM-314432072",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -2870,9 +2888,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 314432072,
@@ -3007,7 +3026,7 @@
       "properties": {
         "id": "pitea-osm-314720559",
         "name": "OSM-314720559",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -3022,9 +3041,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 314720559,
@@ -4100,7 +4120,7 @@
       "properties": {
         "id": "pitea-osm-320522292",
         "name": "OSM-320522292",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -4115,9 +4135,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 320522292,
@@ -4205,7 +4226,7 @@
       "properties": {
         "id": "pitea-osm-320522294",
         "name": "OSM-320522294",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -4220,9 +4241,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 320522294,
@@ -4370,7 +4392,7 @@
       "properties": {
         "id": "pitea-osm-321359742",
         "name": "OSM-321359742",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -4385,9 +4407,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 321359742,
@@ -4626,7 +4649,7 @@
       "properties": {
         "id": "pitea-osm-321359746",
         "name": "OSM-321359746",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -4641,9 +4664,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 321359746,
@@ -4687,7 +4711,7 @@
       "properties": {
         "id": "pitea-osm-321359747",
         "name": "OSM-321359747",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -4702,9 +4726,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 321359747,
@@ -4748,7 +4773,7 @@
       "properties": {
         "id": "pitea-osm-321359749",
         "name": "OSM-321359749",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -4763,9 +4788,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 321359749,
@@ -4809,7 +4835,7 @@
       "properties": {
         "id": "pitea-osm-321359750",
         "name": "OSM-321359750",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -4824,9 +4850,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 321359750,
@@ -4870,7 +4897,7 @@
       "properties": {
         "id": "pitea-osm-321359751",
         "name": "OSM-321359751",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -4885,9 +4912,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 321359751,
@@ -4931,7 +4959,7 @@
       "properties": {
         "id": "pitea-osm-321359753",
         "name": "OSM-321359753",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -4946,9 +4974,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 321359753,
@@ -6092,7 +6121,7 @@
       "properties": {
         "id": "pitea-osm-383603709",
         "name": "OSM-383603709",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -6107,9 +6136,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 383603709,
@@ -6556,7 +6586,7 @@
       "properties": {
         "id": "pitea-osm-383639572",
         "name": "OSM-383639572",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -6571,9 +6601,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 383639572,
@@ -6617,7 +6648,7 @@
       "properties": {
         "id": "pitea-osm-383643795",
         "name": "OSM-383643795",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -6632,9 +6663,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 383643795,
@@ -6678,7 +6710,7 @@
       "properties": {
         "id": "pitea-osm-383864490",
         "name": "OSM-383864490",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -6693,9 +6725,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 383864490,
@@ -6739,7 +6772,7 @@
       "properties": {
         "id": "pitea-osm-383867883",
         "name": "OSM-383867883",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -6754,9 +6787,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 383867883,
@@ -6804,7 +6838,7 @@
       "properties": {
         "id": "pitea-osm-389443516",
         "name": "OSM-389443516",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -6819,9 +6853,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 389443516,
@@ -7314,7 +7349,7 @@
       "properties": {
         "id": "pitea-osm-494397731",
         "name": "OSM-494397731",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -7329,9 +7364,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 494397731,
@@ -7383,7 +7419,7 @@
       "properties": {
         "id": "pitea-osm-494401988",
         "name": "OSM-494401988",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -7398,9 +7434,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 494401988,
@@ -7444,7 +7481,7 @@
       "properties": {
         "id": "pitea-osm-494401989",
         "name": "OSM-494401989",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -7459,9 +7496,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 494401989,
@@ -7568,7 +7606,7 @@
       "properties": {
         "id": "pitea-osm-614721748",
         "name": "OSM-614721748",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -7583,9 +7621,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 614721748,
@@ -7629,7 +7668,7 @@
       "properties": {
         "id": "pitea-osm-614721751",
         "name": "OSM-614721751",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -7644,9 +7683,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 614721751,
@@ -7690,7 +7730,7 @@
       "properties": {
         "id": "pitea-osm-660268579",
         "name": "OSM-660268579",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -7705,9 +7745,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 660268579,
@@ -7759,7 +7800,7 @@
       "properties": {
         "id": "pitea-osm-660268580",
         "name": "OSM-660268580",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -7774,9 +7815,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 660268580,
@@ -7820,7 +7862,7 @@
       "properties": {
         "id": "pitea-osm-660268581",
         "name": "OSM-660268581",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -7835,9 +7877,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 660268581,
@@ -7999,7 +8042,7 @@
       "properties": {
         "id": "pitea-osm-675503847",
         "name": "OSM-675503847",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -8014,9 +8057,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 675503847,
@@ -8386,7 +8430,7 @@
       "properties": {
         "id": "pitea-osm-731001748",
         "name": "OSM-731001748",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -8401,9 +8445,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 731001748,
@@ -8515,7 +8560,7 @@
       "properties": {
         "id": "pitea-osm-731001749",
         "name": "OSM-731001749",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -8530,9 +8575,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 731001749,
@@ -8584,7 +8630,7 @@
       "properties": {
         "id": "pitea-osm-771754231",
         "name": "OSM-771754231",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -8599,9 +8645,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 771754231,
@@ -8645,7 +8692,7 @@
       "properties": {
         "id": "pitea-osm-772193121",
         "name": "OSM-772193121",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -8660,9 +8707,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 772193121,
@@ -8706,7 +8754,7 @@
       "properties": {
         "id": "pitea-osm-772193122",
         "name": "OSM-772193122",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -8721,9 +8769,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 772193122,
@@ -8787,7 +8836,7 @@
       "properties": {
         "id": "pitea-osm-786129687",
         "name": "OSM-786129687",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -8802,9 +8851,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 786129687,
@@ -8848,7 +8898,7 @@
       "properties": {
         "id": "pitea-osm-786129688",
         "name": "OSM-786129688",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -8863,9 +8913,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 786129688,
@@ -8909,7 +8960,7 @@
       "properties": {
         "id": "pitea-osm-786129689",
         "name": "OSM-786129689",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -8924,9 +8975,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 786129689,
@@ -8970,7 +9022,7 @@
       "properties": {
         "id": "pitea-osm-786129696",
         "name": "OSM-786129696",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -8985,9 +9037,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 786129696,
@@ -9039,7 +9092,7 @@
       "properties": {
         "id": "pitea-osm-801778339",
         "name": "OSM-801778339",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -9054,9 +9107,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 801778339,
@@ -9100,7 +9154,7 @@
       "properties": {
         "id": "pitea-osm-819245408",
         "name": "OSM-819245408",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -9115,9 +9169,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 819245408,
@@ -9165,7 +9220,7 @@
       "properties": {
         "id": "pitea-osm-819245409",
         "name": "OSM-819245409",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -9180,9 +9235,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 819245409,
@@ -9226,7 +9282,7 @@
       "properties": {
         "id": "pitea-osm-854034994",
         "name": "OSM-854034994",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -9241,9 +9297,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 854034994,
@@ -9291,7 +9348,7 @@
       "properties": {
         "id": "pitea-osm-854034995",
         "name": "OSM-854034995",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -9306,9 +9363,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 854034995,
@@ -9413,7 +9471,7 @@
       "properties": {
         "id": "pitea-osm-971475740",
         "name": "OSM-971475740",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -9428,7 +9486,8 @@
         "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 971475740,
@@ -9692,7 +9751,7 @@
       "properties": {
         "id": "pitea-osm-1086472588",
         "name": "OSM-1086472588",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -9707,7 +9766,8 @@
         "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 1086472588,
@@ -9819,7 +9879,7 @@
       "properties": {
         "id": "pitea-osm-1104685054",
         "name": "OSM-1104685054",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -9834,7 +9894,8 @@
         "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 1104685054,
@@ -10153,7 +10214,7 @@
       "properties": {
         "id": "pitea-osm-1118307191",
         "name": "OSM-1118307191",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -10168,9 +10229,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 1118307191,
@@ -10214,7 +10276,7 @@
       "properties": {
         "id": "pitea-osm-1239407207",
         "name": "OSM-1239407207",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -10229,9 +10291,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 1239407207,
@@ -10275,7 +10338,7 @@
       "properties": {
         "id": "pitea-osm-1239407219",
         "name": "OSM-1239407219",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -10290,9 +10353,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 1239407219,
@@ -11008,7 +11072,7 @@
       "properties": {
         "id": "pitea-osm-1319587332",
         "name": "OSM-1319587332",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -11023,9 +11087,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 1319587332,
@@ -11069,7 +11134,7 @@
       "properties": {
         "id": "pitea-osm-1319587335",
         "name": "OSM-1319587335",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -11084,9 +11149,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 1319587335,
@@ -11248,7 +11314,7 @@
       "properties": {
         "id": "pitea-osm-1354284338",
         "name": "OSM-1354284338",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -11263,7 +11329,8 @@
         "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 1354284338,
@@ -11420,7 +11487,7 @@
       "properties": {
         "id": "pitea-osm-1354284348",
         "name": "OSM-1354284348",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -11435,7 +11502,8 @@
         "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 1354284348,
@@ -11684,7 +11752,7 @@
       "properties": {
         "id": "pitea-osm-1391117494",
         "name": "OSM-1391117494",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -11699,7 +11767,8 @@
         "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 1391117494,
@@ -11756,7 +11825,7 @@
       "properties": {
         "id": "pitea-osm-1422480035",
         "name": "OSM-1422480035",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -11771,7 +11840,8 @@
         "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 1422480035,
@@ -12053,7 +12123,7 @@
       "properties": {
         "id": "pitea-osm-1426030276",
         "name": "OSM-1426030276",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -12068,9 +12138,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 1426030276,
@@ -12122,7 +12193,7 @@
       "properties": {
         "id": "pitea-osm-1426030277",
         "name": "OSM-1426030277",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -12137,9 +12208,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 1426030277,
@@ -12937,7 +13009,7 @@
       "properties": {
         "id": "pitea-osm-1431513065",
         "name": "OSM-1431513065",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -12952,9 +13024,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 1431513065,
@@ -13139,7 +13212,7 @@
       "properties": {
         "id": "pitea-osm-1444515978",
         "name": "OSM-1444515978",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -13154,9 +13227,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 1444515978,
@@ -13535,7 +13609,7 @@
       "properties": {
         "id": "pitea-osm-1466354648",
         "name": "OSM-1466354648",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -13550,9 +13624,10 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
           "genuinely_unknown",
-          "rural_free_classified"
+          "unknown_operator",
+          "rural_free_classified",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 1466354648,
@@ -13887,7 +13962,7 @@
       "properties": {
         "id": "pitea-osm-1493429235",
         "name": "OSM-1493429235",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "PiteÃ¥",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -13902,7 +13977,8 @@
         "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "reset_from_fallback_free"
         ],
         "last_verified": null,
         "osm_id": 1493429235,

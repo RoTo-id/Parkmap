@@ -12654,7 +12654,7 @@
       "properties": {
         "id": "lulea-osm-62238486",
         "name": "OSM-62238486",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -12669,7 +12669,8 @@
         "confidence": 0.45,
         "flags": [
           "osm_imported",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "reset_from_fallback_free"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 62238486,
@@ -13122,7 +13123,7 @@
       "properties": {
         "id": "lulea-osm-64457197",
         "name": "OSM-64457197",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -13137,7 +13138,8 @@
         "confidence": 0.45,
         "flags": [
           "osm_imported",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "reset_from_fallback_free"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 64457197,
@@ -27387,7 +27389,7 @@
       "properties": {
         "id": "lulea-osm-322423258",
         "name": "OSM-322423258",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -27402,7 +27404,8 @@
         "confidence": 0.45,
         "flags": [
           "osm_imported",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "reset_from_fallback_free"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 322423258,
@@ -31953,7 +31956,7 @@
       "properties": {
         "id": "lulea-osm-369773607",
         "name": "OSM-369773607",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -31968,7 +31971,8 @@
         "confidence": 0.45,
         "flags": [
           "osm_imported",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "reset_from_fallback_free"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 369773607,
@@ -36360,7 +36364,7 @@
       "properties": {
         "id": "lulea-osm-599031085",
         "name": "OSM-599031085",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -36375,7 +36379,8 @@
         "confidence": 0.45,
         "flags": [
           "osm_imported",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "reset_from_fallback_free"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 599031085,
@@ -36422,7 +36427,7 @@
       "properties": {
         "id": "lulea-osm-607253541",
         "name": "OSM-607253541",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -36437,7 +36442,8 @@
         "confidence": 0.45,
         "flags": [
           "osm_imported",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "reset_from_fallback_free"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 607253541,
@@ -36578,7 +36584,7 @@
       "properties": {
         "id": "lulea-osm-637171938",
         "name": "OSM-637171938",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -36593,7 +36599,8 @@
         "confidence": 0.45,
         "flags": [
           "osm_imported",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "reset_from_fallback_free"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 637171938,
@@ -36640,7 +36647,7 @@
       "properties": {
         "id": "lulea-osm-637171939",
         "name": "OSM-637171939",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -36655,7 +36662,8 @@
         "confidence": 0.45,
         "flags": [
           "osm_imported",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "reset_from_fallback_free"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 637171939,
@@ -38425,7 +38433,7 @@
       "properties": {
         "id": "lulea-osm-758760240",
         "name": "OSM-758760240",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -38440,7 +38448,8 @@
         "confidence": 0.45,
         "flags": [
           "osm_imported",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "reset_from_fallback_free"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 758760240,
@@ -39468,7 +39477,7 @@
       "properties": {
         "id": "lulea-osm-991556849",
         "name": "OSM-991556849",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -39483,7 +39492,8 @@
         "confidence": 0.45,
         "flags": [
           "osm_imported",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "reset_from_fallback_free"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 991556849,
@@ -39550,7 +39560,7 @@
       "properties": {
         "id": "lulea-osm-992910142",
         "name": "OSM-992910142",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -39565,7 +39575,8 @@
         "confidence": 0.45,
         "flags": [
           "osm_imported",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "reset_from_fallback_free"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 992910142,
@@ -40418,7 +40429,7 @@
       "properties": {
         "id": "lulea-osm-1018742626",
         "name": "OSM-1018742626",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -40433,7 +40444,8 @@
         "confidence": 0.45,
         "flags": [
           "osm_imported",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "reset_from_fallback_free"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 1018742626,
@@ -40806,7 +40818,7 @@
       "properties": {
         "id": "lulea-osm-1077109323",
         "name": "OSM-1077109323",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -40821,7 +40833,8 @@
         "confidence": 0.45,
         "flags": [
           "osm_imported",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "reset_from_fallback_free"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 1077109323,
@@ -43279,7 +43292,7 @@
       "properties": {
         "id": "lulea-osm-1187260638",
         "name": "OSM-1187260638",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -43294,7 +43307,8 @@
         "confidence": 0.45,
         "flags": [
           "osm_imported",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "reset_from_fallback_free"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 1187260638,
@@ -43574,7 +43588,7 @@
       "properties": {
         "id": "lulea-osm-1216102823",
         "name": "OSM-1216102823",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -43589,7 +43603,8 @@
         "confidence": 0.45,
         "flags": [
           "osm_imported",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "reset_from_fallback_free"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 1216102823,
@@ -52314,7 +52329,7 @@
       "properties": {
         "id": "lulea-osm-1382109245",
         "name": "OSM-1382109245",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -52329,7 +52344,8 @@
         "confidence": 0.45,
         "flags": [
           "osm_imported",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "reset_from_fallback_free"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 1382109245,
@@ -52644,7 +52660,7 @@
       "properties": {
         "id": "lulea-osm-1417018616",
         "name": "OSM-1417018616",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -52659,7 +52675,8 @@
         "confidence": 0.45,
         "flags": [
           "osm_imported",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "reset_from_fallback_free"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 1417018616,
@@ -52964,7 +52981,7 @@
       "properties": {
         "id": "lulea-osm-1475086364",
         "name": "OSM-1475086364",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Lulea",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -52979,7 +52996,8 @@
         "confidence": 0.45,
         "flags": [
           "osm_imported",
-          "rural_free_heuristic"
+          "rural_free_heuristic",
+          "reset_from_fallback_free"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 1475086364,
