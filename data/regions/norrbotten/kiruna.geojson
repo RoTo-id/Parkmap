@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-04-01T04:49:47.798040+00:00",
+    "generated": "2026-04-19T00:04:36.646785+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Norrbotten",
     "city": "kiruna",
@@ -16,29 +16,45 @@
       "bootstrap_date": "2026-04-01"
     },
     "osm_reclassification": {
-      "private_property": 43,
-      "free_parking": 65,
-      "kommun_street_side": 9,
-      "needs_identification": 1,
+      "private_property": 0,
+      "free_parking": 0,
+      "kommun_street_side": 0,
+      "needs_identification": 0,
       "osm_operator_mapped": 0,
       "lulebo_district": 0,
       "near_aimo": 0,
-      "rural_free": 70,
+      "rural_free": 0,
       "note_matched": 0,
-      "access_yes_free": 5,
-      "fee_confirmed_unknown": 1,
-      "genuinely_unknown": 111,
-      "before": 305,
-      "after": 113,
+      "access_yes_free": 0,
+      "fee_confirmed_unknown": 0,
+      "genuinely_unknown": 0,
+      "before": 0,
+      "after": 0,
       "total": 305,
-      "coverage_pct": 63.0,
-      "run_date": "2026-04-01"
+      "coverage_pct": 100.0,
+      "run_date": "2026-04-19"
     },
     "operator_corrections_v2": {
       "phus_aili_kangas_operator": "kirunabostader",
       "price": "12 kr/h (17 kr/h med motorvarmare)",
       "run_date": "2026-04-01",
       "coverage_pct_after": 100.0
+    },
+    "parkster_coordinate_scan": {
+      "api_matched": 0,
+      "adb_pending": 0,
+      "api_failed": 0,
+      "before_unknown": 0,
+      "after_unknown": 0,
+      "run_date": "2026-04-19"
+    },
+    "easypark_lookup": {
+      "matched": 0,
+      "failed": 0,
+      "no_response": 0,
+      "before_unknown": 0,
+      "after_unknown": 0,
+      "run_date": "2026-04-19"
     }
   },
   "features": [

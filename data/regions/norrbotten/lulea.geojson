@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-03-31T20:51:05.940418+00:00",
+    "generated": "2026-04-23T01:01:33.018399+00:00",
     "source": "ParkMap Sverige — Maxine Platform Agent Pipeline",
     "region": "Norrbotten",
     "city": "lulea",
@@ -40,20 +40,20 @@
       "merge_date": "2026-03-30"
     },
     "operator_identification": {
-      "before_unknown": 9,
-      "after_unknown": 8,
-      "total_identified": 1,
+      "before_unknown": 3,
+      "after_unknown": 3,
+      "total_identified": 0,
       "per_operator": {
-        "aimopark": 13,
+        "aimopark": 0,
         "apcoa": 0,
         "lulebo": 0,
         "swedavia": 0,
         "kommun": 0
       },
-      "aimo_matched": 13,
+      "aimo_matched": 0,
       "lulebo_matched": 0,
       "kommun_matched": 0,
-      "run_date": "2026-03-31"
+      "run_date": "2026-04-23"
     },
     "osm_reclassification": {
       "private_property": 0,
@@ -66,13 +66,13 @@
       "rural_free": 0,
       "note_matched": 0,
       "access_yes_free": 0,
-      "fee_confirmed_unknown": 1,
-      "genuinely_unknown": 8,
-      "before": 9,
-      "after": 9,
-      "total": 686,
-      "coverage_pct": 98.7,
-      "run_date": "2026-03-31"
+      "fee_confirmed_unknown": 0,
+      "genuinely_unknown": 3,
+      "before": 3,
+      "after": 3,
+      "total": 688,
+      "coverage_pct": 99.6,
+      "run_date": "2026-04-23"
     },
     "sunderby_fix": {
       "zone": "lulea-osm-119235808",
@@ -82,6 +82,22 @@
       "spots": 832,
       "run_date": "2026-04-01",
       "coverage_pct_after": 99.0
+    },
+    "parkster_coordinate_scan": {
+      "api_matched": 0,
+      "adb_pending": 3,
+      "api_failed": 0,
+      "before_unknown": 3,
+      "after_unknown": 3,
+      "run_date": "2026-04-19"
+    },
+    "easypark_lookup": {
+      "matched": 0,
+      "failed": 0,
+      "no_response": 3,
+      "before_unknown": 3,
+      "after_unknown": 3,
+      "run_date": "2026-04-19"
     }
   },
   "features": [
@@ -9899,14 +9915,17 @@
         "flags": [
           "unknown_operator",
           "osm_imported",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_adb_pending",
+          "easypark_lookup_failed"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 48626336,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": null,
-        "osm_operator": null
+        "osm_operator": null,
+        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.544821&lng=22.154999\" com.parkster.android"
       },
       "geometry": {
         "type": "Polygon",
@@ -20166,14 +20185,17 @@
         "flags": [
           "unknown_operator",
           "osm_imported",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_adb_pending",
+          "easypark_lookup_failed"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 253097106,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": null,
-        "osm_operator": null
+        "osm_operator": null,
+        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.635482&lng=22.110707\" com.parkster.android"
       },
       "geometry": {
         "type": "Polygon",
@@ -44108,14 +44130,17 @@
         "flags": [
           "unknown_operator",
           "osm_imported",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_adb_pending",
+          "easypark_lookup_failed"
         ],
         "last_verified": "2026-03-30",
         "osm_id": 1240283714,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_surface": null,
-        "osm_operator": null
+        "osm_operator": null,
+        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.586737&lng=22.026899\" com.parkster.android"
       },
       "geometry": {
         "type": "Polygon",
