@@ -2,59 +2,37 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-04-19T00:04:36.646785+00:00",
+    "generated": "2026-04-30T05:01:57.289041+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Norrbotten",
     "city": "kiruna",
     "municipality": "Kiruna kommun",
     "scrape_type": "osm_bootstrap",
     "agent_run_id": "kiruna-osm-bootstrap",
-    "zone_count": 305,
+    "zone_count": 302,
     "bootstrap": {
       "osm_source": "output\\osm_parking_kiruna.geojson",
-      "zones_imported": 305,
-      "bootstrap_date": "2026-04-01"
+      "zones_imported": 302,
+      "bootstrap_date": "2026-04-30"
     },
     "osm_reclassification": {
-      "private_property": 0,
-      "free_parking": 0,
-      "kommun_street_side": 0,
-      "needs_identification": 0,
+      "private_property": 41,
+      "free_parking": 64,
+      "kommun_street_side": 9,
+      "needs_identification": 1,
       "osm_operator_mapped": 0,
       "lulebo_district": 0,
       "near_aimo": 0,
-      "rural_free": 0,
+      "rural_free": 70,
       "note_matched": 0,
-      "access_yes_free": 0,
-      "fee_confirmed_unknown": 0,
-      "genuinely_unknown": 0,
-      "before": 0,
-      "after": 0,
-      "total": 305,
-      "coverage_pct": 100.0,
-      "run_date": "2026-04-19"
-    },
-    "operator_corrections_v2": {
-      "phus_aili_kangas_operator": "kirunabostader",
-      "price": "12 kr/h (17 kr/h med motorvarmare)",
-      "run_date": "2026-04-01",
-      "coverage_pct_after": 100.0
-    },
-    "parkster_coordinate_scan": {
-      "api_matched": 0,
-      "adb_pending": 0,
-      "api_failed": 0,
-      "before_unknown": 0,
-      "after_unknown": 0,
-      "run_date": "2026-04-19"
-    },
-    "easypark_lookup": {
-      "matched": 0,
-      "failed": 0,
-      "no_response": 0,
-      "before_unknown": 0,
-      "after_unknown": 0,
-      "run_date": "2026-04-19"
+      "access_yes_free": 5,
+      "fee_confirmed_unknown": 1,
+      "genuinely_unknown": 111,
+      "before": 302,
+      "after": 113,
+      "total": 302,
+      "coverage_pct": 62.6,
+      "run_date": "2026-04-30"
     }
   },
   "features": [
@@ -197,25 +175,23 @@
       "properties": {
         "id": "kiruna-osm-39469258",
         "name": "OSM-39469258",
-        "operator": "parkster",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 10:00-18:00, lör 10:00-15:00",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.9,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "centrum_bbox_classified",
-          "kiruna_centrum_10kr_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 39469258,
@@ -224,8 +200,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "operator_notes": "EasyPark+Parkster, 10kr/h, mån-fre 10-18, lör 10-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -300,25 +275,23 @@
       "properties": {
         "id": "kiruna-osm-39469261",
         "name": "OSM-39469261",
-        "operator": "parkster",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 10:00-18:00, lör 10:00-15:00",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.9,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "centrum_bbox_classified",
-          "kiruna_centrum_10kr_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 39469261,
@@ -327,8 +300,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "operator_notes": "EasyPark+Parkster, 10kr/h, mån-fre 10-18, lör 10-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -595,100 +567,25 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "kiruna-osm-39799835",
-        "name": "OSM-39799835",
-        "operator": "free_parking",
-        "municipality": "Kiruna",
-        "region": "Norrbotten",
-        "type": "outdoor",
-        "zone_code": null,
-        "spots": null,
-        "price_per_hour": 0,
-        "currency": "SEK",
-        "hours": null,
-        "restrictions": null,
-        "contact": null,
-        "source_url": null,
-        "confidence": 0.85,
-        "flags": [
-          "osm_bootstrap",
-          "osm_reclassified"
-        ],
-        "last_verified": null,
-        "osm_id": 39799835,
-        "osm_distance_m": null,
-        "osm_access": "yes",
-        "osm_fee": "no",
-        "osm_parking": "surface",
-        "osm_operator": null,
-        "osm_note": null
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              20.2244608,
-              67.8555667
-            ],
-            [
-              20.2247532,
-              67.856005
-            ],
-            [
-              20.2257771,
-              67.8559224
-            ],
-            [
-              20.2258234,
-              67.8558903
-            ],
-            [
-              20.2255391,
-              67.8554176
-            ],
-            [
-              20.2248886,
-              67.8554833
-            ],
-            [
-              20.2249175,
-              67.8555243
-            ],
-            [
-              20.2244608,
-              67.8555667
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "kiruna-osm-39905680",
         "name": "OSM-39905680",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 39905680,
@@ -732,27 +629,23 @@
       "properties": {
         "id": "kiruna-osm-60003641",
         "name": "OSM-60003641",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 60003641,
@@ -1045,25 +938,23 @@
       "properties": {
         "id": "kiruna-osm-71420655",
         "name": "OSM-71420655",
-        "operator": "parkster",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 10:00-18:00, lör 10:00-15:00",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.9,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "centrum_bbox_classified",
-          "kiruna_centrum_10kr_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 71420655,
@@ -1072,8 +963,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "operator_notes": "EasyPark+Parkster, 10kr/h, mån-fre 10-18, lör 10-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -1124,25 +1014,23 @@
       "properties": {
         "id": "kiruna-osm-71420656",
         "name": "OSM-71420656",
-        "operator": "parkster",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 10:00-18:00, lör 10:00-15:00",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.9,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "centrum_bbox_classified",
-          "kiruna_centrum_10kr_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 71420656,
@@ -1151,8 +1039,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "operator_notes": "EasyPark+Parkster, 10kr/h, mån-fre 10-18, lör 10-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -1191,25 +1078,23 @@
       "properties": {
         "id": "kiruna-osm-71420712",
         "name": "OSM-71420712",
-        "operator": "parkster",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 10:00-18:00, lör 10:00-15:00",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.9,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "centrum_bbox_classified",
-          "kiruna_centrum_10kr_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 71420712,
@@ -1218,8 +1103,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "operator_notes": "EasyPark+Parkster, 10kr/h, mån-fre 10-18, lör 10-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -1258,27 +1142,23 @@
       "properties": {
         "id": "kiruna-osm-71432294",
         "name": "OSM-71432294",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 71432294,
@@ -1552,12 +1432,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 108946105,
@@ -1744,27 +1622,23 @@
       "properties": {
         "id": "kiruna-osm-125767656",
         "name": "OSM-125767656",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 125767656,
@@ -1812,27 +1686,23 @@
       "properties": {
         "id": "kiruna-osm-126207424",
         "name": "OSM-126207424",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": "10",
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 126207424,
@@ -1959,12 +1829,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 138205392,
@@ -2029,12 +1897,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 138205607,
@@ -2099,27 +1965,23 @@
       "properties": {
         "id": "kiruna-osm-150240238",
         "name": "OSM-150240238",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 150240238,
@@ -2179,27 +2041,23 @@
       "properties": {
         "id": "kiruna-osm-150240239",
         "name": "OSM-150240239",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 150240239,
@@ -2322,27 +2180,23 @@
       "properties": {
         "id": "kiruna-osm-155317275",
         "name": "OSM-155317275",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 155317275,
@@ -2587,7 +2441,7 @@
       "properties": {
         "id": "kiruna-osm-158924692",
         "name": "LKAB Parking",
-        "operator": "kirunabostader",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -2599,15 +2453,11 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_centrum_kirunabostader",
-          "residential_no_public_price"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 158924692,
@@ -2616,9 +2466,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "access": "residents",
-        "note": "Boendeparkering Kirunabostäder, ej publik"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -2756,25 +2604,23 @@
       "properties": {
         "id": "kiruna-osm-158926012",
         "name": "OSM-158926012",
-        "operator": "parkster",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 10:00-18:00, lör 10:00-15:00",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.9,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "centrum_bbox_classified",
-          "kiruna_centrum_10kr_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 158926012,
@@ -2783,8 +2629,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "operator_notes": "EasyPark+Parkster, 10kr/h, mån-fre 10-18, lör 10-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -2981,27 +2826,23 @@
       "properties": {
         "id": "kiruna-osm-167840446",
         "name": "OSM-167840446",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 167840446,
@@ -3057,12 +2898,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 198242916,
@@ -3123,7 +2962,7 @@
       "properties": {
         "id": "kiruna-osm-209462223",
         "name": "LKAB Parking",
-        "operator": "kirunabostader",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -3135,15 +2974,11 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_centrum_kirunabostader",
-          "residential_no_public_price"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 209462223,
@@ -3152,9 +2987,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "access": "residents",
-        "note": "Boendeparkering Kirunabostäder, ej publik"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -3225,12 +3058,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 214790181,
@@ -3358,27 +3189,23 @@
       "properties": {
         "id": "kiruna-osm-215821637",
         "name": "OSM-215821637",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 215821637,
@@ -3422,27 +3249,23 @@
       "properties": {
         "id": "kiruna-osm-215821638",
         "name": "OSM-215821638",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 215821638,
@@ -3490,13 +3313,13 @@
       "properties": {
         "id": "kiruna-osm-215821639",
         "name": "Long-term parking",
-        "operator": "private_property",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -3506,9 +3329,7 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "bulk_classified:osm_access=permit",
-          "private_property_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 215821639,
@@ -3564,27 +3385,23 @@
       "properties": {
         "id": "kiruna-osm-219640291",
         "name": "OSM-219640291",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 219640291,
@@ -3640,12 +3457,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 219642109,
@@ -3706,12 +3521,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 219643948,
@@ -3768,12 +3581,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 219646716,
@@ -3834,12 +3645,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 222041307,
@@ -4050,27 +3859,23 @@
       "properties": {
         "id": "kiruna-osm-232069982",
         "name": "OSM-232069982",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 232069982,
@@ -4114,27 +3919,23 @@
       "properties": {
         "id": "kiruna-osm-232069983",
         "name": "OSM-232069983",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 232069983,
@@ -4190,25 +3991,23 @@
       "properties": {
         "id": "kiruna-osm-233112740",
         "name": "OSM-233112740",
-        "operator": "parkster",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 10:00-18:00, lör 10:00-15:00",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.9,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "centrum_bbox_classified",
-          "kiruna_centrum_10kr_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 233112740,
@@ -4217,8 +4016,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "operator_notes": "EasyPark+Parkster, 10kr/h, mån-fre 10-18, lör 10-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -4526,7 +4324,7 @@
         "last_verified": null,
         "osm_id": 236590516,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": "yes",
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
@@ -4629,27 +4427,23 @@
       "properties": {
         "id": "kiruna-osm-236898933",
         "name": "rental-car parking",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 236898933,
@@ -4693,27 +4487,23 @@
       "properties": {
         "id": "kiruna-osm-240517911",
         "name": "OSM-240517911",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 240517911,
@@ -4757,27 +4547,23 @@
       "properties": {
         "id": "kiruna-osm-240517912",
         "name": "OSM-240517912",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 240517912,
@@ -4825,27 +4611,23 @@
       "properties": {
         "id": "kiruna-osm-240518530",
         "name": "OSM-240518530",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 240518530,
@@ -4889,25 +4671,23 @@
       "properties": {
         "id": "kiruna-osm-247904209",
         "name": "OSM-247904209",
-        "operator": "parkster",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 10:00-18:00, lör 10:00-15:00",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.9,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "centrum_bbox_classified",
-          "kiruna_centrum_10kr_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 247904209,
@@ -4916,8 +4696,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "operator_notes": "EasyPark+Parkster, 10kr/h, mån-fre 10-18, lör 10-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -4956,27 +4735,23 @@
       "properties": {
         "id": "kiruna-osm-249078646",
         "name": "OSM-249078646",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 249078646,
@@ -5020,27 +4795,23 @@
       "properties": {
         "id": "kiruna-osm-249078647",
         "name": "OSM-249078647",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 249078647,
@@ -5084,27 +4855,23 @@
       "properties": {
         "id": "kiruna-osm-249078648",
         "name": "OSM-249078648",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 249078648,
@@ -5148,27 +4915,23 @@
       "properties": {
         "id": "kiruna-osm-249078649",
         "name": "OSM-249078649",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 249078649,
@@ -5212,27 +4975,23 @@
       "properties": {
         "id": "kiruna-osm-249078650",
         "name": "OSM-249078650",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 249078650,
@@ -5276,25 +5035,23 @@
       "properties": {
         "id": "kiruna-osm-254398444",
         "name": "OSM-254398444",
-        "operator": "parkster",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 10:00-18:00, lör 10:00-15:00",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.9,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "centrum_bbox_classified",
-          "kiruna_centrum_10kr_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 254398444,
@@ -5303,8 +5060,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "operator_notes": "EasyPark+Parkster, 10kr/h, mån-fre 10-18, lör 10-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -5363,25 +5119,23 @@
       "properties": {
         "id": "kiruna-osm-254421389",
         "name": "OSM-254421389",
-        "operator": "parkster",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 10:00-18:00, lör 10:00-15:00",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.9,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "centrum_bbox_classified",
-          "kiruna_centrum_10kr_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 254421389,
@@ -5390,8 +5144,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "operator_notes": "EasyPark+Parkster, 10kr/h, mån-fre 10-18, lör 10-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -5426,25 +5179,23 @@
       "properties": {
         "id": "kiruna-osm-254427186",
         "name": "OSM-254427186",
-        "operator": "parkster",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 10:00-18:00, lör 10:00-15:00",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.9,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "centrum_bbox_classified",
-          "kiruna_centrum_10kr_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 254427186,
@@ -5453,8 +5204,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "operator_notes": "EasyPark+Parkster, 10kr/h, mån-fre 10-18, lör 10-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -5501,12 +5251,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 259672356,
@@ -6153,27 +5901,23 @@
       "properties": {
         "id": "kiruna-osm-275232893",
         "name": "OSM-275232893",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 275232893,
@@ -6217,27 +5961,23 @@
       "properties": {
         "id": "kiruna-osm-275232895",
         "name": "OSM-275232895",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 275232895,
@@ -6297,12 +6037,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 292607791,
@@ -6443,27 +6181,23 @@
       "properties": {
         "id": "kiruna-osm-293957602",
         "name": "OSM-293957602",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 293957602,
@@ -6527,12 +6261,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 297770753,
@@ -6589,12 +6321,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 297774530,
@@ -6639,27 +6369,23 @@
       "properties": {
         "id": "kiruna-osm-327070073",
         "name": "OSM-327070073",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 327070073,
@@ -6707,27 +6433,23 @@
       "properties": {
         "id": "kiruna-osm-327070074",
         "name": "OSM-327070074",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 327070074,
@@ -6791,12 +6513,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 332746183,
@@ -6841,27 +6561,23 @@
       "properties": {
         "id": "kiruna-osm-362214905",
         "name": "OSM-362214905",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 362214905,
@@ -6905,27 +6621,23 @@
       "properties": {
         "id": "kiruna-osm-362214906",
         "name": "OSM-362214906",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 362214906,
@@ -7099,27 +6811,23 @@
       "properties": {
         "id": "kiruna-osm-406556263",
         "name": "OSM-406556263",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 406556263,
@@ -7175,12 +6883,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 431496001,
@@ -7237,12 +6943,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 431496002,
@@ -7299,12 +7003,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 437016086,
@@ -7377,12 +7079,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 437019665,
@@ -7439,12 +7139,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 437021982,
@@ -7501,12 +7199,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 437021991,
@@ -7567,12 +7263,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 437028848,
@@ -7692,12 +7386,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 456247968,
@@ -7754,12 +7446,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 456252877,
@@ -7844,25 +7534,23 @@
       "properties": {
         "id": "kiruna-osm-475695638",
         "name": "OSM-475695638",
-        "operator": "parkster",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 10:00-18:00, lör 10:00-15:00",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.9,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "centrum_bbox_classified",
-          "kiruna_centrum_10kr_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 475695638,
@@ -7871,8 +7559,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "operator_notes": "EasyPark+Parkster, 10kr/h, mån-fre 10-18, lör 10-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -7919,27 +7606,23 @@
       "properties": {
         "id": "kiruna-osm-477949724",
         "name": "OSM-477949724",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 477949724,
@@ -7987,25 +7670,23 @@
       "properties": {
         "id": "kiruna-osm-481676609",
         "name": "OSM-481676609",
-        "operator": "parkster",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 10:00-18:00, lör 10:00-15:00",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.9,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "centrum_bbox_classified",
-          "kiruna_centrum_10kr_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 481676609,
@@ -8014,8 +7695,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "operator_notes": "EasyPark+Parkster, 10kr/h, mån-fre 10-18, lör 10-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -8078,25 +7758,23 @@
       "properties": {
         "id": "kiruna-osm-481676610",
         "name": "OSM-481676610",
-        "operator": "parkster",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 10:00-18:00, lör 10:00-15:00",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.9,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "centrum_bbox_classified",
-          "kiruna_centrum_10kr_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 481676610,
@@ -8105,8 +7783,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "operator_notes": "EasyPark+Parkster, 10kr/h, mån-fre 10-18, lör 10-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -8141,25 +7818,23 @@
       "properties": {
         "id": "kiruna-osm-481676611",
         "name": "OSM-481676611",
-        "operator": "parkster",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 10:00-18:00, lör 10:00-15:00",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.9,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "centrum_bbox_classified",
-          "kiruna_centrum_10kr_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 481676611,
@@ -8168,8 +7843,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "operator_notes": "EasyPark+Parkster, 10kr/h, mån-fre 10-18, lör 10-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -8204,25 +7878,23 @@
       "properties": {
         "id": "kiruna-osm-481676612",
         "name": "OSM-481676612",
-        "operator": "parkster",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 10:00-18:00, lör 10:00-15:00",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.9,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "centrum_bbox_classified",
-          "kiruna_centrum_10kr_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 481676612,
@@ -8231,8 +7903,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "operator_notes": "EasyPark+Parkster, 10kr/h, mån-fre 10-18, lör 10-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -8267,25 +7938,23 @@
       "properties": {
         "id": "kiruna-osm-481676613",
         "name": "OSM-481676613",
-        "operator": "parkster",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 10:00-18:00, lör 10:00-15:00",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.9,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "centrum_bbox_classified",
-          "kiruna_centrum_10kr_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 481676613,
@@ -8294,8 +7963,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "operator_notes": "EasyPark+Parkster, 10kr/h, mån-fre 10-18, lör 10-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -8330,27 +7998,23 @@
       "properties": {
         "id": "kiruna-osm-491724039",
         "name": "short-term parking",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 491724039,
@@ -8402,27 +8066,23 @@
       "properties": {
         "id": "kiruna-osm-493380622",
         "name": "OSM-493380622",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 493380622,
@@ -8569,12 +8229,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 508505814,
@@ -9221,12 +8879,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 536738013,
@@ -9283,12 +8939,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 536738014,
@@ -9353,12 +9007,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 536765907,
@@ -9403,25 +9055,23 @@
       "properties": {
         "id": "kiruna-osm-538479665",
         "name": "OSM-538479665",
-        "operator": "parkster",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 10:00-18:00, lör 10:00-15:00",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.9,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "centrum_bbox_classified",
-          "kiruna_centrum_10kr_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 538479665,
@@ -9430,8 +9080,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "operator_notes": "EasyPark+Parkster, 10kr/h, mån-fre 10-18, lör 10-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -9466,27 +9115,23 @@
       "properties": {
         "id": "kiruna-osm-539616607",
         "name": "OSM-539616607",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 539616607,
@@ -9550,27 +9195,23 @@
       "properties": {
         "id": "kiruna-osm-539964767",
         "name": "OSM-539964767",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 539964767,
@@ -9614,27 +9255,23 @@
       "properties": {
         "id": "kiruna-osm-540363147",
         "name": "OSM-540363147",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 540363147,
@@ -9718,27 +9355,23 @@
       "properties": {
         "id": "kiruna-osm-546006528",
         "name": "OSM-546006528",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 546006528,
@@ -9782,27 +9415,23 @@
       "properties": {
         "id": "kiruna-osm-546006529",
         "name": "OSM-546006529",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 546006529,
@@ -9846,27 +9475,23 @@
       "properties": {
         "id": "kiruna-osm-546006530",
         "name": "OSM-546006530",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 546006530,
@@ -9910,27 +9535,23 @@
       "properties": {
         "id": "kiruna-osm-546006531",
         "name": "OSM-546006531",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 546006531,
@@ -9974,27 +9595,23 @@
       "properties": {
         "id": "kiruna-osm-546006532",
         "name": "OSM-546006532",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 546006532,
@@ -10038,27 +9655,23 @@
       "properties": {
         "id": "kiruna-osm-546006533",
         "name": "OSM-546006533",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 546006533,
@@ -10102,27 +9715,23 @@
       "properties": {
         "id": "kiruna-osm-546006541",
         "name": "OSM-546006541",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 546006541,
@@ -10166,27 +9775,23 @@
       "properties": {
         "id": "kiruna-osm-546006542",
         "name": "OSM-546006542",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 546006542,
@@ -10230,27 +9835,23 @@
       "properties": {
         "id": "kiruna-osm-546006543",
         "name": "OSM-546006543",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 546006543,
@@ -10294,27 +9895,23 @@
       "properties": {
         "id": "kiruna-osm-546006544",
         "name": "OSM-546006544",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 546006544,
@@ -10358,27 +9955,23 @@
       "properties": {
         "id": "kiruna-osm-546006545",
         "name": "OSM-546006545",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 546006545,
@@ -10422,27 +10015,23 @@
       "properties": {
         "id": "kiruna-osm-546202199",
         "name": "OSM-546202199",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 546202199,
@@ -10486,27 +10075,23 @@
       "properties": {
         "id": "kiruna-osm-546202202",
         "name": "OSM-546202202",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 546202202,
@@ -10556,18 +10141,17 @@
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 10:00-18:00, lör 10:00-15:00",
+        "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.85,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
           "osm_reclassified",
-          "street_side_match",
-          "kiruna_centrum_10kr_confirmed"
+          "street_side_match"
         ],
         "last_verified": null,
         "osm_id": 561960052,
@@ -10611,25 +10195,23 @@
       "properties": {
         "id": "kiruna-osm-561960053",
         "name": "OSM-561960053",
-        "operator": "parkster",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 10:00-18:00, lör 10:00-15:00",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.9,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "centrum_bbox_classified",
-          "kiruna_centrum_10kr_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 561960053,
@@ -10638,8 +10220,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "operator_notes": "EasyPark+Parkster, 10kr/h, mån-fre 10-18, lör 10-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -10682,25 +10263,23 @@
       "properties": {
         "id": "kiruna-osm-561960054",
         "name": "OSM-561960054",
-        "operator": "parkster",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 10:00-18:00, lör 10:00-15:00",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.9,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "centrum_bbox_classified",
-          "kiruna_centrum_10kr_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 561960054,
@@ -10709,8 +10288,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "operator_notes": "EasyPark+Parkster, 10kr/h, mån-fre 10-18, lör 10-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -10745,25 +10323,23 @@
       "properties": {
         "id": "kiruna-osm-561960055",
         "name": "OSM-561960055",
-        "operator": "parkster",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 10:00-18:00, lör 10:00-15:00",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.9,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "centrum_bbox_classified",
-          "kiruna_centrum_10kr_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 561960055,
@@ -10772,8 +10348,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "operator_notes": "EasyPark+Parkster, 10kr/h, mån-fre 10-18, lör 10-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -10808,25 +10383,23 @@
       "properties": {
         "id": "kiruna-osm-561960056",
         "name": "OSM-561960056",
-        "operator": "parkster",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 10:00-18:00, lör 10:00-15:00",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.9,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "centrum_bbox_classified",
-          "kiruna_centrum_10kr_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 561960056,
@@ -10835,8 +10408,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "operator_notes": "EasyPark+Parkster, 10kr/h, mån-fre 10-18, lör 10-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -10871,25 +10443,23 @@
       "properties": {
         "id": "kiruna-osm-561960057",
         "name": "OSM-561960057",
-        "operator": "parkster",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 10:00-18:00, lör 10:00-15:00",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.9,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "centrum_bbox_classified",
-          "kiruna_centrum_10kr_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 561960057,
@@ -10898,8 +10468,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "operator_notes": "EasyPark+Parkster, 10kr/h, mån-fre 10-18, lör 10-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -11421,18 +10990,17 @@
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 10:00-18:00, lör 10:00-15:00",
+        "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.85,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
           "osm_reclassified",
-          "street_side_match",
-          "kiruna_centrum_10kr_confirmed"
+          "street_side_match"
         ],
         "last_verified": null,
         "osm_id": 562024887,
@@ -11722,18 +11290,17 @@
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 10:00-18:00, lör 10:00-15:00",
+        "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.85,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
           "osm_reclassified",
-          "street_side_match",
-          "kiruna_centrum_10kr_confirmed"
+          "street_side_match"
         ],
         "last_verified": null,
         "osm_id": 562029740,
@@ -11783,18 +11350,17 @@
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 10:00-18:00, lör 10:00-15:00",
+        "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.85,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
           "osm_reclassified",
-          "street_side_match",
-          "kiruna_centrum_10kr_confirmed"
+          "street_side_match"
         ],
         "last_verified": null,
         "osm_id": 562029741,
@@ -11844,18 +11410,17 @@
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 10:00-18:00, lör 10:00-15:00",
+        "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.85,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
           "osm_reclassified",
-          "street_side_match",
-          "kiruna_centrum_10kr_confirmed"
+          "street_side_match"
         ],
         "last_verified": null,
         "osm_id": 562029743,
@@ -11905,18 +11470,17 @@
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 10:00-18:00, lör 10:00-15:00",
+        "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.85,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
           "osm_reclassified",
-          "street_side_match",
-          "kiruna_centrum_10kr_confirmed"
+          "street_side_match"
         ],
         "last_verified": null,
         "osm_id": 563433404,
@@ -11960,7 +11524,7 @@
       "properties": {
         "id": "kiruna-osm-563876194",
         "name": "OSM-563876194",
-        "operator": "kirunabostader",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -11972,15 +11536,11 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_centrum_kirunabostader",
-          "residential_no_public_price"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 563876194,
@@ -11989,9 +11549,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "access": "residents",
-        "note": "Boendeparkering Kirunabostäder, ej publik"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -12144,26 +11702,25 @@
       "type": "Feature",
       "properties": {
         "id": "kiruna-osm-564005933",
-        "name": "P-hus Aili Kangas Gata",
-        "operator": "kirunabostader",
+        "name": "OSM-564005933",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "garage",
         "zone_code": null,
-        "spots": 180,
-        "price_per_hour": 12.0,
+        "spots": null,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "06:00-24:00",
+        "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.kirunabostader.se/kiruna-c/start/arkiv/aktuellt/nyheter/2025-03-06-p-avgifter-i-centrum-fran-den-3-mars-2025",
-        "confidence": 0.95,
+        "source_url": null,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
           "needs_identification",
-          "multi_storey_parking",
-          "kiruna_phus_kirunabostader_confirmed"
+          "multi_storey_parking"
         ],
         "last_verified": null,
         "osm_id": 564005933,
@@ -12172,8 +11729,7 @@
         "osm_fee": null,
         "osm_parking": "multi-storey",
         "osm_operator": null,
-        "osm_note": null,
-        "operator_notes": "EasyPark+Parkster, 10kr/h, mån-fre 10-18, lör 10-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -12351,25 +11907,23 @@
       "properties": {
         "id": "kiruna-osm-566201032",
         "name": "OSM-566201032",
-        "operator": "parkster",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "garage",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 10:00-18:00, lör 10:00-15:00",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.9,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "centrum_bbox_classified",
-          "kiruna_centrum_10kr_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 566201032,
@@ -12378,8 +11932,7 @@
         "osm_fee": null,
         "osm_parking": "rooftop",
         "osm_operator": null,
-        "osm_note": null,
-        "operator_notes": "EasyPark+Parkster, 10kr/h, mån-fre 10-18, lör 10-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -12424,86 +11977,25 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "kiruna-osm-566298699",
-        "name": "OSM-566298699",
-        "operator": "private_property",
-        "municipality": "Kiruna",
-        "region": "Norrbotten",
-        "type": "outdoor",
-        "zone_code": null,
-        "spots": null,
-        "price_per_hour": 0,
-        "currency": "SEK",
-        "hours": null,
-        "restrictions": "Kunder",
-        "contact": null,
-        "source_url": null,
-        "confidence": 0.8,
-        "flags": [
-          "osm_bootstrap",
-          "osm_reclassified"
-        ],
-        "last_verified": null,
-        "osm_id": 566298699,
-        "osm_distance_m": null,
-        "osm_access": "customers",
-        "osm_fee": "no",
-        "osm_parking": "surface",
-        "osm_operator": null,
-        "osm_note": null
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              20.223325,
-              67.8567102
-            ],
-            [
-              20.2232822,
-              67.856657
-            ],
-            [
-              20.222783,
-              67.8567142
-            ],
-            [
-              20.2228258,
-              67.8567674
-            ],
-            [
-              20.223325,
-              67.8567102
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "kiruna-osm-566298702",
         "name": "OSM-566298702",
-        "operator": "parkster",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 10:00-18:00, lör 10:00-15:00",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.9,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "centrum_bbox_classified",
-          "kiruna_centrum_10kr_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 566298702,
@@ -12512,8 +12004,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "operator_notes": "EasyPark+Parkster, 10kr/h, mån-fre 10-18, lör 10-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -12596,25 +12087,23 @@
       "properties": {
         "id": "kiruna-osm-566298703",
         "name": "OSM-566298703",
-        "operator": "parkster",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 10:00-18:00, lör 10:00-15:00",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.9,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "centrum_bbox_classified",
-          "kiruna_centrum_10kr_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 566298703,
@@ -12623,8 +12112,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "operator_notes": "EasyPark+Parkster, 10kr/h, mån-fre 10-18, lör 10-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -12659,25 +12147,23 @@
       "properties": {
         "id": "kiruna-osm-566298704",
         "name": "OSM-566298704",
-        "operator": "parkster",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 10:00-18:00, lör 10:00-15:00",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.9,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "centrum_bbox_classified",
-          "kiruna_centrum_10kr_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 566298704,
@@ -12686,8 +12172,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "operator_notes": "EasyPark+Parkster, 10kr/h, mån-fre 10-18, lör 10-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -12722,25 +12207,23 @@
       "properties": {
         "id": "kiruna-osm-566298705",
         "name": "OSM-566298705",
-        "operator": "parkster",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 10:00-18:00, lör 10:00-15:00",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.9,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "centrum_bbox_classified",
-          "kiruna_centrum_10kr_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 566298705,
@@ -12749,8 +12232,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "operator_notes": "EasyPark+Parkster, 10kr/h, mån-fre 10-18, lör 10-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -12785,25 +12267,23 @@
       "properties": {
         "id": "kiruna-osm-566298706",
         "name": "OSM-566298706",
-        "operator": "parkster",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 10:00-18:00, lör 10:00-15:00",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.9,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "centrum_bbox_classified",
-          "kiruna_centrum_10kr_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 566298706,
@@ -12812,8 +12292,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "operator_notes": "EasyPark+Parkster, 10kr/h, mån-fre 10-18, lör 10-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -12848,25 +12327,23 @@
       "properties": {
         "id": "kiruna-osm-566298707",
         "name": "OSM-566298707",
-        "operator": "parkster",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 10:00-18:00, lör 10:00-15:00",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.9,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "centrum_bbox_classified",
-          "kiruna_centrum_10kr_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 566298707,
@@ -12875,8 +12352,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "operator_notes": "EasyPark+Parkster, 10kr/h, mån-fre 10-18, lör 10-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -12911,25 +12387,23 @@
       "properties": {
         "id": "kiruna-osm-566333832",
         "name": "OSM-566333832",
-        "operator": "parkster",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 10:00-18:00, lör 10:00-15:00",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.9,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "centrum_bbox_classified",
-          "kiruna_centrum_10kr_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 566333832,
@@ -12938,8 +12412,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "operator_notes": "EasyPark+Parkster, 10kr/h, mån-fre 10-18, lör 10-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -12978,25 +12451,23 @@
       "properties": {
         "id": "kiruna-osm-566333834",
         "name": "OSM-566333834",
-        "operator": "parkster",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "garage",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 10:00-18:00, lör 10:00-15:00",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.9,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "centrum_bbox_classified",
-          "kiruna_centrum_10kr_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 566333834,
@@ -13005,8 +12476,7 @@
         "osm_fee": null,
         "osm_parking": "rooftop",
         "osm_operator": null,
-        "osm_note": null,
-        "operator_notes": "EasyPark+Parkster, 10kr/h, mån-fre 10-18, lör 10-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -13069,25 +12539,23 @@
       "properties": {
         "id": "kiruna-osm-566333835",
         "name": "OSM-566333835",
-        "operator": "parkster",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "garage",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 10:00-18:00, lör 10:00-15:00",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.9,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "centrum_bbox_classified",
-          "kiruna_centrum_10kr_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 566333835,
@@ -13096,8 +12564,7 @@
         "osm_fee": null,
         "osm_parking": "rooftop",
         "osm_operator": null,
-        "osm_note": null,
-        "operator_notes": "EasyPark+Parkster, 10kr/h, mån-fre 10-18, lör 10-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -13160,25 +12627,23 @@
       "properties": {
         "id": "kiruna-osm-566449589",
         "name": "OSM-566449589",
-        "operator": "parkster",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "garage",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 10:00-18:00, lör 10:00-15:00",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.9,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "centrum_bbox_classified",
-          "kiruna_centrum_10kr_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 566449589,
@@ -13187,8 +12652,7 @@
         "osm_fee": null,
         "osm_parking": "rooftop",
         "osm_operator": null,
-        "osm_note": null,
-        "operator_notes": "EasyPark+Parkster, 10kr/h, mån-fre 10-18, lör 10-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -13578,12 +13042,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 609462221,
@@ -13640,12 +13102,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 609462227,
@@ -13702,12 +13162,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 609462229,
@@ -13764,12 +13222,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 609476537,
@@ -13838,12 +13294,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 619409909,
@@ -13991,12 +13445,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 619681063,
@@ -14081,12 +13533,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 619692616,
@@ -14206,12 +13656,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 619699957,
@@ -14280,12 +13728,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 619703781,
@@ -14374,12 +13820,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 619703785,
@@ -14424,13 +13868,13 @@
       "properties": {
         "id": "kiruna-osm-619703795",
         "name": "OSM-619703795",
-        "operator": "private_property",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -14440,9 +13884,7 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "bulk_classified:osm_access=no",
-          "private_property_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 619703795,
@@ -14498,12 +13940,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 619703801,
@@ -14564,12 +14004,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 619703809,
@@ -14772,12 +14210,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 620267424,
@@ -14834,12 +14270,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 620271713,
@@ -14904,12 +14338,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 620271714,
@@ -14990,12 +14422,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 620271716,
@@ -15052,12 +14482,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 620308115,
@@ -15118,27 +14546,23 @@
       "properties": {
         "id": "kiruna-osm-620743361",
         "name": "OSM-620743361",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 620743361,
@@ -15194,27 +14618,23 @@
       "properties": {
         "id": "kiruna-osm-620743363",
         "name": "OSM-620743363",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 620743363,
@@ -15262,7 +14682,7 @@
       "properties": {
         "id": "kiruna-osm-620743981",
         "name": "OSM-620743981",
-        "operator": "kirunabostader",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -15274,15 +14694,11 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_centrum_kirunabostader",
-          "residential_no_public_price"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 620743981,
@@ -15291,9 +14707,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "access": "residents",
-        "note": "Boendeparkering Kirunabostäder, ej publik"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -15458,12 +14872,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 620757883,
@@ -15524,12 +14936,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 621645576,
@@ -15586,12 +14996,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 621783371,
@@ -15648,12 +15056,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 621783372,
@@ -16143,12 +15549,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 727097722,
@@ -16233,7 +15637,7 @@
       "properties": {
         "id": "kiruna-osm-739037024",
         "name": "OSM-739037024",
-        "operator": "kirunabostader",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
@@ -16245,15 +15649,11 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.6,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_centrum_kirunabostader",
-          "residential_no_public_price"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 739037024,
@@ -16262,9 +15662,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "access": "residents",
-        "note": "Boendeparkering Kirunabostäder, ej publik"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -16744,12 +16142,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 790825186,
@@ -16890,12 +16286,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 818524926,
@@ -17082,12 +16476,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 822321942,
@@ -17136,27 +16528,23 @@
       "properties": {
         "id": "kiruna-osm-826860867",
         "name": "OSM-826860867",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 826860867,
@@ -17200,27 +16588,23 @@
       "properties": {
         "id": "kiruna-osm-877820216",
         "name": "OSM-877820216",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 877820216,
@@ -17280,12 +16664,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 904941271,
@@ -17330,27 +16712,23 @@
       "properties": {
         "id": "kiruna-osm-922538348",
         "name": "OSM-922538348",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 922538348,
@@ -17410,12 +16788,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 964360133,
@@ -17551,12 +16927,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 1034575816,
@@ -17613,12 +16987,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 1073477803,
@@ -17683,12 +17055,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 1077448080,
@@ -17785,27 +17155,23 @@
       "properties": {
         "id": "kiruna-osm-1117107966",
         "name": "OSM-1117107966",
-        "operator": "fee_confirmed_unknown",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.5,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "osm_fee_yes_confirmed",
-          "fee_unknown_10kr_estimate"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1117107966,
@@ -17873,27 +17239,23 @@
       "properties": {
         "id": "kiruna-osm-1160379040",
         "name": "OSM-1160379040",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1160379040,
@@ -17953,13 +17315,13 @@
       "properties": {
         "id": "kiruna-osm-1160379041",
         "name": "OSM-1160379041",
-        "operator": "private_property",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -17969,9 +17331,7 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "bulk_classified:osm_access=permit",
-          "private_property_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1160379041,
@@ -18027,12 +17387,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 1206581427,
@@ -18137,12 +17495,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 1206586025,
@@ -18237,7 +17593,7 @@
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
@@ -18247,8 +17603,7 @@
         "flags": [
           "osm_bootstrap",
           "osm_reclassified",
-          "street_side_match",
-          "kommun_no_price_free_estimate"
+          "street_side_match"
         ],
         "last_verified": null,
         "osm_id": 1206684457,
@@ -18257,8 +17612,7 @@
         "osm_fee": null,
         "osm_parking": "street_side",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Se skyltning"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -18305,12 +17659,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 1291715871,
@@ -18446,27 +17798,23 @@
       "properties": {
         "id": "kiruna-osm-1305002318",
         "name": "OSM-1305002318",
-        "operator": "fee_confirmed_unknown",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.5,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "outside_centrum:free",
           "unknown_operator",
-          "fee_confirmed_unknown",
-          "reset_from_fallback_free",
-          "osm_fee_yes_confirmed",
-          "fee_unknown_10kr_estimate"
+          "fee_confirmed_unknown"
         ],
         "last_verified": null,
         "osm_id": 1305002318,
@@ -18638,27 +17986,23 @@
       "properties": {
         "id": "kiruna-osm-1333104985",
         "name": "OSM-1333104985",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1333104985,
@@ -18674,12 +18018,12 @@
         "coordinates": [
           [
             [
-              20.2743899,
-              67.8552348
+              20.2744762,
+              67.8552868
             ],
             [
-              20.2739423,
-              67.8552667
+              20.2739817,
+              67.8553262
             ],
             [
               20.2745088,
@@ -18690,28 +18034,28 @@
               67.8562001
             ],
             [
-              20.2749165,
-              67.8561372
+              20.2750023,
+              67.8561906
             ],
             [
-              20.2747144,
-              67.8557823
+              20.2748002,
+              67.8558357
             ],
             [
-              20.274686,
-              67.8557334
+              20.2747682,
+              67.8557819
             ],
             [
-              20.2744765,
-              67.8553793
+              20.2745537,
+              67.8554246
             ],
             [
-              20.2744538,
-              67.855347
+              20.2745401,
+              67.855399
             ],
             [
-              20.2743899,
-              67.8552348
+              20.2744762,
+              67.8552868
             ]
           ]
         ]
@@ -18734,12 +18078,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 1417047721,
@@ -18856,12 +18198,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 1417055451,
@@ -18914,27 +18254,23 @@
       "properties": {
         "id": "kiruna-osm-1423388460",
         "name": "OSM-1423388460",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1423388460,
@@ -18990,27 +18326,23 @@
       "properties": {
         "id": "kiruna-osm-1423388461",
         "name": "OSM-1423388461",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.82,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
-          "genuinely_unknown",
-          "outside_centrum:free",
           "unknown_operator",
-          "reset_from_fallback_free",
-          "kiruna_outside_centrum_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1423388461,
@@ -19052,102 +18384,25 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "kiruna-osm-1424528232",
-        "name": "OSM-1424528232",
-        "operator": "private_property",
-        "municipality": "Kiruna",
-        "region": "Norrbotten",
-        "type": "outdoor",
-        "zone_code": null,
-        "spots": null,
-        "price_per_hour": 0,
-        "currency": "SEK",
-        "hours": null,
-        "restrictions": "Kunder",
-        "contact": null,
-        "source_url": null,
-        "confidence": 0.8,
-        "flags": [
-          "osm_bootstrap",
-          "osm_reclassified"
-        ],
-        "last_verified": null,
-        "osm_id": 1424528232,
-        "osm_distance_m": null,
-        "osm_access": "customers",
-        "osm_fee": "no",
-        "osm_parking": "surface",
-        "osm_operator": null,
-        "osm_note": null
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              20.222734,
-              67.8567781
-            ],
-            [
-              20.2226194,
-              67.8567913
-            ],
-            [
-              20.2226402,
-              67.8568351
-            ],
-            [
-              20.2226847,
-              67.8568751
-            ],
-            [
-              20.2227021,
-              67.8568828
-            ],
-            [
-              20.2227282,
-              67.856887
-            ],
-            [
-              20.2227695,
-              67.8568878
-            ],
-            [
-              20.2228195,
-              67.8568857
-            ],
-            [
-              20.222734,
-              67.8567781
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "kiruna-osm-1424918542",
         "name": "OSM-1424918542",
-        "operator": "parkster",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 10:00-18:00, lör 10:00-15:00",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.9,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "centrum_bbox_classified",
-          "kiruna_centrum_10kr_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1424918542,
@@ -19156,8 +18411,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "operator_notes": "EasyPark+Parkster, 10kr/h, mån-fre 10-18, lör 10-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -19192,25 +18446,23 @@
       "properties": {
         "id": "kiruna-osm-1424918543",
         "name": "OSM-1424918543",
-        "operator": "parkster",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 10:00-18:00, lör 10:00-15:00",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.9,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "centrum_bbox_classified",
-          "kiruna_centrum_10kr_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1424918543,
@@ -19219,8 +18471,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "operator_notes": "EasyPark+Parkster, 10kr/h, mån-fre 10-18, lör 10-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -19255,25 +18506,23 @@
       "properties": {
         "id": "kiruna-osm-1424918544",
         "name": "OSM-1424918544",
-        "operator": "parkster",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 10:00-18:00, lör 10:00-15:00",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.9,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "centrum_bbox_classified",
-          "kiruna_centrum_10kr_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1424918544,
@@ -19282,8 +18531,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "operator_notes": "EasyPark+Parkster, 10kr/h, mån-fre 10-18, lör 10-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -19318,25 +18566,23 @@
       "properties": {
         "id": "kiruna-osm-1424918545",
         "name": "OSM-1424918545",
-        "operator": "parkster",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 10:00-18:00, lör 10:00-15:00",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.9,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "centrum_bbox_classified",
-          "kiruna_centrum_10kr_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1424918545,
@@ -19345,8 +18591,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "operator_notes": "EasyPark+Parkster, 10kr/h, mån-fre 10-18, lör 10-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -19381,25 +18626,23 @@
       "properties": {
         "id": "kiruna-osm-1424918546",
         "name": "OSM-1424918546",
-        "operator": "parkster",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 10:00-18:00, lör 10:00-15:00",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.9,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "centrum_bbox_classified",
-          "kiruna_centrum_10kr_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1424918546,
@@ -19408,8 +18651,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "operator_notes": "EasyPark+Parkster, 10kr/h, mån-fre 10-18, lör 10-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -19444,25 +18686,23 @@
       "properties": {
         "id": "kiruna-osm-1424918548",
         "name": "OSM-1424918548",
-        "operator": "parkster",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 10:00-18:00, lör 10:00-15:00",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.9,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "centrum_bbox_classified",
-          "kiruna_centrum_10kr_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1424918548,
@@ -19471,8 +18711,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "operator_notes": "EasyPark+Parkster, 10kr/h, mån-fre 10-18, lör 10-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -19507,25 +18746,23 @@
       "properties": {
         "id": "kiruna-osm-1424918549",
         "name": "OSM-1424918549",
-        "operator": "parkster",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 10:00-18:00, lör 10:00-15:00",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.9,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "centrum_bbox_classified",
-          "kiruna_centrum_10kr_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1424918549,
@@ -19534,8 +18771,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "operator_notes": "EasyPark+Parkster, 10kr/h, mån-fre 10-18, lör 10-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -19570,25 +18806,23 @@
       "properties": {
         "id": "kiruna-osm-1424918552",
         "name": "OSM-1424918552",
-        "operator": "parkster",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 10:00-18:00, lör 10:00-15:00",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.9,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "centrum_bbox_classified",
-          "kiruna_centrum_10kr_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1424918552,
@@ -19597,8 +18831,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "operator_notes": "EasyPark+Parkster, 10kr/h, mån-fre 10-18, lör 10-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -19641,25 +18874,23 @@
       "properties": {
         "id": "kiruna-osm-1431494706",
         "name": "OSM-1431494706",
-        "operator": "parkster",
+        "operator": "unknown",
         "municipality": "Kiruna",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 10.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 10:00-18:00, lör 10:00-15:00",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.9,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "centrum_bbox_classified",
-          "kiruna_centrum_10kr_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1431494706,
@@ -19668,8 +18899,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": "Kiruna bostäder",
-        "osm_note": null,
-        "operator_notes": "EasyPark+Parkster, 10kr/h, mån-fre 10-18, lör 10-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -19847,12 +19077,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 1435666053,
@@ -19953,12 +19181,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 1435667513,
@@ -20059,12 +19285,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 1435667518,
@@ -20198,7 +19422,7 @@
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
@@ -20208,8 +19432,7 @@
         "flags": [
           "osm_bootstrap",
           "osm_reclassified",
-          "street_side_match",
-          "kommun_no_price_free_estimate"
+          "street_side_match"
         ],
         "last_verified": null,
         "osm_id": 1441525793,
@@ -20218,8 +19441,7 @@
         "osm_fee": null,
         "osm_parking": "street_side",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Se skyltning"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -20948,12 +20170,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 1460137238,
@@ -21016,7 +20236,7 @@
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
@@ -21026,8 +20246,7 @@
         "flags": [
           "osm_bootstrap",
           "osm_reclassified",
-          "street_side_match",
-          "kommun_no_price_free_estimate"
+          "street_side_match"
         ],
         "last_verified": null,
         "osm_id": 1476469616,
@@ -21036,8 +20255,7 @@
         "osm_fee": null,
         "osm_parking": "street_side",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Se skyltning"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -21084,12 +20302,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 1476477738,
@@ -21241,12 +20457,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 1476909358,
@@ -21319,12 +20533,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 1484012267,
@@ -21385,12 +20597,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 1484692954,

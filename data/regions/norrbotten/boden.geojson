@@ -2,58 +2,51 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-04-23T01:02:23.945520+00:00",
+    "generated": "2026-04-30T05:00:45.741478+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Norrbotten",
     "city": "boden",
     "municipality": "Bodens kommun",
     "scrape_type": "osm_bootstrap",
     "agent_run_id": "boden-osm-bootstrap",
-    "zone_count": 149,
+    "zone_count": 150,
     "bootstrap": {
       "osm_source": "output\\osm_parking_boden.geojson",
-      "zones_imported": 149,
-      "bootstrap_date": "2026-03-31"
+      "zones_imported": 150,
+      "bootstrap_date": "2026-04-30"
     },
     "operator_identification": {
-      "before_unknown": 0,
-      "after_unknown": 0,
-      "total_identified": 0,
+      "before_unknown": 150,
+      "after_unknown": 39,
+      "total_identified": 111,
       "per_operator": {
-        "aimopark": 0,
-        "bodenbo": 0,
-        "kommun": 0
+        "aimopark": 36,
+        "bodenbo": 67,
+        "kommun": 8
       },
-      "aimo_matched": 0,
+      "aimo_matched": 36,
       "lulebo_matched": 0,
-      "kommun_matched": 0,
-      "run_date": "2026-04-23"
+      "kommun_matched": 8,
+      "run_date": "2026-04-30"
     },
     "osm_reclassification": {
-      "private_property": 0,
-      "free_parking": 0,
-      "kommun_street_side": 0,
+      "private_property": 3,
+      "free_parking": 5,
+      "kommun_street_side": 1,
       "needs_identification": 0,
       "osm_operator_mapped": 0,
       "lulebo_district": 0,
       "near_aimo": 0,
-      "rural_free": 0,
+      "rural_free": 6,
       "note_matched": 0,
-      "access_yes_free": 0,
+      "access_yes_free": 1,
       "fee_confirmed_unknown": 0,
-      "genuinely_unknown": 0,
-      "before": 0,
-      "after": 0,
-      "total": 149,
-      "coverage_pct": 100.0,
-      "run_date": "2026-04-23"
-    },
-    "operator_classification_v2": {
-      "pdisc_free_classified": 23,
-      "run_date": "2026-04-01",
-      "note": "Boden uses P-disc system. Paid parking (350 spots) approved but NOT yet implemented. Unknown zones classified as free_parking with P-disc restriction.",
-      "source": "boden.se/gator-och-trafik/gator-och-parkering/parkering",
-      "coverage_pct_after": 100.0
+      "genuinely_unknown": 23,
+      "before": 39,
+      "after": 23,
+      "total": 150,
+      "coverage_pct": 84.7,
+      "run_date": "2026-04-30"
     }
   },
   "features": [
@@ -68,17 +61,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 263062012,
@@ -91,9 +83,7 @@
         "bodenbo_district": "Erikslund",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -134,17 +124,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 263062013,
@@ -157,9 +146,7 @@
         "bodenbo_district": "Erikslund",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -200,17 +187,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 263062014,
@@ -223,9 +209,7 @@
         "bodenbo_district": "Erikslund",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -266,17 +250,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 263062015,
@@ -289,9 +272,7 @@
         "bodenbo_district": "Erikslund",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -336,17 +317,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 263062017,
@@ -359,9 +339,7 @@
         "bodenbo_district": "Erikslund",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -406,17 +384,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 263062018,
@@ -429,9 +406,7 @@
         "bodenbo_district": "Erikslund",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -610,25 +585,23 @@
       "properties": {
         "id": "boden-osm-395874328",
         "name": "OSM-395874328",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
-        "restrictions": "P-skiva krävs",
+        "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.7,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "boden_pdisc_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 395874328,
@@ -672,22 +645,22 @@
       "properties": {
         "id": "boden-osm-440519365",
         "name": "OSM-440519365",
-        "operator": "aimopark",
+        "operator": "kommun",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1074",
+        "zone_code": null,
         "spots": null,
-        "price_per_hour": 8,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/boden/lundagardsgatan-6-12--parkgatan-1-3/",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.55,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "kommun_district_match"
         ],
         "last_verified": null,
         "osm_id": 440519365,
@@ -697,10 +670,10 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "lundagardsgatan-6-12--parkgatan-1-3",
-        "aimopark_distance_m": 185.7,
+        "kommun_district": "Centrum",
         "payment_apps": [
-          "aimo"
+          "parkster",
+          "easypark"
         ]
       },
       "geometry": {
@@ -742,7 +715,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -751,8 +724,7 @@
         "confidence": 0.55,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match",
-          "boden_pdisc_free_confirmed"
+          "kommun_district_match"
         ],
         "last_verified": null,
         "osm_id": 440519366,
@@ -764,10 +736,9 @@
         "osm_note": null,
         "kommun_district": "Centrum",
         "payment_apps": [
-          "easypark",
-          "parkster"
-        ],
-        "restriction": "P-skiva krävs"
+          "parkster",
+          "easypark"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -866,22 +837,22 @@
       "properties": {
         "id": "boden-osm-440519370",
         "name": "OSM-440519370",
-        "operator": "aimopark",
+        "operator": "bodenbo",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1074",
+        "zone_code": null,
         "spots": null,
-        "price_per_hour": 8,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/boden/lundagardsgatan-6-12--parkgatan-1-3/",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 440519370,
@@ -891,10 +862,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "lundagardsgatan-6-12--parkgatan-1-3",
-        "aimopark_distance_m": 106.6,
+        "bodenbo_district": "Lundagård",
         "payment_apps": [
-          "aimo"
+          "parkster"
         ]
       },
       "geometry": {
@@ -945,7 +915,7 @@
         "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/boden/brogatan-47--majorsgatan-3-7/",
+        "source_url": "https://www.aimopark.se/en/cities/boden/kyrkgatan-28--brogatan-5-7/",
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
@@ -959,8 +929,8 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "brogatan-47--majorsgatan-3-7",
-        "aimopark_distance_m": 73.7,
+        "aimopark_name": "kyrkgatan-28--brogatan-5-7",
+        "aimopark_distance_m": 147.9,
         "payment_apps": [
           "aimo"
         ]
@@ -1014,22 +984,22 @@
       "properties": {
         "id": "boden-osm-440662756",
         "name": "OSM-440662756",
-        "operator": "aimopark",
+        "operator": "bodenbo",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1074",
+        "zone_code": null,
         "spots": null,
-        "price_per_hour": 8,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/boden/kyrkgatan-28--brogatan-5-7/",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 440662756,
@@ -1039,10 +1009,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "kyrkgatan-28--brogatan-5-7",
-        "aimopark_distance_m": 152.4,
+        "bodenbo_district": "Lundagård",
         "payment_apps": [
-          "aimo"
+          "parkster"
         ]
       },
       "geometry": {
@@ -1078,22 +1047,22 @@
       "properties": {
         "id": "boden-osm-440662759",
         "name": "OSM-440662759",
-        "operator": "aimopark",
+        "operator": "bodenbo",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1074",
+        "zone_code": null,
         "spots": null,
-        "price_per_hour": 8,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/boden/lundagardsgatan-6-12--parkgatan-1-3/",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 440662759,
@@ -1103,10 +1072,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "lundagardsgatan-6-12--parkgatan-1-3",
-        "aimopark_distance_m": 63.2,
+        "bodenbo_district": "Lundagård",
         "payment_apps": [
-          "aimo"
+          "parkster"
         ]
       },
       "geometry": {
@@ -1170,12 +1138,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 541050828,
@@ -1266,7 +1232,7 @@
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "snorres-grand-56--mjolners-grand-5-7",
-        "aimopark_distance_m": 41.2,
+        "aimopark_distance_m": 152.6,
         "payment_apps": [
           "aimo"
         ]
@@ -1318,7 +1284,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -1327,8 +1293,7 @@
         "confidence": 0.55,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match",
-          "boden_pdisc_free_confirmed"
+          "kommun_district_match"
         ],
         "last_verified": null,
         "osm_id": 655356662,
@@ -1340,10 +1305,9 @@
         "osm_note": null,
         "kommun_district": "Centrum",
         "payment_apps": [
-          "easypark",
-          "parkster"
-        ],
-        "restriction": "P-skiva krävs"
+          "parkster",
+          "easypark"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -1414,25 +1378,23 @@
       "properties": {
         "id": "boden-osm-655356678",
         "name": "OSM-655356678",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
-        "restrictions": "P-skiva krävs",
+        "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.7,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "boden_pdisc_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 655356678,
@@ -1484,25 +1446,23 @@
       "properties": {
         "id": "boden-osm-655603935",
         "name": "OSM-655603935",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
-        "restrictions": "P-skiva krävs",
+        "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.7,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "boden_pdisc_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 655603935,
@@ -1546,25 +1506,23 @@
       "properties": {
         "id": "boden-osm-655654742",
         "name": "OSM-655654742",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
-        "restrictions": "P-skiva krävs",
+        "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.7,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "boden_pdisc_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 655654742,
@@ -1628,25 +1586,23 @@
       "properties": {
         "id": "boden-osm-833961559",
         "name": "OSM-833961559",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
-        "restrictions": "P-skiva krävs",
+        "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.7,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "boden_pdisc_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 833961559,
@@ -1732,7 +1688,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -1741,8 +1697,7 @@
         "confidence": 0.55,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match",
-          "boden_pdisc_free_confirmed"
+          "kommun_district_match"
         ],
         "last_verified": null,
         "osm_id": 865581258,
@@ -1754,10 +1709,9 @@
         "osm_note": null,
         "kommun_district": "Centrum",
         "payment_apps": [
-          "easypark",
-          "parkster"
-        ],
-        "restriction": "P-skiva krävs"
+          "parkster",
+          "easypark"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -1798,7 +1752,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -1807,8 +1761,7 @@
         "confidence": 0.55,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match",
-          "boden_pdisc_free_confirmed"
+          "kommun_district_match"
         ],
         "last_verified": null,
         "osm_id": 865581259,
@@ -1820,10 +1773,9 @@
         "osm_note": null,
         "kommun_district": "Centrum",
         "payment_apps": [
-          "easypark",
-          "parkster"
-        ],
-        "restriction": "P-skiva krävs"
+          "parkster",
+          "easypark"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -1864,7 +1816,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -1873,8 +1825,7 @@
         "confidence": 0.55,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match",
-          "boden_pdisc_free_confirmed"
+          "kommun_district_match"
         ],
         "last_verified": null,
         "osm_id": 865581260,
@@ -1886,10 +1837,9 @@
         "osm_note": null,
         "kommun_district": "Centrum",
         "payment_apps": [
-          "easypark",
-          "parkster"
-        ],
-        "restriction": "P-skiva krävs"
+          "parkster",
+          "easypark"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -1930,7 +1880,7 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
@@ -1939,8 +1889,7 @@
         "confidence": 0.55,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match",
-          "boden_pdisc_free_confirmed"
+          "kommun_district_match"
         ],
         "last_verified": null,
         "osm_id": 865581272,
@@ -1952,10 +1901,9 @@
         "osm_note": null,
         "kommun_district": "Centrum",
         "payment_apps": [
-          "easypark",
-          "parkster"
-        ],
-        "restriction": "P-skiva krävs"
+          "parkster",
+          "easypark"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -2106,12 +2054,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 909190441,
@@ -2192,12 +2138,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 909288804,
@@ -2246,25 +2190,23 @@
       "properties": {
         "id": "boden-osm-998569938",
         "name": "OSM-998569938",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
-        "restrictions": "P-skiva krävs",
+        "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.7,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "boden_pdisc_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 998569938,
@@ -2322,17 +2264,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 999270034,
@@ -2345,9 +2286,7 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -2396,17 +2335,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 999270055,
@@ -2419,9 +2357,7 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -2462,17 +2398,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 999270058,
@@ -2485,9 +2420,7 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -2536,17 +2469,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 999270072,
@@ -2559,9 +2491,7 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -2602,17 +2532,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 999270073,
@@ -2625,9 +2554,7 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -2662,25 +2589,23 @@
       "properties": {
         "id": "boden-osm-999737554",
         "name": "OSM-999737554",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
-        "restrictions": "P-skiva krävs",
+        "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.7,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "boden_pdisc_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 999737554,
@@ -2746,17 +2671,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1002077685,
@@ -2769,9 +2693,7 @@
         "bodenbo_district": "Sveafältet",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -2820,17 +2742,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1002077692,
@@ -2843,9 +2764,7 @@
         "bodenbo_district": "Sveafältet",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -2914,17 +2833,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1002077693,
@@ -2937,9 +2855,7 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -2980,17 +2896,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1002077694,
@@ -3003,9 +2918,7 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -3062,17 +2975,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1002077701,
@@ -3085,9 +2997,7 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -3128,17 +3038,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1002077704,
@@ -3151,9 +3060,7 @@
         "bodenbo_district": "Sveafältet",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -3188,25 +3095,23 @@
       "properties": {
         "id": "boden-osm-1002276423",
         "name": "OSM-1002276423",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
-        "restrictions": "P-skiva krävs",
+        "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.7,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "boden_pdisc_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1002276423,
@@ -3264,17 +3169,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1004436766,
@@ -3287,9 +3191,7 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -3414,17 +3316,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1004595443,
@@ -3437,9 +3338,7 @@
         "bodenbo_district": "Prästholmen",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -3497,7 +3396,7 @@
         "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/boden/egils-grand-1-3--iduns-vag-6--lokes-vag/",
+        "source_url": "https://www.aimopark.se/en/cities/boden/snorres-grand-56--mjolners-grand-5-7/",
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
@@ -3511,8 +3410,8 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "egils-grand-1-3--iduns-vag-6--lokes-vag",
-        "aimopark_distance_m": 117.3,
+        "aimopark_name": "snorres-grand-56--mjolners-grand-5-7",
+        "aimopark_distance_m": 91.8,
         "payment_apps": [
           "aimo"
         ]
@@ -3550,25 +3449,23 @@
       "properties": {
         "id": "boden-osm-1056599609",
         "name": "OSM-1056599609",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
-        "restrictions": "P-skiva krävs",
+        "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.7,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "boden_pdisc_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1056599609,
@@ -3640,25 +3537,23 @@
       "properties": {
         "id": "boden-osm-1056599610",
         "name": "OSM-1056599610",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
-        "restrictions": "P-skiva krävs",
+        "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.7,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "boden_pdisc_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1056599610,
@@ -3716,17 +3611,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1073421798,
@@ -3739,9 +3633,7 @@
         "bodenbo_district": "Erikslund",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -3782,17 +3674,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1076039763,
@@ -3805,9 +3696,7 @@
         "bodenbo_district": "Prästholmen",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -3852,17 +3741,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1076039782,
@@ -3875,9 +3763,7 @@
         "bodenbo_district": "Sanden",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -3976,22 +3862,22 @@
       "properties": {
         "id": "boden-osm-1078147593",
         "name": "OSM-1078147593",
-        "operator": "aimopark",
+        "operator": "bodenbo",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1074",
+        "zone_code": null,
         "spots": null,
-        "price_per_hour": 8,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/boden/kyrkgatan-28--brogatan-5-7/",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1078147593,
@@ -4001,10 +3887,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "kyrkgatan-28--brogatan-5-7",
-        "aimopark_distance_m": 75.6,
+        "bodenbo_district": "Prästholmen",
         "payment_apps": [
-          "aimo"
+          "parkster"
         ]
       },
       "geometry": {
@@ -4048,22 +3933,22 @@
       "properties": {
         "id": "boden-osm-1078147609",
         "name": "OSM-1078147609",
-        "operator": "aimopark",
+        "operator": "bodenbo",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1074",
+        "zone_code": null,
         "spots": null,
-        "price_per_hour": 8,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/boden/lundagardsgatan-6-12--parkgatan-1-3/",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1078147609,
@@ -4073,10 +3958,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "lundagardsgatan-6-12--parkgatan-1-3",
-        "aimopark_distance_m": 131.4,
+        "bodenbo_district": "Lundagård",
         "payment_apps": [
-          "aimo"
+          "parkster"
         ]
       },
       "geometry": {
@@ -4122,17 +4006,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1078147618,
@@ -4145,9 +4028,7 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -4266,23 +4147,22 @@
       "properties": {
         "id": "boden-osm-1078147662",
         "name": "OSM-1078147662",
-        "operator": "bodenbo",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "garage",
-        "zone_code": null,
+        "zone_code": "1074",
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.95,
+        "source_url": "https://www.aimopark.se/en/cities/boden/kyrkgatan-28--brogatan-5-7/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1078147662,
@@ -4292,12 +4172,11 @@
         "osm_parking": "multi-storey",
         "osm_operator": null,
         "osm_note": null,
-        "bodenbo_district": "Sanden",
+        "aimopark_name": "kyrkgatan-28--brogatan-5-7",
+        "aimopark_distance_m": 164.6,
         "payment_apps": [
-          "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -4354,17 +4233,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1078184374,
@@ -4377,9 +4255,7 @@
         "bodenbo_district": "Sanden",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -4420,17 +4296,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1078742248,
@@ -4443,9 +4318,7 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -4484,22 +4357,22 @@
       "properties": {
         "id": "boden-osm-1078742275",
         "name": "OSM-1078742275",
-        "operator": "aimopark",
+        "operator": "kommun",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1074",
+        "zone_code": null,
         "spots": null,
-        "price_per_hour": 8,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/boden/kyrkgatan-28--brogatan-5-7/",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.55,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "kommun_district_match"
         ],
         "last_verified": null,
         "osm_id": 1078742275,
@@ -4509,10 +4382,10 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "kyrkgatan-28--brogatan-5-7",
-        "aimopark_distance_m": 171.8,
+        "kommun_district": "Centrum",
         "payment_apps": [
-          "aimo"
+          "parkster",
+          "easypark"
         ]
       },
       "geometry": {
@@ -4612,23 +4485,22 @@
       "properties": {
         "id": "boden-osm-1078786589",
         "name": "OSM-1078786589",
-        "operator": "bodenbo",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1074",
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.95,
+        "source_url": "https://www.aimopark.se/en/cities/boden/brogatan-47--majorsgatan-3-7/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1078786589,
@@ -4638,12 +4510,11 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "bodenbo_district": "Lundagård",
+        "aimopark_name": "brogatan-47--majorsgatan-3-7",
+        "aimopark_distance_m": 60.0,
         "payment_apps": [
-          "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -4678,23 +4549,22 @@
       "properties": {
         "id": "boden-osm-1078786590",
         "name": "OSM-1078786590",
-        "operator": "bodenbo",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1074",
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.95,
+        "source_url": "https://www.aimopark.se/en/cities/boden/brogatan-47--majorsgatan-3-7/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1078786590,
@@ -4704,12 +4574,11 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "bodenbo_district": "Lundagård",
+        "aimopark_name": "brogatan-47--majorsgatan-3-7",
+        "aimopark_distance_m": 80.9,
         "payment_apps": [
-          "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -4808,25 +4677,23 @@
       "properties": {
         "id": "boden-osm-1078786661",
         "name": "OSM-1078786661",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
-        "restrictions": "P-skiva krävs",
+        "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.7,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "boden_pdisc_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1078786661,
@@ -4944,17 +4811,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1082863937,
@@ -4967,9 +4833,7 @@
         "bodenbo_district": "Sanden",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -5022,17 +4886,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1082863940,
@@ -5045,9 +4908,7 @@
         "bodenbo_district": "Sanden",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -5088,17 +4949,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1082863941,
@@ -5111,9 +4971,7 @@
         "bodenbo_district": "Sanden",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -5154,17 +5012,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1082863942,
@@ -5177,9 +5034,7 @@
         "bodenbo_district": "Sanden",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -5220,17 +5075,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1082863943,
@@ -5243,9 +5097,7 @@
         "bodenbo_district": "Sanden",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -5480,25 +5332,23 @@
       "properties": {
         "id": "boden-osm-1083463521",
         "name": "OSM-1083463521",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
-        "restrictions": "P-skiva krävs",
+        "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.7,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "boden_pdisc_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1083463521,
@@ -5542,25 +5392,23 @@
       "properties": {
         "id": "boden-osm-1084628611",
         "name": "OSM-1084628611",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
-        "restrictions": "P-skiva krävs",
+        "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.7,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "boden_pdisc_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1084628611,
@@ -5618,17 +5466,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1088102923,
@@ -5641,9 +5488,7 @@
         "bodenbo_district": "Erikslund",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -5748,17 +5593,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1094117311,
@@ -5771,9 +5615,7 @@
         "bodenbo_district": "Sanden",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -5824,25 +5666,23 @@
       "properties": {
         "id": "boden-osm-1094461032",
         "name": "OSM-1094461032",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
-        "restrictions": "P-skiva krävs",
+        "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.7,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "boden_pdisc_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1094461032,
@@ -5964,17 +5804,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1096942985,
@@ -5987,9 +5826,7 @@
         "bodenbo_district": "Erikslund",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -6030,17 +5867,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1105028878,
@@ -6053,9 +5889,7 @@
         "bodenbo_district": "Sävast",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -6100,17 +5934,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1105155691,
@@ -6123,9 +5956,7 @@
         "bodenbo_district": "Sävast",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -6160,25 +5991,23 @@
       "properties": {
         "id": "boden-osm-1108296542",
         "name": "OSM-1108296542",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
-        "restrictions": "P-skiva krävs",
+        "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.7,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "boden_pdisc_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1108296542,
@@ -6262,25 +6091,23 @@
       "properties": {
         "id": "boden-osm-1108296548",
         "name": "OSM-1108296548",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
-        "restrictions": "P-skiva krävs",
+        "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.7,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "boden_pdisc_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1108296548,
@@ -6430,7 +6257,7 @@
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": "Mon-Fri 09:00-18:00; Sat 09:00-15:00",
         "restrictions": null,
@@ -6440,8 +6267,7 @@
         "flags": [
           "osm_bootstrap",
           "osm_reclassified",
-          "street_side_match",
-          "boden_pdisc_free_confirmed"
+          "street_side_match"
         ],
         "last_verified": null,
         "osm_id": 1112521427,
@@ -6450,8 +6276,7 @@
         "osm_fee": null,
         "osm_parking": "street_side",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "P-skiva krävs"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -6550,23 +6375,22 @@
       "properties": {
         "id": "boden-osm-1211799094",
         "name": "OSM-1211799094",
-        "operator": "bodenbo",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1074",
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.95,
+        "source_url": "https://www.aimopark.se/en/cities/boden/brogatan-47--majorsgatan-3-7/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1211799094,
@@ -6576,12 +6400,11 @@
         "osm_parking": "surface",
         "osm_operator": "Lidl",
         "osm_note": null,
-        "bodenbo_district": "Lundagård",
+        "aimopark_name": "brogatan-47--majorsgatan-3-7",
+        "aimopark_distance_m": 164.4,
         "payment_apps": [
-          "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -6716,23 +6539,22 @@
       "properties": {
         "id": "boden-osm-1211799401",
         "name": "OSM-1211799401",
-        "operator": "bodenbo",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1074",
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.95,
+        "source_url": "https://www.aimopark.se/en/cities/boden/brogatan-47--majorsgatan-3-7/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1211799401,
@@ -6742,12 +6564,11 @@
         "osm_parking": "surface",
         "osm_operator": "JYSK",
         "osm_note": null,
-        "bodenbo_district": "Lundagård",
+        "aimopark_name": "brogatan-47--majorsgatan-3-7",
+        "aimopark_distance_m": 131.8,
         "payment_apps": [
-          "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -6877,25 +6698,23 @@
       "properties": {
         "id": "boden-osm-1272407406",
         "name": "OSM-1272407406",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
-        "restrictions": "P-skiva krävs",
+        "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.7,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "boden_pdisc_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1272407406,
@@ -6939,25 +6758,23 @@
       "properties": {
         "id": "boden-osm-1272407407",
         "name": "OSM-1272407407",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
-        "restrictions": "P-skiva krävs",
+        "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.7,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "boden_pdisc_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1272407407,
@@ -7001,25 +6818,23 @@
       "properties": {
         "id": "boden-osm-1272407408",
         "name": "OSM-1272407408",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
-        "restrictions": "P-skiva krävs",
+        "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.7,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "boden_pdisc_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1272407408,
@@ -7063,25 +6878,23 @@
       "properties": {
         "id": "boden-osm-1272407409",
         "name": "OSM-1272407409",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
-        "restrictions": "P-skiva krävs",
+        "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.7,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "boden_pdisc_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1272407409,
@@ -7137,12 +6950,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 1305733589,
@@ -7370,17 +7181,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1354637536,
@@ -7393,9 +7203,7 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -7436,17 +7244,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1355833546,
@@ -7459,9 +7266,7 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -7583,25 +7388,23 @@
       "properties": {
         "id": "boden-osm-1395929718",
         "name": "OSM-1395929718",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
-        "restrictions": "P-skiva krävs",
+        "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.7,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "boden_pdisc_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1395929718,
@@ -7709,25 +7512,23 @@
       "properties": {
         "id": "boden-osm-1413466253",
         "name": "OSM-1413466253",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
-        "restrictions": "P-skiva krävs",
+        "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.7,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "boden_pdisc_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1413466253,
@@ -7874,12 +7675,10 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": 0.45,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic",
-          "reset_from_fallback_free",
-          "rural_confirmed_by_distance"
+          "rural_free_heuristic"
         ],
         "last_verified": null,
         "osm_id": 1415690265,
@@ -8005,17 +7804,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1424658546,
@@ -8028,9 +7826,7 @@
         "bodenbo_district": "Sanden",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -8144,23 +7940,22 @@
       "properties": {
         "id": "boden-osm-1435969732",
         "name": "OSM-1435969732",
-        "operator": "bodenbo",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1074",
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.95,
+        "source_url": "https://www.aimopark.se/en/cities/boden/brogatan-47--majorsgatan-3-7/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1435969732,
@@ -8170,12 +7965,11 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "bodenbo_district": "Lundagård",
+        "aimopark_name": "brogatan-47--majorsgatan-3-7",
+        "aimopark_distance_m": 107.4,
         "payment_apps": [
-          "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -8244,17 +8038,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1435986358,
@@ -8267,9 +8060,7 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -8354,17 +8145,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1435986359,
@@ -8377,9 +8167,7 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -8424,17 +8212,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1435986360,
@@ -8447,9 +8234,7 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -8502,17 +8287,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1437106595,
@@ -8525,9 +8309,7 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -8568,17 +8350,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1437106614,
@@ -8591,9 +8372,7 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -8638,17 +8417,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1437106616,
@@ -8661,9 +8439,7 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -8728,17 +8504,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1437116871,
@@ -8751,9 +8526,7 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -8802,17 +8575,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1437116874,
@@ -8825,9 +8597,7 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -8872,17 +8642,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1437116878,
@@ -8895,9 +8664,7 @@
         "bodenbo_district": "Sveafältet",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -8938,17 +8705,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": "2",
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1437116879,
@@ -8961,9 +8727,7 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -9004,17 +8768,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1437116880,
@@ -9027,9 +8790,7 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -9163,7 +8924,7 @@
         "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/boden/fargaregatan-8-10--drottninggatan-6/",
+        "source_url": "https://www.aimopark.se/en/cities/boden/ringvagen-27/",
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
@@ -9177,8 +8938,8 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "fargaregatan-8-10--drottninggatan-6",
-        "aimopark_distance_m": 24.7,
+        "aimopark_name": "ringvagen-27",
+        "aimopark_distance_m": 43.1,
         "payment_apps": [
           "aimo"
         ]
@@ -9231,7 +8992,7 @@
         "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/boden/fargaregatan-8-10--drottninggatan-6/",
+        "source_url": "https://www.aimopark.se/en/cities/boden/ringvagen-27/",
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
@@ -9245,8 +9006,8 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "fargaregatan-8-10--drottninggatan-6",
-        "aimopark_distance_m": 52.6,
+        "aimopark_name": "ringvagen-27",
+        "aimopark_distance_m": 91.2,
         "payment_apps": [
           "aimo"
         ]
@@ -9295,7 +9056,7 @@
         "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/boden/fargaregatan-8-10--drottninggatan-6/",
+        "source_url": "https://www.aimopark.se/en/cities/boden/ringvagen-27/",
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
@@ -9309,8 +9070,8 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "fargaregatan-8-10--drottninggatan-6",
-        "aimopark_distance_m": 118.5,
+        "aimopark_name": "ringvagen-27",
+        "aimopark_distance_m": 144.9,
         "payment_apps": [
           "aimo"
         ]
@@ -9431,7 +9192,7 @@
         "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/boden/drottningg.-43-47sveav.-3-9sergeantsg",
+        "source_url": "https://www.aimopark.se/en/cities/boden/drottninggatan-29-31kyrkogardsgatan-4-6/",
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
@@ -9445,7 +9206,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "drottningg.-43-47sveav.-3-9sergeantsg",
+        "aimopark_name": "drottninggatan-29-31kyrkogardsgatan-4-6",
         "aimopark_distance_m": 166.1,
         "payment_apps": [
           "aimo"
@@ -9496,23 +9257,22 @@
       "properties": {
         "id": "boden-osm-1441487806",
         "name": "OSM-1441487806",
-        "operator": "bodenbo",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1074",
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.95,
+        "source_url": "https://www.aimopark.se/en/cities/boden/brogatan-47--majorsgatan-3-7/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1441487806,
@@ -9522,12 +9282,11 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "bodenbo_district": "Lundagård",
+        "aimopark_name": "brogatan-47--majorsgatan-3-7",
+        "aimopark_distance_m": 121.9,
         "payment_apps": [
-          "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -9580,17 +9339,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1441487822,
@@ -9603,9 +9361,7 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -9648,23 +9404,22 @@
       "properties": {
         "id": "boden-osm-1441603295",
         "name": "OSM-1441603295",
-        "operator": "bodenbo",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1074",
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.95,
+        "source_url": "https://www.aimopark.se/en/cities/boden/brogatan-47--majorsgatan-3-7/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1441603295,
@@ -9674,12 +9429,11 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "bodenbo_district": "Lundagård",
+        "aimopark_name": "brogatan-47--majorsgatan-3-7",
+        "aimopark_distance_m": 66.7,
         "payment_apps": [
-          "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -9722,23 +9476,22 @@
       "properties": {
         "id": "boden-osm-1441603296",
         "name": "OSM-1441603296",
-        "operator": "bodenbo",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1074",
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.95,
+        "source_url": "https://www.aimopark.se/en/cities/boden/brogatan-47--majorsgatan-3-7/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1441603296,
@@ -9748,12 +9501,11 @@
         "osm_parking": "carports",
         "osm_operator": null,
         "osm_note": null,
-        "bodenbo_district": "Lundagård",
+        "aimopark_name": "brogatan-47--majorsgatan-3-7",
+        "aimopark_distance_m": 75.7,
         "payment_apps": [
-          "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -9796,14 +9548,14 @@
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1189",
+        "zone_code": "1074",
         "spots": null,
-        "price_per_hour": 9,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": "Every day 00-24: 1 h - 9 SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/boden/lundagardsgatan-21-23--brogatan-34-36/",
+        "source_url": "https://www.aimopark.se/en/cities/boden/lundagardsgatan-6-12--parkgatan-1-3/",
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
@@ -9817,7 +9569,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "lundagardsgatan-21-23--brogatan-34-36",
+        "aimopark_name": "lundagardsgatan-6-12--parkgatan-1-3",
         "aimopark_distance_m": 186.2,
         "payment_apps": [
           "aimo"
@@ -9860,14 +9612,14 @@
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1189",
+        "zone_code": "1074",
         "spots": null,
-        "price_per_hour": 9,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": "Every day 00-24: 1 h - 9 SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/boden/lundagardsgatan-21-23--brogatan-34-36/",
+        "source_url": "https://www.aimopark.se/en/cities/boden/lundagardsgatan-6-12--parkgatan-1-3/",
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
@@ -9881,7 +9633,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "lundagardsgatan-21-23--brogatan-34-36",
+        "aimopark_name": "lundagardsgatan-6-12--parkgatan-1-3",
         "aimopark_distance_m": 184.5,
         "payment_apps": [
           "aimo"
@@ -9926,17 +9678,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1441603311,
@@ -9949,9 +9700,7 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -10000,17 +9749,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1441612710,
@@ -10023,9 +9771,7 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -10066,17 +9812,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1441612715,
@@ -10089,9 +9834,7 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -10132,17 +9875,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1441642018,
@@ -10155,9 +9897,7 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -10198,17 +9938,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1441642019,
@@ -10221,9 +9960,7 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -10264,17 +10001,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1441642024,
@@ -10287,9 +10023,7 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -10330,17 +10064,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1441642039,
@@ -10353,9 +10086,7 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -10394,22 +10125,22 @@
       "properties": {
         "id": "boden-osm-1441642056",
         "name": "OSM-1441642056",
-        "operator": "aimopark",
+        "operator": "bodenbo",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1074",
+        "zone_code": null,
         "spots": null,
-        "price_per_hour": 8,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/boden/drottninggatan-29-31kyrkogardsgatan-4-6/",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1441642056,
@@ -10419,10 +10150,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "drottninggatan-29-31kyrkogardsgatan-4-6",
-        "aimopark_distance_m": 126.8,
+        "bodenbo_district": "Lundagård",
         "payment_apps": [
-          "aimo"
+          "parkster"
         ]
       },
       "geometry": {
@@ -10466,22 +10196,22 @@
       "properties": {
         "id": "boden-osm-1441642057",
         "name": "OSM-1441642057",
-        "operator": "aimopark",
+        "operator": "bodenbo",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1074",
+        "zone_code": null,
         "spots": null,
-        "price_per_hour": 8,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/boden/drottninggatan-29-31kyrkogardsgatan-4-6/",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1441642057,
@@ -10491,10 +10221,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "drottninggatan-29-31kyrkogardsgatan-4-6",
-        "aimopark_distance_m": 106.9,
+        "bodenbo_district": "Lundagård",
         "payment_apps": [
-          "aimo"
+          "parkster"
         ]
       },
       "geometry": {
@@ -10541,7 +10270,7 @@
         "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/boden/drottninggatan-29-31kyrkogardsgatan-4-6/",
+        "source_url": "https://www.aimopark.se/en/cities/boden/soldatgatan-16/",
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
@@ -10555,8 +10284,8 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "drottninggatan-29-31kyrkogardsgatan-4-6",
-        "aimopark_distance_m": 85.7,
+        "aimopark_name": "soldatgatan-16",
+        "aimopark_distance_m": 198.1,
         "payment_apps": [
           "aimo"
         ]
@@ -10600,17 +10329,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1441642070,
@@ -10623,9 +10351,7 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -10670,17 +10396,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": "2",
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1441642073,
@@ -10693,9 +10418,7 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -10736,17 +10459,16 @@
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.95,
+        "confidence": 0.6,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match",
-          "boden_pdisc_free_confirmed"
+          "bodenbo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1441642076,
@@ -10759,9 +10481,7 @@
         "bodenbo_district": "Lundagård",
         "payment_apps": [
           "parkster"
-        ],
-        "access": "public",
-        "restriction": "P-skiva krävs, max 2h"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -10796,25 +10516,23 @@
       "properties": {
         "id": "boden-osm-1475013633",
         "name": "OSM-1475013633",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
-        "restrictions": "P-skiva krävs",
+        "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.7,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "boden_pdisc_free",
-          "free_parking_price_zero"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1475013633,
@@ -10860,6 +10578,66 @@
             [
               21.6901527,
               65.8048236
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boden-osm-1501010528",
+        "name": "OSM-1501010528",
+        "operator": "free_parking",
+        "municipality": "Boden",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.45,
+        "flags": [
+          "osm_bootstrap",
+          "rural_free_heuristic"
+        ],
+        "last_verified": null,
+        "osm_id": 1501010528,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null,
+        "source_note": "25.7 km från centrum, ingen avgiftstagg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              21.7847593,
+              66.0530878
+            ],
+            [
+              21.7849054,
+              66.0530989
+            ],
+            [
+              21.7849507,
+              66.0529998
+            ],
+            [
+              21.7848046,
+              66.0529888
+            ],
+            [
+              21.7847593,
+              66.0530878
             ]
           ]
         ]

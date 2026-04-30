@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-04-02T19:15:27.182722+00:00",
+    "generated": "2026-04-30T05:02:13.109058+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Västernorrland",
     "city": "kramfors",
@@ -11,9 +11,9 @@
     "agent_run_id": "kramfors-osm-bootstrap",
     "zone_count": 174,
     "bootstrap": {
-      "osm_source": "output/osm_parking_kramfors.geojson",
+      "osm_source": "output\\osm_parking_kramfors.geojson",
       "zones_imported": 174,
-      "bootstrap_date": "2026-04-02"
+      "bootstrap_date": "2026-04-30"
     },
     "osm_reclassification": {
       "private_property": 3,
@@ -32,7 +32,7 @@
       "after": 56,
       "total": 174,
       "coverage_pct": 67.8,
-      "run_date": "2026-04-02"
+      "run_date": "2026-04-30"
     }
   },
   "features": [
@@ -41,24 +41,23 @@
       "properties": {
         "id": "kramfors-osm-39901460",
         "name": "OSM-39901460",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.92,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_pskiva_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 39901460,
@@ -67,8 +66,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -182,24 +180,23 @@
       "properties": {
         "id": "kramfors-osm-40025708",
         "name": "Gallerian parkering",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.92,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_pskiva_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 40025708,
@@ -208,8 +205,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -248,24 +244,23 @@
       "properties": {
         "id": "kramfors-osm-40747620",
         "name": "OSM-40747620",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.92,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_pskiva_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 40747620,
@@ -274,8 +269,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -310,24 +304,23 @@
       "properties": {
         "id": "kramfors-osm-40747632",
         "name": "OSM-40747632",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.92,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_pskiva_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 40747632,
@@ -336,8 +329,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -396,24 +388,23 @@
       "properties": {
         "id": "kramfors-osm-40747637",
         "name": "OSM-40747637",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.92,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_pskiva_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 40747637,
@@ -422,8 +413,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -462,24 +452,23 @@
       "properties": {
         "id": "kramfors-osm-41462247",
         "name": "OSM-41462247",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.92,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_pskiva_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 41462247,
@@ -488,8 +477,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -524,24 +512,23 @@
       "properties": {
         "id": "kramfors-osm-42362123",
         "name": "OSM-42362123",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.85,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_rural_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 42362123,
@@ -585,24 +572,23 @@
       "properties": {
         "id": "kramfors-osm-42772203",
         "name": "OSM-42772203",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.92,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_pskiva_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 42772203,
@@ -611,8 +597,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -647,24 +632,23 @@
       "properties": {
         "id": "kramfors-osm-42772204",
         "name": "OSM-42772204",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.92,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_pskiva_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 42772204,
@@ -673,8 +657,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -725,24 +708,23 @@
       "properties": {
         "id": "kramfors-osm-42982874",
         "name": "OSM-42982874",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.85,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_rural_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 42982874,
@@ -786,24 +768,23 @@
       "properties": {
         "id": "kramfors-osm-43026051",
         "name": "OSM-43026051",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.85,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_rural_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 43026051,
@@ -851,24 +832,23 @@
       "properties": {
         "id": "kramfors-osm-43026053",
         "name": "OSM-43026053",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.85,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_rural_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 43026053,
@@ -920,24 +900,23 @@
       "properties": {
         "id": "kramfors-osm-44308015",
         "name": "OSM-44308015",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.85,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_rural_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 44308015,
@@ -981,24 +960,23 @@
       "properties": {
         "id": "kramfors-osm-44924416",
         "name": "OSM-44924416",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.85,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_rural_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 44924416,
@@ -1042,24 +1020,23 @@
       "properties": {
         "id": "kramfors-osm-54369366",
         "name": "OSM-54369366",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.85,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_rural_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 54369366,
@@ -1293,24 +1270,23 @@
       "properties": {
         "id": "kramfors-osm-125410405",
         "name": "OSM-125410405",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.85,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_rural_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 125410405,
@@ -1414,24 +1390,23 @@
       "properties": {
         "id": "kramfors-osm-174879535",
         "name": "OSM-174879535",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.85,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_rural_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 174879535,
@@ -3353,24 +3328,23 @@
       "properties": {
         "id": "kramfors-osm-260323282",
         "name": "OSM-260323282",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.85,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_rural_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 260323282,
@@ -3568,24 +3542,23 @@
       "properties": {
         "id": "kramfors-osm-260334016",
         "name": "OSM-260334016",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.85,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_rural_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 260334016,
@@ -3637,24 +3610,23 @@
       "properties": {
         "id": "kramfors-osm-260451012",
         "name": "OSM-260451012",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.85,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_rural_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 260451012,
@@ -3714,24 +3686,23 @@
       "properties": {
         "id": "kramfors-osm-260451013",
         "name": "OSM-260451013",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.85,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_rural_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 260451013,
@@ -3979,24 +3950,23 @@
       "properties": {
         "id": "kramfors-osm-310027261",
         "name": "OSM-310027261",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.85,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_rural_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 310027261,
@@ -4111,24 +4081,23 @@
       "properties": {
         "id": "kramfors-osm-312095916",
         "name": "OSM-312095916",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.85,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_rural_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 312095916,
@@ -4200,24 +4169,23 @@
       "properties": {
         "id": "kramfors-osm-312095917",
         "name": "OSM-312095917",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.85,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_rural_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 312095917,
@@ -4261,24 +4229,23 @@
       "properties": {
         "id": "kramfors-osm-312239681",
         "name": "OSM-312239681",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.92,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_pskiva_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 312239681,
@@ -4287,8 +4254,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -4753,24 +4719,23 @@
       "properties": {
         "id": "kramfors-osm-330437016",
         "name": "OSM-330437016",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.85,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_rural_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 330437016,
@@ -5653,24 +5618,23 @@
       "properties": {
         "id": "kramfors-osm-477969093",
         "name": "OSM-477969093",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.85,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_rural_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 477969093,
@@ -5714,24 +5678,23 @@
       "properties": {
         "id": "kramfors-osm-477969095",
         "name": "OSM-477969095",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.85,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_rural_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 477969095,
@@ -5775,24 +5738,23 @@
       "properties": {
         "id": "kramfors-osm-477969096",
         "name": "OSM-477969096",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.92,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_pskiva_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 477969096,
@@ -5801,8 +5763,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -5837,24 +5798,23 @@
       "properties": {
         "id": "kramfors-osm-477969097",
         "name": "OSM-477969097",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.92,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_pskiva_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 477969097,
@@ -5863,8 +5823,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -5899,24 +5858,23 @@
       "properties": {
         "id": "kramfors-osm-477969108",
         "name": "OSM-477969108",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.92,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_pskiva_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 477969108,
@@ -5925,8 +5883,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -5961,24 +5918,23 @@
       "properties": {
         "id": "kramfors-osm-477969110",
         "name": "OSM-477969110",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.92,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_pskiva_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 477969110,
@@ -5987,8 +5943,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -6035,24 +5990,23 @@
       "properties": {
         "id": "kramfors-osm-477969111",
         "name": "OSM-477969111",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.92,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_pskiva_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 477969111,
@@ -6061,8 +6015,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -6097,24 +6050,23 @@
       "properties": {
         "id": "kramfors-osm-477969114",
         "name": "OSM-477969114",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.92,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_pskiva_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 477969114,
@@ -6123,8 +6075,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -6163,24 +6114,23 @@
       "properties": {
         "id": "kramfors-osm-478117283",
         "name": "OSM-478117283",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.85,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_rural_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 478117283,
@@ -6232,24 +6182,23 @@
       "properties": {
         "id": "kramfors-osm-478370548",
         "name": "OSM-478370548",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.85,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_rural_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 478370548,
@@ -6337,24 +6286,23 @@
       "properties": {
         "id": "kramfors-osm-488720394",
         "name": "Tallås",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.92,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_pskiva_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 488720394,
@@ -6363,8 +6311,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -6407,24 +6354,23 @@
       "properties": {
         "id": "kramfors-osm-488720898",
         "name": "kapell",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.92,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_pskiva_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 488720898,
@@ -6433,8 +6379,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -6469,24 +6414,23 @@
       "properties": {
         "id": "kramfors-osm-488720899",
         "name": "kapell",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.92,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_pskiva_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 488720899,
@@ -6495,8 +6439,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -6531,24 +6474,23 @@
       "properties": {
         "id": "kramfors-osm-488720900",
         "name": "Tallås",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.92,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_pskiva_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 488720900,
@@ -6557,8 +6499,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -6593,24 +6534,23 @@
       "properties": {
         "id": "kramfors-osm-488720901",
         "name": "Faktors",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.92,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_pskiva_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 488720901,
@@ -6619,8 +6559,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -6655,24 +6594,23 @@
       "properties": {
         "id": "kramfors-osm-488720902",
         "name": "Kontors",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.92,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_pskiva_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 488720902,
@@ -6681,8 +6619,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -6717,24 +6654,23 @@
       "properties": {
         "id": "kramfors-osm-488720903",
         "name": "Kontors",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.92,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_pskiva_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 488720903,
@@ -6743,8 +6679,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -6870,24 +6805,23 @@
       "properties": {
         "id": "kramfors-osm-507945500",
         "name": "OSM-507945500",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.85,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_rural_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 507945500,
@@ -7302,24 +7236,23 @@
       "properties": {
         "id": "kramfors-osm-823579334",
         "name": "OSM-823579334",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.85,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "fee_confirmed_unknown",
-          "kramfors_rural_free"
+          "fee_confirmed_unknown"
         ],
         "last_verified": null,
         "osm_id": 823579334,
@@ -7367,24 +7300,23 @@
       "properties": {
         "id": "kramfors-osm-929960049",
         "name": "OSM-929960049",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.85,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_rural_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 929960049,
@@ -7428,24 +7360,23 @@
       "properties": {
         "id": "kramfors-osm-959121445",
         "name": "OSM-959121445",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.85,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_rural_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 959121445,
@@ -7585,24 +7516,23 @@
       "properties": {
         "id": "kramfors-osm-969465357",
         "name": "OSM-969465357",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.85,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_rural_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 969465357,
@@ -7832,24 +7762,23 @@
       "properties": {
         "id": "kramfors-osm-1083283416",
         "name": "OSM-1083283416",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.85,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_rural_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1083283416,
@@ -8303,24 +8232,23 @@
       "properties": {
         "id": "kramfors-osm-1214795732",
         "name": "OSM-1214795732",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.85,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_rural_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1214795732,
@@ -11016,24 +10944,23 @@
       "properties": {
         "id": "kramfors-osm-1419250474",
         "name": "OSM-1419250474",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.92,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_pskiva_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1419250474,
@@ -11042,8 +10969,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -11118,24 +11044,23 @@
       "properties": {
         "id": "kramfors-osm-1419250479",
         "name": "OSM-1419250479",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.92,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_pskiva_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1419250479,
@@ -11144,8 +11069,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -11360,24 +11284,23 @@
       "properties": {
         "id": "kramfors-osm-1419349685",
         "name": "OSM-1419349685",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.85,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_rural_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1419349685,
@@ -11421,24 +11344,23 @@
       "properties": {
         "id": "kramfors-osm-1419349686",
         "name": "OSM-1419349686",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.85,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_rural_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1419349686,
@@ -11542,24 +11464,23 @@
       "properties": {
         "id": "kramfors-osm-1426464944",
         "name": "OSM-1426464944",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.92,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_pskiva_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1426464944,
@@ -11568,8 +11489,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -11632,24 +11552,23 @@
       "properties": {
         "id": "kramfors-osm-1426464945",
         "name": "OSM-1426464945",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Kramfors",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.92,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "kramfors_pskiva_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1426464945,
@@ -11658,8 +11577,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "P-skiva, mån-fre 09-18, lör 09-15"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",

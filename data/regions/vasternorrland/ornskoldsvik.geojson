@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-04-02T19:15:27.009949+00:00",
+    "generated": "2026-04-30T05:02:12.101288+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Västernorrland",
     "city": "ornskoldsvik",
@@ -11,9 +11,9 @@
     "agent_run_id": "ornskoldsvik-osm-bootstrap",
     "zone_count": 206,
     "bootstrap": {
-      "osm_source": "output/osm_parking_ornskoldsvik.geojson",
+      "osm_source": "output\\osm_parking_ornskoldsvik.geojson",
       "zones_imported": 206,
-      "bootstrap_date": "2026-04-02"
+      "bootstrap_date": "2026-04-30"
     },
     "osm_reclassification": {
       "private_property": 20,
@@ -32,7 +32,7 @@
       "after": 114,
       "total": 206,
       "coverage_pct": 44.7,
-      "run_date": "2026-04-02"
+      "run_date": "2026-04-30"
     }
   },
   "features": [
@@ -100,24 +100,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-55506895",
         "name": "OSM-55506895",
-        "operator": "ovik_parkering",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "garage",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 8.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, gratis lör (vissa platser)",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "fee_confirmed_unknown",
-          "ornskoldsvik_centrum_ovik"
+          "fee_confirmed_unknown"
         ],
         "last_verified": null,
         "osm_id": 55506895,
@@ -256,24 +255,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-71139401",
         "name": "OSM-71139401",
-        "operator": "ovik_parkering",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 8.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, gratis lör (vissa platser)",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_centrum_ovik"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 71139401,
@@ -325,24 +323,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-71139415",
         "name": "OSM-71139415",
-        "operator": "ovik_parkering",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 8.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, gratis lör (vissa platser)",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_centrum_ovik"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 71139415,
@@ -414,24 +411,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-74169960",
         "name": "OSM-74169960",
-        "operator": "ovik_parkering",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 8.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, gratis lör (vissa platser)",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_centrum_ovik"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 74169960,
@@ -487,24 +483,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-93485417",
         "name": "OSM-93485417",
-        "operator": "ovik_parkering",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 8.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, gratis lör (vissa platser)",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_centrum_ovik"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 93485417,
@@ -588,24 +583,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-93485422",
         "name": "Arenan",
-        "operator": "ovik_parkering",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 8.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, gratis lör (vissa platser)",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_centrum_ovik"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 93485422,
@@ -689,24 +683,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-93485434",
         "name": "Arenan",
-        "operator": "ovik_parkering",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 8.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, gratis lör (vissa platser)",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_centrum_ovik"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 93485434,
@@ -774,24 +767,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-93485454",
         "name": "OSM-93485454",
-        "operator": "ovik_parkering",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 8.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, gratis lör (vissa platser)",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_centrum_ovik"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 93485454,
@@ -875,24 +867,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-94544768",
         "name": "Komvux",
-        "operator": "ovik_parkering",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 8.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, gratis lör (vissa platser)",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_centrum_ovik"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 94544768,
@@ -936,24 +927,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-94568311",
         "name": "ICA Kvantum",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 94568311,
@@ -962,8 +952,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -998,24 +987,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-94571643",
         "name": "Datorfixet, San Marino",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 94571643,
@@ -1024,8 +1012,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -1135,24 +1122,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-94583787",
         "name": "OSM-94583787",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 94583787,
@@ -1161,8 +1147,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -1205,24 +1190,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-95242450",
         "name": "OSM-95242450",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 95242450,
@@ -1231,8 +1215,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -1279,24 +1262,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-95242461",
         "name": "OSM-95242461",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 95242461,
@@ -1305,8 +1287,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -1349,24 +1330,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-95242468",
         "name": "OSM-95242468",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": "20",
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 95242468,
@@ -1375,8 +1355,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -1419,24 +1398,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-95242470",
         "name": "OSM-95242470",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 95242470,
@@ -1445,8 +1423,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -1485,24 +1462,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-95258507",
         "name": "OSM-95258507",
-        "operator": "ovik_parkering",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": "70",
-        "price_per_hour": 8.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, gratis lör (vissa platser)",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_centrum_ovik"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 95258507,
@@ -1546,24 +1522,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-95314511",
         "name": "OSM-95314511",
-        "operator": "ovik_parkering",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": "32",
-        "price_per_hour": 8.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, gratis lör (vissa platser)",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_centrum_ovik"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 95314511,
@@ -1623,24 +1598,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-95314527",
         "name": "OSM-95314527",
-        "operator": "ovik_parkering",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": "120",
-        "price_per_hour": 8.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, gratis lör (vissa platser)",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_centrum_ovik"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 95314527,
@@ -1712,24 +1686,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-96617778",
         "name": "Coop Konsum",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 96617778,
@@ -1738,8 +1711,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -1814,24 +1786,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-97423555",
         "name": "Hägglunds parkering",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 97423555,
@@ -1840,8 +1811,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -1916,24 +1886,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-97424772",
         "name": "Gnistan Parkering",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 97424772,
@@ -1942,8 +1911,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -2411,24 +2379,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-104277101",
         "name": "OSM-104277101",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 104277101,
@@ -2437,8 +2404,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -2773,24 +2739,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-106699663",
         "name": "OSM-106699663",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 106699663,
@@ -2799,8 +2764,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -2847,24 +2811,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-108437343",
         "name": "OSM-108437343",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 108437343,
@@ -2873,8 +2836,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -2973,24 +2935,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-108437395",
         "name": "ICA Kvantum",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 108437395,
@@ -2999,8 +2960,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -3063,24 +3023,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-108442478",
         "name": "OSM-108442478",
-        "operator": "ovik_parkering",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 8.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, gratis lör (vissa platser)",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_centrum_ovik"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 108442478,
@@ -3124,24 +3083,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-108442481",
         "name": "Stadshusgården",
-        "operator": "ovik_parkering",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 8.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, gratis lör (vissa platser)",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_centrum_ovik"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 108442481,
@@ -3201,24 +3159,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-108448348",
         "name": "OSM-108448348",
-        "operator": "ovik_parkering",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 8.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, gratis lör (vissa platser)",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_centrum_ovik"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 108448348,
@@ -3519,24 +3476,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-108791817",
         "name": "Bryssel",
-        "operator": "ovik_parkering",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 8.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, gratis lör (vissa platser)",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_centrum_ovik"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 108791817,
@@ -3821,24 +3777,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-109774206",
         "name": "OSM-109774206",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 109774206,
@@ -3847,8 +3802,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -4030,24 +3984,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-110022563",
         "name": "OSM-110022563",
-        "operator": "ovik_parkering",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 8.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, gratis lör (vissa platser)",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_centrum_ovik"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 110022563,
@@ -4091,24 +4044,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-110022573",
         "name": "OSM-110022573",
-        "operator": "ovik_parkering",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 8.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, gratis lör (vissa platser)",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_centrum_ovik"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 110022573,
@@ -4228,24 +4180,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-110959330",
         "name": "OSM-110959330",
-        "operator": "ovik_parkering",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 8.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, gratis lör (vissa platser)",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_centrum_ovik"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 110959330,
@@ -4337,24 +4288,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-110959783",
         "name": "OSM-110959783",
-        "operator": "ovik_parkering",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 8.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, gratis lör (vissa platser)",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_centrum_ovik"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 110959783,
@@ -4410,24 +4360,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-110959971",
         "name": "OSM-110959971",
-        "operator": "ovik_parkering",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 8.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, gratis lör (vissa platser)",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_centrum_ovik"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 110959971,
@@ -4715,24 +4664,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-123484702",
         "name": "OSM-123484702",
-        "operator": "ovik_parkering",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 8.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, gratis lör (vissa platser)",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_centrum_ovik"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 123484702,
@@ -4939,24 +4887,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-134198360",
         "name": "OSM-134198360",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 134198360,
@@ -4965,8 +4912,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -5135,24 +5081,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-136278303",
         "name": "OSM-136278303",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 136278303,
@@ -5161,8 +5106,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -5280,24 +5224,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-150751845",
         "name": "OSM-150751845",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 150751845,
@@ -5306,8 +5249,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -5358,24 +5300,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-152167070",
         "name": "OSM-152167070",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 152167070,
@@ -5384,8 +5325,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -5428,24 +5368,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-152247712",
         "name": "OSM-152247712",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 152247712,
@@ -5454,8 +5393,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -5498,24 +5436,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-153410785",
         "name": "OSM-153410785",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 153410785,
@@ -5524,8 +5461,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -5608,24 +5544,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-156814457",
         "name": "OSM-156814457",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 156814457,
@@ -5634,8 +5569,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -5670,24 +5604,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-156814458",
         "name": "OSM-156814458",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 156814458,
@@ -5696,8 +5629,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -5732,24 +5664,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-156814459",
         "name": "OSM-156814459",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 156814459,
@@ -5758,8 +5689,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -5794,24 +5724,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-156985568",
         "name": "OSM-156985568",
-        "operator": "ovik_parkering",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 8.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, gratis lör (vissa platser)",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_centrum_ovik"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 156985568,
@@ -5879,24 +5808,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-156987892",
         "name": "OSM-156987892",
-        "operator": "ovik_parkering",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 8.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, gratis lör (vissa platser)",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_centrum_ovik"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 156987892,
@@ -5944,24 +5872,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-156987893",
         "name": "OSM-156987893",
-        "operator": "ovik_parkering",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 8.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, gratis lör (vissa platser)",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_centrum_ovik"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 156987893,
@@ -6017,24 +5944,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-156994718",
         "name": "OSM-156994718",
-        "operator": "ovik_parkering",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 8.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, gratis lör (vissa platser)",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_centrum_ovik"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 156994718,
@@ -6078,24 +6004,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-157069856",
         "name": "OSM-157069856",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 157069856,
@@ -6104,8 +6029,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -6140,24 +6064,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-157069857",
         "name": "OSM-157069857",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 157069857,
@@ -6166,8 +6089,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -6202,24 +6124,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-157069860",
         "name": "OSM-157069860",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 157069860,
@@ -6228,8 +6149,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -6268,24 +6188,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-157069861",
         "name": "OSM-157069861",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 157069861,
@@ -6294,8 +6213,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -6405,24 +6323,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-157072084",
         "name": "OSM-157072084",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 157072084,
@@ -6431,8 +6348,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -6550,24 +6466,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-157118715",
         "name": "OSM-157118715",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 157118715,
@@ -6576,8 +6491,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -6620,24 +6534,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-157145185",
         "name": "OSM-157145185",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 157145185,
@@ -6646,8 +6559,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -6690,24 +6602,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-157210664",
         "name": "OSM-157210664",
-        "operator": "ovik_parkering",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 8.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, gratis lör (vissa platser)",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_centrum_ovik"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 157210664,
@@ -6775,24 +6686,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-157210668",
         "name": "OSM-157210668",
-        "operator": "ovik_parkering",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 8.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, gratis lör (vissa platser)",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_centrum_ovik"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 157210668,
@@ -6840,24 +6750,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-157540244",
         "name": "OSM-157540244",
-        "operator": "ovik_parkering",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 8.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, gratis lör (vissa platser)",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_centrum_ovik"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 157540244,
@@ -6901,24 +6810,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-157540253",
         "name": "OSM-157540253",
-        "operator": "ovik_parkering",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 8.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, gratis lör (vissa platser)",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_centrum_ovik"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 157540253,
@@ -6970,24 +6878,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-157540254",
         "name": "OSM-157540254",
-        "operator": "ovik_parkering",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 8.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, gratis lör (vissa platser)",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_centrum_ovik"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 157540254,
@@ -7039,24 +6946,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-157540259",
         "name": "OSM-157540259",
-        "operator": "ovik_parkering",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 8.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, gratis lör (vissa platser)",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_centrum_ovik"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 157540259,
@@ -7112,24 +7018,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-158223906",
         "name": "OSM-158223906",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 158223906,
@@ -7138,8 +7043,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -7178,24 +7082,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-158223908",
         "name": "OSM-158223908",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 158223908,
@@ -7204,8 +7107,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -7256,24 +7158,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-159227386",
         "name": "OSM-159227386",
-        "operator": "ovik_parkering",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 8.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, gratis lör (vissa platser)",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_centrum_ovik"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 159227386,
@@ -7325,24 +7226,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-159297284",
         "name": "OSM-159297284",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 159297284,
@@ -7351,8 +7251,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -7415,24 +7314,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-159509616",
         "name": "OSM-159509616",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 159509616,
@@ -7441,8 +7339,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -7477,24 +7374,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-159509617",
         "name": "OSM-159509617",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 159509617,
@@ -7503,8 +7399,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -7547,24 +7442,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-160795954",
         "name": "OSM-160795954",
-        "operator": "ovik_parkering",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 8.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, gratis lör (vissa platser)",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_centrum_ovik"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 160795954,
@@ -7620,24 +7514,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-163232475",
         "name": "OSM-163232475",
-        "operator": "ovik_parkering",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 8.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, gratis lör (vissa platser)",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_centrum_ovik"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 163232475,
@@ -7793,24 +7686,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-227495145",
         "name": "OSM-227495145",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 227495145,
@@ -7819,8 +7711,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -7887,24 +7778,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-227495146",
         "name": "OSM-227495146",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 227495146,
@@ -7913,8 +7803,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -7949,24 +7838,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-228211722",
         "name": "OSM-228211722",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 228211722,
@@ -7975,8 +7863,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -8119,24 +8006,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-237501313",
         "name": "OSM-237501313",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 237501313,
@@ -8145,8 +8031,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -8429,24 +8314,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-245341907",
         "name": "OSM-245341907",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 245341907,
@@ -8455,8 +8339,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -8863,24 +8746,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-263431627",
         "name": "OSM-263431627",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 263431627,
@@ -8889,8 +8771,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -8925,24 +8806,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-263431628",
         "name": "OSM-263431628",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 263431628,
@@ -8951,8 +8831,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -9063,24 +8942,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-300418228",
         "name": "OSM-300418228",
-        "operator": "ovik_parkering",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 8.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, gratis lör (vissa platser)",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_centrum_ovik"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 300418228,
@@ -9414,24 +9292,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-392411787",
         "name": "OSM-392411787",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 392411787,
@@ -9440,8 +9317,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -9508,24 +9384,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-410814281",
         "name": "OSM-410814281",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 410814281,
@@ -9534,8 +9409,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -9665,24 +9539,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-498559588",
         "name": "OSM-498559588",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 498559588,
@@ -9691,8 +9564,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -9795,24 +9667,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-610247773",
         "name": "OSM-610247773",
-        "operator": "ovik_parkering",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 8.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, gratis lör (vissa platser)",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_centrum_ovik"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 610247773,
@@ -9856,24 +9727,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-610247774",
         "name": "OSM-610247774",
-        "operator": "ovik_parkering",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 8.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, gratis lör (vissa platser)",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_centrum_ovik"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 610247774,
@@ -10118,24 +9988,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-648434143",
         "name": "OSM-648434143",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 648434143,
@@ -10144,8 +10013,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -10761,24 +10629,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-689348613",
         "name": "OSM-689348613",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "fee_confirmed_unknown",
-          "ornskoldsvik_outside_free"
+          "fee_confirmed_unknown"
         ],
         "last_verified": null,
         "osm_id": 689348613,
@@ -10787,8 +10654,7 @@
         "osm_fee": "yes",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -11185,24 +11051,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-736724966",
         "name": "OSM-736724966",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 736724966,
@@ -11211,8 +11076,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -11315,24 +11179,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-736724968",
         "name": "OSM-736724968",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 736724968,
@@ -11341,8 +11204,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -11866,24 +11728,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-987214331",
         "name": "OSM-987214331",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 987214331,
@@ -11892,8 +11753,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -11928,24 +11788,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-987214343",
         "name": "OSM-987214343",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 987214343,
@@ -11954,8 +11813,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -12018,24 +11876,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-987214346",
         "name": "OSM-987214346",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 987214346,
@@ -12044,8 +11901,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -12096,24 +11952,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-1006715353",
         "name": "OSM-1006715353",
-        "operator": "ovik_parkering",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 8.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, gratis lör (vissa platser)",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_centrum_ovik"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1006715353,
@@ -12173,24 +12028,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-1092167388",
         "name": "OSM-1092167388",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1092167388,
@@ -12199,8 +12053,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -12243,24 +12096,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-1092170919",
         "name": "OSM-1092170919",
-        "operator": "ovik_parkering",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 8.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, gratis lör (vissa platser)",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_centrum_ovik"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1092170919,
@@ -12510,24 +12362,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-1167769331",
         "name": "OSM-1167769331",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1167769331,
@@ -12536,8 +12387,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -12572,24 +12422,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-1167769332",
         "name": "OSM-1167769332",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1167769332,
@@ -12598,8 +12447,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -12634,24 +12482,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-1167769333",
         "name": "OSM-1167769333",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1167769333,
@@ -12660,8 +12507,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -12696,24 +12542,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-1167769334",
         "name": "OSM-1167769334",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1167769334,
@@ -12722,8 +12567,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -12758,24 +12602,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-1167769335",
         "name": "OSM-1167769335",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1167769335,
@@ -12784,8 +12627,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -13233,24 +13075,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-1226002744",
         "name": "OSM-1226002744",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1226002744,
@@ -13259,8 +13100,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -13861,24 +13701,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-1368489332",
         "name": "OSM-1368489332",
-        "operator": "ovik_parkering",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 8.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, gratis lör (vissa platser)",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_centrum_ovik"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1368489332,
@@ -14085,24 +13924,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-1426619829",
         "name": "OSM-1426619829",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1426619829,
@@ -14111,8 +13949,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -14163,24 +14000,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-1426619835",
         "name": "OSM-1426619835",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1426619835,
@@ -14189,8 +14025,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -14417,24 +14252,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-1433435690",
         "name": "OSM-1433435690",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1433435690,
@@ -14443,8 +14277,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -14483,24 +14316,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-1434047838",
         "name": "OSM-1434047838",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1434047838,
@@ -14509,8 +14341,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -14545,24 +14376,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-1434047843",
         "name": "OSM-1434047843",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1434047843,
@@ -14571,8 +14401,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -14607,24 +14436,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-1434047844",
         "name": "OSM-1434047844",
-        "operator": "ovik_parkering",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 8.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "mån-fre 08:00-18:00, gratis lör (vissa platser)",
+        "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.72,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_centrum_ovik"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1434047844,
@@ -14668,24 +14496,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-1434388094",
         "name": "OSM-1434388094",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1434388094,
@@ -14694,8 +14521,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -14766,24 +14592,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-1437015850",
         "name": "OSM-1437015850",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1437015850,
@@ -14792,8 +14617,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -14828,24 +14652,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-1441513574",
         "name": "OSM-1441513574",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1441513574,
@@ -14854,8 +14677,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -14890,24 +14712,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-1441715736",
         "name": "OSM-1441715736",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1441715736,
@@ -14916,8 +14737,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -14968,24 +14788,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-1442013118",
         "name": "OSM-1442013118",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1442013118,
@@ -14994,8 +14813,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -15105,24 +14923,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-1485844204",
         "name": "OSM-1485844204",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1485844204,
@@ -15131,8 +14948,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -15167,24 +14983,23 @@
       "properties": {
         "id": "ornskoldsvik-osm-1485844261",
         "name": "OSM-1485844261",
-        "operator": "free_parking",
+        "operator": "unknown",
         "municipality": "Örnsköldsvik",
         "region": "Västernorrland",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.8,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "ornskoldsvik_outside_free"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1485844261,
@@ -15193,8 +15008,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Datumparkering 02-09"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",

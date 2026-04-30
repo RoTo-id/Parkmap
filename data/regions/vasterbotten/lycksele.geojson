@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-04-02T19:15:27.336911+00:00",
+    "generated": "2026-04-30T05:02:14.930659+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Västerbotten",
     "city": "lycksele",
@@ -11,9 +11,9 @@
     "agent_run_id": "lycksele-osm-bootstrap",
     "zone_count": 52,
     "bootstrap": {
-      "osm_source": "output/osm_parking_lycksele.geojson",
+      "osm_source": "output\\osm_parking_lycksele.geojson",
       "zones_imported": 52,
-      "bootstrap_date": "2026-04-02"
+      "bootstrap_date": "2026-04-30"
     },
     "osm_reclassification": {
       "private_property": 1,
@@ -32,7 +32,7 @@
       "after": 35,
       "total": 52,
       "coverage_pct": 32.7,
-      "run_date": "2026-04-02"
+      "run_date": "2026-04-30"
     }
   },
   "features": [
@@ -175,24 +175,23 @@
       "properties": {
         "id": "lycksele-osm-277915342",
         "name": "OSM-277915342",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Lycksele",
         "region": "Västerbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.lycksele.se/kommun/trafik-och-infrastruktur/parkering/",
-        "confidence": 0.95,
+        "source_url": null,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "lycksele_gratis_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 277915342,
@@ -201,8 +200,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Se skyltning"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -273,24 +271,23 @@
       "properties": {
         "id": "lycksele-osm-277915344",
         "name": "OSM-277915344",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Lycksele",
         "region": "Västerbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.lycksele.se/kommun/trafik-och-infrastruktur/parkering/",
-        "confidence": 0.95,
+        "source_url": null,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "lycksele_gratis_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 277915344,
@@ -299,8 +296,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Max 24h om inget annat anges"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -335,24 +331,23 @@
       "properties": {
         "id": "lycksele-osm-277915345",
         "name": "OSM-277915345",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Lycksele",
         "region": "Västerbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.lycksele.se/kommun/trafik-och-infrastruktur/parkering/",
-        "confidence": 0.95,
+        "source_url": null,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "lycksele_gratis_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 277915345,
@@ -361,8 +356,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Max 24h om inget annat anges"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -413,24 +407,23 @@
       "properties": {
         "id": "lycksele-osm-277915346",
         "name": "OSM-277915346",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Lycksele",
         "region": "Västerbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.lycksele.se/kommun/trafik-och-infrastruktur/parkering/",
-        "confidence": 0.95,
+        "source_url": null,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "lycksele_gratis_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 277915346,
@@ -439,8 +432,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Max 24h om inget annat anges"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -491,24 +483,23 @@
       "properties": {
         "id": "lycksele-osm-302169406",
         "name": "OSM-302169406",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Lycksele",
         "region": "Västerbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.lycksele.se/kommun/trafik-och-infrastruktur/parkering/",
-        "confidence": 0.95,
+        "source_url": null,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "lycksele_gratis_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 302169406,
@@ -517,8 +508,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Se skyltning"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -813,24 +803,23 @@
       "properties": {
         "id": "lycksele-osm-694659870",
         "name": "OSM-694659870",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Lycksele",
         "region": "Västerbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.lycksele.se/kommun/trafik-och-infrastruktur/parkering/",
-        "confidence": 0.95,
+        "source_url": null,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "lycksele_gratis_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 694659870,
@@ -839,8 +828,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Max 24h om inget annat anges"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -1191,24 +1179,23 @@
       "properties": {
         "id": "lycksele-osm-1036315423",
         "name": "OSM-1036315423",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Lycksele",
         "region": "Västerbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.lycksele.se/kommun/trafik-och-infrastruktur/parkering/",
-        "confidence": 0.95,
+        "source_url": null,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "lycksele_gratis_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1036315423,
@@ -1217,8 +1204,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Max 24h om inget annat anges"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -1321,24 +1307,23 @@
       "properties": {
         "id": "lycksele-osm-1124091019",
         "name": "OSM-1124091019",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Lycksele",
         "region": "Västerbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.lycksele.se/kommun/trafik-och-infrastruktur/parkering/",
-        "confidence": 0.95,
+        "source_url": null,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "lycksele_gratis_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1124091019,
@@ -1347,8 +1332,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Max 24h om inget annat anges"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -1391,24 +1375,23 @@
       "properties": {
         "id": "lycksele-osm-1124219075",
         "name": "OSM-1124219075",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Lycksele",
         "region": "Västerbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.lycksele.se/kommun/trafik-och-infrastruktur/parkering/",
-        "confidence": 0.95,
+        "source_url": null,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "lycksele_gratis_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1124219075,
@@ -1417,8 +1400,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Se skyltning"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -1501,24 +1483,23 @@
       "properties": {
         "id": "lycksele-osm-1136724911",
         "name": "OSM-1136724911",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Lycksele",
         "region": "Västerbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "dygnet runt",
+        "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.lycksele.se/kommun/trafik-och-infrastruktur/parkering/",
-        "confidence": 0.95,
+        "source_url": null,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "lycksele_gratis_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1136724911,
@@ -1527,8 +1508,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Max 24h om inget annat anges"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -1563,24 +1543,23 @@
       "properties": {
         "id": "lycksele-osm-1136724912",
         "name": "OSM-1136724912",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Lycksele",
         "region": "Västerbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "dygnet runt",
+        "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.lycksele.se/kommun/trafik-och-infrastruktur/parkering/",
-        "confidence": 0.95,
+        "source_url": null,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "lycksele_gratis_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1136724912,
@@ -1589,8 +1568,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Max 24h om inget annat anges"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -1625,24 +1603,23 @@
       "properties": {
         "id": "lycksele-osm-1136724913",
         "name": "OSM-1136724913",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Lycksele",
         "region": "Västerbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "dygnet runt",
+        "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.lycksele.se/kommun/trafik-och-infrastruktur/parkering/",
-        "confidence": 0.95,
+        "source_url": null,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "lycksele_gratis_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1136724913,
@@ -1651,8 +1628,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Max 24h om inget annat anges"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -1695,24 +1671,23 @@
       "properties": {
         "id": "lycksele-osm-1136928274",
         "name": "OSM-1136928274",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Lycksele",
         "region": "Västerbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "dygnet runt",
+        "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.lycksele.se/kommun/trafik-och-infrastruktur/parkering/",
-        "confidence": 0.95,
+        "source_url": null,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "lycksele_gratis_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1136928274,
@@ -1721,8 +1696,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Max 24h om inget annat anges"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -1757,24 +1731,23 @@
       "properties": {
         "id": "lycksele-osm-1190252265",
         "name": "OSM-1190252265",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Lycksele",
         "region": "Västerbotten",
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.lycksele.se/kommun/trafik-och-infrastruktur/parkering/",
-        "confidence": 0.95,
+        "source_url": null,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "lycksele_gratis_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1190252265,
@@ -1783,8 +1756,7 @@
         "osm_fee": null,
         "osm_parking": "lane",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Se skyltning"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -1819,24 +1791,23 @@
       "properties": {
         "id": "lycksele-osm-1190252266",
         "name": "OSM-1190252266",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Lycksele",
         "region": "Västerbotten",
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.lycksele.se/kommun/trafik-och-infrastruktur/parkering/",
-        "confidence": 0.95,
+        "source_url": null,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "lycksele_gratis_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1190252266,
@@ -1845,8 +1816,7 @@
         "osm_fee": null,
         "osm_parking": "lane",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Se skyltning"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -1881,24 +1851,23 @@
       "properties": {
         "id": "lycksele-osm-1190252267",
         "name": "OSM-1190252267",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Lycksele",
         "region": "Västerbotten",
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.lycksele.se/kommun/trafik-och-infrastruktur/parkering/",
-        "confidence": 0.95,
+        "source_url": null,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "lycksele_gratis_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1190252267,
@@ -1907,8 +1876,7 @@
         "osm_fee": null,
         "osm_parking": "lane",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Se skyltning"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -1971,24 +1939,23 @@
       "properties": {
         "id": "lycksele-osm-1190252268",
         "name": "OSM-1190252268",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Lycksele",
         "region": "Västerbotten",
         "type": "street",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.lycksele.se/kommun/trafik-och-infrastruktur/parkering/",
-        "confidence": 0.95,
+        "source_url": null,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "lycksele_gratis_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1190252268,
@@ -1997,8 +1964,7 @@
         "osm_fee": null,
         "osm_parking": "lane",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Se skyltning"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -2033,24 +1999,23 @@
       "properties": {
         "id": "lycksele-osm-1190259789",
         "name": "OSM-1190259789",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Lycksele",
         "region": "Västerbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": "20",
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.lycksele.se/kommun/trafik-och-infrastruktur/parkering/",
-        "confidence": 0.95,
+        "source_url": null,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "lycksele_gratis_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1190259789,
@@ -2059,8 +2024,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Max 24h om inget annat anges"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -2095,24 +2059,23 @@
       "properties": {
         "id": "lycksele-osm-1190259790",
         "name": "OSM-1190259790",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Lycksele",
         "region": "Västerbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.lycksele.se/kommun/trafik-och-infrastruktur/parkering/",
-        "confidence": 0.95,
+        "source_url": null,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "lycksele_gratis_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1190259790,
@@ -2121,8 +2084,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Max 24h om inget annat anges"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -2165,24 +2127,23 @@
       "properties": {
         "id": "lycksele-osm-1190259791",
         "name": "OSM-1190259791",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Lycksele",
         "region": "Västerbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.lycksele.se/kommun/trafik-och-infrastruktur/parkering/",
-        "confidence": 0.95,
+        "source_url": null,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "lycksele_gratis_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1190259791,
@@ -2191,8 +2152,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Max 24h om inget annat anges"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -2443,24 +2403,23 @@
       "properties": {
         "id": "lycksele-osm-1285973026",
         "name": "OSM-1285973026",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Lycksele",
         "region": "Västerbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.lycksele.se/kommun/trafik-och-infrastruktur/parkering/",
-        "confidence": 0.95,
+        "source_url": null,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "lycksele_gratis_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1285973026,
@@ -2469,8 +2428,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Se skyltning"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -2505,24 +2463,23 @@
       "properties": {
         "id": "lycksele-osm-1285973027",
         "name": "OSM-1285973027",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Lycksele",
         "region": "Västerbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.lycksele.se/kommun/trafik-och-infrastruktur/parkering/",
-        "confidence": 0.95,
+        "source_url": null,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "lycksele_gratis_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1285973027,
@@ -2531,8 +2488,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Se skyltning"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -2567,24 +2523,23 @@
       "properties": {
         "id": "lycksele-osm-1285973028",
         "name": "OSM-1285973028",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Lycksele",
         "region": "Västerbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.lycksele.se/kommun/trafik-och-infrastruktur/parkering/",
-        "confidence": 0.95,
+        "source_url": null,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "lycksele_gratis_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1285973028,
@@ -2593,8 +2548,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Se skyltning"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -2629,24 +2583,23 @@
       "properties": {
         "id": "lycksele-osm-1285973029",
         "name": "OSM-1285973029",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Lycksele",
         "region": "Västerbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.lycksele.se/kommun/trafik-och-infrastruktur/parkering/",
-        "confidence": 0.95,
+        "source_url": null,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "lycksele_gratis_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1285973029,
@@ -2655,8 +2608,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Se skyltning"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -2691,24 +2643,23 @@
       "properties": {
         "id": "lycksele-osm-1285973030",
         "name": "OSM-1285973030",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Lycksele",
         "region": "Västerbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.lycksele.se/kommun/trafik-och-infrastruktur/parkering/",
-        "confidence": 0.95,
+        "source_url": null,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "lycksele_gratis_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1285973030,
@@ -2717,8 +2668,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Se skyltning"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -2753,24 +2703,23 @@
       "properties": {
         "id": "lycksele-osm-1368462460",
         "name": "OSM-1368462460",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Lycksele",
         "region": "Västerbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.lycksele.se/kommun/trafik-och-infrastruktur/parkering/",
-        "confidence": 0.95,
+        "source_url": null,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "lycksele_gratis_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1368462460,
@@ -2779,8 +2728,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Se skyltning"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -2887,24 +2835,23 @@
       "properties": {
         "id": "lycksele-osm-1425398793",
         "name": "OSM-1425398793",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Lycksele",
         "region": "Västerbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.lycksele.se/kommun/trafik-och-infrastruktur/parkering/",
-        "confidence": 0.95,
+        "source_url": null,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "lycksele_gratis_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1425398793,
@@ -2913,8 +2860,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Se skyltning"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -3017,24 +2963,23 @@
       "properties": {
         "id": "lycksele-osm-1425553407",
         "name": "OSM-1425553407",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Lycksele",
         "region": "Västerbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "dygnet runt",
+        "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.lycksele.se/kommun/trafik-och-infrastruktur/parkering/",
-        "confidence": 0.95,
+        "source_url": null,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "lycksele_gratis_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1425553407,
@@ -3043,8 +2988,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Max 24h om inget annat anges"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -3079,24 +3023,23 @@
       "properties": {
         "id": "lycksele-osm-1425553455",
         "name": "OSM-1425553455",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Lycksele",
         "region": "Västerbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "dygnet runt",
+        "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.lycksele.se/kommun/trafik-och-infrastruktur/parkering/",
-        "confidence": 0.95,
+        "source_url": null,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "lycksele_gratis_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1425553455,
@@ -3105,8 +3048,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Max 24h om inget annat anges"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -3141,24 +3083,23 @@
       "properties": {
         "id": "lycksele-osm-1425553456",
         "name": "OSM-1425553456",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Lycksele",
         "region": "Västerbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "dygnet runt",
+        "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.lycksele.se/kommun/trafik-och-infrastruktur/parkering/",
-        "confidence": 0.95,
+        "source_url": null,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "lycksele_gratis_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1425553456,
@@ -3167,8 +3108,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Max 24h om inget annat anges"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -3203,24 +3143,23 @@
       "properties": {
         "id": "lycksele-osm-1425553457",
         "name": "OSM-1425553457",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Lycksele",
         "region": "Västerbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "dygnet runt",
+        "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.lycksele.se/kommun/trafik-och-infrastruktur/parkering/",
-        "confidence": 0.95,
+        "source_url": null,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "lycksele_gratis_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1425553457,
@@ -3229,8 +3168,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Max 24h om inget annat anges"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -3408,24 +3346,23 @@
       "properties": {
         "id": "lycksele-osm-1435074427",
         "name": "OSM-1435074427",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Lycksele",
         "region": "Västerbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.lycksele.se/kommun/trafik-och-infrastruktur/parkering/",
-        "confidence": 0.95,
+        "source_url": null,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "lycksele_gratis_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1435074427,
@@ -3434,8 +3371,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Max 24h om inget annat anges"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -3470,24 +3406,23 @@
       "properties": {
         "id": "lycksele-osm-1435074428",
         "name": "OSM-1435074428",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Lycksele",
         "region": "Västerbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.lycksele.se/kommun/trafik-och-infrastruktur/parkering/",
-        "confidence": 0.95,
+        "source_url": null,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "lycksele_gratis_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1435074428,
@@ -3496,8 +3431,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Max 24h om inget annat anges"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -3532,24 +3466,23 @@
       "properties": {
         "id": "lycksele-osm-1435074429",
         "name": "OSM-1435074429",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Lycksele",
         "region": "Västerbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.lycksele.se/kommun/trafik-och-infrastruktur/parkering/",
-        "confidence": 0.95,
+        "source_url": null,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "lycksele_gratis_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1435074429,
@@ -3558,8 +3491,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Max 24h om inget annat anges"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -3654,24 +3586,23 @@
       "properties": {
         "id": "lycksele-osm-1485379974",
         "name": "OSM-1485379974",
-        "operator": "kommun",
+        "operator": "unknown",
         "municipality": "Lycksele",
         "region": "Västerbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": 0.0,
+        "price_per_hour": null,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.lycksele.se/kommun/trafik-och-infrastruktur/parkering/",
-        "confidence": 0.95,
+        "source_url": null,
+        "confidence": null,
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "lycksele_gratis_confirmed"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1485379974,
@@ -3680,8 +3611,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "restriction": "Max 24h om inget annat anges"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
