@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-04-30T05:00:45.741478+00:00",
+    "generated": "2026-05-01T04:45:30.583563+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Norrbotten",
     "city": "boden",
@@ -16,37 +16,37 @@
       "bootstrap_date": "2026-04-30"
     },
     "operator_identification": {
-      "before_unknown": 150,
-      "after_unknown": 39,
-      "total_identified": 111,
+      "before_unknown": 23,
+      "after_unknown": 23,
+      "total_identified": 0,
       "per_operator": {
-        "aimopark": 36,
-        "bodenbo": 67,
-        "kommun": 8
+        "aimopark": 0,
+        "bodenbo": 0,
+        "kommun": 0
       },
-      "aimo_matched": 36,
+      "aimo_matched": 0,
       "lulebo_matched": 0,
-      "kommun_matched": 8,
-      "run_date": "2026-04-30"
+      "kommun_matched": 0,
+      "run_date": "2026-05-01"
     },
     "osm_reclassification": {
-      "private_property": 3,
-      "free_parking": 5,
-      "kommun_street_side": 1,
+      "private_property": 0,
+      "free_parking": 0,
+      "kommun_street_side": 0,
       "needs_identification": 0,
       "osm_operator_mapped": 0,
       "lulebo_district": 0,
       "near_aimo": 0,
-      "rural_free": 6,
+      "rural_free": 0,
       "note_matched": 0,
-      "access_yes_free": 1,
+      "access_yes_free": 0,
       "fee_confirmed_unknown": 0,
       "genuinely_unknown": 23,
-      "before": 39,
+      "before": 23,
       "after": 23,
       "total": 150,
       "coverage_pct": 84.7,
-      "run_date": "2026-04-30"
+      "run_date": "2026-05-01"
     }
   },
   "features": [

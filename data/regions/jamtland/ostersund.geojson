@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-04-30T05:02:06.335304+00:00",
+    "generated": "2026-05-01T04:46:26.660892+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Jämtland",
     "city": "ostersund",
@@ -16,23 +16,23 @@
       "bootstrap_date": "2026-04-30"
     },
     "osm_reclassification": {
-      "private_property": 118,
-      "free_parking": 58,
-      "kommun_street_side": 19,
+      "private_property": 0,
+      "free_parking": 0,
+      "kommun_street_side": 0,
       "needs_identification": 1,
-      "osm_operator_mapped": 4,
+      "osm_operator_mapped": 0,
       "lulebo_district": 0,
-      "near_aimo": 0,
-      "rural_free": 48,
+      "near_aimo": 1,
+      "rural_free": 0,
       "note_matched": 0,
-      "access_yes_free": 8,
+      "access_yes_free": 0,
       "fee_confirmed_unknown": 11,
-      "genuinely_unknown": 384,
-      "before": 651,
-      "after": 396,
+      "genuinely_unknown": 383,
+      "before": 396,
+      "after": 395,
       "total": 651,
-      "coverage_pct": 39.2,
-      "run_date": "2026-04-30"
+      "coverage_pct": 39.3,
+      "run_date": "2026-05-01"
     }
   },
   "features": [
@@ -28651,7 +28651,7 @@
       "properties": {
         "id": "ostersund-osm-251833432",
         "name": "OSM-251833432",
-        "operator": "unknown",
+        "operator": "aimopark",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
@@ -28663,11 +28663,11 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.55,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "near_aimo_zone"
         ],
         "last_verified": null,
         "osm_id": 251833432,

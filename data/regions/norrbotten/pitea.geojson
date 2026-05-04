@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-04-30T05:00:50.408085+00:00",
+    "generated": "2026-05-01T04:45:34.797728+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Norrbotten",
     "city": "pitea",
@@ -16,36 +16,36 @@
       "bootstrap_date": "2026-04-30"
     },
     "operator_identification": {
-      "before_unknown": 207,
-      "after_unknown": 170,
-      "total_identified": 37,
+      "before_unknown": 109,
+      "after_unknown": 109,
+      "total_identified": 0,
       "per_operator": {
-        "aimopark": 7,
-        "kommun": 30
+        "aimopark": 0,
+        "kommun": 0
       },
-      "aimo_matched": 7,
+      "aimo_matched": 0,
       "lulebo_matched": 0,
-      "kommun_matched": 30,
-      "run_date": "2026-04-30"
+      "kommun_matched": 0,
+      "run_date": "2026-05-01"
     },
     "osm_reclassification": {
-      "private_property": 25,
-      "free_parking": 12,
-      "kommun_street_side": 5,
+      "private_property": 0,
+      "free_parking": 0,
+      "kommun_street_side": 0,
       "needs_identification": 2,
-      "osm_operator_mapped": 2,
+      "osm_operator_mapped": 0,
       "lulebo_district": 0,
       "near_aimo": 0,
-      "rural_free": 16,
+      "rural_free": 0,
       "note_matched": 0,
-      "access_yes_free": 1,
+      "access_yes_free": 0,
       "fee_confirmed_unknown": 8,
       "genuinely_unknown": 99,
-      "before": 170,
+      "before": 109,
       "after": 109,
       "total": 207,
       "coverage_pct": 47.3,
-      "run_date": "2026-04-30"
+      "run_date": "2026-05-01"
     }
   },
   "features": [

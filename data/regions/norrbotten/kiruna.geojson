@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-04-30T05:01:57.289041+00:00",
+    "generated": "2026-05-01T04:46:26.214185+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Norrbotten",
     "city": "kiruna",
@@ -16,23 +16,23 @@
       "bootstrap_date": "2026-04-30"
     },
     "osm_reclassification": {
-      "private_property": 41,
-      "free_parking": 64,
-      "kommun_street_side": 9,
+      "private_property": 0,
+      "free_parking": 0,
+      "kommun_street_side": 0,
       "needs_identification": 1,
       "osm_operator_mapped": 0,
       "lulebo_district": 0,
       "near_aimo": 0,
-      "rural_free": 70,
+      "rural_free": 0,
       "note_matched": 0,
-      "access_yes_free": 5,
+      "access_yes_free": 0,
       "fee_confirmed_unknown": 1,
       "genuinely_unknown": 111,
-      "before": 302,
+      "before": 113,
       "after": 113,
       "total": 302,
       "coverage_pct": 62.6,
-      "run_date": "2026-04-30"
+      "run_date": "2026-05-01"
     }
   },
   "features": [

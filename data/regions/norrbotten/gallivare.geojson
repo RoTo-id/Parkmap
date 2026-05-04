@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-04-30T05:01:59.694605+00:00",
+    "generated": "2026-05-01T04:46:26.253664+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Norrbotten",
     "city": "gallivare",
@@ -16,23 +16,23 @@
       "bootstrap_date": "2026-04-30"
     },
     "osm_reclassification": {
-      "private_property": 118,
-      "free_parking": 22,
-      "kommun_street_side": 6,
+      "private_property": 0,
+      "free_parking": 0,
+      "kommun_street_side": 0,
       "needs_identification": 0,
       "osm_operator_mapped": 0,
       "lulebo_district": 0,
       "near_aimo": 0,
-      "rural_free": 33,
+      "rural_free": 0,
       "note_matched": 0,
-      "access_yes_free": 5,
+      "access_yes_free": 0,
       "fee_confirmed_unknown": 2,
       "genuinely_unknown": 69,
-      "before": 255,
+      "before": 71,
       "after": 71,
       "total": 255,
       "coverage_pct": 72.2,
-      "run_date": "2026-04-30"
+      "run_date": "2026-05-01"
     }
   },
   "features": [

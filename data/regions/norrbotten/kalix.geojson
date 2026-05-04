@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-04-30T05:01:47.091716+00:00",
+    "generated": "2026-05-01T04:46:26.146858+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Norrbotten",
     "city": "kalix",
@@ -16,23 +16,23 @@
       "bootstrap_date": "2026-04-30"
     },
     "osm_reclassification": {
-      "private_property": 21,
-      "free_parking": 19,
-      "kommun_street_side": 138,
+      "private_property": 0,
+      "free_parking": 0,
+      "kommun_street_side": 0,
       "needs_identification": 0,
       "osm_operator_mapped": 0,
       "lulebo_district": 0,
       "near_aimo": 0,
-      "rural_free": 16,
+      "rural_free": 0,
       "note_matched": 0,
-      "access_yes_free": 9,
+      "access_yes_free": 0,
       "fee_confirmed_unknown": 0,
       "genuinely_unknown": 147,
-      "before": 350,
+      "before": 147,
       "after": 147,
       "total": 350,
       "coverage_pct": 58.0,
-      "run_date": "2026-04-30"
+      "run_date": "2026-05-01"
     }
   },
   "features": [

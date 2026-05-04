@@ -118,6 +118,28 @@
     ],
     "scrape_notes": "Dynamic pricing. Booking online. Probably just show 'Boka online' as price. Scrape for available parking types and general info."
   },
+  "private_property": {
+    "name": "Privatparkering (fastighet)",
+    "color": "#78716c",
+    "type": "private",
+    "web": null,
+    "contact": null,
+    "enforcement": null,
+    "payment_apps": [],
+    "scraper_class": null,
+    "scrape_notes": "Reclassified from OSM access=private or access=customers tags."
+  },
+  "free_parking": {
+    "name": "Gratis parkering",
+    "color": "#a3e635",
+    "type": "public",
+    "web": null,
+    "contact": null,
+    "enforcement": null,
+    "payment_apps": [],
+    "scraper_class": null,
+    "scrape_notes": "Reclassified from OSM fee=no or access=permissive tags."
+  },
   "galaren": {
     "name": "Galären",
     "color": "#eab308",
@@ -133,19 +155,5 @@
       "https://galaren.se/parkering/"
     ],
     "scrape_notes": "Private property owner. Mainly rental/contract parking: garage, flex, MC. Not public visitor parking. Include for completeness but flag as needs_review."
-  },
-  "private_property": {
-    "name": "Privatparkering (fastighet)",
-    "color": "#78716c",
-    "type": "private",
-    "description": "Privat parkeringsplats tillhörande fastighet eller verksamhet",
-    "notes": "access=private eller access=customers i OSM"
-  },
-  "free_parking": {
-    "name": "Gratis parkering",
-    "color": "#a3e635",
-    "type": "public",
-    "description": "Kostnadsfri parkering - allmän eller kommunal",
-    "notes": "fee=no eller access=permissive i OSM"
   }
 }
