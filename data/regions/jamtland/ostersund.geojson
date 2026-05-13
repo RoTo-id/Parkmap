@@ -2,18 +2,18 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-05-01T04:46:26.660892+00:00",
+    "generated": "2026-05-12T16:29:47.988222+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Jämtland",
     "city": "ostersund",
     "municipality": "Östersunds kommun",
     "scrape_type": "osm_bootstrap",
     "agent_run_id": "ostersund-osm-bootstrap",
-    "zone_count": 651,
+    "zone_count": 656,
     "bootstrap": {
       "osm_source": "output\\osm_parking_ostersund.geojson",
-      "zones_imported": 651,
-      "bootstrap_date": "2026-04-30"
+      "zones_imported": 656,
+      "bootstrap_date": "2026-05-11"
     },
     "osm_reclassification": {
       "private_property": 0,
@@ -22,17 +22,17 @@
       "needs_identification": 1,
       "osm_operator_mapped": 0,
       "lulebo_district": 0,
-      "near_aimo": 1,
+      "near_aimo": 0,
       "rural_free": 0,
       "note_matched": 0,
       "access_yes_free": 0,
       "fee_confirmed_unknown": 11,
-      "genuinely_unknown": 383,
-      "before": 396,
-      "after": 395,
-      "total": 651,
-      "coverage_pct": 39.3,
-      "run_date": "2026-05-01"
+      "genuinely_unknown": 388,
+      "before": 400,
+      "after": 400,
+      "total": 656,
+      "coverage_pct": 39.0,
+      "run_date": "2026-05-12"
     }
   },
   "features": [
@@ -9975,12 +9975,16 @@
         "coordinates": [
           [
             [
-              14.5781099,
-              63.1946131
+              14.5780403,
+              63.1946208
             ],
             [
-              14.580422,
-              63.195285
+              14.5804406,
+              63.195315
+            ],
+            [
+              14.5808454,
+              63.1950091
             ],
             [
               14.5815695,
@@ -9999,36 +10003,36 @@
               63.1940956
             ],
             [
-              14.5804991,
-              63.1942424
+              14.5805313,
+              63.1941432
             ],
             [
               14.5802477,
               63.194141
             ],
             [
-              14.5794544,
-              63.1938214
+              14.57942,
+              63.1937981
             ],
             [
-              14.579069,
-              63.1940261
+              14.5788442,
+              63.1941092
             ],
             [
-              14.5795657,
-              63.1942308
+              14.5793687,
+              63.1942892
             ],
             [
-              14.5792574,
-              63.1944007
+              14.5792262,
+              63.1943689
             ],
             [
-              14.5788978,
-              63.1943235
+              14.5788841,
+              63.1942994
             ],
             [
-              14.5781099,
-              63.1946131
+              14.5780403,
+              63.1946208
             ]
           ]
         ]
@@ -25546,8 +25550,8 @@
               63.1895009
             ],
             [
-              14.4948893,
-              63.1894068
+              14.4949537,
+              63.1893911
             ],
             [
               14.4952003,
@@ -29022,24 +29026,24 @@
               63.1903316
             ],
             [
-              14.4518005,
-              63.1901507
+              14.4518541,
+              63.1901894
             ],
             [
-              14.4519147,
-              63.1900123
+              14.4516935,
+              63.1901693
             ],
             [
-              14.4520102,
-              63.18988
+              14.4519351,
+              63.1898715
             ],
             [
-              14.4521367,
-              63.1897047
+              14.4520831,
+              63.1896902
             ],
             [
-              14.4523112,
-              63.189533
+              14.4522736,
+              63.18951
             ],
             [
               14.4524924,
@@ -30747,6 +30751,10 @@
               63.1860091
             ],
             [
+              14.506541,
+              63.1859619
+            ],
+            [
               14.506606,
               63.1859309
             ],
@@ -31331,16 +31339,20 @@
               63.1922073
             ],
             [
-              14.488354,
-              63.1921213
+              14.488303,
+              63.192085
             ],
             [
-              14.4876622,
-              63.1921807
+              14.4877278,
+              63.1921359
             ],
             [
-              14.4878016,
-              63.1922605
+              14.4876327,
+              63.1921456
+            ],
+            [
+              14.4877667,
+              63.1922327
             ],
             [
               14.4885151,
@@ -38652,24 +38664,24 @@
         "coordinates": [
           [
             [
-              14.6693373,
-              63.1758663
+              14.6692997,
+              63.1758941
             ],
             [
-              14.6695425,
-              63.1757006
+              14.6695049,
+              63.1757284
             ],
             [
-              14.6699449,
-              63.1758022
+              14.6699073,
+              63.17583
             ],
             [
-              14.6697396,
-              63.1759678
+              14.669702,
+              63.1759956
             ],
             [
-              14.6693373,
-              63.1758663
+              14.6692997,
+              63.1758941
             ]
           ]
         ]
@@ -41893,12 +41905,8 @@
               63.1915067
             ],
             [
-              14.4580271,
-              63.1918641
-            ],
-            [
-              14.4578247,
-              63.191735
+              14.4582559,
+              63.1916735
             ],
             [
               14.4575005,
@@ -45552,6 +45560,346 @@
             [
               14.6597388,
               63.1614629
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ostersund-osm-1507499356",
+        "name": "OSM-1507499356",
+        "operator": "unknown",
+        "municipality": "Östersund",
+        "region": "Jämtland",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1507499356,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.469621,
+              63.1847911
+            ],
+            [
+              14.4697814,
+              63.1849636
+            ],
+            [
+              14.4697296,
+              63.1850179
+            ],
+            [
+              14.4695273,
+              63.1850452
+            ],
+            [
+              14.4693456,
+              63.1848409
+            ],
+            [
+              14.469621,
+              63.1847911
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ostersund-osm-1507499357",
+        "name": "OSM-1507499357",
+        "operator": "unknown",
+        "municipality": "Östersund",
+        "region": "Jämtland",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1507499357,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.4699564,
+              63.1849727
+            ],
+            [
+              14.4698015,
+              63.1849426
+            ],
+            [
+              14.4697814,
+              63.1849636
+            ],
+            [
+              14.4697296,
+              63.1850179
+            ],
+            [
+              14.4695757,
+              63.185179
+            ],
+            [
+              14.4696981,
+              63.1852029
+            ],
+            [
+              14.4699564,
+              63.1849727
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ostersund-osm-1507499361",
+        "name": "OSM-1507499361",
+        "operator": "unknown",
+        "municipality": "Östersund",
+        "region": "Jämtland",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1507499361,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.4827684,
+              63.1914815
+            ],
+            [
+              14.482866,
+              63.191534
+            ],
+            [
+              14.4829723,
+              63.1915913
+            ],
+            [
+              14.4838525,
+              63.191259
+            ],
+            [
+              14.4837481,
+              63.1912027
+            ],
+            [
+              14.4836486,
+              63.1911491
+            ],
+            [
+              14.4827684,
+              63.1914815
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ostersund-osm-1508986450",
+        "name": "OSM-1508986450",
+        "operator": "unknown",
+        "municipality": "Östersund",
+        "region": "Jämtland",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1508986450,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.6411989,
+              63.1709197
+            ],
+            [
+              14.6412944,
+              63.1708947
+            ],
+            [
+              14.6414173,
+              63.1709907
+            ],
+            [
+              14.6413219,
+              63.1710157
+            ],
+            [
+              14.6412495,
+              63.1709591
+            ],
+            [
+              14.6411989,
+              63.1709197
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ostersund-osm-1508986453",
+        "name": "OSM-1508986453",
+        "operator": "unknown",
+        "municipality": "Östersund",
+        "region": "Jämtland",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1508986453,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.6403802,
+              63.1704521
+            ],
+            [
+              14.6409784,
+              63.170627
+            ],
+            [
+              14.640679,
+              63.1708356
+            ],
+            [
+              14.6405954,
+              63.1708111
+            ],
+            [
+              14.6405374,
+              63.1708515
+            ],
+            [
+              14.6402311,
+              63.1707619
+            ],
+            [
+              14.6401562,
+              63.1708141
+            ],
+            [
+              14.6399479,
+              63.1707532
+            ],
+            [
+              14.6403802,
+              63.1704521
             ]
           ]
         ]

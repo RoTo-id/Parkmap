@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-05-01T04:46:26.783517+00:00",
+    "generated": "2026-05-12T16:29:48.244080+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Västernorrland",
     "city": "kramfors",
@@ -32,7 +32,7 @@
       "after": 56,
       "total": 174,
       "coverage_pct": 67.8,
-      "run_date": "2026-05-01"
+      "run_date": "2026-05-12"
     }
   },
   "features": [

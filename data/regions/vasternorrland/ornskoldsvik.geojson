@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-05-01T04:46:26.756692+00:00",
+    "generated": "2026-05-12T16:29:48.173079+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Västernorrland",
     "city": "ornskoldsvik",
@@ -32,7 +32,7 @@
       "after": 114,
       "total": 206,
       "coverage_pct": 44.7,
-      "run_date": "2026-05-01"
+      "run_date": "2026-05-12"
     }
   },
   "features": [

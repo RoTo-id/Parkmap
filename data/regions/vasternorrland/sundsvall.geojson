@@ -2,18 +2,18 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-05-01T04:46:26.519532+00:00",
+    "generated": "2026-05-12T16:29:47.823185+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Västernorrland",
     "city": "sundsvall",
     "municipality": "Sundsvalls kommun",
     "scrape_type": "osm_bootstrap",
     "agent_run_id": "sundsvall-osm-bootstrap",
-    "zone_count": 1376,
+    "zone_count": 1374,
     "bootstrap": {
       "osm_source": "output\\osm_parking_sundsvall.geojson",
-      "zones_imported": 1376,
-      "bootstrap_date": "2026-04-30"
+      "zones_imported": 1374,
+      "bootstrap_date": "2026-05-11"
     },
     "osm_reclassification": {
       "private_property": 0,
@@ -27,12 +27,12 @@
       "note_matched": 0,
       "access_yes_free": 0,
       "fee_confirmed_unknown": 22,
-      "genuinely_unknown": 896,
-      "before": 929,
-      "after": 929,
-      "total": 1376,
+      "genuinely_unknown": 894,
+      "before": 927,
+      "after": 927,
+      "total": 1374,
       "coverage_pct": 32.5,
-      "run_date": "2026-05-01"
+      "run_date": "2026-05-12"
     }
   },
   "features": [
@@ -25193,66 +25193,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "sundsvall-osm-93309441",
-        "name": "OSM-93309441",
-        "operator": "unknown",
-        "municipality": "Sundsvall",
-        "region": "Västernorrland",
-        "type": "outdoor",
-        "zone_code": null,
-        "spots": null,
-        "price_per_hour": null,
-        "currency": "SEK",
-        "hours": null,
-        "restrictions": null,
-        "contact": null,
-        "source_url": null,
-        "confidence": null,
-        "flags": [
-          "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
-        ],
-        "last_verified": null,
-        "osm_id": 93309441,
-        "osm_distance_m": null,
-        "osm_access": "unknown",
-        "osm_fee": null,
-        "osm_parking": "surface",
-        "osm_operator": null,
-        "osm_note": null
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              17.2856894,
-              62.3921464
-            ],
-            [
-              17.2856706,
-              62.3921
-            ],
-            [
-              17.2851044,
-              62.3921491
-            ],
-            [
-              17.2851231,
-              62.3921955
-            ],
-            [
-              17.2856894,
-              62.3921464
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "sundsvall-osm-93309447",
         "name": "OSM-93309447",
         "operator": "unknown",
@@ -25369,66 +25309,6 @@
             [
               17.2869978,
               62.3903697
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "sundsvall-osm-93309455",
-        "name": "OSM-93309455",
-        "operator": "unknown",
-        "municipality": "Sundsvall",
-        "region": "Västernorrland",
-        "type": "outdoor",
-        "zone_code": null,
-        "spots": null,
-        "price_per_hour": null,
-        "currency": "SEK",
-        "hours": null,
-        "restrictions": null,
-        "contact": null,
-        "source_url": null,
-        "confidence": null,
-        "flags": [
-          "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
-        ],
-        "last_verified": null,
-        "osm_id": 93309455,
-        "osm_distance_m": null,
-        "osm_access": "unknown",
-        "osm_fee": null,
-        "osm_parking": "surface",
-        "osm_operator": null,
-        "osm_note": null
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              17.2850509,
-              62.3920915
-            ],
-            [
-              17.2854613,
-              62.3920501
-            ],
-            [
-              17.2854394,
-              62.3920035
-            ],
-            [
-              17.285029,
-              62.392045
-            ],
-            [
-              17.2850509,
-              62.3920915
             ]
           ]
         ]
@@ -91931,6 +91811,10 @@
             [
               17.3199941,
               62.3984403
+            ],
+            [
+              17.3200057,
+              62.3984263
             ],
             [
               17.3200245,

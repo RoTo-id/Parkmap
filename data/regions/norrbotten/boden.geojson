@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-05-01T04:45:30.583563+00:00",
+    "generated": "2026-05-12T16:28:50.103224+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Norrbotten",
     "city": "boden",
@@ -27,7 +27,7 @@
       "aimo_matched": 0,
       "lulebo_matched": 0,
       "kommun_matched": 0,
-      "run_date": "2026-05-01"
+      "run_date": "2026-05-12"
     },
     "osm_reclassification": {
       "private_property": 0,
@@ -46,7 +46,23 @@
       "after": 23,
       "total": 150,
       "coverage_pct": 84.7,
-      "run_date": "2026-05-01"
+      "run_date": "2026-05-12"
+    },
+    "parkster_coordinate_scan": {
+      "api_matched": 0,
+      "adb_pending": 23,
+      "api_failed": 0,
+      "before_unknown": 23,
+      "after_unknown": 23,
+      "run_date": "2026-05-11"
+    },
+    "easypark_lookup": {
+      "matched": 0,
+      "failed": 0,
+      "no_response": 23,
+      "before_unknown": 23,
+      "after_unknown": 23,
+      "run_date": "2026-05-11"
     }
   },
   "features": [
@@ -601,7 +617,9 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_adb_pending",
+          "easypark_lookup_failed"
         ],
         "last_verified": null,
         "osm_id": 395874328,
@@ -610,7 +628,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.810386&lng=21.697682\" com.parkster.android"
       },
       "geometry": {
         "type": "Polygon",
@@ -1394,7 +1413,9 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_adb_pending",
+          "easypark_lookup_failed"
         ],
         "last_verified": null,
         "osm_id": 655356678,
@@ -1403,7 +1424,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.813576&lng=21.70822\" com.parkster.android"
       },
       "geometry": {
         "type": "Polygon",
@@ -1462,7 +1484,9 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_adb_pending",
+          "easypark_lookup_failed"
         ],
         "last_verified": null,
         "osm_id": 655603935,
@@ -1471,7 +1495,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.806726&lng=21.679389\" com.parkster.android"
       },
       "geometry": {
         "type": "Polygon",
@@ -1522,7 +1547,9 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_adb_pending",
+          "easypark_lookup_failed"
         ],
         "last_verified": null,
         "osm_id": 655654742,
@@ -1531,7 +1558,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.785022&lng=21.642211\" com.parkster.android"
       },
       "geometry": {
         "type": "Polygon",
@@ -1602,7 +1630,9 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_adb_pending",
+          "easypark_lookup_failed"
         ],
         "last_verified": null,
         "osm_id": 833961559,
@@ -1611,7 +1641,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.79245&lng=21.655286\" com.parkster.android"
       },
       "geometry": {
         "type": "Polygon",
@@ -2206,7 +2237,9 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_adb_pending",
+          "easypark_lookup_failed"
         ],
         "last_verified": null,
         "osm_id": 998569938,
@@ -2215,7 +2248,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.802585&lng=21.717201\" com.parkster.android"
       },
       "geometry": {
         "type": "Polygon",
@@ -2605,7 +2639,9 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_adb_pending",
+          "easypark_lookup_failed"
         ],
         "last_verified": null,
         "osm_id": 999737554,
@@ -2614,7 +2650,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.822977&lng=21.650284\" com.parkster.android"
       },
       "geometry": {
         "type": "Polygon",
@@ -3111,7 +3148,9 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_adb_pending",
+          "easypark_lookup_failed"
         ],
         "last_verified": null,
         "osm_id": 1002276423,
@@ -3120,7 +3159,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.804978&lng=21.73594\" com.parkster.android"
       },
       "geometry": {
         "type": "Polygon",
@@ -3465,7 +3505,9 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_adb_pending",
+          "easypark_lookup_failed"
         ],
         "last_verified": null,
         "osm_id": 1056599609,
@@ -3474,7 +3516,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.856084&lng=21.699435\" com.parkster.android"
       },
       "geometry": {
         "type": "Polygon",
@@ -3553,7 +3596,9 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_adb_pending",
+          "easypark_lookup_failed"
         ],
         "last_verified": null,
         "osm_id": 1056599610,
@@ -3562,7 +3607,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.785339&lng=21.641719\" com.parkster.android"
       },
       "geometry": {
         "type": "Polygon",
@@ -4693,7 +4739,9 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_adb_pending",
+          "easypark_lookup_failed"
         ],
         "last_verified": null,
         "osm_id": 1078786661,
@@ -4702,7 +4750,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.82138&lng=21.652072\" com.parkster.android"
       },
       "geometry": {
         "type": "Polygon",
@@ -5348,7 +5397,9 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_adb_pending",
+          "easypark_lookup_failed"
         ],
         "last_verified": null,
         "osm_id": 1083463521,
@@ -5357,7 +5408,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.795227&lng=21.761681\" com.parkster.android"
       },
       "geometry": {
         "type": "Polygon",
@@ -5408,7 +5460,9 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_adb_pending",
+          "easypark_lookup_failed"
         ],
         "last_verified": null,
         "osm_id": 1084628611,
@@ -5417,7 +5471,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.797454&lng=21.688133\" com.parkster.android"
       },
       "geometry": {
         "type": "Polygon",
@@ -5682,7 +5737,9 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_adb_pending",
+          "easypark_lookup_failed"
         ],
         "last_verified": null,
         "osm_id": 1094461032,
@@ -5691,7 +5748,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.82262&lng=21.654449\" com.parkster.android"
       },
       "geometry": {
         "type": "Polygon",
@@ -6007,7 +6065,9 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_adb_pending",
+          "easypark_lookup_failed"
         ],
         "last_verified": null,
         "osm_id": 1108296542,
@@ -6016,7 +6076,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.752507&lng=21.75744\" com.parkster.android"
       },
       "geometry": {
         "type": "Polygon",
@@ -6107,7 +6168,9 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_adb_pending",
+          "easypark_lookup_failed"
         ],
         "last_verified": null,
         "osm_id": 1108296548,
@@ -6116,7 +6179,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.751173&lng=21.758276\" com.parkster.android"
       },
       "geometry": {
         "type": "Polygon",
@@ -6714,7 +6778,9 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_adb_pending",
+          "easypark_lookup_failed"
         ],
         "last_verified": null,
         "osm_id": 1272407406,
@@ -6723,7 +6789,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.802861&lng=21.690155\" com.parkster.android"
       },
       "geometry": {
         "type": "Polygon",
@@ -6774,7 +6841,9 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_adb_pending",
+          "easypark_lookup_failed"
         ],
         "last_verified": null,
         "osm_id": 1272407407,
@@ -6783,7 +6852,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.802665&lng=21.690069\" com.parkster.android"
       },
       "geometry": {
         "type": "Polygon",
@@ -6834,7 +6904,9 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_adb_pending",
+          "easypark_lookup_failed"
         ],
         "last_verified": null,
         "osm_id": 1272407408,
@@ -6843,7 +6915,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.802227&lng=21.690335\" com.parkster.android"
       },
       "geometry": {
         "type": "Polygon",
@@ -6894,7 +6967,9 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_adb_pending",
+          "easypark_lookup_failed"
         ],
         "last_verified": null,
         "osm_id": 1272407409,
@@ -6903,7 +6978,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.80211&lng=21.690333\" com.parkster.android"
       },
       "geometry": {
         "type": "Polygon",
@@ -7404,7 +7480,9 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_adb_pending",
+          "easypark_lookup_failed"
         ],
         "last_verified": null,
         "osm_id": 1395929718,
@@ -7413,7 +7491,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.807802&lng=21.699056\" com.parkster.android"
       },
       "geometry": {
         "type": "Polygon",
@@ -7528,7 +7607,9 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_adb_pending",
+          "easypark_lookup_failed"
         ],
         "last_verified": null,
         "osm_id": 1413466253,
@@ -7537,7 +7618,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.792419&lng=21.657278\" com.parkster.android"
       },
       "geometry": {
         "type": "Polygon",
@@ -10532,7 +10614,9 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_adb_pending",
+          "easypark_lookup_failed"
         ],
         "last_verified": null,
         "osm_id": 1475013633,
@@ -10541,7 +10625,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.805014&lng=21.690142\" com.parkster.android"
       },
       "geometry": {
         "type": "Polygon",
