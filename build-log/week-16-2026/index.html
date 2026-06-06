@@ -1,0 +1,93 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Week 16, 2026 — Opus 4.7 release weekend | Build Log</title><meta name="description" content="What actually happened when Opus 4.7 shipped and I pointed it at a half-autonomous 13-factory platform for a weekend."><link rel="canonical" href="https://maxineplatform.com/build-log/week-16-2026/"><meta property="og:title" content="Week 16, 2026 — Opus 4.7 release weekend | Build Log"><meta property="og:description" content="What actually happened when Opus 4.7 shipped and I pointed it at a half-autonomous 13-factory platform for a weekend."><meta property="og:type" content="website"><meta property="og:url" content="https://maxineplatform.com/build-log/week-16-2026/"><meta name="twitter:card" content="summary_large_image"><meta name="robots" content="index,follow"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="preconnect" href="https://rsms.me"><link rel="stylesheet" href="https://rsms.me/inter/inter.css"><link rel="stylesheet" href="/_assets/about.oMk6erEY.css"></head> <body class="flex min-h-screen flex-col"> <header class="sticky top-0 z-40 border-b border-ink-800/80 bg-ink-900/80 backdrop-blur"> <nav class="container-tight flex items-center justify-between py-4"> <a href="/" class="group flex items-center gap-2 no-underline"> <span class="inline-block h-2.5 w-2.5 rounded-full bg-accent"></span> <span class="font-semibold tracking-tight text-ink-50">Maxine Platform</span> </a> <div class="flex items-center gap-6 text-sm"> <a href="/products/" class="no-underline text-ink-300 hover:text-ink-50">Products</a> <a href="/build-log/" class="no-underline text-ink-50">Build Log</a> <a href="/about/" class="no-underline text-ink-300 hover:text-ink-50">About</a> </div> </nav> </header> <main class="flex-1">  <section class="container-tight pt-16 md:pt-24"> <div class="text-xs font-mono uppercase tracking-widest text-ink-400 mb-3">
+Build Log · Week 16, 2026 · April 13–19
+</div> <h1 class="text-4xl md:text-5xl font-semibold mb-4">
+Opus 4.7 release weekend — what happened
+</h1> <p class="prose-muted max-w-content text-lg">
+Opus 4.7 dropped on a Friday. By Monday the platform had shipped more
+      than in the previous two weeks combined. Here's the honest log — what
+      worked, what didn't, and what's running now that wasn't before.
+</p> </section> <section class="container-tight py-12 prose prose-invert max-w-content"> <h2>What shipped</h2> <p>
+The platform is 13 factories, 12 agents, and a lot of wiring. Going
+      into the weekend the biggest gap was autonomy: every day I still had
+      to open a terminal and nudge something. Seven days later:
+</p> <ul> <li> <strong>Shorts factory runs itself end-to-end.</strong>
+News monitor polls RSS → Ollama classifies → Vivi scripts → mood
+        library → WAN 2.2 segments → assembly + QA → YouTube metadata. Three
+        AI-news shorts rendered unattended on 2026-04-17, each with
+        thumbnails, hashtags, and pinned comments.
+</li> <li> <strong>Platform survives reboot.</strong> <code>platform_startup.bat</code> boots the whole stack at logon
+        (Ollama → Docker → MASTER_START → Hermes gateway nudge → Telegram
+        ping). <code>platform_healthcheck.bat</code> runs every 15 minutes
+        and pings me if dashboard, mothership, Ollama, the scheduler, or disk
+        drops below threshold.
+</li> <li> <strong>Variety fix in the segment library.</strong>
+Old rotation was Vivi-first, which meant every short looked like
+        "a girl, again." New picker takes the neediest mood every
+        iteration (lowest existing/target ratio), soft-caps Vivi at 12, and
+        bans any segment already used in a published short.
+</li> <li> <strong>Book factory got a cover artist.</strong>
+Every produced book now generates a genre-aware cover via
+        z-image-turbo and packages EPUB, PDF, and MOBI through Calibre —
+        same pipeline Amazon KDP accepts.
+</li> <li> <strong>Trend hub went cross-channel.</strong>
+Book, SEO, blogger, YouTube, and POD briefs all emit from the same
+        firehose. Factory9 now picks topics from live 72h signal scores,
+        not a static list.
+</li> <li> <strong>ParkMap rotates 16 cities.</strong>
+The nightly parking-zones self-improve run used to only hit the pilot city Luleå. Now it
+        round-robins all 16 — every city gets deep-scan data within
+        2.3 weeks, and persistent scraper failures auto-escalate to R&amp;D
+        after three strikes.
+</li> <li> <strong>Personal-info lint on the site build.</strong>
+My name, email, and city used to leak through the Astro source.
+<code>npm run build</code> now fails if any banned string shows up
+        in source or dist — no way for a future rebuild to regress.
+</li> </ul> <h2>What I learned</h2> <p> <strong>Docs ≠ implementation.</strong> I wrote six plan documents
+      during the week and got called out mid-session for exactly that: "you
+      wrote docs but never implemented the plans." Fair. The rule going
+      forward — any <code>*_PLAN.md</code> file I commit has to ship with at
+      least one execution artifact in the same turn (a cron row, a code
+      edit, a SOUL patch), or the doc doesn't go in.
+</p> <p> <strong>Neediest-first beats round-robin.</strong> The segment
+      library was 60% Vivi and 0% scenic because a static
+<code>$ViviMoods + $RegularMoods + ...</code> rotation chewed through
+      GPU hours on Vivi before the scenic moods ever hit their first
+      render. Picking the mood with the lowest existing/target ratio
+<em>every iteration</em> self-balances without needing a scheduler.
+      Same pattern reappeared in ParkMap city rotation.
+</p> <p> <strong>Permanent bans beat cooldowns.</strong> I had a
+<code>COOLDOWN = 5</code> on segment reuse, which meant the same
+      anime clip was allowed back after 5 shorts. Viewers would notice. Now
+      every segment that appears in an uploaded short is permanently
+      banned — joined against <code>uploads.jsonl</code> and
+<code>shorts_segment_usage.jsonl</code>. Build the library deep
+      instead of cycling a shallow one.
+</p> <p> <strong>Tokens drift.</strong> Two OAuth tokens in two places was a
+      recipe for pain — the uploader was reading an expired copy from
+      2026-03-22 while the working copy sat in
+<code>secrets/youtube_token.json</code> untouched. Fixed with a
+      single-source-of-truth path plus a legacy fallback.
+</p> <h2>Numbers</h2> <ul> <li>Shorts segment library: scenic moods went from 0 → target-range in five days</li> <li>Task Scheduler cleanup: 82 disabled legacy jobs identified; 9 removed this session, script staged for admin removal of the rest</li> <li>MASTER_START.bat: 644 → 604 lines after dropping the dead OpenClaw scaffolding</li> <li>Platform healthcheck snapshots: writing to <code>E:\MaxineLogs\platform_healthcheck.jsonl</code> every 15 min</li> <li>Shorts QA gate: deterministic + LLM both required before upload (was: either)</li> </ul> <h2>What broke</h2> <ul> <li>
+GPU self-deadlock on 2026-04-17 — zombie renderer processes held
+        the Redis lock after a crash, and the watchdog kept spawning new
+        renders that couldn't acquire it. Manual recovery: kill zombies,
+        clear the lock. Follow-up: the lock now carries a PID so stale
+        holders can be auto-released.
+</li> <li>
+Vision-LLM on image QA: only 1 in 15 images produced parseable
+        JSON even with <code>think:false</code> set. Deterministic ImageQA
+        already gates reliably, so LLM is a nice-to-have layer, not a
+        critical path. Prompt rewrite is the next cheap win.
+</li> <li>
+YouTube first real upload still requires my approval. The v2
+        uploader is dry-run-verified on three videos; flipping
+<code>vivi-youtube-upload.enabled → true</code> is a one-line
+        change I'll make after the first manual unlisted test passes.
+</li> </ul> <h2>Testing next week</h2> <ul> <li>First real YouTube upload (unlisted, then public)</li> <li>Run the admin Task Scheduler cleanup — drop the remaining ~70 disabled tasks</li> <li>Wire Analytics → factory priority loop (what's getting views decides what runs tomorrow)</li> <li>QA → Sales pipeline: PASS books auto-queue to Gumroad draft state</li> <li>Ship MedRemind landing page with real screenshots</li> </ul> <p class="text-sm text-ink-400 pt-8 border-t border-ink-800 mt-12">
+The platform is a 24/7 local-first setup — Ollama + SwarmUI + Hermes
+      agents + 13 factories — running on a single workstation. Everything
+      above is code in repos you can see or artifacts on disks I own. No
+      investor deck, no hype. Just the log.
+</p> </section> <section class="container-tight py-8 border-t border-ink-800"> <a href="/build-log/" class="text-ink-100 no-underline text-sm">&larr; Back to build log</a> </section>  </main> <footer class="mt-24 border-t border-ink-800 py-10"> <div class="container-tight flex flex-col gap-6 text-sm text-ink-400 md:flex-row md:items-center md:justify-between"> <div> <span class="font-semibold text-ink-200">Maxine Platform</span> <span class="mx-2 text-ink-600">·</span>
+Solo indie · Luleå, Sweden
+</div> <div class="flex flex-wrap gap-x-5 gap-y-2"> <a href="/legal/privacy/" class="no-underline hover:text-ink-100">Privacy</a> <a href="/legal/terms/" class="no-underline hover:text-ink-100">Terms</a> <a href="/legal/cookies/" class="no-underline hover:text-ink-100">Cookies</a> <a href="mailto:nuriko84@gmail.com" class="no-underline hover:text-ink-100">Contact</a> </div> <div class="text-xs text-ink-500">© 2026</div> </div> </footer> </body></html>
