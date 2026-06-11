@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-05-12T16:29:47.293449+00:00",
+    "generated": "2026-06-08T01:13:48.948432+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Norrbotten",
     "city": "haparanda",
@@ -13,7 +13,7 @@
     "bootstrap": {
       "osm_source": "output\\osm_parking_haparanda.geojson",
       "zones_imported": 56,
-      "bootstrap_date": "2026-05-11"
+      "bootstrap_date": "2026-06-08"
     },
     "osm_reclassification": {
       "private_property": 0,
@@ -27,12 +27,12 @@
       "note_matched": 0,
       "access_yes_free": 0,
       "fee_confirmed_unknown": 0,
-      "genuinely_unknown": 35,
-      "before": 36,
-      "after": 36,
+      "genuinely_unknown": 34,
+      "before": 35,
+      "after": 35,
       "total": 56,
-      "coverage_pct": 35.7,
-      "run_date": "2026-05-12"
+      "coverage_pct": 37.5,
+      "run_date": "2026-06-08"
     }
   },
   "features": [
@@ -3396,29 +3396,28 @@
       "properties": {
         "id": "haparanda-osm-1354279727",
         "name": "OSM-1354279727",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Haparanda",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "osm_reclassified"
         ],
         "last_verified": null,
         "osm_id": 1354279727,
         "osm_distance_m": null,
-        "osm_access": "unknown",
-        "osm_fee": null,
+        "osm_access": "yes",
+        "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null

@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-05-12T16:29:48.294334+00:00",
+    "generated": "2026-06-08T01:13:50.167400+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Västerbotten",
     "city": "lycksele",
@@ -13,7 +13,7 @@
     "bootstrap": {
       "osm_source": "output\\osm_parking_lycksele.geojson",
       "zones_imported": 53,
-      "bootstrap_date": "2026-05-11"
+      "bootstrap_date": "2026-06-08"
     },
     "osm_reclassification": {
       "private_property": 0,
@@ -32,7 +32,7 @@
       "after": 35,
       "total": 53,
       "coverage_pct": 34.0,
-      "run_date": "2026-05-12"
+      "run_date": "2026-06-08"
     }
   },
   "features": [
@@ -438,40 +438,32 @@
         "coordinates": [
           [
             [
-              18.6976522,
-              64.5846636
+              18.6974931,
+              64.5848961
             ],
             [
-              18.6972397,
-              64.5853594
+              18.6971576,
+              64.5855074
             ],
             [
-              18.6977843,
-              64.5854189
+              18.6978281,
+              64.5855752
             ],
             [
-              18.6979786,
-              64.5850911
+              18.6980811,
+              64.585114
             ],
             [
-              18.6978624,
-              64.5850784
+              18.697704,
+              64.5850759
             ],
             [
-              18.6979498,
-              64.5849309
+              18.6977863,
+              64.5849257
             ],
             [
-              18.6978369,
-              64.5849186
-            ],
-            [
-              18.6979677,
-              64.584698
-            ],
-            [
-              18.6976522,
-              64.5846636
+              18.6974931,
+              64.5848961
             ]
           ]
         ]
@@ -1364,114 +1356,6 @@
             [
               18.8419664,
               64.5236263
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "lycksele-osm-1124219075",
-        "name": "OSM-1124219075",
-        "operator": "unknown",
-        "municipality": "Lycksele",
-        "region": "Västerbotten",
-        "type": "outdoor",
-        "zone_code": null,
-        "spots": null,
-        "price_per_hour": null,
-        "currency": "SEK",
-        "hours": null,
-        "restrictions": null,
-        "contact": null,
-        "source_url": null,
-        "confidence": null,
-        "flags": [
-          "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
-        ],
-        "last_verified": null,
-        "osm_id": 1124219075,
-        "osm_distance_m": null,
-        "osm_access": "unknown",
-        "osm_fee": null,
-        "osm_parking": "surface",
-        "osm_operator": null,
-        "osm_note": null
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              18.6809899,
-              64.5937161
-            ],
-            [
-              18.6810337,
-              64.5937119
-            ],
-            [
-              18.6811019,
-              64.5937036
-            ],
-            [
-              18.6813696,
-              64.5934206
-            ],
-            [
-              18.6814037,
-              64.5933861
-            ],
-            [
-              18.6814013,
-              64.5933402
-            ],
-            [
-              18.681299,
-              64.5931031
-            ],
-            [
-              18.6808487,
-              64.5930498
-            ],
-            [
-              18.6807684,
-              64.5930582
-            ],
-            [
-              18.680727,
-              64.5930728
-            ],
-            [
-              18.6804958,
-              64.5933088
-            ],
-            [
-              18.6803765,
-              64.5932911
-            ],
-            [
-              18.6802353,
-              64.5934529
-            ],
-            [
-              18.6802864,
-              64.5934759
-            ],
-            [
-              18.6802718,
-              64.5935396
-            ],
-            [
-              18.6803327,
-              64.5935814
-            ],
-            [
-              18.6809899,
-              64.5937161
             ]
           ]
         ]
@@ -3762,6 +3646,74 @@
             [
               18.6936597,
               64.5626895
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-osm-1524815982",
+        "name": "OSM-1524815982",
+        "operator": "unknown",
+        "municipality": "Lycksele",
+        "region": "Västerbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1524815982,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.7171153,
+              64.5391404
+            ],
+            [
+              18.7174149,
+              64.5392292
+            ],
+            [
+              18.7178645,
+              64.5389552
+            ],
+            [
+              18.7174152,
+              64.5388341
+            ],
+            [
+              18.717194,
+              64.5389756
+            ],
+            [
+              18.7173311,
+              64.539014
+            ],
+            [
+              18.7171153,
+              64.5391404
             ]
           ]
         ]

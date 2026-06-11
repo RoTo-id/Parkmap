@@ -2,18 +2,18 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-05-12T16:29:47.823185+00:00",
+    "generated": "2026-06-08T01:13:49.585668+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Västernorrland",
     "city": "sundsvall",
     "municipality": "Sundsvalls kommun",
     "scrape_type": "osm_bootstrap",
     "agent_run_id": "sundsvall-osm-bootstrap",
-    "zone_count": 1374,
+    "zone_count": 1375,
     "bootstrap": {
       "osm_source": "output\\osm_parking_sundsvall.geojson",
-      "zones_imported": 1374,
-      "bootstrap_date": "2026-05-11"
+      "zones_imported": 1375,
+      "bootstrap_date": "2026-06-08"
     },
     "osm_reclassification": {
       "private_property": 0,
@@ -26,13 +26,13 @@
       "rural_free": 0,
       "note_matched": 0,
       "access_yes_free": 0,
-      "fee_confirmed_unknown": 22,
+      "fee_confirmed_unknown": 23,
       "genuinely_unknown": 894,
-      "before": 927,
-      "after": 927,
-      "total": 1374,
+      "before": 928,
+      "after": 928,
+      "total": 1375,
       "coverage_pct": 32.5,
-      "run_date": "2026-05-12"
+      "run_date": "2026-06-08"
     }
   },
   "features": [
@@ -5257,32 +5257,16 @@
               62.3945685
             ],
             [
-              17.2872447,
-              62.3945622
+              17.2872474,
+              62.394552
             ],
             [
-              17.287284,
-              62.3945028
+              17.2873238,
+              62.3945439
             ],
             [
-              17.2874473,
-              62.3944855
-            ],
-            [
-              17.2885196,
-              62.3943668
-            ],
-            [
-              17.2886224,
-              62.3943554
-            ],
-            [
-              17.2888744,
-              62.3943275
-            ],
-            [
-              17.2888815,
-              62.3943412
+              17.2888986,
+              62.394376
             ],
             [
               17.2890329,
@@ -21736,13 +21720,13 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "fee_confirmed_unknown"
         ],
         "last_verified": null,
         "osm_id": 91701482,
         "osm_distance_m": null,
-        "osm_access": "unknown",
-        "osm_fee": null,
+        "osm_access": "yes",
+        "osm_fee": "yes",
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null
@@ -22327,8 +22311,28 @@
               62.3939342
             ],
             [
+              17.3042761,
+              62.3939198
+            ],
+            [
+              17.3043346,
+              62.3938162
+            ],
+            [
               17.3043528,
               62.3937839
+            ],
+            [
+              17.3042926,
+              62.3937766
+            ],
+            [
+              17.3040151,
+              62.393743
+            ],
+            [
+              17.3038713,
+              62.3937256
             ],
             [
               17.3038042,
@@ -22341,6 +22345,10 @@
             [
               17.3033388,
               62.3936179
+            ],
+            [
+              17.3032356,
+              62.393801
             ],
             [
               17.3032235,
@@ -29615,6 +29623,10 @@
               62.3808743
             ],
             [
+              17.3075265,
+              62.380847
+            ],
+            [
               17.3076524,
               62.3808272
             ]
@@ -29841,7 +29853,7 @@
         "operator": "private_property",
         "municipality": "Sundsvall",
         "region": "Västernorrland",
-        "type": "outdoor",
+        "type": "street",
         "zone_code": null,
         "spots": null,
         "price_per_hour": 0,
@@ -29860,7 +29872,7 @@
         "osm_distance_m": null,
         "osm_access": "private",
         "osm_fee": null,
-        "osm_parking": "surface",
+        "osm_parking": "street_side",
         "osm_operator": null,
         "osm_note": null
       },
@@ -52041,6 +52053,10 @@
             [
               17.3332447,
               62.3830163
+            ],
+            [
+              17.3335398,
+              62.3829785
             ],
             [
               17.3338354,
@@ -89627,12 +89643,16 @@
         "coordinates": [
           [
             [
-              17.3255242,
-              62.3941305
+              17.3255167,
+              62.3941201
             ],
             [
               17.3255147,
               62.3942863
+            ],
+            [
+              17.3258085,
+              62.394289
             ],
             [
               17.327835,
@@ -89655,8 +89675,12 @@
               62.3941172
             ],
             [
-              17.3255242,
-              62.3941305
+              17.3259718,
+              62.3941225
+            ],
+            [
+              17.3255167,
+              62.3941201
             ]
           ]
         ]
@@ -97156,12 +97180,8 @@
         "coordinates": [
           [
             [
-              17.2885827,
-              62.3929694
-            ],
-            [
-              17.2886075,
-              62.3930691
+              17.2885729,
+              62.393073
             ],
             [
               17.2882266,
@@ -97172,12 +97192,24 @@
               62.3928777
             ],
             [
-              17.2885529,
-              62.3928591
+              17.2882784,
+              62.3928725
             ],
             [
-              17.2885827,
-              62.3929694
+              17.2884332,
+              62.392865
+            ],
+            [
+              17.2885204,
+              62.3928607
+            ],
+            [
+              17.2885242,
+              62.3928784
+            ],
+            [
+              17.2885729,
+              62.393073
             ]
           ]
         ]
@@ -98109,6 +98141,90 @@
             [
               17.301869,
               62.3834471
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-osm-1524879707",
+        "name": "OSM-1524879707",
+        "operator": "unknown",
+        "municipality": "Sundsvall",
+        "region": "Västernorrland",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1524879707,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              17.2844344,
+              62.3764403
+            ],
+            [
+              17.2842481,
+              62.3765707
+            ],
+            [
+              17.2839306,
+              62.3764981
+            ],
+            [
+              17.284289,
+              62.3762077
+            ],
+            [
+              17.2844526,
+              62.3762537
+            ],
+            [
+              17.2845013,
+              62.3762643
+            ],
+            [
+              17.2844733,
+              62.3762888
+            ],
+            [
+              17.2844091,
+              62.3763449
+            ],
+            [
+              17.2844632,
+              62.3763569
+            ],
+            [
+              17.2845402,
+              62.3763788
+            ],
+            [
+              17.2844344,
+              62.3764403
             ]
           ]
         ]

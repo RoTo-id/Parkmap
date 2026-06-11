@@ -2,18 +2,18 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-05-12T16:29:48.173079+00:00",
+    "generated": "2026-06-08T01:13:50.074254+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Västernorrland",
     "city": "ornskoldsvik",
     "municipality": "Örnsköldsviks kommun",
     "scrape_type": "osm_bootstrap",
     "agent_run_id": "ornskoldsvik-osm-bootstrap",
-    "zone_count": 206,
+    "zone_count": 207,
     "bootstrap": {
       "osm_source": "output\\osm_parking_ornskoldsvik.geojson",
-      "zones_imported": 206,
-      "bootstrap_date": "2026-04-30"
+      "zones_imported": 207,
+      "bootstrap_date": "2026-06-08"
     },
     "osm_reclassification": {
       "private_property": 0,
@@ -30,9 +30,9 @@
       "genuinely_unknown": 112,
       "before": 114,
       "after": 114,
-      "total": 206,
-      "coverage_pct": 44.7,
-      "run_date": "2026-05-12"
+      "total": 207,
+      "coverage_pct": 44.9,
+      "run_date": "2026-06-08"
     }
   },
   "features": [
@@ -15033,6 +15033,86 @@
             [
               18.8207602,
               63.2168624
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ornskoldsvik-osm-1518776032",
+        "name": "OSM-1518776032",
+        "operator": "free_parking",
+        "municipality": "Örnsköldsvik",
+        "region": "Västernorrland",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.45,
+        "flags": [
+          "osm_bootstrap",
+          "rural_free_heuristic"
+        ],
+        "last_verified": null,
+        "osm_id": 1518776032,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null,
+        "source_note": "25.1 km från centrum, ingen avgiftstagg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.3150968,
+              63.4270353
+            ],
+            [
+              18.3151518,
+              63.4271349
+            ],
+            [
+              18.3151799,
+              63.4271505
+            ],
+            [
+              18.3162837,
+              63.4270929
+            ],
+            [
+              18.3163038,
+              63.4270515
+            ],
+            [
+              18.3162931,
+              63.4269508
+            ],
+            [
+              18.3152188,
+              63.4269933
+            ],
+            [
+              18.3152068,
+              63.4270179
+            ],
+            [
+              18.3151598,
+              63.4270329
+            ],
+            [
+              18.3150968,
+              63.4270353
             ]
           ]
         ]
