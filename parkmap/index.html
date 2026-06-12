@@ -3,6 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#4a9eff">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="apple-touch-icon" href="icon-192.png">
 <title>ParkMap Sverige</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -323,6 +328,7 @@ function payButtonsHtml(op, zoneCode){
 }
 
 const map = L.map('map', {zoomControl: true}).setView([65.583, 22.148], 13);
+window.map = map; window.L = L;
 
 const baseLight = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>',
@@ -791,7 +797,8 @@ function showDetail(p) {
     </div>`;
   }
 
-  document.getElementById('detail-body').innerHTML = rows.join('') + flagsHtml + noticeHtml;
+  const reportHtml = '<div style="margin-top:14px;padding-top:10px;border-top:1px solid var(--border)"><a href="#" onclick="reportZoneError(' + JSON.stringify(p.name||'') + ');return false" style="font-size:12px;color:var(--text2);text-decoration:underline">⚠ Rapportera fel i denna zon</a></div>';
+  document.getElementById('detail-body').innerHTML = rows.join('') + flagsHtml + noticeHtml + reportHtml;
   panel.classList.add('open');
 }
 
@@ -944,6 +951,36 @@ if (hashCity && CITIES[hashCity]) {
 } else {
   loadData('lulea');
 }
+</script>
+<script>
+// PWA service worker
+if ('serviceWorker' in navigator) { navigator.serviceWorker.register('sw.js').catch(()=>{}); }
+// GPS: nära mig — centrera kartan och hitta närmaste zoner
+(function(){
+  const btn = document.createElement('button');
+  btn.id = 'near-me'; btn.title = 'Nara mig'; btn.textContent = '◉ Nara mig';
+  btn.style.cssText = 'position:fixed;right:16px;bottom:20px;z-index:1000;background:#4a9eff;color:#fff;border:none;border-radius:24px;padding:12px 18px;font-weight:600;font-size:14px;box-shadow:0 4px 12px rgba(0,0,0,.3);cursor:pointer';
+  btn.onclick = function(){
+    if(!navigator.geolocation){ alert('GPS stods ej'); return; }
+    btn.textContent = '… Soker'; 
+    navigator.geolocation.getCurrentPosition(function(pos){
+      const lat=pos.coords.latitude, lng=pos.coords.longitude;
+      if(window.map && window.map.setView){ window.map.setView([lat,lng], 16); 
+        if(window.L){ L.circleMarker([lat,lng],{radius:8,color:'#4a9eff',fillColor:'#4a9eff',fillOpacity:.9}).addTo(window.map).bindPopup('Du ar har'); } }
+      btn.textContent = '◉ Nara mig';
+    }, function(){ btn.textContent='◉ Nara mig'; alert('Kunde inte hamta position'); }, {enableHighAccuracy:true, timeout:10000});
+  };
+  document.body.appendChild(btn);
+})();
+// Rapportera fel-knapp i detaljpanelen (crowdsourcad datafarskhet)
+window.reportZoneError = function(zoneName){
+  const subject = encodeURIComponent('Parkmap felrapport: ' + (zoneName||'zon'));
+  const body = encodeURIComponent('Zon: ' + (zoneName||'') + '
+Vad ar fel (pris/tider/zon/operator/borttagen)?
+
+Din beskrivning: ');
+  window.open('mailto:noreply@maxineplatform.com?subject=' + subject + '&body=' + body, '_blank');
+};
 </script>
 </body>
 </html>
