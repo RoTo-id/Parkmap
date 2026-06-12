@@ -103,6 +103,7 @@ a:hover{text-decoration:underline}
 .detail-value{color:var(--text);text-align:right;max-width:60%}
 .detail-tags{display:flex;flex-wrap:wrap;gap:4px;justify-content:flex-end}
 .detail-tag{background:var(--bg);border:1px solid var(--border);border-radius:4px;padding:2px 6px;font-size:11px;color:var(--text2)}
+.pay-block{margin-top:12px;padding-top:10px;border-top:1px solid var(--border)}.pay-label{font-size:12px;color:var(--text2);margin-bottom:6px;text-transform:uppercase;letter-spacing:.5px}.pay-btns{display:flex;flex-direction:column;gap:6px}.pay-btn{display:block;padding:10px 14px;border-radius:8px;color:#fff;font-weight:600;font-size:14px;text-decoration:none;text-align:center;transition:opacity .15s}.pay-btn:hover{opacity:.88}
 .detail-flags{margin-top:8px;padding:8px 0}
 .detail-flag{display:inline-block;font-size:11px;padding:2px 8px;border-radius:4px;margin:2px}
 .confidence-bar{width:60px;height:6px;background:var(--bg);border-radius:3px;overflow:hidden;display:inline-block;vertical-align:middle;margin-left:6px}
@@ -302,6 +303,24 @@ const DEFAULT_OPS = {
   free_parking:    { name: 'Gratis',           color: '#34d399', payment_apps: [] },
   unknown:         { name: 'Okänd',            color: '#f97316', payment_apps: [] },
 };
+
+const PAY_APPS = {
+  'EasyPark':     { url: 'https://easypark.net/?utm_source=parkmap&ref=parkmap', color: '#0a8a3f' },
+  'Aimo':         { url: 'https://aimopark.se/sv/hitta-parkering/?utm_source=parkmap&ref=parkmap', color: '#f43f5e' },
+  'APCOA Flow':   { url: 'https://www.apcoaflow.se/?utm_source=parkmap&ref=parkmap', color: '#a855f7' },
+  'Parkster':     { url: 'https://parkster.com/sv-se?utm_source=parkmap&ref=parkmap', color: '#1d4ed8' },
+  'Mobill':       { url: 'https://mobill.se/?utm_source=parkmap&ref=parkmap', color: '#0ea5e9' },
+};
+function payButtonsHtml(op, zoneCode){
+  const apps = (op && op.payment_apps) || [];
+  if(!apps.length) return '';
+  const btns = apps.map(a => {
+    const cfg = PAY_APPS[a]; if(!cfg) return '';
+    const z = zoneCode ? (' · zon ' + zoneCode) : '';
+    return '<a class="pay-btn" href="' + cfg.url + '" target="_blank" rel="noopener" style="background:' + cfg.color + '">Betala med ' + a + z + '</a>';
+  }).join('');
+  return btns ? '<div class="pay-block"><div class="pay-label">Betala parkering</div><div class="pay-btns">' + btns + '</div></div>' : '';
+}
 
 const map = L.map('map', {zoomControl: true}).setView([65.583, 22.148], 13);
 
@@ -654,6 +673,7 @@ function showDetail(p) {
   document.getElementById('detail-title').textContent = p.name || 'Zon';
   document.getElementById('detail-operator').innerHTML =
     `<div class="legend-dot" style="background:${opColor}"></div> ${opName}`;
+  document.getElementById('detail-operator').insertAdjacentHTML('afterend', payButtonsHtml(op, p.zone_code));
 
   const rows = [];
   const add = (label, value) => { if (value != null && value !== '') rows.push(`<div class="detail-row"><div class="detail-label">${label}</div><div class="detail-value">${value}</div></div>`); };
