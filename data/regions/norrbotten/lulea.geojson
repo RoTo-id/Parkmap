@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-06-08T01:12:22.708894+00:00",
+    "generated": "2026-06-15T05:51:52.381173+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Norrbotten",
     "city": "lulea",
@@ -13,7 +13,7 @@
     "bootstrap": {
       "osm_source": "output\\osm_parking_lulea.geojson",
       "zones_imported": 661,
-      "bootstrap_date": "2026-06-08"
+      "bootstrap_date": "2026-06-15"
     },
     "operator_identification": {
       "before_unknown": 8,
@@ -29,7 +29,7 @@
       "aimo_matched": 0,
       "lulebo_matched": 0,
       "kommun_matched": 0,
-      "run_date": "2026-06-08"
+      "run_date": "2026-06-15"
     },
     "osm_reclassification": {
       "private_property": 0,
@@ -48,7 +48,7 @@
       "after": 8,
       "total": 661,
       "coverage_pct": 98.8,
-      "run_date": "2026-06-08"
+      "run_date": "2026-06-15"
     }
   },
   "features": [
@@ -8319,14 +8319,14 @@
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1090",
+        "zone_code": "1108",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 10,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Alla dagar 00-24: Tillstånd erfordras 1 h - 10 kr",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/skomakargatan-22-24/",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/magasinsgatan-18-24--skeppsbrogatan-37-43/",
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
@@ -8340,8 +8340,8 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "skomakargatan-22-24",
-        "aimopark_distance_m": 68.5,
+        "aimopark_name": "magasinsgatan-18-24--skeppsbrogatan-37-43",
+        "aimopark_distance_m": 164.9,
         "payment_apps": [
           "aimo"
         ]
@@ -8383,22 +8383,22 @@
       "properties": {
         "id": "lulea-osm-62359413",
         "name": "OSM-62359413",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1090",
+        "zone_code": "1246",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": null,
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/skomakargatan-22-24/",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 62359413,
@@ -8408,9 +8408,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "skomakargatan-22-24",
-        "aimopark_distance_m": 126.9,
+        "lulebo_district": "Hertson",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -9562,22 +9562,22 @@
       "properties": {
         "id": "lulea-osm-90966427",
         "name": "OSM-90966427",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1196",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 12,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Every day 00-24: 1 h - 12 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/lulea-science-park/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 90966427,
@@ -9587,9 +9587,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Porsön",
+        "aimopark_name": "lulea-science-park",
+        "aimopark_distance_m": 172.1,
         "payment_apps": [
-          "parkster",
           "aimo"
         ]
       },
@@ -9672,7 +9672,7 @@
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "lulea-science-park",
-        "aimopark_distance_m": 130.4,
+        "aimopark_distance_m": 117.2,
         "payment_apps": [
           "aimo"
         ]
@@ -9772,7 +9772,7 @@
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "lulea-science-park",
-        "aimopark_distance_m": 191.6,
+        "aimopark_distance_m": 114.9,
         "payment_apps": [
           "aimo"
         ]
@@ -9810,22 +9810,22 @@
       "properties": {
         "id": "lulea-osm-90966436",
         "name": "OSM-90966436",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1196",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 12,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Every day 00-24: 1 h - 12 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/lulea-science-park/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 90966436,
@@ -9835,9 +9835,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Porsön",
+        "aimopark_name": "lulea-science-park",
+        "aimopark_distance_m": 100.6,
         "payment_apps": [
-          "parkster",
           "aimo"
         ]
       },
@@ -10866,18 +10866,18 @@
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "garage",
-        "zone_code": "1130",
+        "zone_code": "1090",
         "spots": null,
-        "price_per_hour": 5,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "Mon-Fri 08-20, Saturday 08-16: For every started 20 min - 7 SEK",
+        "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/p-hus-smedjan/",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/skomakargatan-22-24/",
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "aimopark_slug_matched"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 156117128,
@@ -10887,8 +10887,8 @@
         "osm_parking": "multi-storey",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "p-hus-smedjan",
-        "aimopark_slug_match": "p-hus-smedjan",
+        "aimopark_name": "skomakargatan-22-24",
+        "aimopark_distance_m": 148.7,
         "payment_apps": [
           "aimo"
         ]
@@ -12023,7 +12023,7 @@
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "lulea-science-park",
-        "aimopark_distance_m": 61.4,
+        "aimopark_distance_m": 73.8,
         "payment_apps": [
           "aimo"
         ]
@@ -12807,7 +12807,7 @@
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "tradgardsgatan-13",
-        "aimopark_distance_m": 178.0,
+        "aimopark_distance_m": 137.6,
         "payment_apps": [
           "aimo"
         ]
@@ -12845,22 +12845,22 @@
       "properties": {
         "id": "lulea-osm-215310977",
         "name": "OSM-215310977",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1254",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 10,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 215310977,
@@ -12870,9 +12870,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Hertson",
+        "aimopark_name": "tradgardsgatan-13",
+        "aimopark_distance_m": 178.3,
         "payment_apps": [
-          "parkster",
           "aimo"
         ]
       },
@@ -15563,22 +15563,22 @@
       "properties": {
         "id": "lulea-osm-253097105",
         "name": "OSM-253097105",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1160",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 12,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Everyday 09-19: 1 h - 12 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/sandviksg.--varvsg.--timmermansg.--kungsg",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 253097105,
@@ -15588,9 +15588,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Hertson",
+        "aimopark_name": "sandviksg.--varvsg.--timmermansg.--kungsg",
+        "aimopark_distance_m": 180.4,
         "payment_apps": [
-          "parkster",
           "aimo"
         ]
       },
@@ -17099,22 +17099,22 @@
       "properties": {
         "id": "lulea-osm-294780166",
         "name": "OSM-294780166",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1254",
+        "zone_code": "1246",
         "spots": null,
-        "price_per_hour": 10,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 294780166,
@@ -17124,9 +17124,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "tradgardsgatan-13",
-        "aimopark_distance_m": 197.9,
+        "lulebo_district": "Hertson",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -17307,22 +17307,22 @@
       "properties": {
         "id": "lulea-osm-294780170",
         "name": "OSM-294780170",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1160",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 12,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Everyday 09-19: 1 h - 12 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/sandviksg.--varvsg.--timmermansg.--kungsg",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 294780170,
@@ -17332,9 +17332,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Hertson",
+        "aimopark_name": "sandviksg.--varvsg.--timmermansg.--kungsg",
+        "aimopark_distance_m": 158.7,
         "payment_apps": [
-          "parkster",
           "aimo"
         ]
       },
@@ -17371,22 +17371,22 @@
       "properties": {
         "id": "lulea-osm-294780171",
         "name": "OSM-294780171",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1160",
         "spots": "42",
-        "price_per_hour": 7,
+        "price_per_hour": 12,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Everyday 09-19: 1 h - 12 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/sandviksg.--varvsg.--timmermansg.--kungsg",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 294780171,
@@ -17396,9 +17396,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Hertson",
+        "aimopark_name": "sandviksg.--varvsg.--timmermansg.--kungsg",
+        "aimopark_distance_m": 68.5,
         "payment_apps": [
-          "parkster",
           "aimo"
         ]
       },
@@ -17451,22 +17451,22 @@
       "properties": {
         "id": "lulea-osm-294780173",
         "name": "OSM-294780173",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1160",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 12,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Everyday 09-19: 1 h - 12 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/sandviksg.--varvsg.--timmermansg.--kungsg",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 294780173,
@@ -17476,9 +17476,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Hertson",
+        "aimopark_name": "sandviksg.--varvsg.--timmermansg.--kungsg",
+        "aimopark_distance_m": 70.7,
         "payment_apps": [
-          "parkster",
           "aimo"
         ]
       },
@@ -17721,7 +17721,7 @@
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "tradgardsgatan-13",
-        "aimopark_distance_m": 132.8,
+        "aimopark_distance_m": 140.0,
         "payment_apps": [
           "aimo"
         ]
@@ -18575,22 +18575,22 @@
       "properties": {
         "id": "lulea-osm-306741292",
         "name": "OSM-306741292",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "garage",
-        "zone_code": "1160",
+        "zone_code": "1246",
         "spots": null,
-        "price_per_hour": 12,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Everyday 09-19: 1 h - 12 SEK",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/sandviksg.--varvsg.--timmermansg.--kungsg",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 306741292,
@@ -18600,9 +18600,9 @@
         "osm_parking": "multi-storey",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "sandviksg.--varvsg.--timmermansg.--kungsg",
-        "aimopark_distance_m": 115.0,
+        "lulebo_district": "Hertson",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -18683,22 +18683,22 @@
       "properties": {
         "id": "lulea-osm-306741295",
         "name": "OSM-306741295",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1160",
+        "zone_code": "1246",
         "spots": null,
-        "price_per_hour": 12,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Everyday 09-19: 1 h - 12 SEK",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/sandviksg.--varvsg.--timmermansg.--kungsg",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 306741295,
@@ -18708,9 +18708,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "sandviksg.--varvsg.--timmermansg.--kungsg",
-        "aimopark_distance_m": 157.6,
+        "lulebo_district": "Hertson",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -18751,22 +18751,22 @@
       "properties": {
         "id": "lulea-osm-306741296",
         "name": "OSM-306741296",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1160",
+        "zone_code": "1246",
         "spots": null,
-        "price_per_hour": 12,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Everyday 09-19: 1 h - 12 SEK",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/sandviksg.--varvsg.--timmermansg.--kungsg",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 306741296,
@@ -18776,9 +18776,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "sandviksg.--varvsg.--timmermansg.--kungsg",
-        "aimopark_distance_m": 141.1,
+        "lulebo_district": "Hertson",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -18823,22 +18823,22 @@
       "properties": {
         "id": "lulea-osm-306741297",
         "name": "OSM-306741297",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1160",
+        "zone_code": "1246",
         "spots": null,
-        "price_per_hour": 12,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Everyday 09-19: 1 h - 12 SEK",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/sandviksg.--varvsg.--timmermansg.--kungsg",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 306741297,
@@ -18848,9 +18848,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "sandviksg.--varvsg.--timmermansg.--kungsg",
-        "aimopark_distance_m": 155.9,
+        "lulebo_district": "Hertson",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -19201,7 +19201,7 @@
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "tradgardsgatan-13",
-        "aimopark_distance_m": 87.7,
+        "aimopark_distance_m": 114.4,
         "payment_apps": [
           "aimo"
         ]
@@ -19263,22 +19263,22 @@
       "properties": {
         "id": "lulea-osm-308614927",
         "name": "OSM-308614927",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1090",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/skomakargatan-22-24/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 308614927,
@@ -19288,9 +19288,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Hertson",
+        "aimopark_name": "skomakargatan-22-24",
+        "aimopark_distance_m": 147.9,
         "payment_apps": [
-          "parkster",
           "aimo"
         ]
       },
@@ -20399,14 +20399,14 @@
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1053",
+        "zone_code": "1090",
         "spots": null,
         "price_per_hour": null,
         "currency": "SEK",
-        "hours": "Every day 00-24: For every started 20 min - 7 SEK",
+        "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/timmermansgatan-26-30skeppsbrogatan-25-p-hus/",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/skomakargatan-22-24/",
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
@@ -20420,8 +20420,8 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "timmermansgatan-26-30skeppsbrogatan-25-p-hus",
-        "aimopark_distance_m": 71.9,
+        "aimopark_name": "skomakargatan-22-24",
+        "aimopark_distance_m": 42.1,
         "payment_apps": [
           "aimo"
         ]
@@ -20991,22 +20991,22 @@
       "properties": {
         "id": "lulea-osm-313097679",
         "name": "OSM-313097679",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1160",
+        "zone_code": "1246",
         "spots": null,
-        "price_per_hour": 12,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Everyday 09-19: 1 h - 12 SEK",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/sandviksg.--varvsg.--timmermansg.--kungsg",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 313097679,
@@ -21016,9 +21016,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "sandviksg.--varvsg.--timmermansg.--kungsg",
-        "aimopark_distance_m": 83.1,
+        "lulebo_district": "Hertson",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -22231,22 +22231,22 @@
       "properties": {
         "id": "lulea-osm-313909284",
         "name": "OSM-313909284",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1160",
+        "zone_code": "1246",
         "spots": null,
-        "price_per_hour": 12,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Everyday 09-19: 1 h - 12 SEK",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/sandviksg.--varvsg.--timmermansg.--kungsg",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 313909284,
@@ -22256,9 +22256,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "sandviksg.--varvsg.--timmermansg.--kungsg",
-        "aimopark_distance_m": 93.5,
+        "lulebo_district": "Hertson",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -22295,22 +22295,22 @@
       "properties": {
         "id": "lulea-osm-313909285",
         "name": "OSM-313909285",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1160",
+        "zone_code": "1246",
         "spots": "3",
-        "price_per_hour": 12,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Everyday 09-19: 1 h - 12 SEK",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/sandviksg.--varvsg.--timmermansg.--kungsg",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 313909285,
@@ -22320,9 +22320,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "sandviksg.--varvsg.--timmermansg.--kungsg",
-        "aimopark_distance_m": 84.3,
+        "lulebo_district": "Hertson",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -22359,22 +22359,22 @@
       "properties": {
         "id": "lulea-osm-313909291",
         "name": "OSM-313909291",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1160",
+        "zone_code": "1246",
         "spots": null,
-        "price_per_hour": 12,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Everyday 09-19: 1 h - 12 SEK",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/sandviksg.--varvsg.--timmermansg.--kungsg",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 313909291,
@@ -22384,9 +22384,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "sandviksg.--varvsg.--timmermansg.--kungsg",
-        "aimopark_distance_m": 146.1,
+        "lulebo_district": "Hertson",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -22713,7 +22713,7 @@
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "tradgardsgatan-13",
-        "aimopark_distance_m": 130.0,
+        "aimopark_distance_m": 118.5,
         "payment_apps": [
           "aimo"
         ]
@@ -22755,22 +22755,22 @@
       "properties": {
         "id": "lulea-osm-314616441",
         "name": "OSM-314616441",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1160",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 12,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Everyday 09-19: 1 h - 12 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/sandviksg.--varvsg.--timmermansg.--kungsg",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 314616441,
@@ -22780,9 +22780,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Hertson",
+        "aimopark_name": "sandviksg.--varvsg.--timmermansg.--kungsg",
+        "aimopark_distance_m": 182.5,
         "payment_apps": [
-          "parkster",
           "aimo"
         ]
       },
@@ -25006,22 +25006,22 @@
       "properties": {
         "id": "lulea-osm-322767661",
         "name": "OSM-322767661",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1090",
+        "zone_code": "1246",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": null,
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/skomakargatan-22-24/",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 322767661,
@@ -25031,9 +25031,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "skomakargatan-22-24",
-        "aimopark_distance_m": 134.8,
+        "lulebo_district": "Hertson",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -29350,22 +29350,22 @@
       "properties": {
         "id": "lulea-osm-380461774",
         "name": "OSM-380461774",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1160",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 12,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Everyday 09-19: 1 h - 12 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/sandviksg.--varvsg.--timmermansg.--kungsg",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 380461774,
@@ -29375,9 +29375,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Hertson",
+        "aimopark_name": "sandviksg.--varvsg.--timmermansg.--kungsg",
+        "aimopark_distance_m": 68.0,
         "payment_apps": [
-          "parkster",
           "aimo"
         ]
       },
@@ -29418,22 +29418,22 @@
       "properties": {
         "id": "lulea-osm-380461776",
         "name": "OSM-380461776",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1160",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 12,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Everyday 09-19: 1 h - 12 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/sandviksg.--varvsg.--timmermansg.--kungsg",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 380461776,
@@ -29443,9 +29443,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Hertson",
+        "aimopark_name": "sandviksg.--varvsg.--timmermansg.--kungsg",
+        "aimopark_distance_m": 113.3,
         "payment_apps": [
-          "parkster",
           "aimo"
         ]
       },
@@ -29502,22 +29502,22 @@
       "properties": {
         "id": "lulea-osm-380493680",
         "name": "OSM-380493680",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1160",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 12,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Everyday 09-19: 1 h - 12 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/sandviksg.--varvsg.--timmermansg.--kungsg",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 380493680,
@@ -29527,9 +29527,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Hertson",
+        "aimopark_name": "sandviksg.--varvsg.--timmermansg.--kungsg",
+        "aimopark_distance_m": 153.4,
         "payment_apps": [
-          "parkster",
           "aimo"
         ]
       },
@@ -29578,22 +29578,22 @@
       "properties": {
         "id": "lulea-osm-380820184",
         "name": "OSM-380820184",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1160",
         "spots": "6",
-        "price_per_hour": 7,
+        "price_per_hour": 12,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Everyday 09-19: 1 h - 12 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/sandviksg.--varvsg.--timmermansg.--kungsg",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 380820184,
@@ -29603,9 +29603,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Hertson",
+        "aimopark_name": "sandviksg.--varvsg.--timmermansg.--kungsg",
+        "aimopark_distance_m": 105.6,
         "payment_apps": [
-          "parkster",
           "aimo"
         ]
       },
@@ -29642,22 +29642,22 @@
       "properties": {
         "id": "lulea-osm-380820185",
         "name": "OSM-380820185",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1160",
         "spots": "2",
-        "price_per_hour": 7,
+        "price_per_hour": 12,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Everyday 09-19: 1 h - 12 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/sandviksg.--varvsg.--timmermansg.--kungsg",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 380820185,
@@ -29667,9 +29667,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Hertson",
+        "aimopark_name": "sandviksg.--varvsg.--timmermansg.--kungsg",
+        "aimopark_distance_m": 112.9,
         "payment_apps": [
-          "parkster",
           "aimo"
         ]
       },
@@ -29928,7 +29928,7 @@
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "tradgardsgatan-13",
-        "aimopark_distance_m": 131.4,
+        "aimopark_distance_m": 100.8,
         "payment_apps": [
           "aimo"
         ]
@@ -30200,7 +30200,7 @@
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "tradgardsgatan-13",
-        "aimopark_distance_m": 188.9,
+        "aimopark_distance_m": 159.7,
         "payment_apps": [
           "aimo"
         ]
@@ -30264,7 +30264,7 @@
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "tradgardsgatan-13",
-        "aimopark_distance_m": 148.8,
+        "aimopark_distance_m": 146.5,
         "payment_apps": [
           "aimo"
         ]
@@ -30332,7 +30332,7 @@
         "osm_operator": "Q-Park AB",
         "osm_note": null,
         "aimopark_name": "tradgardsgatan-13",
-        "aimopark_distance_m": 163.4,
+        "aimopark_distance_m": 143.4,
         "payment_apps": [
           "aimo"
         ]
@@ -30396,7 +30396,7 @@
         "osm_operator": "Q-Park AB",
         "osm_note": null,
         "aimopark_name": "tradgardsgatan-13",
-        "aimopark_distance_m": 155.5,
+        "aimopark_distance_m": 132.4,
         "payment_apps": [
           "aimo"
         ]
@@ -30524,7 +30524,7 @@
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "tradgardsgatan-13",
-        "aimopark_distance_m": 182.7,
+        "aimopark_distance_m": 169.1,
         "payment_apps": [
           "aimo"
         ]
@@ -30600,7 +30600,7 @@
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "tradgardsgatan-13",
-        "aimopark_distance_m": 156.7,
+        "aimopark_distance_m": 124.5,
         "payment_apps": [
           "aimo"
         ]
@@ -30778,22 +30778,22 @@
       "properties": {
         "id": "lulea-osm-383259546",
         "name": "OSM-383259546",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "street",
-        "zone_code": "1246",
+        "zone_code": "1160",
         "spots": "2",
-        "price_per_hour": 7,
+        "price_per_hour": 12,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Everyday 09-19: 1 h - 12 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/sandviksg.--varvsg.--timmermansg.--kungsg",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 383259546,
@@ -30803,9 +30803,9 @@
         "osm_parking": "street_side",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Hertson",
+        "aimopark_name": "sandviksg.--varvsg.--timmermansg.--kungsg",
+        "aimopark_distance_m": 151.3,
         "payment_apps": [
-          "parkster",
           "aimo"
         ]
       },
@@ -30932,7 +30932,7 @@
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "tradgardsgatan-13",
-        "aimopark_distance_m": 195.5,
+        "aimopark_distance_m": 194.5,
         "payment_apps": [
           "aimo"
         ]
@@ -31194,22 +31194,22 @@
       "properties": {
         "id": "lulea-osm-383327734",
         "name": "OSM-383327734",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "street",
-        "zone_code": "1246",
+        "zone_code": "1160",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 12,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Everyday 09-19: 1 h - 12 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/sandviksg.--varvsg.--timmermansg.--kungsg",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 383327734,
@@ -31219,9 +31219,9 @@
         "osm_parking": "street_side",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Hertson",
+        "aimopark_name": "sandviksg.--varvsg.--timmermansg.--kungsg",
+        "aimopark_distance_m": 89.4,
         "payment_apps": [
-          "parkster",
           "aimo"
         ]
       },
@@ -31258,22 +31258,22 @@
       "properties": {
         "id": "lulea-osm-383327735",
         "name": "OSM-383327735",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1160",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 12,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Everyday 09-19: 1 h - 12 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/sandviksg.--varvsg.--timmermansg.--kungsg",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 383327735,
@@ -31283,9 +31283,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Hertson",
+        "aimopark_name": "sandviksg.--varvsg.--timmermansg.--kungsg",
+        "aimopark_distance_m": 125.6,
         "payment_apps": [
-          "parkster",
           "aimo"
         ]
       },
@@ -31704,7 +31704,7 @@
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "tradgardsgatan-13",
-        "aimopark_distance_m": 122.9,
+        "aimopark_distance_m": 107.4,
         "payment_apps": [
           "aimo"
         ]
@@ -31768,7 +31768,7 @@
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "tradgardsgatan-13",
-        "aimopark_distance_m": 108.2,
+        "aimopark_distance_m": 87.8,
         "payment_apps": [
           "aimo"
         ]
@@ -31832,7 +31832,7 @@
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "tradgardsgatan-13",
-        "aimopark_distance_m": 92.7,
+        "aimopark_distance_m": 63.7,
         "payment_apps": [
           "aimo"
         ]
@@ -31896,7 +31896,7 @@
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "tradgardsgatan-13",
-        "aimopark_distance_m": 84.9,
+        "aimopark_distance_m": 47.9,
         "payment_apps": [
           "aimo"
         ]
@@ -32046,22 +32046,22 @@
       "properties": {
         "id": "lulea-osm-384682004",
         "name": "OSM-384682004",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1160",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 12,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Everyday 09-19: 1 h - 12 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/sandviksg.--varvsg.--timmermansg.--kungsg",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 384682004,
@@ -32071,9 +32071,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Hertson",
+        "aimopark_name": "sandviksg.--varvsg.--timmermansg.--kungsg",
+        "aimopark_distance_m": 191.6,
         "payment_apps": [
-          "parkster",
           "aimo"
         ]
       },
@@ -32110,22 +32110,22 @@
       "properties": {
         "id": "lulea-osm-384682005",
         "name": "OSM-384682005",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "street",
-        "zone_code": "1246",
+        "zone_code": "1160",
         "spots": "5",
-        "price_per_hour": 7,
+        "price_per_hour": 12,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Everyday 09-19: 1 h - 12 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/sandviksg.--varvsg.--timmermansg.--kungsg",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 384682005,
@@ -32135,9 +32135,9 @@
         "osm_parking": "street_side",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Hertson",
+        "aimopark_name": "sandviksg.--varvsg.--timmermansg.--kungsg",
+        "aimopark_distance_m": 163.4,
         "payment_apps": [
-          "parkster",
           "aimo"
         ]
       },
@@ -32230,22 +32230,22 @@
       "properties": {
         "id": "lulea-osm-384684274",
         "name": "OSM-384684274",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1160",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 12,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Everyday 09-19: 1 h - 12 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/sandviksg.--varvsg.--timmermansg.--kungsg",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 384684274,
@@ -32255,9 +32255,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Hertson",
+        "aimopark_name": "sandviksg.--varvsg.--timmermansg.--kungsg",
+        "aimopark_distance_m": 150.2,
         "payment_apps": [
-          "parkster",
           "aimo"
         ]
       },
@@ -32294,22 +32294,22 @@
       "properties": {
         "id": "lulea-osm-384684284",
         "name": "OSM-384684284",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1160",
         "spots": "8",
-        "price_per_hour": 7,
+        "price_per_hour": 12,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Everyday 09-19: 1 h - 12 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/sandviksg.--varvsg.--timmermansg.--kungsg",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 384684284,
@@ -32319,9 +32319,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Hertson",
+        "aimopark_name": "sandviksg.--varvsg.--timmermansg.--kungsg",
+        "aimopark_distance_m": 191.6,
         "payment_apps": [
-          "parkster",
           "aimo"
         ]
       },
@@ -32358,22 +32358,22 @@
       "properties": {
         "id": "lulea-osm-384684285",
         "name": "OSM-384684285",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1160",
         "spots": "8",
-        "price_per_hour": 7,
+        "price_per_hour": 12,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Everyday 09-19: 1 h - 12 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/sandviksg.--varvsg.--timmermansg.--kungsg",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 384684285,
@@ -32383,9 +32383,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Hertson",
+        "aimopark_name": "sandviksg.--varvsg.--timmermansg.--kungsg",
+        "aimopark_distance_m": 195.0,
         "payment_apps": [
-          "parkster",
           "aimo"
         ]
       },
@@ -33793,22 +33793,22 @@
       "properties": {
         "id": "lulea-osm-543627843",
         "name": "OSM-543627843",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1196",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 12,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Every day 00-24: 1 h - 12 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/lulea-science-park/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 543627843,
@@ -33818,9 +33818,9 @@
         "osm_parking": "surface",
         "osm_operator": "Aimo",
         "osm_note": null,
-        "lulebo_district": "Porsön",
+        "aimopark_name": "lulea-science-park",
+        "aimopark_distance_m": 147.8,
         "payment_apps": [
-          "parkster",
           "aimo"
         ]
       },
@@ -35431,7 +35431,7 @@
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "tradgardsgatan-13",
-        "aimopark_distance_m": 59.3,
+        "aimopark_distance_m": 41.6,
         "payment_apps": [
           "aimo"
         ]
@@ -35515,7 +35515,7 @@
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "tradgardsgatan-13",
-        "aimopark_distance_m": 38.5,
+        "aimopark_distance_m": 41.4,
         "payment_apps": [
           "aimo"
         ]
@@ -35583,7 +35583,7 @@
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "tradgardsgatan-13",
-        "aimopark_distance_m": 11.1,
+        "aimopark_distance_m": 38.6,
         "payment_apps": [
           "aimo"
         ]
@@ -35621,22 +35621,22 @@
       "properties": {
         "id": "lulea-osm-662020713",
         "name": "OSM-662020713",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1160",
+        "zone_code": "1246",
         "spots": null,
-        "price_per_hour": 12,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Everyday 09-19: 1 h - 12 SEK",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/sandviksg.--varvsg.--timmermansg.--kungsg",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 662020713,
@@ -35646,9 +35646,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "sandviksg.--varvsg.--timmermansg.--kungsg",
-        "aimopark_distance_m": 132.0,
+        "lulebo_district": "Hertson",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -35685,22 +35685,22 @@
       "properties": {
         "id": "lulea-osm-662020714",
         "name": "OSM-662020714",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1160",
+        "zone_code": "1246",
         "spots": null,
-        "price_per_hour": 12,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Everyday 09-19: 1 h - 12 SEK",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/sandviksg.--varvsg.--timmermansg.--kungsg",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 662020714,
@@ -35710,9 +35710,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "sandviksg.--varvsg.--timmermansg.--kungsg",
-        "aimopark_distance_m": 119.0,
+        "lulebo_district": "Hertson",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -35749,22 +35749,22 @@
       "properties": {
         "id": "lulea-osm-662020715",
         "name": "OSM-662020715",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1160",
+        "zone_code": "1246",
         "spots": null,
-        "price_per_hour": 12,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Everyday 09-19: 1 h - 12 SEK",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/sandviksg.--varvsg.--timmermansg.--kungsg",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 662020715,
@@ -35774,9 +35774,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "sandviksg.--varvsg.--timmermansg.--kungsg",
-        "aimopark_distance_m": 136.7,
+        "lulebo_district": "Hertson",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -35813,22 +35813,22 @@
       "properties": {
         "id": "lulea-osm-662020716",
         "name": "OSM-662020716",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1160",
+        "zone_code": "1246",
         "spots": null,
-        "price_per_hour": 12,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Everyday 09-19: 1 h - 12 SEK",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/sandviksg.--varvsg.--timmermansg.--kungsg",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 662020716,
@@ -35838,9 +35838,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "sandviksg.--varvsg.--timmermansg.--kungsg",
-        "aimopark_distance_m": 179.5,
+        "lulebo_district": "Hertson",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -35949,22 +35949,22 @@
       "properties": {
         "id": "lulea-osm-662020718",
         "name": "OSM-662020718",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "street",
-        "zone_code": "1160",
+        "zone_code": "1246",
         "spots": null,
-        "price_per_hour": 12,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Everyday 09-19: 1 h - 12 SEK",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/sandviksg.--varvsg.--timmermansg.--kungsg",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 662020718,
@@ -35974,9 +35974,9 @@
         "osm_parking": "street_side",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "sandviksg.--varvsg.--timmermansg.--kungsg",
-        "aimopark_distance_m": 123.7,
+        "lulebo_district": "Hertson",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -36409,22 +36409,22 @@
       "properties": {
         "id": "lulea-osm-862785351",
         "name": "OSM-862785351",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1090",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": null,
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/skomakargatan-22-24/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 862785351,
@@ -36434,9 +36434,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Hertson",
+        "aimopark_name": "skomakargatan-22-24",
+        "aimopark_distance_m": 192.0,
         "payment_apps": [
-          "parkster",
           "aimo"
         ]
       },
@@ -41028,7 +41028,7 @@
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "tradgardsgatan-13",
-        "aimopark_distance_m": 36.4,
+        "aimopark_distance_m": 46.1,
         "payment_apps": [
           "aimo"
         ]
@@ -41092,7 +41092,7 @@
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "tradgardsgatan-13",
-        "aimopark_distance_m": 47.1,
+        "aimopark_distance_m": 63.4,
         "payment_apps": [
           "aimo"
         ]
@@ -41156,7 +41156,7 @@
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "tradgardsgatan-13",
-        "aimopark_distance_m": 58.0,
+        "aimopark_distance_m": 76.4,
         "payment_apps": [
           "aimo"
         ]
@@ -43402,22 +43402,22 @@
       "properties": {
         "id": "lulea-osm-1284671028",
         "name": "OSM-1284671028",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1160",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 12,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Everyday 09-19: 1 h - 12 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/sandviksg.--varvsg.--timmermansg.--kungsg",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1284671028,
@@ -43427,9 +43427,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Hertson",
+        "aimopark_name": "sandviksg.--varvsg.--timmermansg.--kungsg",
+        "aimopark_distance_m": 171.6,
         "payment_apps": [
-          "parkster",
           "aimo"
         ]
       },
@@ -44964,7 +44964,7 @@
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "tradgardsgatan-13",
-        "aimopark_distance_m": 68.0,
+        "aimopark_distance_m": 87.6,
         "payment_apps": [
           "aimo"
         ]
@@ -45040,7 +45040,7 @@
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "tradgardsgatan-13",
-        "aimopark_distance_m": 110.7,
+        "aimopark_distance_m": 121.7,
         "payment_apps": [
           "aimo"
         ]
@@ -45178,14 +45178,14 @@
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1118",
+        "zone_code": "1196",
         "spots": null,
-        "price_per_hour": 8,
+        "price_per_hour": 12,
         "currency": "SEK",
-        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "hours": "Every day 00-24: 1 h - 12 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/karhusgrand-1-9/",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/lulea-science-park/",
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
@@ -45199,8 +45199,8 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "karhusgrand-1-9",
-        "aimopark_distance_m": 173.0,
+        "aimopark_name": "lulea-science-park",
+        "aimopark_distance_m": 102.3,
         "payment_apps": [
           "aimo"
         ]
@@ -45278,22 +45278,22 @@
       "properties": {
         "id": "lulea-osm-1292955563",
         "name": "OSM-1292955563",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1196",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 12,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Every day 00-24: 1 h - 12 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/lulea-science-park/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1292955563,
@@ -45303,9 +45303,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Porsön",
+        "aimopark_name": "lulea-science-park",
+        "aimopark_distance_m": 167.8,
         "payment_apps": [
-          "parkster",
           "aimo"
         ]
       },
@@ -49210,14 +49210,14 @@
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1160",
+        "zone_code": "1004",
         "spots": null,
-        "price_per_hour": 12,
+        "price_per_hour": 19,
         "currency": "SEK",
-        "hours": "Everyday 09-19: 1 h - 12 SEK",
+        "hours": "Weekdays 07-16: 1 h - 19 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/sandviksg.--varvsg.--timmermansg.--kungsg",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/sodra-kungsgatan-3-5--smabatsgatan-1/",
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
@@ -49231,8 +49231,8 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "sandviksg.--varvsg.--timmermansg.--kungsg",
-        "aimopark_distance_m": 145.7,
+        "aimopark_name": "sodra-kungsgatan-3-5--smabatsgatan-1",
+        "aimopark_distance_m": 186.5,
         "payment_apps": [
           "aimo"
         ]
@@ -49290,14 +49290,14 @@
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1160",
+        "zone_code": "1004",
         "spots": null,
-        "price_per_hour": 12,
+        "price_per_hour": 19,
         "currency": "SEK",
-        "hours": "Everyday 09-19: 1 h - 12 SEK",
+        "hours": "Weekdays 07-16: 1 h - 19 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/sandviksg.--varvsg.--timmermansg.--kungsg",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/sodra-kungsgatan-3-5--smabatsgatan-1/",
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
@@ -49311,8 +49311,8 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "sandviksg.--varvsg.--timmermansg.--kungsg",
-        "aimopark_distance_m": 158.6,
+        "aimopark_name": "sodra-kungsgatan-3-5--smabatsgatan-1",
+        "aimopark_distance_m": 189.6,
         "payment_apps": [
           "aimo"
         ]
@@ -49350,22 +49350,22 @@
       "properties": {
         "id": "lulea-osm-1318231551",
         "name": "OSM-1318231551",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1160",
+        "zone_code": "1246",
         "spots": null,
-        "price_per_hour": 12,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Everyday 09-19: 1 h - 12 SEK",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/sandviksg.--varvsg.--timmermansg.--kungsg",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1318231551,
@@ -49375,9 +49375,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "sandviksg.--varvsg.--timmermansg.--kungsg",
-        "aimopark_distance_m": 123.9,
+        "lulebo_district": "Hertson",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -49414,22 +49414,22 @@
       "properties": {
         "id": "lulea-osm-1318231552",
         "name": "OSM-1318231552",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1160",
+        "zone_code": "1246",
         "spots": null,
-        "price_per_hour": 12,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Everyday 09-19: 1 h - 12 SEK",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/sandviksg.--varvsg.--timmermansg.--kungsg",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1318231552,
@@ -49439,9 +49439,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "sandviksg.--varvsg.--timmermansg.--kungsg",
-        "aimopark_distance_m": 118.6,
+        "lulebo_district": "Hertson",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -49906,22 +49906,22 @@
       "properties": {
         "id": "lulea-osm-1366272497",
         "name": "OSM-1366272497",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1254",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 10,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1366272497,
@@ -49931,9 +49931,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Hertson",
+        "aimopark_name": "tradgardsgatan-13",
+        "aimopark_distance_m": 186.1,
         "payment_apps": [
-          "parkster",
           "aimo"
         ]
       },
@@ -50514,22 +50514,22 @@
       "properties": {
         "id": "lulea-osm-1382639059",
         "name": "OSM-1382639059",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1160",
+        "zone_code": "1246",
         "spots": null,
-        "price_per_hour": 12,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Everyday 09-19: 1 h - 12 SEK",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/sandviksg.--varvsg.--timmermansg.--kungsg",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1382639059,
@@ -50539,9 +50539,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "sandviksg.--varvsg.--timmermansg.--kungsg",
-        "aimopark_distance_m": 36.7,
+        "lulebo_district": "Hertson",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -50898,22 +50898,22 @@
       "properties": {
         "id": "lulea-osm-1455651360",
         "name": "OSM-1455651360",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "street",
-        "zone_code": "1246",
+        "zone_code": "1160",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 12,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Everyday 09-19: 1 h - 12 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/sandviksg.--varvsg.--timmermansg.--kungsg",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1455651360,
@@ -50923,9 +50923,9 @@
         "osm_parking": "street_side",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Hertson",
+        "aimopark_name": "sandviksg.--varvsg.--timmermansg.--kungsg",
+        "aimopark_distance_m": 102.1,
         "payment_apps": [
-          "parkster",
           "aimo"
         ]
       },

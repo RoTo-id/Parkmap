@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-06-08T01:13:49.585668+00:00",
+    "generated": "2026-06-15T05:53:37.367991+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Västernorrland",
     "city": "sundsvall",
@@ -13,7 +13,7 @@
     "bootstrap": {
       "osm_source": "output\\osm_parking_sundsvall.geojson",
       "zones_imported": 1375,
-      "bootstrap_date": "2026-06-08"
+      "bootstrap_date": "2026-06-15"
     },
     "osm_reclassification": {
       "private_property": 0,
@@ -32,7 +32,7 @@
       "after": 928,
       "total": 1375,
       "coverage_pct": 32.5,
-      "run_date": "2026-06-08"
+      "run_date": "2026-06-15"
     }
   },
   "features": [

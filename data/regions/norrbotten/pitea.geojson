@@ -2,22 +2,22 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-06-08T01:13:06.900436+00:00",
+    "generated": "2026-06-15T05:52:44.686051+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Norrbotten",
     "city": "pitea",
     "municipality": "Piteå kommun",
     "scrape_type": "osm_bootstrap",
     "agent_run_id": "pitea-osm-bootstrap",
-    "zone_count": 207,
+    "zone_count": 208,
     "bootstrap": {
       "osm_source": "output\\osm_parking_pitea.geojson",
-      "zones_imported": 207,
-      "bootstrap_date": "2026-06-08"
+      "zones_imported": 208,
+      "bootstrap_date": "2026-06-15"
     },
     "operator_identification": {
-      "before_unknown": 109,
-      "after_unknown": 109,
+      "before_unknown": 108,
+      "after_unknown": 108,
       "total_identified": 0,
       "per_operator": {
         "aimopark": 0,
@@ -26,7 +26,7 @@
       "aimo_matched": 0,
       "lulebo_matched": 0,
       "kommun_matched": 0,
-      "run_date": "2026-06-08"
+      "run_date": "2026-06-15"
     },
     "osm_reclassification": {
       "private_property": 0,
@@ -40,12 +40,12 @@
       "note_matched": 0,
       "access_yes_free": 0,
       "fee_confirmed_unknown": 8,
-      "genuinely_unknown": 99,
-      "before": 109,
-      "after": 109,
-      "total": 207,
-      "coverage_pct": 47.3,
-      "run_date": "2026-06-08"
+      "genuinely_unknown": 98,
+      "before": 108,
+      "after": 108,
+      "total": 208,
+      "coverage_pct": 48.1,
+      "run_date": "2026-06-15"
     }
   },
   "features": [
@@ -568,8 +568,8 @@
         "osm_note": null,
         "kommun_district": "Centrum",
         "payment_apps": [
-          "parkster",
-          "easypark"
+          "easypark",
+          "parkster"
         ]
       },
       "geometry": {
@@ -1384,8 +1384,8 @@
         "osm_note": null,
         "kommun_district": "Centrum",
         "payment_apps": [
-          "parkster",
-          "easypark"
+          "easypark",
+          "parkster"
         ]
       },
       "geometry": {
@@ -1512,8 +1512,8 @@
         "osm_note": null,
         "kommun_district": "Centrum",
         "payment_apps": [
-          "parkster",
-          "easypark"
+          "easypark",
+          "parkster"
         ]
       },
       "geometry": {
@@ -2653,8 +2653,8 @@
         "osm_note": null,
         "kommun_district": "Centrum",
         "payment_apps": [
-          "parkster",
-          "easypark"
+          "easypark",
+          "parkster"
         ]
       },
       "geometry": {
@@ -2801,8 +2801,8 @@
         "osm_note": null,
         "kommun_district": "Centrum",
         "payment_apps": [
-          "parkster",
-          "easypark"
+          "easypark",
+          "parkster"
         ]
       },
       "geometry": {
@@ -3152,8 +3152,8 @@
         "osm_note": null,
         "kommun_district": "Centrum",
         "payment_apps": [
-          "parkster",
-          "easypark"
+          "easypark",
+          "parkster"
         ]
       },
       "geometry": {
@@ -3216,8 +3216,8 @@
         "osm_note": null,
         "kommun_district": "Centrum",
         "payment_apps": [
-          "parkster",
-          "easypark"
+          "easypark",
+          "parkster"
         ]
       },
       "geometry": {
@@ -5009,8 +5009,8 @@
         "osm_note": null,
         "kommun_district": "Centrum",
         "payment_apps": [
-          "parkster",
-          "easypark"
+          "easypark",
+          "parkster"
         ]
       },
       "geometry": {
@@ -5073,8 +5073,8 @@
         "osm_note": null,
         "kommun_district": "Centrum",
         "payment_apps": [
-          "parkster",
-          "easypark"
+          "easypark",
+          "parkster"
         ]
       },
       "geometry": {
@@ -5161,8 +5161,8 @@
         "osm_note": null,
         "kommun_district": "Centrum",
         "payment_apps": [
-          "parkster",
-          "easypark"
+          "easypark",
+          "parkster"
         ]
       },
       "geometry": {
@@ -5492,8 +5492,8 @@
         "osm_note": null,
         "kommun_district": "Centrum",
         "payment_apps": [
-          "parkster",
-          "easypark"
+          "easypark",
+          "parkster"
         ]
       },
       "geometry": {
@@ -5898,8 +5898,8 @@
         "osm_note": null,
         "kommun_district": "Centrum",
         "payment_apps": [
-          "parkster",
-          "easypark"
+          "easypark",
+          "parkster"
         ]
       },
       "geometry": {
@@ -6881,8 +6881,8 @@
         "osm_note": null,
         "kommun_district": "Centrum",
         "payment_apps": [
-          "parkster",
-          "easypark"
+          "easypark",
+          "parkster"
         ]
       },
       "geometry": {
@@ -7080,8 +7080,8 @@
         "osm_note": null,
         "kommun_district": "Centrum",
         "payment_apps": [
-          "parkster",
-          "easypark"
+          "easypark",
+          "parkster"
         ]
       },
       "geometry": {
@@ -8065,8 +8065,8 @@
         "osm_note": null,
         "kommun_district": "Centrum",
         "payment_apps": [
-          "parkster",
-          "easypark"
+          "easypark",
+          "parkster"
         ]
       },
       "geometry": {
@@ -8261,8 +8261,8 @@
         "osm_note": null,
         "kommun_district": "Centrum",
         "payment_apps": [
-          "parkster",
-          "easypark"
+          "easypark",
+          "parkster"
         ]
       },
       "geometry": {
@@ -10316,8 +10316,8 @@
         "osm_note": null,
         "kommun_district": "Centrum",
         "payment_apps": [
-          "parkster",
-          "easypark"
+          "easypark",
+          "parkster"
         ]
       },
       "geometry": {
@@ -10384,8 +10384,8 @@
         "osm_note": null,
         "kommun_district": "Centrum",
         "payment_apps": [
-          "parkster",
-          "easypark"
+          "easypark",
+          "parkster"
         ]
       },
       "geometry": {
@@ -10448,8 +10448,8 @@
         "osm_note": null,
         "kommun_district": "Centrum",
         "payment_apps": [
-          "parkster",
-          "easypark"
+          "easypark",
+          "parkster"
         ]
       },
       "geometry": {
@@ -10520,8 +10520,8 @@
         "osm_note": null,
         "kommun_district": "Centrum",
         "payment_apps": [
-          "parkster",
-          "easypark"
+          "easypark",
+          "parkster"
         ]
       },
       "geometry": {
@@ -10584,8 +10584,8 @@
         "osm_note": null,
         "kommun_district": "Centrum",
         "payment_apps": [
-          "parkster",
-          "easypark"
+          "easypark",
+          "parkster"
         ]
       },
       "geometry": {
@@ -10795,8 +10795,8 @@
         "osm_note": null,
         "kommun_district": "Centrum",
         "payment_apps": [
-          "parkster",
-          "easypark"
+          "easypark",
+          "parkster"
         ]
       },
       "geometry": {
@@ -12335,8 +12335,8 @@
         "osm_note": null,
         "kommun_district": "Centrum",
         "payment_apps": [
-          "parkster",
-          "easypark"
+          "easypark",
+          "parkster"
         ]
       },
       "geometry": {
@@ -12470,8 +12470,8 @@
         "osm_note": null,
         "kommun_district": "Centrum",
         "payment_apps": [
-          "parkster",
-          "easypark"
+          "easypark",
+          "parkster"
         ]
       },
       "geometry": {
@@ -12538,8 +12538,8 @@
         "osm_note": null,
         "kommun_district": "Centrum",
         "payment_apps": [
-          "parkster",
-          "easypark"
+          "easypark",
+          "parkster"
         ]
       },
       "geometry": {
@@ -12948,29 +12948,28 @@
       "properties": {
         "id": "pitea-osm-1432267393",
         "name": "OSM-1432267393",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Piteå",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "osm_reclassified"
         ],
         "last_verified": null,
         "osm_id": 1432267393,
         "osm_distance_m": null,
-        "osm_access": "unknown",
-        "osm_fee": null,
+        "osm_access": "yes",
+        "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null
@@ -13246,8 +13245,8 @@
         "osm_note": null,
         "kommun_district": "Centrum",
         "payment_apps": [
-          "parkster",
-          "easypark"
+          "easypark",
+          "parkster"
         ]
       },
       "geometry": {
@@ -13310,8 +13309,8 @@
         "osm_note": null,
         "kommun_district": "Centrum",
         "payment_apps": [
-          "parkster",
-          "easypark"
+          "easypark",
+          "parkster"
         ]
       },
       "geometry": {
@@ -13374,8 +13373,8 @@
         "osm_note": null,
         "kommun_district": "Centrum",
         "payment_apps": [
-          "parkster",
-          "easypark"
+          "easypark",
+          "parkster"
         ]
       },
       "geometry": {
@@ -13442,8 +13441,8 @@
         "osm_note": null,
         "kommun_district": "Centrum",
         "payment_apps": [
-          "parkster",
-          "easypark"
+          "easypark",
+          "parkster"
         ]
       },
       "geometry": {
@@ -13778,8 +13777,8 @@
         "osm_note": null,
         "kommun_district": "Centrum",
         "payment_apps": [
-          "parkster",
-          "easypark"
+          "easypark",
+          "parkster"
         ]
       },
       "geometry": {
@@ -13945,6 +13944,65 @@
             [
               21.23831,
               65.344939
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pitea-osm-1528732766",
+        "name": "OSM-1528732766",
+        "operator": "free_parking",
+        "municipality": "Piteå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.85,
+        "flags": [
+          "osm_bootstrap",
+          "osm_reclassified"
+        ],
+        "last_verified": null,
+        "osm_id": 1528732766,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": "no",
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              21.2564795,
+              65.3064278
+            ],
+            [
+              21.2566368,
+              65.3064414
+            ],
+            [
+              21.2568017,
+              65.306177
+            ],
+            [
+              21.2566396,
+              65.3061619
+            ],
+            [
+              21.2564795,
+              65.3064278
             ]
           ]
         ]
